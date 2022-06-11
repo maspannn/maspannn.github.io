@@ -1,7 +1,7 @@
 var map = L.map('map', {
-    center: [-7.672125, 110.830448],
+    center: [-7.801389645,110.364775452],
     zoomControl: false,
-    zoom: 14,
+    zoom: 13,
 });
       
 var basemap = L.tileLayer('http://a.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
@@ -54,10 +54,12 @@ var adminkecamatan = L.geoJson(null, {
       }
     });
   }
-});
+}).addTo(map);
+
 
 $.getJSON("assets/penduduk_kecamatan_diy_polygon.geojson", function (data) {
   adminkecamatan.addData(data);
+  map.fitBounds(adminkecamatan.getBounds());
 });
 
 var kht = L.esri.dynamicMapLayer({ 
@@ -155,8 +157,8 @@ var sptsukoharjo = L.geoJson(sptsukoharjo, {
             case 9999 : return {color: "#4065EB", weight:0.9,fillColor:"#97DBF2",fillOpacity:"#97DBF2"};
           }},
       onEachFeature : sptonEachFeature
-    }).addTo(map);
-    map.fitBounds(sptsukoharjo.getBounds());
+    });
+    
     
 var chjun22 = L.tileLayer.wms('http://hidromet.sih3.bmkg.go.id/geoserver/sipitung/wms?', {
       layers: 'sipitung:PCH_0622_ver05_20220519130534',

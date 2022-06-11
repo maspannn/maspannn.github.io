@@ -118,7 +118,7 @@
            <div id="peta-pertanian">
             <div id="map" ></div>
             <div class="modal-legend">
-              <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#legendModal" style="text-align:center">LEGENDA</a>
+              <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#legendModal" style="text-align:center"><button class="button-legend">LEGENDA</button></a>
             </div>
            </div>
          <div class="tab-content" id="tabContent">
@@ -207,6 +207,25 @@
               </div>
             </div>
           </div>
+          <div id="disqus_thread"></div>
+        <script>
+            /**
+            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+            /*
+            var disqus_config = function () {
+            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://maspannn.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
           
          </div>
         </div>
@@ -290,10 +309,14 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalCenterTitle"><i class="fas fa-info-circle"></i> Legenda</h5>
+            <h5 class="modal-title" id="exampleModalCenterTitle"><i class="fas fa-info-circle"></i>Legenda</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
+            <div class="modal-body">
+              <b>Kelas Curah Hujan</b><br>
+              <img src="assets/curah-hujan.png" width="300px" height="230px">
+            </div>
             <div class="modal-body">
               <b>Kelas Jumlah Penduduk</b><br>
               <svg width="40" height="20">
@@ -345,6 +368,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-hash/0.2.1/leaflet-hash.min.js"></script>
     <script src="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js"></script>
     <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+    <script id="dsq-count-scr" src="//maspannn.disqus.com/count.js" async></script>
     <script src="assets/sptsukoharjo.geojson"></script>
     <script src="assets/budidaya.js"></script>
     <script src="assets/slider.js"></script>

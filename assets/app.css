@@ -1071,3 +1071,15 @@ h6 {
   border-radius: 9px;
   color: honeydew;
 }
+
+.button-legend {
+	color: white;
+  background: linear-gradient(to right, #8041F2 , #3095ED);
+	border-radius: 8px;
+	transition: .2s ease-in-out;
+	font-size:10pt;
+}
+
+.button-legend:hover {
+	border-radius: 30px;
+}
