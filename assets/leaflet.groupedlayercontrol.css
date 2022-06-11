@@ -1,0 +1,14 @@
+.leaflet-control-layers-group-name {
+  margin-bottom: .5em;
+  display: block;
+  overflow-x: scroll;
+}
+
+.leaflet-control-layers-group {
+  margin-bottom: .1em;
+}
+
+.leaflet-control-layers-group label {
+  padding-left: .2em;
+  margin-top:-5px; 
+}

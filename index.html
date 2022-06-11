@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1BKBDVC5SS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-1BKBDVC5SS');
+    </script>
+    <meta name="author" content="Mas Pannn Blog">
+    <meta name="theme-color" content="#2d2c4d">
+    <meta name="description" content="Tempat berbagi ilmu pertanian dan informasi terbaru tentang teknologi pertanian.">
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="425">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image" content="https://telegra.ph/file/c2b8a99e80289f0432428.jpg">
+    <meta name="og:image:alt" content="Ruang Imajinasi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mas Pannn Blog">
+    <meta property="og:url" content="https://maspannn.github.io">
+    <meta property="og:title" content="Mas Pannn Blog, Berbagi Ilmu Pertanian Gratis">
+    <meta property="og:description" content="Tempat berbagi ilmu pertanian dan informasi terbaru tentang teknologi pertanian.">
+    <meta name="twitter:title" content="Mas Pannn Blog, Berbagi Ilmu Pertanian Gratis">
+    <meta name="twitter:description" content="Tempat berbagi ilmu pertanian dan informasi terbaru tentang teknologi pertanian.">
+    <meta name="twitter:image" content="https://telegra.ph/file/c2b8a99e80289f0432428.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://maspannn.github.io/index.html">
+    <meta name="googlebot" content="index,follow">
+    <meta name="Googlebot-Image" content="index,follow">
+    <meta name="Scooter" content="index,follow">
+    <meta name="msnbot" content="index,follow">
+    <meta name="alexabot" content="index,follow">
+    <meta name="Slurp" content="index,follow">
+    <meta name="ZyBorg" content="index,follow">
+    <meta name="yahoobot" content="index,follow">
+    <meta name="bingbot" content="index,follow">
+    <meta name="expires" content="never">
+    <meta name="geo.placename" content="Indonesia">
+    <meta name="rating" content="agriculture">
+    <link rel="icon" href="https://telegra.ph/file/c2b8a99e80289f0432428.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin=""/>
+     <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+     <link rel="stylesheet" href="assets/leaflet.awesome-markers.css">
+     <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.css">
+     <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css">
+     <link rel="stylesheet" href="assets/leaflet.groupedlayercontrol.css">
+     <link rel="stylesheet" href="https://torfsen.github.io/leaflet.zoomhome/dist/leaflet.zoomhome.css"/>
+     <link rel="stylesheet" href="assets/L.Control.BetterScale.css">
+     <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css">
+      <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet'/>
+  
+     <link rel="stylesheet" href="assets/app.css">
+  
+    <title>Mas Pannn | Personal Blog</title>
+  
+  </head>
+<body>
+    
+    <a id="btn-scroll"></a>
+    <a href="#" class="darkmode">
+      <div>
+        <input type="checkbox" class="checkbox" id="checkbox">
+        <label for="checkbox" class="label">
+          <i class="fas fa-sun"></i>
+          <i class="fas fa-moon"></i>
+          <div class="ball">
+        </label>
+      </div>
+    </a>
+    
+    <div class="container">
+      <div class="row header">
+        <div class="col-xs-12 text-center">
+          <nav class="navbar fixed-top">
+            <div class="container">
+              <a class="navbar-brand mb-2" href="index.html">
+                <img src="assets/logo.png" alt="" width="100" height="30">
+              </a>
+             <div class="container">
+               <div class="row">
+                  <div class="tab-container">
+                    <ul class="nav nav-pills nav-tabs nav-justified">
+                      <li class="nav-item">
+                        <a class="nav-link link-secondary active text-white" id="blog-tab" data-bs-toggle="tab" data-bs-target="#blog" href="#">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link link-secondary text-white" id="budidaya-tab" data-bs-toggle="tab" data-bs-target="#budidaya" href="#">BUDIDAYA</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link link-secondary text-white" id="produk-tab" data-bs-toggle="tab" data-bs-target="#produk" href="#">PRODUK</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link link-secondary text-white" id="book-tab" data-bs-toggle="tab" data-bs-target="#book" href="#">EBOOK</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link link-secondary text-white" id="photo-tab" data-bs-toggle="tab" data-bs-target="#photo" href="#">GALLERY</a>
+                      </li>
+                      
+                    </ul>
+                  </div>
+               </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-8 kolom-satu">
+           <h1 id="judul-awal" style="background:#292c35;padding:10px;color:white;margin-top:10px">Peta Tematik Pertanian</h1>
+           <div id="peta-pertanian">
+            <div id="map" ></div>
+            <div class="modal-legend">
+              <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#legendModal" style="text-align:center">LEGENDA</a>
+            </div>
+           </div>
+         <div class="tab-content" id="tabContent">
+        	<div class="tab-pane fade show active" id="blog" role="tabpanel" aria-labelledby="blog-tab">
+          	 <div class="iklan-satu" align="center">
+            
+             </div>
+          	 <h1 id="judul-awal" style="background:#292c35;padding:10px;color:white;margin-top:10px">Agro Gallery</h1><br \>
+          	 <div class="slider">
+          	  	<img src="assets/slider/1.jpg" />
+          	  	<img src="assets/slider/2.jpg" />
+          	  	<img src="assets/slider/3.jpg" />
+          	  	<img src="assets/slider/4.jpg" />
+          	  </div>
+          </div>
+          <div class="tab-pane fade" id="produk" role="tabpanel" aria-labelledby="produk-tab">
+            <h1 id="judul-awal" style="background:#292c35;margin-top:13px;padding:10px;color:white;">Rekomendasi Untuk Anda</h1><br \>
+            <div class="mb-5" align="center">
+      	      <input type="text" id="cariProduk" placeholder="Cari produk..." onkeyup="mySearchProduct()"/>
+      	    </div>
+            <div>
+              <ul id="list-produk">
+                
+              </ul>
+              <button class="btn" id="produk-lainnya">Produk Lainnya</button>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="book" role="tabpanel" aria-labelledby="book-tab" >
+              <div class="mb-5">
+                <h1 id="judul-awal" style="background:#292c35;margin-top:13px;padding:10px;color:white;">Koleksi Ebook Pertanian</h1><br \>
+                <div class="mb-5" align="center">
+          	      <input type="text" id="cariEbook" placeholder="Cari ebook..." onkeyup="mySearchBook()"/>
+          	    </div>
+                <div class="flex">
+                  <ul id="list-ebook">
+                  
+                  </ul>
+                  <button class="btn" id="ebook-lainnya">Ebook Lainnya</button>
+                </div>
+              </div>   
+          </div>
+          <div class="tab-pane fade" id="photo" role="tabpanel" aria-labelledby="photo-tab" >
+              <div class="mb-5">
+                <h1 id="judul-awal" style="background:#292c35;margin-top:13px;padding:10px;color:white;">Agro Gallery</h1><br \>
+                <div>
+                  <div id="list-photo">
+                  
+                  </div>
+                  <button class="btn" id="photo-lainnya">Photo Lainnya</button>
+                </div>
+              </div>   
+          </div>
+          <div class="tab-pane fade" id="budidaya" role="tabpanel" aria-labelledby="budidaya-tab" >
+              <h1 id="judul-awal" style="background:#292c35;margin-top:13px;padding:10px;color:white;">Teknologi Budidaya Pertanian</h1><br \>
+              <div id="page-post">
+        	    <div id="search-bar" align="center">
+        	      <input type="text" id="cariTanaman" placeholder="Cari tanaman..." onkeyup="mySearch()"/>
+        	    </div>
+        	    <div>
+                <ul id="list-tanaman">
+                    
+                </ul>
+                <button class="btn" id="tanaman-lainnya" style="width:90%">Tanaman Lainnya</button>
+              </div>
+              <div class="mt-2" id="post-blog" style="display:none">
+                <div class="title-info">
+                  <h1 class="inner-title"></h1><br>
+                </div>
+                <div class="date-info">
+                  <p>Mas Pannn &#160;-&#160;&#160;</p>
+                  <p class="inner-tanggal"></p>
+                </div>
+                <div class="poster-info">
+                  <img src=""  class="inner-poster" width="88%" height="250px" style="object-fit:cover;margin-left:30px">
+                </div>
+                <div class="body-info">
+                  <div class="inner-konten">
+                    
+                  </div>
+                  <div class="button-info">
+                    <button class="btn prev-post">Previous</button>
+                    <button class="btn close-post">Close</button>
+                    <button class="btn next-post">Next</button>
+                  </div>
+                </div> 
+              </div>
+            </div>
+          </div>
+          
+         </div>
+        </div>
+        <div class="col-md-4 kolom-dua" >
+          <div>
+            <h1 align="left">JUMLAH PENGUNJUNG</h1>
+            <div class="counter" align="center">
+              <h6 align="center" id="date" style="font-weight:400;"></h6>
+              <div id="hit-counter" align="center">
+                 <a href='https://www.symptoma.es/'>symptom checker</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=dd525804422f0e150e3f68d08f2131ffe15db53b'></script>
+                 <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/947840/t/1"></script>
+              </div>
+            </div>
+            <hr style="color:white">
+            <h1 align="left">MENGENAI SAYA</h1>
+            <div class="profil" align="center">
+              <div class="profil-img">
+                <img src="https://telegra.ph/file/c2b8a99e80289f0432428.jpg" width="100px" height="100px" style="border-radius:100%">
+              </div>
+              <div class="profil-name">
+                 <h5 align="center">Mas Pannn</h5>
+              </div>
+              <div class="profil-alamat">
+                <i class="fas fa-map-marker-alt"></i>&nbsp;Indonesia
+              </div>
+              <div class="profil-desc">
+                <p>Front End Developer | Data Collection | Web Scraping | IT Enthusiast</p>
+              </div>
+            </div>
+           
+           </div>
+          </div> 
+        </div>
+      </div>
+        </div> 
+      </div>
+      <div class="row">
+        <div class="rounded-social-buttons">
+        <a class="social-button whatsapp" href="https://api.whatsapp.com/send?phone=628973771555" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a class="social-button github" href="https://www.github.com/maspannn" target="_blank"><i class="fab fa-github"></i></a>
+        <a class="social-button telegram" href="https://t.me/maspannn" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+        <a class="social-button youtube" href="https://youtube.com/channel/UCd_EUancIwmhzfcp6_pU8ow" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a class="social-button instagram" href="https://www.instagram.com/maspannn_" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a class="social-button linkedin" href="https://www.linkedin.com/in/panjidanutirto" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="site-link">
+        <div class="container-fluid site-info" align="center">
+        <ul class="link-info">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sitemap.xml">Sitemap</a></li>
+          <li><a href="p/contact.html">Kontak</a></li>
+          <li><a href="p/disclaimer.html">Disclaimer</a></li>
+          <li><a href="p/about.html">About</a></li>
+        </ul>
+      </div>
+      </div>
+      <div class="footer-row">
+        <footer class="page-footer font-small">
+        <div class="container text-center">
+          <h7 style="font-style:bold;font-weight:400;font-size:11pt">&copy; 2022 - <a href="https://t.me/maspannn">Mas Pannn</a></h7>
+        </div>
+      </footer>
+      </div>
+      </div>
+    </div>
+    
+    <div class="modal fade" id="featureModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="feature-title"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" id="feature-info">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal fade" id="legendModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle"><i class="fas fa-info-circle"></i> Legenda</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body">
+              <b>Kelas Jumlah Penduduk</b><br>
+              <svg width="40" height="20">
+                <rect width="40" height="20" style="fill:#bd0026;stroke-width:1;stroke:gray;opacity:0.7" />
+              </svg> Tinggi (> 100.000 Jiwa)<br>
+              <svg width="40" height="20">
+                <rect width="40" height="20" style="fill:#fd8d3c;stroke-width:1;stroke:gray;opacity:0.7" />
+              </svg> Sedang (50.000 - 100.000 Jiwa)<br>
+              <svg width="40" height="20">
+                <rect width="40" height="20" style="fill:#ffffb2;stroke-width:1;stroke:gray;opacity:0.7" />
+              </svg> Rendah (< 50.000 Jiwa)
+            </div>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+      <!-- Carousel markup goes here -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+    <script src="https://unpkg.com/esri-leaflet@2.3.3/dist/esri-leaflet.js" integrity="sha512-cMQ5e58BDuu1pr9BQ/eGRn6HaR6Olh0ofcHFWe5XesdCITVuSBiBZZbhCijBe5ya238f/zMMRYIMIIg1jxv4sQ==" crossorigin=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
+    <script src="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.min.js"></script>
+    <script src="assets/leaflet.awesome-markers.js"></script>
+    <script src="assets/leaflet.groupedlayercontrol.js"></script>
+    <script src="https://torfsen.github.io/leaflet.zoomhome/dist/leaflet.zoomhome.min.js"></script>
+    <script src="assets/L.Control.BetterScale.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-hash/0.2.1/leaflet-hash.min.js"></script>
+    <script src="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js"></script>
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+    <script src="assets/sptsukoharjo.geojson"></script>
+    <script src="assets/budidaya.js"></script>
+    <script src="assets/slider.js"></script>
+    <script src="assets/ebook.js"></script>
+    <script src="assets/map.js"></script>
+    <script src="assets/photo.js"></script>
+    <script src="assets/produk.js"></script>
+
+    <script>
+      var btn = $('#btn-scroll');
+
+      $(window).scroll(function() {
+        if ($(window).scrollTop() > 300) {
+          btn.addClass('show');
+        } else {
+          btn.removeClass('show');
+        }
+      });
+      
+      btn.on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({scrollTop:0}, '300');
+      });
+    </script>
+    
+    <script>
+      const checkbox = document.getElementById('checkbox');
+
+      checkbox.addEventListener('change', ()=>{
+        document.body.classList.toggle('dark');
+      })
+    </script>
+    
+    <script>
+      n =  new Date();
+      y = n.getFullYear();
+      m = n.getMonth() + 1;
+      d = n.getDate();
+      document.getElementById("date").innerHTML = "Tanggal " + d + "/" + m + "/" + y;
+   </script>
+   
+   <script src='https://raw.githack.com/Ashwathnrayana/SpiderBlogging/main/antiadblock/2.0/code.min.js' /> 
+   </script> 
+    
+</body>
+</html>
