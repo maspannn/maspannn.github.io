@@ -1,7 +1,7 @@
 var map = L.map('map', {
-    center: [-7.801389645,110.364775452],
+    center: [-7.68167, 110.32333],
     zoomControl: false,
-    zoom: 13,
+    zoom: 15,
 });
       
 var basemap = L.tileLayer('http://a.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
@@ -54,12 +54,11 @@ var adminkecamatan = L.geoJson(null, {
       }
     });
   }
-}).addTo(map);
+});
 
 
 $.getJSON("assets/penduduk_kecamatan_diy_polygon.geojson", function (data) {
   adminkecamatan.addData(data);
-  map.fitBounds(adminkecamatan.getBounds());
 });
 
 var kht = L.esri.dynamicMapLayer({ 
@@ -188,6 +187,85 @@ var chagt22 = L.tileLayer.wms('http://hidromet.sih3.bmkg.go.id/geoserver/sipitun
       continuousWorld: true
   });
 
+var provitas = L.esri.dynamicMapLayer({ 
+    url: 'https://sig01.pertanian.go.id/arcgis/rest/services/Provitaspenyuluh/MapServer', 
+    layers: [0],
+    f: 'feature'
+}).bindPopup(function (error, featureCollection) {
+  if (error || featureCollection.features.length === 5) {
+    return false;
+  } else {
+    return "<b>Provinsi :</b>&nbsp;" + featureCollection.features[0].properties.Provinsi + "<br>" +
+    "<b>Kabupaten :</b>&nbsp;" + featureCollection.features[0].properties.Kabupaten + "<br>" +
+    "<b>Luas_Panen :</b>&nbsp;" + featureCollection.features[0].properties.Luas_Panen + "<br>" +
+    "<b>Produksi :</b>&nbsp;" + featureCollection.features[0].properties.Produksi + "<br>" +
+    "<b>Yealt (Ha) :</b>&nbsp;" + featureCollection.features[0].properties.Yealt__Ha_ + "<br>" +
+    "<b>Penyuluh PNS :</b>&nbsp;" + featureCollection.features[0].properties.pns + "<br>" +
+    "<b>Penyuluh THL :</b>&nbsp;" + featureCollection.features[0].properties.thl + "<br>" +
+    "<b>Penyuluh :</b>&nbsp;" + featureCollection.features[0].properties.Penyuluh + "<br>" +
+    "<b>Luas Wilayaj :</b>&nbsp;" + featureCollection.features[0].properties.Luas_wil;
+  }
+});
+
+var sawah = L.esri.dynamicMapLayer({ 
+    url: 'https://sig01.pertanian.go.id/arcgis/rest/services/TanamanPangan/sawah/MapServer', 
+    layers: [0],
+    f: 'feature'
+}).bindPopup(function (error, featureCollection) {
+  if (error || featureCollection.features.length === 5) {
+    return false;
+  } else {
+    return "<b>PROVINSI :</b>&nbsp;" + featureCollection.features[0].properties.PROVINSI + "<br>" +
+    "<b>KABKOT :</b>&nbsp;" + featureCollection.features[0].properties.KABKOT + "<br>" +
+    "<b>KECAMATAN :</b>&nbsp;" + featureCollection.features[0].properties.KECAMATAN + "<br>" +
+    "<b>ID :</b>&nbsp;" + featureCollection.features[0].properties.ID + "<br>" +
+    "<b>LUAS CEA :</b>&nbsp;" + featureCollection.features[0].properties.Luas_CEA + "<br>" +
+    "<b>ID IRIGASI :</b>&nbsp;" + featureCollection.features[0].properties.ID_Irigasi + "<br>" +
+    "<b>LUAS (Ha) :</b>&nbsp;" + featureCollection.features[0].properties.luas_Ha;
+  }
+}).addTo(map);
+
+var ippadi = L.esri.dynamicMapLayer({ 
+    url: 'https://sig01.pertanian.go.id/arcgis/rest/services/Pangan/padi/MapServer', 
+    layers: [0],
+    f: 'feature'
+}).bindPopup(function (error, featureCollection) {
+  if (error || featureCollection.features.length === 5) {
+    return false;
+  } else {
+    return "<b>Provinsi :</b>&nbsp;" + featureCollection.features[0].properties.PROVINSI + "<br>" +
+    "<b>Kabupaten :</b>&nbsp;" + featureCollection.features[0].properties.Kabupaten + "<br>" +
+    "<b>LBS ATRBPN :</b>&nbsp;" + featureCollection.features[0].properties.LBS_ATRBPN + "<br>" +
+    "<b>Luas Panen Jan_Des18 :</b>&nbsp;" + featureCollection.features[0].properties.Jan_Des18 + "<br>" +
+    "<b>Luas Panen Jan_Des19 :</b>&nbsp;" + featureCollection.features[0].properties.Jan_Des181 + "<br>" +
+    "<b>Luas Panen Jan_Des20 :</b>&nbsp;" + featureCollection.features[0].properties.Jan_Des20 + "<br>" +
+    "<b>Luas Panen Jan_Des21 :</b>&nbsp;" + featureCollection.features[0].properties.Jan_Des21 + "<br>" +
+    "<b>IP 2018 :</b>&nbsp;" + featureCollection.features[0].properties.P_IP2018 + "<br>" +
+    "<b>IP 2019 :</b>&nbsp;" + featureCollection.features[0].properties.P_IP2019 + "<br>" +
+    "<b>IP Jan_Des 2020 :</b>&nbsp;" + featureCollection.features[0].properties.IPJanDes20;
+  }
+});
+
+var kantorPusat = L.esri.Cluster.featureLayer({
+    url: 'https://sig01.pertanian.go.id/arcgis/rest/services/SDM/Lokasi_Kantor_Pusat/MapServer/0'
+}).bindPopup(function (layer) {
+   return "<b>Unit Kerja :&nbsp;</b>" + layer.feature.properties.UnitKerja + "<br>" +
+    "<b>Eselon 1 :&nbsp;</b>" + layer.feature.properties.Eselon1 + "<br>" +
+    "<b>Jenis Unit :&nbsp;</b>" + layer.feature.properties.JenisUnit + "<br>" +
+    "<b>Jumlah Pegawai :&nbsp;</b>" + layer.feature.properties.JumlahPeg + "<br>" +
+    "<b>S3 :&nbsp;</b>" + layer.feature.properties.S3 + "<br>" +
+    "<b>S2 :&nbsp;</b>" + layer.feature.properties.S2 + "<br>" +
+    "<b>S1 :&nbsp;</b>" + layer.feature.properties.s1 + "<br>" +
+    "<b>D4 :&nbsp;</b>" + layer.feature.properties.D4 + "<br>" +
+    "<b>SM :&nbsp;</b>" + layer.feature.properties.SM + "<br>" +
+    "<b>D3 :&nbsp;</b>" + layer.feature.properties.D3 + "<br>" +
+    "<b>D2 :&nbsp;</b>" + layer.feature.properties.D2 + "<br>" +
+    "<b>D1 :&nbsp;</b>" + layer.feature.properties.D1 + "<br>" +
+    "<b>SMA :&nbsp;</b>" + layer.feature.properties.SMA + "<br>" +
+    "<b>SMP :&nbsp;</b>" + layer.feature.properties.SMP + "<br>" +
+    "<b>SD :&nbsp;</b>" + layer.feature.properties.SD;
+});
+
 var baseMaps = {
      "Basemap": basemap,
     };
@@ -196,6 +274,12 @@ var groupedOverlays = {
       "Lokasi BPTPH LPHP LAH": bptph,
       "Kawasan Hutan": kht,
       "Podes DI. Yogyakarta": adminkecamatan,
+      },
+      "<b>Peta Tematik Kementan</b>": {
+        "Index Panen Padi" : ippadi,
+        "Peta Sawah 2019": sawah,
+        "Provitas Penyuluh" : provitas,
+        "Lokasi BPP": kantorPusat,
       },
       "<b>Peta Tematik BBSDLP</b>": {
         "SPT Kab. Sukoharjo 50K" : sptsukoharjo,
