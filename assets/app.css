@@ -1071,3 +1071,27 @@ h6 {
 .button-legend:hover {
 	border-radius: 30px;
 }
+
+
+#list-video {
+  width: 100%;
+  margin-top:-20px;
+  list-style: none;
+  grid-template-columns: 100%;
+}
+
+#video-lainnya:hover {
+  background-color: honeydew;
+  border: solid 2px #6a93d4;
+  color: #052d6e
+}
+#video-lainnya {
+  width: 90%;
+  background-color: #6a93d4;
+  display: inline-block;
+  border: solid 2px white;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  color: honeydew;
+}

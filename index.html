@@ -63,7 +63,7 @@
 <body>
     
     <a id="btn-scroll"></a>
-    <a href="#" class="darkmode">
+    <a href="#" class="darkmode" style="display:none">
       <div>
         <input type="checkbox" class="checkbox" id="checkbox">
         <label for="checkbox" class="label">
@@ -161,6 +161,16 @@
           </div>
           <div class="tab-pane fade" id="photo" role="tabpanel" aria-labelledby="photo-tab" >
               <div class="mb-5">
+                <h1 id="judul-awal" style="background:#292c35;margin-top:13px;padding:10px;color:white;">Agro Video</h1><br \>
+                <div>
+                  <div id="list-video">
+                  
+                  </div>
+                  <button class="btn" id="video-lainnya">Video Lainnya</button>
+                </div>
+              </div> 
+              <hr style="color:white">
+              <div class="mt-5">
                 <h1 id="judul-awal" style="background:#292c35;margin-top:13px;padding:10px;color:white;">Agro Gallery</h1><br \>
                 <div>
                   <div id="list-photo">
@@ -270,7 +280,7 @@
         <a class="social-button instagram" href="https://www.instagram.com/maspannn_" target="_blank"><i class="fab fa-instagram"></i></a>
         <a class="social-button linkedin" href="https://www.linkedin.com/in/panjidanutirto" target="_blank"><i class="fab fa-linkedin"></i></a>
       </div>
-      <div class="site-link">
+      <div class="site-link" style="display:none">
         <div class="container-fluid site-info" align="center">
         <ul class="link-info">
           <li><a href="index.html">Home</a></li>
@@ -382,6 +392,7 @@
     <script src="assets/map.js"></script>
     <script src="assets/photo.js"></script>
     <script src="assets/produk.js"></script>
+    <script src="assets/video.js"></script>
 
     <script>
       var btn = $('#btn-scroll');
