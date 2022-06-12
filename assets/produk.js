@@ -77,7 +77,7 @@ LoadMore.prototype.init = function() {
 // example usage
 var loadMore = new LoadMore({
   "dataUrl": "https://raw.githubusercontent.com/maspannn/maspannn.github.io/master/produk.json",
-  "pageSize": 4
+  "pageSize": 6
 });
 
 loadMore.init();

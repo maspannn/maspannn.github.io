@@ -243,7 +243,7 @@ div.dark {
   height:35px;
   margin-left:-5px;
   margin-bottom:-10px;
-  padding-top:-5px;
+  margin-top:-8px;
   color:#2d2c4d;
   overflow: hidden;
   font-style:bold;
@@ -254,18 +254,6 @@ div.dark {
   display: -webkit-box;
      -webkit-line-clamp: 2;
              line-clamp: 2; 
-     -webkit-box-orient: vertical;
-}
-.ringkasan-post {
-  color:#2d2c4d;
-  padding-top:15px;
-  margin-left:-5px;
-  overflow: hidden;
-  font-size: 12pt;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-     -webkit-line-clamp: 1;
-             line-clamp: 1; 
      -webkit-box-orient: vertical;
 }
 
@@ -876,7 +864,7 @@ button.slick-prev, button.slick-prev:hover {
   list-style: none;
   margin:-17px;
   display: grid;
-  grid-template-rows: 258px auto;
+  grid-template-rows: 210px auto;
   grid-template-columns: 50% auto;
   grid-row-gap: 10px;
   grid-column-gap: 10px; 

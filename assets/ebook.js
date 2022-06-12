@@ -167,7 +167,7 @@ for (i=0; i<ebookLength; i++) {
 $(document).ready(function(){
 
       var list = $("#list-ebook li");
-      var numToShow = 4;
+      var numToShow = 10;
       var button = $("#ebook-lainnya");
       var numInList = list.length;
       list.hide();

@@ -271,7 +271,6 @@ var baseMaps = {
     };
 var groupedOverlays = {
      "<b>Peta Tematik Umum</b>": {
-      "Lokasi BPTPH LPHP LAH": bptph,
       "Kawasan Hutan": kht,
       "Podes DI. Yogyakarta": adminkecamatan,
       },
@@ -280,6 +279,7 @@ var groupedOverlays = {
         "Peta Sawah 2019": sawah,
         "Provitas Penyuluh" : provitas,
         "Lokasi BPP": kantorPusat,
+        "Lokasi BPTPH LPHP LAH": bptph,
       },
       "<b>Peta Tematik BBSDLP</b>": {
         "SPT Kab. Sukoharjo 50K" : sptsukoharjo,
