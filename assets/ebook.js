@@ -187,20 +187,16 @@ $(document).ready(function(){
 
 });
 
-function mySearchBook() {
-  // Declare variables
-  var input, filter, ul, li;
-  input = document.getElementById("cariEbook");
-  filter = input.value.toUpperCase();
-  ul = document.getElementById("list-ebook");
-  li = ul.getElementsByTagName("li");
-
-  // Loop through all list items, and hide those who don't match the search query
-  for (let i = 0; i < li.length; i++) {
-    if (li[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
-      li[i].style.display = "";
+$(function() {
+  $("#cariEbook").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    if (value.length) {
+      $("#list-ebook li").filter(function() {
+        $("#list-ebook").show();
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      });
     } else {
-      li[i].style.display = "none";
+      $("#list-ebook").hide();
     }
-  }
-}
+  });
+});

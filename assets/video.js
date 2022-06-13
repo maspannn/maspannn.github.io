@@ -31,7 +31,7 @@ for (i=0; i<videoLength; i++) {
       '<iframe width="100%" height="315" src="' +video[i].link+ '">' +
       '</iframe>' +
       '</a>' +
-      '<div style="padding-top:5px;padding-left:10px;margin-bottom:-2px"><h6>'+ video[i].title +'</h6></div>'+
+      '<div style="padding-top:5px;padding-left:10px;margin-bottom:0px"><h6>'+ video[i].title +'</h6></div>'+
       '</div>'+
       '</div>'+
       '</div>'+
