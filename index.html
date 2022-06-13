@@ -152,15 +152,34 @@
           </div>
           <div class="tab-pane fade" id="produk" role="tabpanel" aria-labelledby="produk-tab">
             <h1 id="judul-awal" style="background:#292c35;margin-top:13px;padding:10px;color:white;">Rekomendasi Untuk Anda</h1><br \>
-            <div class="mb-5" align="center">
-      	      <input type="text" id="cariProduk" placeholder="Cari produk..." onkeyup="mySearchProduct()"/>
-      	    </div>
+            <div class="row" id="search">
+          		<form id="search-form" action="" method="POST" enctype="multipart/form-data" style="display:grid;grid-template-rows: 20px;grid-template-columns: 82% auto;grid-row-gap: 30px;grid-column-gap: 10px; ">
+          			<div class="form-group">
+          				<input class="form-control" type="text" placeholder="Cari produk..." />
+          			</div>
+          			<div class="form-group">
+          				<button type="submit" class="btn btn-block btn-primary">Cari</button>
+          			</div>
+          		</form>
+          	</div>
+          	<hr style="color:white">
+          	<div class="row" id="filter">
+          		<form>
+          			<div class="form-group">
+          				<select data-filter="kategori" class="filter-kategori filter form-control form-select">
+          					<option value="">Kategori</option>
+          					<option value="">Show All</option>
+          				</select>
+          			</div>
+          		</form>
+          	</div>
             <div>
-              <ul id="list-produk">
+            <hr style="color:white">
+            <div id="products">
                 
-              </ul>
-              <button class="btn" id="produk-lainnya">Produk Lainnya</button>
             </div>
+            <button class="btn1" id="produk-lainnya">Produk Lainnya</button>
+           </div>
           </div>
           <div class="tab-pane fade" id="book" role="tabpanel" aria-labelledby="book-tab" >
               <div class="mb-5">
@@ -172,8 +191,9 @@
                   <ul id="list-ebook">
                   
                   </ul>
-                  <button class="btn" id="ebook-lainnya">Ebook Lainnya</button>
+                  <button class="btn1" id="ebook-lainnya">Ebook Lainnya</button>
                 </div>
+                <hr style="color:white">
               </div>   
           </div>
           <div class="tab-pane fade" id="photo" role="tabpanel" aria-labelledby="photo-tab" >
@@ -183,7 +203,7 @@
                   <div id="list-video" align="center">
                   
                   </div>
-                  <button class="btn" id="video-lainnya">Video Lainnya</button>
+                  <button class="btn1" id="video-lainnya">Video Lainnya</button>
                 </div>
               </div> 
               <hr style="color:white">
@@ -193,8 +213,9 @@
                   <div id="list-photo">
                   
                   </div>
-                  <button class="btn" id="photo-lainnya">Photo Lainnya</button>
+                  <button class="btn1" id="photo-lainnya">Photo Lainnya</button>
                 </div>
+                <hr style="color:white">
               </div>   
           </div>
           <div class="tab-pane fade" id="budidaya" role="tabpanel" aria-labelledby="budidaya-tab" >
@@ -207,8 +228,9 @@
                 <ul id="list-tanaman" align="center">
                     
                 </ul>
-                <button class="btn" id="tanaman-lainnya" style="width:90%">Tanaman Lainnya</button>
+                <button class="btn1" id="tanaman-lainnya" style="width:90%">Tanaman Lainnya</button>
               </div>
+              <hr style="color:white">
               <div class="mt-2" id="post-blog" style="display:none">
                 <div class="title-info">
                   <h1 class="inner-title"></h1><br>
@@ -225,9 +247,9 @@
                     
                   </div>
                   <div class="button-info">
-                    <button class="btn prev-post">Previous</button>
-                    <button class="btn close-post">Close</button>
-                    <button class="btn next-post">Next</button>
+                    <button class="btn1 prev-post">Previous</button>
+                    <button class="btn1 close-post">Close</button>
+                    <button class="btn1 next-post">Next</button>
                   </div>
                 </div> 
               </div>
@@ -265,7 +287,7 @@
                  <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/947840/t/1"></script>
               </div>
             </div>
-            <div class="iklan">
+            <div class="iklan" style="display:none">
               <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2924921727748449"
                    crossorigin="anonymous"></script>
               <!-- Mas Pannn Ads -->

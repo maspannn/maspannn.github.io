@@ -92,8 +92,9 @@ div.tab-container a {
   opacity: 1;
   visibility: visible;
 }
-.btn {
+.btn1 {
   margin: 20px;
+  padding:5px;
   background-color: #2d2c4d;
 }
 .darkmode{
@@ -268,7 +269,7 @@ div.dark {
   padding:10px;
   border-radius:15px;
   margin-left:5px;
-  margin-top:30px;
+  margin-top:-10px;
   margin-bottom:-45px;
   text-transform: capitalize;
   font-size:18pt;
@@ -306,7 +307,7 @@ div.dark {
   padding-top: 30px;
   padding-bottom: 20px;
 }
-.btn {
+.btn1 {
   color:white;
   text-align: center;
   width: 33.33%;
@@ -864,7 +865,7 @@ button.slick-prev, button.slick-prev:hover {
 #list-tanaman {
   width: 100%;
   padding-top: 40px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   list-style: none;
   margin:-17px;
   display: grid;
@@ -916,9 +917,6 @@ h6 {
   font-size:13pt;
   color:red;
 }
-.produk-card {
-  background:#fff;
-}
 
 #produk-lainnya:hover {
   background-color: honeydew;
@@ -936,24 +934,37 @@ h6 {
   color: honeydew;
 }
 
-#list-produk {
+#products {
   width: 100%;
-  padding-top: 0px;
-  padding-bottom: 30px;
-  list-style: none;
-  margin:-17px;
   display: grid;
-  grid-template-rows: 275px auto;
+  grid-template-rows: 285px auto;
   grid-template-columns: 50% auto;
-  grid-row-gap: 0px;
+  grid-row-gap: 10px;
   grid-column-gap: 10px; 
 }
 
-#poster {
- height: 185px;
- object-fit: scale-down;
- background-color: black;
- width:100%;
+#produk-lainnya:hover {
+  background-color: honeydew;
+  border: solid 2px #6a93d4;
+  color: #052d6e
+}
+#produk-lainnya {
+  width: 90%;
+  margin-top:10px;
+  background-color: #6a93d4;
+  display: inline-block;
+  border: solid 2px white;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  color: honeydew;
+}
+
+.product-inner {
+	box-shadow: 0 0 10px rgba(0,0,0,.2);
+	padding: 5px;
+	background: #ffffff;
+	border-radius:5px;
 }
 
 /*#list-ebook {
@@ -972,7 +983,7 @@ h6 {
 #list-ebook {
   width: 100%;
   padding-top: 0px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   list-style: none;
   margin:-17px;
   display: grid;
@@ -1026,7 +1037,6 @@ h6 {
   margin-left:-5px;
   margin-bottom:-5px;
   font-size:8pt;
-  text-transform: capitalize;
   color:black;
   height:50px;
   overflow: hidden;
@@ -1072,6 +1082,7 @@ h6 {
   width: 100%;
   list-style: none;
   margin-bottom:-7px;
+  padding-bottom:10px;
 }
 
 @media(max-width: 800px) {
