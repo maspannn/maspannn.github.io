@@ -4,7 +4,11 @@ html, body {
   width:100%;
   background:#f7f7f7;
 }
-
+.ads {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  z-index: -1;
+}
 div {
   border-color: transparent;
 }
@@ -935,6 +939,7 @@ h6 {
 #list-produk {
   width: 100%;
   padding-top: 0px;
+  padding-bottom: 30px;
   list-style: none;
   margin:-17px;
   display: grid;
@@ -951,7 +956,7 @@ h6 {
  width:100%;
 }
 
-#list-ebook {
+/*#list-ebook {
   width: 100%;
   padding-top: 0px;
   padding-bottom: 30px;
@@ -961,6 +966,19 @@ h6 {
   grid-template-rows: 333px auto;
   grid-template-columns: 50% auto;
   grid-row-gap: 20px;
+  grid-column-gap: 10px; 
+}*/
+
+#list-ebook {
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 30px;
+  list-style: none;
+  margin:-17px;
+  display: grid;
+  grid-template-rows: 108px;
+  grid-template-columns: 100%;
+  grid-row-gap: 10px;
   grid-column-gap: 10px; 
 }
 
@@ -980,7 +998,7 @@ h6 {
   color: honeydew;
 }
 
-.press-ebook {
+/*.press-ebook {
   margin-top:-5px;
   margin-left:-5px;
   margin-bottom:-10px;
@@ -995,6 +1013,37 @@ h6 {
   overflow: hidden;
   font-size: 10pt;
   height:50px;
+  text-transform: capitalize;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+     -webkit-line-clamp: 2;
+             line-clamp: 2; 
+     -webkit-box-orient: vertical;
+}*/
+
+.desc-ebook {
+  padding-top:5px;
+  margin-left:-5px;
+  margin-bottom:-5px;
+  font-size:8pt;
+  text-transform: capitalize;
+  color:black;
+  height:50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+     -webkit-line-clamp: 3;
+             line-clamp: 3; 
+     -webkit-box-orient: vertical;
+}
+
+.nama-ebook {
+  color:#2d2c4d;
+  margin-top:-5px;
+  margin-left:-5px;
+  overflow: hidden;
+  font-size: 10pt;
+  height:35px;
   text-transform: capitalize;
   text-overflow: ellipsis;
   display: -webkit-box;

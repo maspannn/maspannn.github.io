@@ -375,18 +375,6 @@ $("#cariTanaman").on("click", function() {
     $("#list-tanaman").css({"grid-template-rows":"210px auto"});
 });
 
-$("#ebook-lainnya").on("click", function() {
-    $("#list-ebook").css({"display":"block"});
-    $("#list-ebook").css({"padding-top":"0px"});
-    $("#list-ebook").css({"padding-bottom":"30px"});
-    $("#list-ebook").css({"margin":"-17px"});
-    $("#list-ebook").css({"display":"grid"});
-    $("#list-ebook").css({"grid-template-rows":"333px auto"});
-    $("#list-ebook").css({"grid-template-columns":"50% auto"});
-    $("#list-ebook").css({"grid-row-gap":"20px"});
-    $("#list-ebook").css({"grid-column-gap":"10px"});
-});
-
 //Close post:
 $(".close-post, .modal-sandbox").click(function(){
   $("#search-bar").css({"display":"block"});
