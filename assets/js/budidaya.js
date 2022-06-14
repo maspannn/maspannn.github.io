@@ -310,18 +310,15 @@ $("#list-tanaman").empty();
 for (i=0; i<postLength; i++) {
   //Create thumb structure:
   var listItem =
-    '<li>'+
-      '<div class="card shadow" style="width:100%">'+
+    '<div id="artikel">'+
       '<a class="button" href="'+post[i].link+'" data-obj="'+i+'">'+
+      '<div class="card shadow" style="width:100%">'+
       '<img src="'+post[i].poster+'" class="card-img-top" width="100%" height="160px" alt="">'+
-      '</a>' +
       '<div class="card-body">'+
       '<div class="judul-post"><h6>'+ post[i].title+'</h6>'+
       '</div>'+
-      '</div>'+
-      '</div>'+
-      '</div>'+
-    '</li>';
+      '</a>' +
+    '</div>';
   //Append thumb:
   $("#list-tanaman").append(listItem);
 };
@@ -371,22 +368,16 @@ $(".close-post").on("click", function() {
     $(window).scrollTop(0);
 });
 
-$("#cariTanaman").on("click", function() {
-    $("#list-tanaman").css({"grid-template-rows":"210px auto"});
-});
-
 //Close post:
 $(".close-post, .modal-sandbox").click(function(){
   $("#search-bar").css({"display":"block"});
   $("#list-tanaman").css({"display":"block"});
   $("#tanaman-lainnya").css({"display":"block"});
-  $(".kolom-satu").css({"padding-bottom":"40px"});
   $("#post-blog").css({"display":"none"});
   $(".slider").css({"display":"block"});
   $("#judul-awal").css({"display":"block"});
   $("#list-tanaman").css({"width":"100%"});
-  $("#list-tanaman").css({"padding-top":"40px"});
-  $("#list-tanaman").css({"margin":"-17px"});
+  $("#list-tanaman").css({"padding-top":"20px"});
   $("#list-tanaman").css({"display":"grid"});
   $("#list-tanaman").css({"grid-template-rows":"210px auto"});
   $("#list-tanaman").css({"grid-template-columns":"50% auto"});
@@ -427,24 +418,6 @@ function dissBtn(){
   };
 };
 
-function mySearch() {
-  // Declare variables
-  var input, filter, ul, li;
-  input = document.getElementById("cariTanaman");
-  filter = input.value.toUpperCase();
-  ul = document.getElementById("list-tanaman");
-  li = ul.getElementsByTagName("li");
-
-  // Loop through all list items, and hide those who don't match the search query
-  for (let i = 0; i < li.length; i++) {
-    if (li[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
-      li[i].style.display = "";
-    } else {
-      li[i].style.display = "none";
-    }
-  }
-}
-
 $("#produk-tab").on("click", function() {
     $("#peta-pertanian").css({"display":"none"});
     $("#judul-awal").css({"display":"none"});
@@ -468,8 +441,8 @@ $("#blog-tab").on("click", function() {
 
 $(document).ready(function(){
 
-      var list = $("#list-tanaman li");
-      var numToShow = 10;
+      var list = $("#list-tanaman #artikel");
+      var numToShow = 6;
       var button = $("#tanaman-lainnya");
       var numInList = list.length;
       list.hide();
@@ -487,4 +460,34 @@ $(document).ready(function(){
           }
       });
 
+});
+
+
+$(function() {
+  $("#cariTanaman").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    if (value.length) {
+      $("#list-tanaman #artikel").filter(function() {
+        $("#list-tanaman").show();
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      });
+    } else {
+      $("#list-tanaman").hide();
+    }
+  });
+});
+
+$("#cariTanaman").on("click", function() {
+    $("#list-tanaman").css({"grid-template-rows":"210px auto"});
+    $("#list-tanaman").css({"margin-top":"-10px"});
+});
+
+$("#tanaman-lainnya").on("click", function() {
+  $("#list-tanaman").css({"width":"100%"});
+  $("#list-tanaman").css({"padding-top":"20px"});
+  $("#list-tanaman").css({"display":"grid"});
+  $("#list-tanaman").css({"grid-template-rows":"210px auto"});
+  $("#list-tanaman").css({"grid-template-columns":"50% auto"});
+  $("#list-tanaman").css({"grid-row-gap":"10px"});
+  $("#list-tanaman").css({"grid-column-gap":"10px"});
 });

@@ -249,7 +249,7 @@ div.dark {
   margin-left:-5px;
   margin-bottom:-10px;
   margin-top:-8px;
-  color:#2d2c4d;
+  color:black;
   overflow: hidden;
   font-style:bold;
   font-weight: 400;
@@ -864,10 +864,9 @@ button.slick-prev, button.slick-prev:hover {
 
 #list-tanaman {
   width: 100%;
-  padding-top: 40px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  margin-bottom: 0px;
   list-style: none;
-  margin:-17px;
   display: grid;
   grid-template-rows: 210px auto;
   grid-template-columns: 50% auto;

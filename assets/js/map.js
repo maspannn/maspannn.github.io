@@ -57,7 +57,7 @@ var adminkecamatan = L.geoJson(null, {
 });
 
 
-$.getJSON("assets/penduduk_kecamatan_diy_polygon.geojson", function (data) {
+$.getJSON("assets/data/penduduk_kecamatan_diy_polygon.geojson", function (data) {
   adminkecamatan.addData(data);
 });
 
