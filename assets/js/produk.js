@@ -169,7 +169,7 @@ $("#search-form").submit(function(e) {
 
 	$(".product").hide();
 	$(".product").each(function() {
-		var kategori = $(this).data("kategori").toLowerCase();
+		var kategori = $(this).data("nama").toLowerCase();
 
 		if (kategori.indexOf(query) > -1) {
 			$(this).show();
