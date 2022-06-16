@@ -421,22 +421,39 @@ function dissBtn(){
 $("#produk-tab").on("click", function() {
     $("#peta-pertanian").css({"display":"none"});
     $("#judul-awal").css({"display":"none"});
+    $(".kolom-satu").css({"display":"block"});
+    $(".kolom-dua").css({"display":"block"});
 });
 $("#book-tab").on("click", function() {
     $("#peta-pertanian").css({"display":"none"});
     $("#judul-awal").css({"display":"none"});
+    $(".kolom-satu").css({"display":"block"});
+    $(".kolom-dua").css({"display":"block"});
 });
 $("#budidaya-tab").on("click", function() {
     $("#peta-pertanian").css({"display":"none"});
     $("#judul-awal").css({"display":"none"});
+    $(".kolom-satu").css({"display":"block"});
+    $(".kolom-dua").css({"display":"block"});
 });
 $("#photo-tab").on("click", function() {
     $("#peta-pertanian").css({"display":"none"});
     $("#judul-awal").css({"display":"none"});
+    $(".kolom-satu").css({"display":"block"});
+    $(".kolom-dua").css({"display":"block"});
+});
+$("#dataset-tab").on("click", function() {
+    $("#peta-pertanian").css({"display":"none"});
+    $("#judul-awal").css({"display":"none"});
+    $(".kolom-satu").css({"display":"none"});
+    $(".kolom-dua").css({"display":"none"});
+    $("#dataset").css({"display":"block"});
 });
 $("#blog-tab").on("click", function() {
     $("#peta-pertanian").css({"display":"block"});
     $("#judul-awal").css({"display":"block"});
+    $(".kolom-satu").css({"display":"block"});
+    $(".kolom-dua").css({"display":"block"});
 });
 
 $(document).ready(function(){
@@ -479,7 +496,6 @@ $(function() {
 
 $("#cariTanaman").on("click", function() {
     $("#list-tanaman").css({"grid-template-rows":"210px auto"});
-    $("#list-tanaman").css({"margin-top":"-10px"});
 });
 
 $("#tanaman-lainnya").on("click", function() {
