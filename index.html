@@ -16,8 +16,8 @@
      crossorigin="anonymous"></script>
     <meta name="google-site-verification" content="oNRjU30FTz1XeTRc8H-7DkXprtpY-S3OTt3oVXpW_3o" />
     <meta name="propeller" content="054b025616af223c2fc8d8b2f220f3f1">
-    <meta name="author" content="Mas Pannn Blog">
-    <meta name="theme-color" content="#000">
+    <meta name="author" content="Mas Pannn">
+    <meta name="theme-color" content="#212529">
     <meta name="description" content="Tempat berbagi ilmu pertanian dan informasi terbaru tentang teknologi pertanian.">
     <meta property="og:image:width" content="300">
     <meta property="og:image:height" content="425">
@@ -60,69 +60,101 @@
      <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.4/dist/MarkerCluster.Default.css">
      <link rel="stylesheet" href="assets/css/app.css">
      <link rel="stylesheet" href="assets/css/leaflet.css">
-     <link rel="stylesheet" href="assets/cart.css">
   
     <title>Mas Pannn | Personal Blog</title>
   
   </head>
 <body>
+  
+<a id="btn-scroll"></a>
     
-    <a id="btn-scroll"></a>
-    
-    
+<nav class="navbar container md-12 navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <div class="row header">
-        <div class="col-xs-12 text-center">
-          <nav class="navbar fixed-top">
-            <div class="container">
-              <div class="row" id="header">
-              <a class="navbar-brand" href="index.html">
-                <img src="https://telegra.ph/file/c2b8a99e80289f0432428.jpg" alt="" width="30" height="25">
-              </a>
-              <div>
-                <div class="mode-dark">
-                <input type="checkbox" class="checkbox" id="checkbox">
-                <label for="checkbox" class="label">
-                  <i class="fas fa-sun"></i>
-                  <i class="fas fa-moon"></i>
-                  <div class="ball">
-                </label>
-                </div>
-              </div>
-             </div>
-            </div>
-             <div class="container">
-               <div class="row">
-                  <div class="tab-container">
-                    <ul class="nav nav-pills nav-tabs nav-justified">
-                      <li class="nav-item">
-                        <a class="nav-link link-secondary active text-white" id="blog-tab" data-bs-toggle="tab" data-bs-target="#blog" href="#">PETA</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link link-secondary text-white" id="produk-tab" data-bs-toggle="tab" data-bs-target="#produk" href="#">TOKO</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link link-secondary text-white" id="budidaya-tab" data-bs-toggle="tab" data-bs-target="#budidaya" href="#">BLOG</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link link-secondary text-white" id="book-tab" data-bs-toggle="tab" data-bs-target="#book" href="#">EBOOK</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link link-secondary text-white" id="photo-tab" data-bs-toggle="tab" data-bs-target="#photo" href="#">GALLERY</a>
-                      </li>
-                      <li class="nav-item" style="display:none">
-                        <a class="nav-link link-secondary text-white" id="dataset-tab" data-bs-toggle="tab" data-bs-target="#dataset" href="#">DATASET</a>
-                      </li>
-                      
-                    </ul>
-                  </div>
-               </div>
-              </div>
-            </div>
-          </nav>
-        </div>
+      <div style="display:flex;float:right">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="nav-scroller">
+      <div class="nav bg-dark nav-justified">
+        <a class="nav-link link-secondary text-white  active" id="blog-tab" data-bs-toggle="tab" data-bs-target="#blog" href="#">Peta</a>
+        <a class="nav-link text-white link-secondary" id="produk-tab" data-bs-toggle="tab" data-bs-target="#produk" href="#">Toko</a>
+        <a class="nav-link text-white link-secondary" id="budidaya-tab" data-bs-toggle="tab" data-bs-target="#budidaya" href="#">Blog</a>
+        <a class="nav-link text-white link-secondary" id="book-tab" data-bs-toggle="tab" data-bs-target="#book" href="#">Ebook</a>
+        <a class="nav-link text-white link-secondary" id="photo-tab" data-bs-toggle="tab" data-bs-target="#photo" href="#">Gallery</a>
       </div>
-      
+      </div>
+      </div>
+
+      <div class="offcanvas offcanvas-start text-white bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label" style="width:300px">
+        <div class="offcanvas-header">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/img/maspannn.png" alt="" width="150px" height="44px">
+          </a>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Kontak</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarLgDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Daftar Tanaman
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarLgDropdown">
+                <li><a class="dropdown-item" href="#">Padi</a></li>
+                <li><a class="dropdown-item" href="#">Jagung</a></li>
+                <li><a class="dropdown-item" href="#">Kedelai</a></li>
+                <li><a class="dropdown-item" href="#">Sorgum</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Bawang Merah</a>
+                <li><a class="dropdown-item" href="#">Bawang Putih</a>
+                <li><a class="dropdown-item" href="#">Cabai</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <div>
+            <div class="darkmode">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="label">
+              <i class="fas fa-sun"></i>
+              <i class="fas fa-moon"></i>
+              <div class="ball">
+            </label>
+            </div>
+          </div>
+          <div class="site-link text-white" style="font-size:9pt">
+            <ul class="link-info">
+              <li><a href="sitemap.xml">Sitemap</a></li>
+              <li><a href="p/privacy.html">Privacy</a></li>
+              <li><a href="p/disclaimer.html">Disclaimer</a></li>
+              <li><a href="p/about.html">About</a></li>
+            </ul>
+          </div>
+        <div class="rounded-social-buttons">
+          <a class="social-button whatsapp" href="https://api.whatsapp.com/send?phone=628973771555" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          <a class="social-button github" href="https://www.github.com/maspannn" target="_blank"><i class="fab fa-github"></i></a>
+          <a class="social-button telegram" href="https://t.me/maspannn" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+          <a class="social-button youtube" href="https://youtube.com/channel/UCd_EUancIwmhzfcp6_pU8ow" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a class="social-button instagram" href="https://www.instagram.com/maspannn_" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a class="social-button linkedin" href="https://www.linkedin.com/in/panjidanutirto" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+          <div style="font-size:10pt">
+            Copyright &copy; 2021 - 2022
+            <p>Theme by <a href="https://t.me/maspannn"><b>Mas Pannn</b></a></p>
+          </div>
+        </div>
+    </div>
+</nav>
+  
+<div class="container">
+  <div class="row header">
+    <div class="col-sm-12">
       <div class="row">
         <div class="col-md-8 kolom-satu">
           <div class="ads" align="center" style="display:none">
@@ -143,7 +175,9 @@
            <div id="peta-pertanian">
             <div id="map" ></div>
             <div class="modal-legend">
-              <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#legendModal" style="text-align:center"><button class="button-legend">LEGENDA</button></a>
+              <div class="container md-12" align="center">
+               <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#legendModal"><button class="tombol3">LEGENDA</button></a>
+              </div>
             </div>
            </div>
          <div class="tab-content" id="tabContent">
@@ -160,7 +194,7 @@
           	  </div>
           </div>
           <div class="tab-pane fade" id="produk" role="tabpanel" aria-labelledby="produk-tab">
-            <div class="alert alert-primary" role="alert">
+            <div class="mt-3 alert alert-primary" role="alert">
               Halaman ini masih dalam tahap pengembangan.<br>Produk yang ditampilkan hanya sebagai contoh!
             </div>
             <h1 id="judul-home">Rekomendasi</h1><br \>
@@ -175,7 +209,7 @@
           			</div>
           		</form>
           	</div>
-          	<hr style="color:white">
+          	<hr style="color:white;visibility: hidden">
           	<div class="row" id="filter">
           		<form>
           			<div class="form-group">
@@ -187,13 +221,15 @@
           		</form>
           	</div>
             <div>
-            <hr style="color:white">
-            <div id="products">
+            <hr style="color:white;visibility: hidden">
+            <div class="mb-3" id="products">
                 
             </div>
-            <button class="tombol" id="produk-lainnya">Produk Lainnya</button>
            </div>
-           <hr style="color:white">
+           <div class="container md-12" align="center">
+             <button class="tombol2" id="produk-lainnya">Produk Lainnya</button>
+            </div>
+            <hr style="color:white;visibility: hidden">
             <div class="mt-2" id="detail-produk" style="display:none">
               <div class="title-info">
                 <h1 class="inner-title-produk"></h1><br>
@@ -223,7 +259,7 @@
                 <div class="inner-deskripsi">
                   
                 </div>
-                <hr style="color:white">
+                <hr style="color:white;visibility: hidden">
                 <div class="button-order" align="center">
                   <a href="" class="btn-checkout inner-checkout inner-obj" data-obj=""><button class="btn-order"><i class="fab fa-whatsapp"></i>&nbsp;&nbsp;Order via Chat</button></a>
                   <a href="" class="inner-marketplace"><button class="btn-order"><i class="fas fa-shopping-cart"></i>&nbsp;&nbsp;Beli via Marketplace</button></a>
@@ -235,12 +271,11 @@
                 </div>
               </div> 
             </div>
-            <div class="mt-2" id="checkout-produk" style="display:none">
+            <div id="checkout-produk" style="display:none">
               <div id="judul-checkout">
                 <h1 style="margin-bottom:-1px">Form Pemesanan Produk</h1>
               </div>
-              <hr style="color:white">
-              <div class="body-info">
+              <div class="body-info mt-2">
                 <section id="contact">
                   <div class="container">
                     <div class="row justify-content-center">
@@ -248,7 +283,7 @@
                         <form name="maspannn-form-order" action="#" class="calculator" onsubmit="return false;">
                           <div class="mb-3">
                             <label for="name" class="form-label"><b>Nama Lengkap</b></label>
-                            <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" placeholder="Tulis nama lengkap anda"/>
+                            <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" placeholder="Tulis nama lengkap"/>
                           </div>
                           <div class="mb-3">
                             <label for="phone" class="form-label"><b>No WhatsApp</b></label>
@@ -256,16 +291,16 @@
                           </div>
                           <div class="mb-3">
                             <label for="alamat_1" class="form-label"><b>Alamat I</b></label>
-                            <textarea class="form-control" id="alamat_1" rows="3" name="alamat_1" placeholder="Tulis alamat lengkap anda"></textarea>
+                            <textarea class="form-control" id="alamat_1" rows="3" name="alamat_1" placeholder="Tulis alamat lengkap"></textarea>
                           </div>
                           <div class="mb-3">
                             <label for="alamat_2" class="form-label"><b>Alamat II</b></label>
                             <textarea class="form-control" id="alamat_2" rows="3" name="alamat_2" placeholder="Detail Lainnya (Cth: Blok/Unit,  No., Patokan)"></textarea>
                           </div>
-                          <hr style="color:white">
+                          <hr style="color:white;visibility: hidden">
                           <div class="mb-3">
                             <label for="produk" class="form-label"><b>Nama Produk</b></label>
-                            <input class="form-control inner-nama-produk" id="produk" name="produk" aria-describedby="produk">
+                            <input class="form-control inner-nama-produk" id="produk" name="produk" aria-describedby="produk" readonly>
                           </div>
                           <div class="mb-3">
                           <label class="form-label" for="harga"><b>Harga Produk</b></label><input type="text" id="harga" class="form-control inner-harga-produk" name="harga" autocomplete="off" value="" readonly>
@@ -276,7 +311,7 @@
                           <div class="mb-3">
                           <label class="form-label" for="qty"><b>Quantity *</b></label><input class="form-control" type="text" id="qty" name="qty" autocomplete="off">
                           </div>
-                          <hr style="color:white">
+                          <hr style="color:white;visibility: hidden">
                           <div class="mb-3">
                             <label for="catatan" class="form-label"><b>Catatan</b></label>
                             <textarea class="form-control" id="catatan" rows="4" name="catatan" placeholder="Tulis catatan tambahan"></textarea>
@@ -287,17 +322,17 @@
                             <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                             Loading...
                           </button>
-                        <hr style="color:white">
+                        <hr style="color:white;visibility: hidden">
                         <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
                           <strong>Terima Kasih!</strong> Pesanan anda sudah kami terima.<br><br>Silahkan melanjutkan <strong>Pembayaran</strong> dan konfirmasi melalui No WhatsApp dibawah ini!<br><a href="https://web.whatsapp.com/send?phone=628973771555" style="color:red"><strong>08973771555</strong></a>
                           <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                         </form>
-                        <hr style="color:white">
+                        <hr style="color:white;visibility: hidden">
                         <div class="mb-3">
                         <h1><b>Total Pembayaran</b></h1>
                         <div class="calculator-total">0</div>
-                        <hr style="color:white">
+                        <hr style="color:white;visibility: hidden">
                         <h6 align="center"><strong>Scan barcode dibawah untuk melakukan pembayaran!</strong></h6>
                         <img src="assets/img/shareqr.png" width="100%" height="100%">
                         </div>
@@ -305,9 +340,9 @@
                     </div>
                   </div>
                 </section>
-              </div>
-              <div class="button-info">
-                <button class="tombol close-checkout">Kembali</button>
+                <div class="container md-12" align="center">
+                  <button class="tombol3 close-checkout">Kembali</button>
+                 </div>
               </div>
             </div> 
           </div>
@@ -321,17 +356,20 @@
                   <div id="list-ebook">
                   
                   </div>
-                  <button class="tombol" id="ebook-lainnya">Ebook Lainnya</button>
                 </div>
-                <hr style="color:white">
+                <hr style="color:white;visibility: hidden">
+                <div class="container md-12" align="center">
+                  <button class="tombol2" id="ebook-lainnya">Ebook Lainnya</button>
+                </div>
+                <hr style="color:white;visibility: hidden">
                 <div class="mt-2" id="daftar-ebook" style="display:none">
                 <div class="title-info">
-                <h1 class="inner-nama-ebook" style="font-size:17pt;margin-top:-55px;padding-left:5px"></h1><br>
+                <h1 class="inner-nama-ebook" style="font-size:17pt;margin-top:-75px;padding-left:5px"></h1><br>
                 </div>
                 <div class="body-info">
                   <div class="inner-deskripsi-ebook">
                   </div>
-                  <hr style="color:white">
+                  <hr style="color:white;visibility: hidden">
                   <div class="container md-12" align="center">
                   <div>
                     <a class="inner-link-ebook" href="" ><button type="button" class="btn-download">DOWNLOAD</button></a>
@@ -353,17 +391,23 @@
                   <div id="list-photo">
                   
                   </div>
-                  <button class="tombol" id="photo-lainnya">Photo Lainnya</button>
+                </div>
+                <hr style="color:white;visibility: hidden">
+                <div class="container md-12" align="center">
+                  <button class="tombol2" id="photo-lainnya">Photo Lainnya</button>
                 </div>
               </div>   
-              <hr style="color:white">
+              <hr style="color:white;visibility: hidden">
               <div class="mb-5">
                 <h1 id="judul-awal">Agro Video</h1><br \>
                 <div>
                   <div id="list-video" align="center">
                   
                   </div>
-                  <button class="tombol" id="video-lainnya">Video Lainnya</button>
+                </div>
+                <hr style="color:white;visibility: hidden">
+                <div class="container md-12" align="center">
+                  <button class="tombol2" id="video-lainnya">Video Lainnya</button>
                 </div>
               </div> 
           </div>
@@ -378,9 +422,12 @@
                 <div id="list-tanaman" align="center">
                     
                 </div>
-                <button class="tombol" id="tanaman-lainnya" style="width:90%">Tanaman Lainnya</button>
               </div>
-              <hr style="color:white">
+              <hr style="color:white;visibility: hidden">
+              <div class="container md-12" align="center">
+                <button class="tombol-tanaman" id="tanaman-lainnya">Tanaman Lainnya</button>
+              </div>
+              <hr style="color:white;visibility: hidden">
               <div class="mt-2" id="post-blog" style="display:none">
                 <div class="title-info">
                   <h1 class="inner-title"></h1><br>
@@ -429,7 +476,7 @@
         </div>
         <div class="col-md-4 kolom-dua" >
           <div>
-            <h1 align="left">JUMLAH PENGUNJUNG</h1>
+            <h5 align="left"><b>Jumlah Pengunjung</b></h5>
             <div class="counter" align="center">
               <h6 align="center" id="date" style="font-weight:400;"></h6>
               <div id="hit-counter" align="center">
@@ -451,8 +498,8 @@
                    (adsbygoogle = window.adsbygoogle || []).push({});
               </script>
             </div>
-            <hr style="color:white">
-            <h1 align="left">MENGENAI SAYA</h1>
+            <hr style="color:white;visibility: hidden">
+            <h5 align="left"><b>Mengenai Saya</b></h5>
             <div class="profil" align="center">
               <div class="profil-img">
                 <img src="https://telegra.ph/file/c2b8a99e80289f0432428.jpg" width="100px" height="100px" style="border-radius:100%">
@@ -482,32 +529,8 @@
       </div>
       </div> 
       </div>
-      <div class="row">
-        <div class="rounded-social-buttons">
-        <a class="social-button whatsapp" href="https://api.whatsapp.com/send?phone=628973771555" target="_blank"><i class="fab fa-whatsapp"></i></a>
-        <a class="social-button github" href="https://www.github.com/maspannn" target="_blank"><i class="fab fa-github"></i></a>
-        <a class="social-button telegram" href="https://t.me/maspannn" target="_blank"><i class="fab fa-telegram-plane"></i></a>
-        <a class="social-button youtube" href="https://youtube.com/channel/UCd_EUancIwmhzfcp6_pU8ow" target="_blank"><i class="fab fa-youtube"></i></a>
-        <a class="social-button instagram" href="https://www.instagram.com/maspannn_" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a class="social-button linkedin" href="https://www.linkedin.com/in/panjidanutirto" target="_blank"><i class="fab fa-linkedin"></i></a>
-      </div>
-      <div class="site-link" style="display:none">
-        <div class="container-fluid site-info" align="center">
-        <ul class="link-info">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="sitemap.xml">Sitemap</a></li>
-          <li><a href="p/contact.html">Kontak</a></li>
-          <li><a href="p/disclaimer.html">Disclaimer</a></li>
-          <li><a href="p/about.html">About</a></li>
-        </ul>
-      </div>
-      </div>
-      <footer class="footer-row">
-        <div class="page-footer font-small">
-        <div class="container text-center">
-          <h7 style="font-style:bold;font-weight:400;font-size:11pt">&copy; 2022 - <a href="https://t.me/maspannn">Mas Pannn</a></h7>
-        </div>
-      </footer>
+    
+      
      </div>
     </div>
    </div>
@@ -529,7 +552,7 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalCenterTitle"><i class="fas fa-info-circle"></i>Legenda</h5>
+            <h5 class="modal-title" id="exampleModalCenterTitle"><i class="fas fa-info-circle"></i>&nbsp;Legenda</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
@@ -602,6 +625,7 @@
         e.preventDefault();
         $('html, body').animate({scrollTop:0}, '300');
       });
+      
     </script>
     
     <script>
