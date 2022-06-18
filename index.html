@@ -15,7 +15,6 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2924921727748449"
      crossorigin="anonymous"></script>
     <meta name="google-site-verification" content="oNRjU30FTz1XeTRc8H-7DkXprtpY-S3OTt3oVXpW_3o" />
-    <meta name="propeller" content="054b025616af223c2fc8d8b2f220f3f1">
     <meta name="author" content="Mas Pannn">
     <meta name="theme-color" content="#212529">
     <meta name="description" content="Tempat berbagi ilmu pertanian dan informasi terbaru tentang teknologi pertanian.">
@@ -49,17 +48,7 @@
     <link rel="icon" href="https://telegra.ph/file/c2b8a99e80289f0432428.jpg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     <link rel="stylesheet" href="assets/css/leaflet.awesome-markers.css">
-     <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.css">
-     <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css">
-     <link rel="stylesheet" href="assets/css/leaflet.groupedlayercontrol.css">
-     <link rel="stylesheet" href="https://torfsen.github.io/leaflet.zoomhome/dist/leaflet.zoomhome.css"/>
-     <link rel="stylesheet" href="assets/css/L.Control.BetterScale.css">
-     <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css">
-     <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet'/>
-     <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.4/dist/MarkerCluster.Default.css">
      <link rel="stylesheet" href="assets/css/app.css">
-     <link rel="stylesheet" href="assets/css/leaflet.css">
   
     <title>Mas Pannn | Personal Blog</title>
   
@@ -67,21 +56,34 @@
 <body>
   
 <a id="btn-scroll"></a>
-    
-<nav class="navbar container md-12 navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+<div class="smartbanner">
+    <div class="smartbanner-container">
+        <span class="smartbanner-icon"></span>
+        <div class="smartbanner-info">
+            <div class="smartbanner-title">Ebook Pertanian</div>
+            <div>Download Koleksi Ebook Pertanian Gratis Di Telegram</div>
+        </div>
+        <a href="https://t.me/EbookPertanian" target="_blank" class="smartbanner-button">
+            <span class="smartbanner-button-text">GABUNG</span>
+        </a>
+    </div>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <div style="display:flex;float:right">
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+      <div class="nav-scroller" style="display:flex;float:right;height:52px">
+      <div style="margin:2px;padding-top:2px;padding-left:3px;">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="nav-scroller">
-      <div class="nav bg-dark nav-justified">
-        <a class="nav-link link-secondary text-white  active" id="blog-tab" data-bs-toggle="tab" data-bs-target="#blog" href="#">Peta</a>
-        <a class="nav-link text-white link-secondary" id="produk-tab" data-bs-toggle="tab" data-bs-target="#produk" href="#">Toko</a>
-        <a class="nav-link text-white link-secondary" id="budidaya-tab" data-bs-toggle="tab" data-bs-target="#budidaya" href="#">Blog</a>
-        <a class="nav-link text-white link-secondary" id="book-tab" data-bs-toggle="tab" data-bs-target="#book" href="#">Ebook</a>
-        <a class="nav-link text-white link-secondary" id="photo-tab" data-bs-toggle="tab" data-bs-target="#photo" href="#">Gallery</a>
       </div>
+      <div class="nav bg-dark nav-justified" style="margin-left:10px;margin-top:5px">
+        <a class="nav-link text-white link-secondary" id="produk-tab" data-bs-toggle="tab" data-bs-target="#produk" href="#" style="display:none">Toko</a>
+        <a class="nav-link text-white link-secondary active" id="budidaya-tab" data-bs-toggle="tab" data-bs-target="#budidaya" href="#">Budidaya Tanaman</a>
+        <a class="nav-link text-white link-secondary" id="book-tab" data-bs-toggle="tab" data-bs-target="#book" href="#">Ebook Pertanian</a>
+        <a class="nav-link text-white link-secondary" id="photo-tab" data-bs-toggle="tab" data-bs-target="#photo" href="#">Agro Gallery</a>
+        <a class="nav-link text-white link-secondary" id="video-tab" data-bs-toggle="tab" data-bs-target="#video" href="#">Agro Video</a>
       </div>
       </div>
 
@@ -151,6 +153,27 @@
         </div>
     </div>
 </nav>
+
+<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel" style="height:450px">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Konfirmasi Pembayaran</h5>
+    <button type="button" class="btn-close close-checkout" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body small" align="center">
+    <div class="mb-3">
+      <h1><b>Total Pembayaran</b></h1>
+      <div class="calculator-total">0</div>
+      <hr style="color:white;visibility: hidden">
+      <h6><strong>Scan barcode dibawah untuk melakukan pembayaran!</strong></h6>
+      <img src="assets/img/shareqr.png" width="100%" height="100%">
+      </div>
+      <hr style="color:white;visibility: hidden">
+      <div id="konfirmasi" class="container md-12" align="center">
+        
+      </div>
+      <hr style="color:white;visibility: hidden">
+  </div>
+</div>
   
 <div class="container">
   <div class="row header">
@@ -171,32 +194,9 @@
                (adsbygoogle = window.adsbygoogle || []).push({});
           </script>
           </div>
-          <h1 id="judul-awal">Peta Tematik</h1>
-           <div id="peta-pertanian">
-            <div id="map" ></div>
-            <div class="modal-legend">
-              <div class="container md-12" align="center">
-               <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#legendModal"><button class="tombol3">LEGENDA</button></a>
-              </div>
-            </div>
-           </div>
+          
          <div class="tab-content" id="tabContent">
-        	<div class="tab-pane fade show active" id="blog" role="tabpanel" aria-labelledby="blog-tab">
-          	 <div class="iklan" align="center">
-            
-             </div>
-          	 <h1 id="judul-awal">Album</h1><br \>
-          	 <div class="slider">
-          	  	<img src="assets/slider/1.jpg" />
-          	  	<img src="assets/slider/2.jpg" />
-          	  	<img src="assets/slider/3.jpg" />
-          	  	<img src="assets/slider/4.jpg" />
-          	  </div>
-          </div>
-          <div class="tab-pane fade" id="produk" role="tabpanel" aria-labelledby="produk-tab">
-            <div class="mt-3 alert alert-primary" role="alert">
-              Halaman ini masih dalam tahap pengembangan.<br>Produk yang ditampilkan hanya sebagai contoh!
-            </div>
+          <div class="tab-pane fade" id="produk" role="tabpanel" aria-labelledby="produk-tab" style="display:none">
             <h1 id="judul-home">Rekomendasi</h1><br \>
             <h1 id="judul-detail">Detail Produk</h1><br \>
             <div class="row" id="search" style="margin-top:-40px">
@@ -261,7 +261,7 @@
                 </div>
                 <hr style="color:white;visibility: hidden">
                 <div class="button-order" align="center">
-                  <a href="" class="btn-checkout inner-checkout inner-obj" data-obj=""><button class="btn-order"><i class="fab fa-whatsapp"></i>&nbsp;&nbsp;Order via Chat</button></a>
+                  <a href="" class="btn-checkout inner-obj" data-obj=""><button class="btn-order"><i class="fab fa-whatsapp"></i>&nbsp;&nbsp;Order via Chat</button></a>
                   <a href="" class="inner-marketplace"><button class="btn-order"><i class="fas fa-shopping-cart"></i>&nbsp;&nbsp;Beli via Marketplace</button></a>
                 </div>
                 <div class="button-info">
@@ -271,7 +271,7 @@
                 </div>
               </div> 
             </div>
-            <div id="checkout-produk" style="display:none">
+            <div class="mb-2" id="checkout-produk" style="display:none">
               <div id="judul-checkout">
                 <h1 style="margin-bottom:-1px">Form Pemesanan Produk</h1>
               </div>
@@ -280,27 +280,31 @@
                   <div class="container">
                     <div class="row justify-content-center">
                       <div class="col-md-12">
-                        <form name="maspannn-form-order" action="#" class="calculator" onsubmit="return false;">
+                        <form name="maspannn-form-order" action="#" class="calculator" onsubmit="return false">
+                          <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+                          <strong>Terima Kasih!</strong> Pesanan anda sudah kami terima.
+                          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                          </div>
                           <div class="mb-3">
                             <label for="name" class="form-label"><b>Nama Lengkap</b></label>
-                            <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" placeholder="Tulis nama lengkap"/>
+                            <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" placeholder="Tulis nama lengkap" value=""/>
                           </div>
                           <div class="mb-3">
                             <label for="phone" class="form-label"><b>No WhatsApp</b></label>
-                            <input type="phone" class="form-control" id="phone" aria-describedby="phone" name="phone" placeholder="62897xxxxxxx">
+                            <input type="phone" class="form-control" id="phone" aria-describedby="phone" name="phone" placeholder="62897xxxxxxx" value="">
                           </div>
                           <div class="mb-3">
                             <label for="alamat_1" class="form-label"><b>Alamat I</b></label>
-                            <textarea class="form-control" id="alamat_1" rows="3" name="alamat_1" placeholder="Tulis alamat lengkap"></textarea>
+                            <textarea class="form-control" id="alamat_1" rows="3" name="alamat_1" placeholder="Tulis alamat lengkap" value=""></textarea>
                           </div>
                           <div class="mb-3">
                             <label for="alamat_2" class="form-label"><b>Alamat II</b></label>
-                            <textarea class="form-control" id="alamat_2" rows="3" name="alamat_2" placeholder="Detail Lainnya (Cth: Blok/Unit,  No., Patokan)"></textarea>
+                            <textarea class="form-control" id="alamat_2" rows="3" name="alamat_2" placeholder="Detail Lainnya (Cth: Blok/Unit,  No., Patokan)" value=""></textarea>
                           </div>
                           <hr style="color:white;visibility: hidden">
                           <div class="mb-3">
                             <label for="produk" class="form-label"><b>Nama Produk</b></label>
-                            <input class="form-control inner-nama-produk" id="produk" name="produk" aria-describedby="produk" readonly>
+                            <input class="form-control inner-nama-produk" id="produk" name="produk" aria-describedby="produk" value="" readonly>
                           </div>
                           <div class="mb-3">
                           <label class="form-label" for="harga"><b>Harga Produk</b></label><input type="text" id="harga" class="form-control inner-harga-produk" name="harga" autocomplete="off" value="" readonly>
@@ -309,33 +313,20 @@
                           <label class="form-label" for="ongkir"><b>Subtotal Pengiriman</b></label><input class="form-control inner-ongkir-produk" type="text" id="ongkir" name="ongkir" autocomplete="off" value="" readonly>
                           </div>
                           <div class="mb-3">
-                          <label class="form-label" for="qty"><b>Quantity *</b></label><input class="form-control" type="text" id="qty" name="qty" autocomplete="off">
+                          <label class="form-label" for="qty"><b>Quantity *</b></label><input class="form-control" type="text" id="qty" name="qty">
                           </div>
                           <hr style="color:white;visibility: hidden">
                           <div class="mb-3">
                             <label for="catatan" class="form-label"><b>Catatan</b></label>
-                            <textarea class="form-control" id="catatan" rows="4" name="catatan" placeholder="Tulis catatan tambahan"></textarea>
+                            <textarea class="form-control" id="catatan" rows="4" name="catatan" placeholder="Tulis catatan tambahan" value""></textarea>
                           </div>
-                          <button type="submit" class="btn btn-primary btn-kirim" id="button-checkout">Kirim</button>
-              
+                          <button type="submit" class="btn btn-primary btn-kirim" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom">Kirim</button>
                           <button class="btn btn-primary btn-loading d-none" type="button" disabled>
                             <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                             Loading...
                           </button>
-                        <hr style="color:white;visibility: hidden">
-                        <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
-                          <strong>Terima Kasih!</strong> Pesanan anda sudah kami terima.<br><br>Silahkan melanjutkan <strong>Pembayaran</strong> dan konfirmasi melalui No WhatsApp dibawah ini!<br><a href="https://web.whatsapp.com/send?phone=628973771555" style="color:red"><strong>08973771555</strong></a>
-                          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                        </div>
                         </form>
                         <hr style="color:white;visibility: hidden">
-                        <div class="mb-3">
-                        <h1><b>Total Pembayaran</b></h1>
-                        <div class="calculator-total">0</div>
-                        <hr style="color:white;visibility: hidden">
-                        <h6 align="center"><strong>Scan barcode dibawah untuk melakukan pembayaran!</strong></h6>
-                        <img src="assets/img/shareqr.png" width="100%" height="100%">
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -346,8 +337,8 @@
               </div>
             </div> 
           </div>
-          <div class="tab-pane fade" id="book" role="tabpanel" aria-labelledby="book-tab" >
-              <div class="mb-5">
+          <div class="tab-pane fade" id="book" role="tabpanel" aria-labelledby="book-tab">
+              <div class="mb-20">
                 <h1 id="judul-awal">Koleksi Ebook Pertanian</h1><br \>
                 <div class="mt-1 mb-4" align="center">
           	      <input type="text" id="cariEbook" placeholder="Cari ebook..." onkeyup="mySearchBook()"/>
@@ -384,7 +375,7 @@
               </div>
               </div>   
           </div>
-          <div class="tab-pane fade" id="photo" role="tabpanel" aria-labelledby="photo-tab" >
+          <div class="tab-pane fade" id="photo" role="tabpanel" aria-labelledby="photo-tab">
               <div class="mb-5">
                 <h1 id="judul-awal">Agro Gallery</h1><br \>
                 <div>
@@ -397,7 +388,8 @@
                   <button class="tombol2" id="photo-lainnya">Photo Lainnya</button>
                 </div>
               </div>   
-              <hr style="color:white;visibility: hidden">
+          </div>
+          <div class="tab-pane fade" id="video" role="tabpanel" aria-labelledby="video-tab">
               <div class="mb-5">
                 <h1 id="judul-awal">Agro Video</h1><br \>
                 <div>
@@ -411,8 +403,7 @@
                 </div>
               </div> 
           </div>
-          
-          <div class="tab-pane fade" id="budidaya" role="tabpanel" aria-labelledby="budidaya-tab" >
+          <div class="tab-pane fade show active" id="budidaya" role="tabpanel" aria-labelledby="budidaya-tab" >
               <h1 id="judul-awal">Teknologi Budidaya Tanaman</h1><br \>
               <div id="page-post">
         	    <div id="search-bar" align="center">
@@ -452,7 +443,7 @@
               </div>
             </div>
           </div>
-          <div id="disqus_thread"></div>
+        <!--<div id="disqus_thread"></div>
         <script>
             /**
             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
@@ -471,7 +462,7 @@
             })();
         </script>
         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-          
+          -->
          </div>
         </div>
         <div class="col-md-4 kolom-dua" >
@@ -535,80 +526,14 @@
     </div>
    </div>
     
-    <div class="modal fade" id="featureModal" tabindex="-1">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="feature-title"></h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body" id="feature-info">
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="modal fade" id="legendModal" tabindex="-1">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalCenterTitle"><i class="fas fa-info-circle"></i>&nbsp;Legenda</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <div class="modal-body">
-              <b>Kelas Curah Hujan</b><br>
-              <img src="assets/img/curah-hujan.png" width="300px" height="230px">
-            </div>
-            <div class="modal-body">
-              <b>Kelas Jumlah Penduduk</b><br>
-              <svg width="40" height="20">
-                <rect width="40" height="20" style="fill:#bd0026;stroke-width:1;stroke:gray;opacity:0.7" />
-              </svg> Tinggi (> 100.000 Jiwa)<br>
-              <svg width="40" height="20">
-                <rect width="40" height="20" style="fill:#fd8d3c;stroke-width:1;stroke:gray;opacity:0.7" />
-              </svg> Sedang (50.000 - 100.000 Jiwa)<br>
-              <svg width="40" height="20">
-                <rect width="40" height="20" style="fill:#ffffb2;stroke-width:1;stroke:gray;opacity:0.7" />
-              </svg> Rendah (< 50.000 Jiwa)
-            </div>
-           </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
-    <script src="https://unpkg.com/esri-leaflet@2.3.3/dist/esri-leaflet.js" integrity="sha512-cMQ5e58BDuu1pr9BQ/eGRn6HaR6Olh0ofcHFWe5XesdCITVuSBiBZZbhCijBe5ya238f/zMMRYIMIIg1jxv4sQ==" crossorigin=""></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
-    <script src="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.min.js"></script>
-    <script src="assets/js/js/leaflet.awesome-markers.js"></script>
-    <script src="assets/js/leaflet.groupedlayercontrol.js"></script>
-    <script src="https://torfsen.github.io/leaflet.zoomhome/dist/leaflet.zoomhome.min.js"></script>
-    <script src="assets/js/L.Control.BetterScale.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-hash/0.2.1/leaflet-hash.min.js"></script>
-    <script src="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js"></script>
-    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
-    <script id="dsq-count-scr" src="//maspannn.disqus.com/count.js" async></script>
-    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"
-    integrity="sha512-MQlyPV+ol2lp4KodaU/Xmrn+txc1TP15pOBF/2Sfre7MRsA/pB4Vy58bEqe9u7a7DczMLtU5wT8n7OblJepKbg=="
-    crossorigin=""></script>
-    <script src="https://unpkg.com/esri-leaflet-cluster@2.0.1/dist/esri-leaflet-cluster.js"
-    integrity="sha512-2/Nwrks+A2omjKeWrF4TKFLIrUbAhSl8EDEm6xunuwXXYqMoJI71PZtlW0/vqt9d3DOyP1md/bzAnNH2KuAhaQ=="
-    crossorigin=""></script>
-    <script src="https://unpkg.com/default-passive-events"></script>
-    <script src="assets/data/sptsukoharjo.geojson"></script>
     <script src="assets/js/budidaya.js"></script>
-    <script src="assets/js/slider.js"></script>
     <script src="assets/js/book.js"></script>
-    <script src="assets/js/map.js"></script>
     <script src="assets/js/photo.js"></script>
     <script src="assets/js/produk.js"></script>
     <script src="assets/js/video.js"></script>
-    <script src="assets/cart.js"></script>
 
     <script>
       var btn = $('#btn-scroll');
@@ -647,8 +572,5 @@
    <script src='https://raw.githack.com/Ashwathnrayana/SpiderBlogging/main/antiadblock/2.0/code.min.js' /> 
    </script> 
    
-   <!--<script async="async" data-cfasync="false" src="//upgulpinon.com/1?z=5164474"></script>
-   <script>(function(d,z,s){s.src='//'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('offfurreton.com',5162253,document.createElement('script'))</script>-->
-    
 </body>
 </html>

@@ -295,14 +295,6 @@ var post=[
     },
 ];
 
-/*
-=====================
-=====================
-Thumbs
-=====================
-=====================
-*/
-//Loop length:
 var postLength = post.length;
 //Empty container:
 $("#list-tanaman").empty();
@@ -319,17 +311,10 @@ for (i=0; i<postLength; i++) {
       '</div>'+
       '</a>' +
     '</div>';
-  //Append thumb:
   $("#list-tanaman").append(listItem);
 };
 
-/*
-=====================
-=====================
-Inner post
-=====================
-=====================
-*/
+
 var thisElement = 0;
 
 function innerContent(content){
@@ -417,44 +402,6 @@ function dissBtn(){
     $(".next-post").addClass("disabled");
   };
 };
-
-$("#produk-tab").on("click", function() {
-    $("#peta-pertanian").css({"display":"none"});
-    $("#judul-awal").css({"display":"none"});
-    $(".kolom-satu").css({"display":"block"});
-    $(".kolom-dua").css({"display":"block"});
-});
-$("#book-tab").on("click", function() {
-    $("#peta-pertanian").css({"display":"none"});
-    $("#judul-awal").css({"display":"none"});
-    $(".kolom-satu").css({"display":"block"});
-    $(".kolom-dua").css({"display":"block"});
-});
-$("#budidaya-tab").on("click", function() {
-    $("#peta-pertanian").css({"display":"none"});
-    $("#judul-awal").css({"display":"none"});
-    $(".kolom-satu").css({"display":"block"});
-    $(".kolom-dua").css({"display":"block"});
-});
-$("#photo-tab").on("click", function() {
-    $("#peta-pertanian").css({"display":"none"});
-    $("#judul-awal").css({"display":"none"});
-    $(".kolom-satu").css({"display":"block"});
-    $(".kolom-dua").css({"display":"block"});
-});
-$("#dataset-tab").on("click", function() {
-    $("#peta-pertanian").css({"display":"none"});
-    $("#judul-awal").css({"display":"none"});
-    $(".kolom-satu").css({"display":"none"});
-    $(".kolom-dua").css({"display":"none"});
-    $("#dataset").css({"display":"block"});
-});
-$("#blog-tab").on("click", function() {
-    $("#peta-pertanian").css({"display":"block"});
-    $("#judul-awal").css({"display":"block"});
-    $(".kolom-satu").css({"display":"block"});
-    $(".kolom-dua").css({"display":"block"});
-});
 
 $(document).ready(function(){
 
