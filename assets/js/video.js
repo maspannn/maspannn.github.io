@@ -25,7 +25,7 @@ var videoLength = video.length;
 $("#list-video").empty();
 for (i=0; i<videoLength; i++) {
   var listItemvideo =
-    '<li>'+
+    '<div id="video-pertanian">'+
       '<div class="card shadow" style="margin-bottom:10px">'+
       '<a class="button" href="'+video[i].link+'" data-obj="'+i+'">'+
       '<iframe width="100%" height="315" src="' +video[i].link+ '">' +
@@ -33,16 +33,12 @@ for (i=0; i<videoLength; i++) {
       '</a>' +
       '<div style="padding-top:5px;padding-left:10px;margin-bottom:0px"><h6>'+ video[i].title +'</h6></div>'+
       '</div>'+
-      '</div>'+
-      '</div>'+
-    '</li>';
-  //Append thumb:
+    '</div>';
   $("#list-video").append(listItemvideo);
 };
 
 $(document).ready(function(){
-
-      var list = $("#list-video div");
+      var list = $("#list-video #video-pertanian");
       var numToShow = 4;
       var button = $("#video-lainnya");
       var numInList = list.length;
