@@ -420,7 +420,7 @@ $("#list-ebook").empty();
 for (i=0; i<ebookLength; i++) {
   var listItemebook =
     '<div id="data-book">'+
-      '<div class="card shadow">'+
+      '<div class="card shadow" style="width:100%">'+
       '<a class="button-ebook" href="'+ebook[i].id+'" data-obj="'+i+'">'+
       '<div class="card-body">'+
       '<div class="card-text nama-ebook"><h6>'+ ebook[i].title +'</h6></div>'+
@@ -433,8 +433,9 @@ for (i=0; i<ebookLength; i++) {
 };
 
 $(document).ready(function(){
+
       var list = $("#list-ebook #data-book");
-      var numToShow = 10;
+      var numToShow = 6;
       var button = $("#ebook-lainnya");
       var numInList = list.length;
       list.hide();
