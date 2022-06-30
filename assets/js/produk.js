@@ -219,7 +219,7 @@ function innerContent3(content){
   var qty = $("#qty").val().toLowerCase();
   var whatsapp ="";
   
-  whatsapp = "<a href='whatsapp://send?phone="+ data[content].whatsapp +"&text=👋🏻Halo kak? Saya ingin memesan:%0A%0A*Nama Produk* : "+ data[content].nama +"%0A*Harga* : Rp"+ data[content].harga +"%0A*Quantity* :"+qty+"%0A%0ATerima Kasih.' data-obj='"+ i +"'><button type='submit' class='btn btn-success'>KONFIRMASI</button></a>";
+  whatsapp = "<a href='whatsapp://send?phone="+ data[content].whatsapp +"&text=👋🏻Halo kak? Saya ingin memesan:%0A%0A*Nama Produk* : "+ data[content].nama + "%0A*Harga* : Rp"+ data[content].harga + "%0A*Quantity* :"+qty+"%0A%0ATerima Kasih.' data-obj='"+ i +"'><button type='submit' class='btn btn-success'>KONFIRMASI</button></a>";
   $("#konfirmasi").html(whatsapp);
 
   $(".inner-nama-produk").attr("value",data[content].nama);
