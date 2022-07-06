@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -20,8 +20,8 @@
     <meta property="og:image:width" content="300">
     <meta property="og:image:height" content="425">
     <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:image" content="https://telegra.ph/file/c2b8a99e80289f0432428.jpg">
-    <meta name="og:image:alt" content="Ruang Imajinasi">
+    <meta property="og:image" content="assets/img/banner.jpg">
+    <meta name="og:image:alt" content="SmarTani Digital">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="SmarTani Digital">
     <meta property="og:url" content="https://maspannn.github.io">
@@ -29,9 +29,9 @@
     <meta property="og:description" content="Tempat berbagi ilmu pertanian dan informasi terbaru tentang teknologi pertanian.">
     <meta name="twitter:title" content="SmarTani Digital, Berbagi Ilmu Pertanian Gratis">
     <meta name="twitter:description" content="Tempat berbagi ilmu pertanian dan informasi terbaru tentang teknologi pertanian.">
-    <meta name="twitter:image" content="https://telegra.ph/file/c2b8a99e80289f0432428.jpg">
+    <meta name="twitter:image" content="assets/img/banner.jpg">
     <meta name="twitter:card" content="summary_large_image">
-    <link rel="canonical" href="https://maspannn.github.io/index.html">
+    <link rel="canonical" href="https://maspannn.github.io">
     <meta name="googlebot" content="index,follow">
     <meta name="Googlebot-Image" content="index,follow">
     <meta name="Scooter" content="index,follow">
@@ -45,6 +45,7 @@
     <meta name="geo.placename" content="Indonesia">
     <meta name="rating" content="agriculture">
     <link rel="icon" href="https://telegra.ph/file/c2b8a99e80289f0432428.jpg">
+    <link rel="apple-touch-icon" href="assets/img/apple-touh-icon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -53,22 +54,27 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
      <link rel="stylesheet" href="assets/css/app.css">
   
-    <title>SmarTani Digital | Agriculture Blog</title>
-    
-    <style>
-      html, body {
-        overflow-x: hidden;
-        margin-top:-28px;
-        width:100%;
-      }
-    </style>
+    <title>SMARTani Digital | Belajar Ilmu Pertanian Gratis</title>
   
   </head>
 <body>
   
 <a id="btn-scroll"></a>
 
-<nav class="container navbar navbar-expand-lg">
+<div class="smartbanner">
+    <div class="smartbanner-container">
+        <span class="smartbanner-icon"></span>
+        <div class="smartbanner-info">
+            <div class="smartbanner-title">SmarTani Digital</div>
+            <div>Belajar Pertanian Nyaman Dalam Satu Genggaman</div>
+        </div>
+        <a href="./SmarTani_Digital.apk" class="smartbanner-button">
+            <span class="smartbanner-button-text">INSTALL</span>
+        </a>
+    </div>
+</div>
+
+<nav class="navbar navbar-expand-lg">
   <div class="container-fluid" style="color:white">
       <a class="navbar-brand" href="#" >
         <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" >
@@ -76,13 +82,21 @@
           <span style="color:white;margin-left:10px;font-family: 'Source Sans Pro', sans-serif;font-size:16pt">SmarTani Digital</span>
         </button>
       </a>
+      <div class="darkmode">
+        <input type="checkbox" class="checkbox" id="checkbox">
+        <label for="checkbox" class="label">
+          <i class="fas fa-sun"></i>
+          <i class="fas fa-moon"></i>
+          <div class="ball"></div>
+        </label>
+      </div>
       <span class="material-symbols-outlined" id="blog-click">search</span>
     </div>
 
       <div class="offcanvas offcanvas-start text-white" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label" style="width:320px">
         <div class="offcanvas-header">
           <a class="navbar-brand" href="index.html">
-            <img src="assets/img/icon.png" alt="" width="100%" height="100%" style="margin-left:5px;margin-top:8px">
+            <img src="assets/img/icon.png" alt="SmarTani Digital Logo" width="100%" height="100%" style="margin-left:5px;margin-top:8px">
           </a>
         </div>
         <hr>
@@ -113,16 +127,8 @@
               </ul>
             </li>
           </ul>
+          <hr style="visibility: hidden">
           <div>
-            <div class="darkmode">
-            <input type="checkbox" class="checkbox" id="checkbox">
-            <label for="checkbox" class="label">
-              <i class="fas fa-sun"></i>
-              <i class="fas fa-moon"></i>
-              <div class="ball">
-            </label>
-            </div>
-          </div>
           <div class="site-link text-white" style="font-size:9pt">
             <ul class="link-info">
               <li><a href="sitemap.xml">Sitemap</a></li>
@@ -141,27 +147,26 @@
           </div>
           <div style="font-size:10pt">
             Copyright &copy; 2021 - 2022
-            <p>Theme by <a href="https://t.me/maspannn"><b>SmarTani Digital</b></a></p>
+            <p>Theme by <a href="https://t.me/maspannn">SmarTani Digital</a></p>
           </div>
         </div>
     </div>
 </nav>
 
-<div class="container md-12" id="navbar_top">
+<div id="navbar_top">
   <div class="row">
     <div class="nav-scroller">
       <div class="nav nav-justified">
-        <a class="nav-link text-white link-secondary active" id="produk-tab" data-bs-toggle="tab" data-bs-target="#produk" href="#">Toko</a>
-        <a class="nav-link text-white link-secondary " id="budidaya-tab" data-bs-toggle="tab" data-bs-target="#budidaya" href="#">Budidaya Tanaman</a>
+        <a class="nav-link text-white link-secondary active" id="budidaya-tab" data-bs-toggle="tab" data-bs-target="#budidaya" href="#">Blog</a>
         <a class="nav-link text-white link-secondary" id="book-tab" data-bs-toggle="tab" data-bs-target="#book" href="#">Ebook</a>
-        <a class="nav-link text-white link-secondary" id="photo-tab" data-bs-toggle="tab" data-bs-target="#photo" href="#">Agro Gallery</a>
-        <a class="nav-link text-white link-secondary" id="video-tab" data-bs-toggle="tab" data-bs-target="#video" href="#">Agro Video</a>
+        <a class="nav-link text-white link-secondary" id="photo-tab" data-bs-toggle="tab" data-bs-target="#photo" href="#">Gallery</a>
+        <a class="nav-link text-white link-secondary" id="video-tab" data-bs-toggle="tab" data-bs-target="#video" href="#">Video</a>
       </div>
     </div>
   </div>
 </div>
 
-<div id="blog-wrap">
+<div id="blog-wrap" align="center">
   <div id="hidden-div">
     <div style="padding:10px;height:62px;background-color:#2d2c4d">
       <form id="search-form" action="" method="POST" enctype="multipart/form-data" style="display:grid;grid-template-rows: 20px;grid-template-columns: 84% auto;grid-row-gap: 30px;grid-column-gap: 10px;">
@@ -175,27 +180,6 @@
    </div>
   </div>
 </div>
-
-<div class="offcanvas offcanvas-bottom bg-light" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel" style="height:450px">
-  <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Konfirmasi Pembayaran</h5>
-    <button type="button" class="btn-close close-checkout" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
-  <div class="offcanvas-body small" align="center">
-    <div class="mb-3">
-      <h1><b>Total Pembayaran</b></h1>
-      <div class="calculator-total">0</div>
-      <hr style="color:white;visibility: hidden">
-      <h6><strong>Scan barcode dibawah untuk melakukan pembayaran!</strong></h6>
-      <img src="assets/img/shareqr.png" width="100%" height="100%">
-      </div>
-      <hr style="color:white;visibility: hidden">
-      <div id="konfirmasi" class="container md-12" align="center">
-        
-      </div>
-      <hr style="color:white;visibility: hidden">
-  </div>
-</div>
   
 <div class="container">
   <div class="row header">
@@ -203,145 +187,24 @@
       <div class="row">
         <div class="col-md-8 kolom-satu">
           <div class="ads" align="center" style="display:none">
-          
+           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4394287295760476"
+                 crossorigin="anonymous"></script>
+            <!-- SmarTani Digital Ads Satu -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-4394287295760476"
+                 data-ad-slot="1377171364"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
           </div>
           
-          <div class="tab-content" id="tabContent">
-          <div class="tab-pane fade show active" id="produk" role="tabpanel" aria-labelledby="produk-tab">
-            <div class="mt-2 alert alert-primary" role="alert">
-            Halaman ini masih tahap pengembangan. Produk yang ditampilkan hanya sebagai contoh.
-            </div>
-            <h1 id="judul-home">Rekomendasi</h1>
-            <h1 id="judul-detail">Detail Produk</h1>
-          	<div class="row mt-2" id="filter">
-          		<form>
-          			<div class="form-group">
-          				<select data-filter="kategori" class="filter-kategori filter form-control form-select">
-          					<option value="">Kategori</option>
-          					<option value="">Show All</option>
-          				</select>
-          			</div>
-          		</form>
-          	</div>
-            <div>
-            <div class="mt-3 mb-3" id="products">
-                
-            </div>
-           </div>
-           <div class="container md-12" align="center">
-             <button class="tombol2" id="produk-lainnya">Produk Lainnya</button>
-            </div>
-            <hr style="color:white;visibility: hidden">
-            <div class="mt-10" id="detail-produk" style="display:none">
-              <div class="title-info">
-                <h1 class="inner-title-produk"></h1><br>
-              </div>
-              <div class="kategori-info">
-                <p class="inner-kategori"></p>
-                &#160;&#160;|&#160;&#160;Stok:&#160;<p class="inner-stok" style="color:blue;font-style:bold;font-size:16pt;margin-top:-1px"></p>
-              </div>
-              <div class="container mb-3">
-                <img src="" class="inner-foto-produk" width="100%" height="100%" >
-              </div>
-              <div class="container md-12" align="center">
-                <div class="harga-info" style="color:red;display:flex;padding-left:150px">
-                <p style="padding-top:5px">Rp</p>
-                <p class="inner-harga" style="font-size:16pt;color:red"></p>
-              </div>
-              </div>
-              <div class="container" align="center" style="display:none">
-                 <div class="b575-number-input number-input safari_only">
-                <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"></button>
-                <input class="quantity" id="quantity" min="0" name="quantity" value="1" type="number">
-                <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
-              </div>
-              </div>
-              <hr style="color:white;display:none">
-              <div class="body-info">
-                <div class="inner-deskripsi">
-                  
-                </div>
-                <hr style="color:white;visibility: hidden">
-                <div class="button-order" align="center">
-                  <a href="" class="btn-checkout inner-obj" data-obj=""><button class="btn-order"><i class="fab fa-whatsapp"></i>&nbsp;&nbsp;Order via Chat</button></a>
-                  <a href="" class="inner-marketplace"><button class="btn-order"><i class="fas fa-shopping-cart"></i>&nbsp;&nbsp;Beli via Marketplace</button></a>
-                </div>
-                <div class="button-info">
-                  <button class="tombol prev-produk">Previous</button>
-                  <button class="tombol close-produk">Close</button>
-                  <button class="tombol next-produk">Next</button>
-                </div>
-              </div> 
-            </div>
-            <div class="mb-2" id="checkout-produk" style="display:none">
-              <div id="judul-checkout">
-                <h1 style="margin-bottom:-1px">Form Pemesanan Produk</h1>
-              </div>
-              <div class="body-info mt-2">
-                <section id="contact">
-                  <div class="container">
-                    <div class="row justify-content-center">
-                      <div class="col-md-12">
-                        <form name="maspannn-form-order" action="#" class="calculator" onsubmit="return false">
-                          <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
-                          <strong>Terima Kasih!</strong> Pesanan anda sudah kami terima.
-                          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                          </div>
-                          <div class="mb-3">
-                            <label for="name" class="form-label"><b>Nama Lengkap</b></label>
-                            <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" placeholder="Tulis nama lengkap" value=""/>
-                          </div>
-                          <div class="mb-3">
-                            <label for="phone" class="form-label"><b>No WhatsApp</b></label>
-                            <input type="phone" class="form-control" id="phone" aria-describedby="phone" name="phone" placeholder="62897xxxxxxx" value="">
-                          </div>
-                          <div class="mb-3">
-                            <label for="alamat_1" class="form-label"><b>Alamat I</b></label>
-                            <textarea class="form-control" id="alamat_1" rows="3" name="alamat_1" placeholder="Tulis alamat lengkap" value=""></textarea>
-                          </div>
-                          <div class="mb-3">
-                            <label for="alamat_2" class="form-label"><b>Alamat II</b></label>
-                            <textarea class="form-control" id="alamat_2" rows="3" name="alamat_2" placeholder="Detail Lainnya (Cth: Blok/Unit,  No., Patokan)" value=""></textarea>
-                          </div>
-                          <hr style="color:white;visibility: hidden">
-                          <div class="mb-3">
-                            <label for="produk" class="form-label"><b>Nama Produk</b></label>
-                            <input class="form-control inner-nama-produk" id="produk" name="produk" aria-describedby="produk" value="" readonly>
-                          </div>
-                          <div class="mb-3">
-                          <label class="form-label" for="harga"><b>Harga Produk</b></label><input type="text" id="harga" class="form-control inner-harga-produk" name="harga" autocomplete="off" value="" readonly>
-                          </div>
-                          <div class="mb-3">
-                          <label class="form-label" for="ongkir"><b>Subtotal Pengiriman</b></label><input class="form-control inner-ongkir-produk" type="text" id="ongkir" name="ongkir" autocomplete="off" value="" readonly>
-                          </div>
-                          <div class="mb-3">
-                          <label class="form-label" for="qty"><b>Quantity *</b></label><input class="form-control" type="text" id="qty" name="qty">
-                          </div>
-                          <hr style="color:white;visibility: hidden">
-                          <div class="mb-3">
-                            <label for="catatan" class="form-label"><b>Catatan</b></label>
-                            <textarea class="form-control" id="catatan" rows="4" name="catatan" placeholder="Tulis catatan tambahan" value""></textarea>
-                          </div>
-                          <button type="submit" class="btn btn-primary btn-kirim" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom">Kirim</button>
-                          <button class="btn btn-primary btn-loading d-none" type="button" disabled>
-                            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                            Loading...
-                          </button>
-                        </form>
-                        <hr style="color:white;visibility: hidden">
-                      </div>
-                    </div>
-                  </div>
-                </section>
-                <div class="container md-12" align="center">
-                  <button class="tombol3 close-checkout">Kembali</button>
-                 </div>
-              </div>
-            </div> 
-          </div>
+        <div class="tab-content" id="tabContent">
           <div class="tab-pane fade" id="book" role="tabpanel" aria-labelledby="book-tab">
               <div class="mb-20">
-                <h1 id="judul-awal">Koleksi Ebook Pertanian</h1><br \>
+                <p id="judul-awal">Koleksi Ebook Pertanian</p><br \>
                 <div class="mt-1 mb-4" align="center">
           	      <input type="text" id="cariEbook" placeholder="Cari ebook..." onkeyup="mySearchBook()"/>
           	    </div>
@@ -357,7 +220,7 @@
                 <hr style="color:white;visibility: hidden">
                 <div class="mt-20" id="daftar-ebook" style="display:none">
                 <div class="title-info">
-                <h1 class="inner-nama-ebook" style="font-size:17pt;margin-top:-75px;padding-left:5px"></h1><br>
+                <p class="inner-nama-ebook" style="font-size:17pt;margin-top:-75px;padding-left:5px"></p><br>
                 </div>
                 <div class="body-info">
                   <div class="inner-deskripsi-ebook">
@@ -379,7 +242,7 @@
           </div>
           <div class="tab-pane fade" id="photo" role="tabpanel" aria-labelledby="photo-tab">
               <div class="mb-5">
-                <h1 id="judul-awal">Agro Gallery</h1><br \>
+                <p id="judul-awal">Agro Gallery</p><br \>
                 <div>
                   <div id="list-photo">
                   
@@ -393,7 +256,7 @@
           </div>
           <div class="tab-pane fade" id="video" role="tabpanel" aria-labelledby="video-tab">
               <div class="mb-5">
-                <h1 id="judul-awal">Agro Video</h1><br \>
+                <p id="judul-awal">Agro Video</p><br \>
                 <div>
                   <div id="list-video" align="center">
                   
@@ -405,8 +268,8 @@
                 </div>
               </div> 
           </div>
-          <div class="tab-pane fade" id="budidaya" role="tabpanel" aria-labelledby="budidaya-tab" >
-              <h1 id="judul-awal">Teknologi Budidaya Tanaman</h1><br \>
+          <div class="tab-pane fade show active" id="budidaya" role="tabpanel" aria-labelledby="budidaya-tab" >
+              <p id="judul-awal">Artikel Terbaru</p><br \>
               <div id="page-post">
         	    <div id="search-bar" align="center">
         	      <input type="text" id="cariTanaman" placeholder="Cari artikel..." onkeyup="mySearch()" style="margin-top:-25px"/>
@@ -423,7 +286,7 @@
               <hr style="color:white;visibility: hidden">
               <div class="mt-2" id="post-blog" style="display:none">
                 <div class="title-info">
-                  <h1 class="inner-title"></h1><br>
+                  <p class="inner-title"></p><br>
                 </div>
                 <div class="date-info">
                   <p>SmarTani Digital &#160;-&#160;&#160;</p>
@@ -445,25 +308,6 @@
               </div>
             </div>
           </div>
-        <div id="disqus_thread"></div>
-        <script>
-            /**
-            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-            /*
-            var disqus_config = function () {
-            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-            };
-            */
-            (function() { // DON'T EDIT BELOW THIS LINE
-            var d = document, s = d.createElement('script');
-            s.src = 'https://maspannn.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
-            })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
          </div>
         </div>
         <div class="col-md-4 kolom-dua" >
@@ -476,8 +320,19 @@
                  <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/947840/t/1"></script>
               </div>
             </div>
-            <div class="iklan" style="display:none">
-              
+            <div class="" style="display:none">
+              <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4394287295760476"
+                 crossorigin="anonymous"></script>
+            <!-- SmarTani Digital Ads Satu -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-4394287295760476"
+                 data-ad-slot="1377171364"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
             </div>
             <hr style="color:white;visibility: hidden">
             <h5 align="center" id="judul-awal">Mengenai Saya</h5>
@@ -492,29 +347,19 @@
                 <i class="fas fa-map-marker-alt"></i>&nbsp;Indonesia
               </div>
               <div class="profil-desc">
-                <p>Front End Developer | Data Collection | Web Scraping | IT Enthusiast</p>
+                <p>SMARTani Digital adalah platform blog yang bergerak dalam bidang pertanian. Disini kalian akan mendapatkan banyak Ilmu tentang pertanian. Selain itu disini kalian juga bisa mendapatkan banyak ebook dan informasi mengenai teknik budidaya tanaman dengan baik dan benar.</p>
+                <p>Semua informasi disini diolah dari berbagai sumber. Dengan merujuk jurnal dan buku sebagai sumber informasi yang terpercaya. </p>
               </div>
             </div>
-           
            </div>
           </div> 
-          
-          <div class="tab-pane fade" id="dataset" role="tabpanel" aria-labelledby="dataset-tab" style="display:none">
-            <h1 id="judul-awal">Dataset Pesanan Produk</h1><br \>
-              <div class="container md-12">
-                <embed class="container" type="text/html" src="https://script.google.com/macros/s/AKfycbxbeimruOpjz368uomoKJ0C7BN6orpyI6B20bs4fpY61eU_OVRj/exec" width="100%" height="400px">
-              </div>   
-          </div>
-          
         </div>
-      </div>
+       </div>
       </div> 
-      </div>
-    
-      
-     </div>
     </div>
-   </div>
+  </div>
+ </div>
+</div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
@@ -522,7 +367,6 @@
     <script src="assets/js/budidaya.js"></script>
     <script src="assets/js/book.js"></script>
     <script src="assets/js/photo.js"></script>
-    <script src="assets/js/produk.js"></script>
     <script src="assets/js/video.js"></script>
 
     <script>
@@ -569,6 +413,15 @@
           } 
       });
     }); 
+   </script>
+   
+   <script>
+     $('#blog-click').click(function () {
+        $('#blog-wrap #hidden-div').slideToggle({
+          direction: "up"
+        }, 200);
+        $(this).toggleClass('clientsClose');
+    });
    </script>
    
 </body>
