@@ -82,9 +82,3 @@ $(document).ready(function(){
 $("#photo-lainnya").on("click", function() {
   $(window).scrollTop(0);
 });
-
-$(document).ready(function(){
-jQuery('img').each(function(){
-jQuery(this).attr('src',jQuery(this).attr('src')+ '?' + (new Date()).getTime());
-});
-});
