@@ -406,7 +406,7 @@ function dissBtn(){
 $(document).ready(function(){
 
       var list = $("#list-tanaman #artikel");
-      var numToShow = 10;
+      var numToShow = 6;
       var button = $("#tanaman-lainnya");
       var numInList = list.length;
       list.hide();

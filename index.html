@@ -66,7 +66,7 @@
         <span class="smartbanner-icon"></span>
         <div class="smartbanner-info">
             <div class="smartbanner-title">SmarTani Digital</div>
-            <div>Belajar Pertanian Nyaman Dalam Satu Genggaman</div>
+            <div>Belajar & Belanja Kebutuhan Pertanian Lebih Nyaman</div>
         </div>
         <a href="./SmarTani_Digital.apk" class="smartbanner-button">
             <span class="smartbanner-button-text">INSTALL</span>
@@ -157,7 +157,8 @@
   <div class="row">
     <div class="nav-scroller">
       <div class="nav nav-justified">
-        <a class="nav-link text-white link-secondary active" id="budidaya-tab" data-bs-toggle="tab" data-bs-target="#budidaya" href="#">Blog</a>
+        <a class="nav-link text-white link-secondary active" id="produk-tab" data-bs-toggle="tab" data-bs-target="#produk" href="#">Toko</a>
+        <a class="nav-link text-white link-secondary " id="budidaya-tab" data-bs-toggle="tab" data-bs-target="#budidaya" href="#">Blog</a>
         <a class="nav-link text-white link-secondary" id="book-tab" data-bs-toggle="tab" data-bs-target="#book" href="#">Ebook</a>
         <a class="nav-link text-white link-secondary" id="photo-tab" data-bs-toggle="tab" data-bs-target="#photo" href="#">Gallery</a>
         <a class="nav-link text-white link-secondary" id="video-tab" data-bs-toggle="tab" data-bs-target="#video" href="#">Video</a>
@@ -178,6 +179,27 @@
   			</div>
   		</form>
    </div>
+  </div>
+</div>
+
+<div class="offcanvas offcanvas-bottom bg-light" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel" style="height:450px">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Konfirmasi Pembayaran</h5>
+    <button type="button" class="btn-close close-checkout" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body small" align="center">
+    <div class="mb-3">
+      <p style="font-size:18pt"><b>Total Pembayaran</b></p>
+      <div class="calculator-total">0</div>
+      <hr style="color:white;visibility: hidden">
+      <h6><strong>Scan barcode dibawah untuk melakukan pembayaran!</strong></h6>
+      <img src="assets/img/shareqr.png" width="100%" height="100%">
+      </div>
+      <hr style="color:white;visibility: hidden">
+      <div id="konfirmasi" class="container md-12" align="center">
+        
+      </div>
+      <hr style="color:white;visibility: hidden">
   </div>
 </div>
   
@@ -201,7 +223,150 @@
             </script>
           </div>
           
-        <div class="tab-content" id="tabContent">
+          <div class="tab-content" id="tabContent">
+          <div class="tab-pane fade show active" id="produk" role="tabpanel" aria-labelledby="produk-tab">
+            <div class="mt-2 alert alert-primary" role="alert">
+            Halaman ini masih tahap pengembangan. Produk yang ditampilkan hanya sebagai contoh.
+            </div>
+            <p id="judul-home">Rekomendasi</p>
+            <p id="judul-detail">Detail Produk</p>
+          	<div class="row mt-2" id="filter">
+          		<form>
+          			<div class="form-group">
+          				<select data-filter="kategori" class="filter-kategori filter form-control form-select">
+          					<option value="">Kategori</option>
+          					<option value="">Show All</option>
+          				</select>
+          			</div>
+          		</form>
+          	</div>
+            <div>
+            <div class="mt-3 mb-3" id="products">
+            
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-format="fluid"
+                 data-ad-layout-key="+1q+s6-1k-2w+be"
+                 data-ad-client="ca-pub-4394287295760476"
+                 data-ad-slot="8639200822"></ins>
+            </div>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4394287295760476"
+                 crossorigin="anonymous"></script>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+           </div>
+           <div class="container md-12" align="center">
+             <button class="tombol2" id="produk-lainnya">Produk Lainnya</button>
+            </div>
+            <hr style="color:white;visibility: hidden">
+            <div class="mt-10" id="detail-produk" style="display:none">
+              <div class="title-info">
+                <p class="inner-title-produk"></p><br>
+              </div>
+              <div class="kategori-info">
+                <p class="inner-kategori"></p>
+                &#160;&#160;|&#160;&#160;Stok:&#160;<p class="inner-stok" style="color:blue;font-style:bold;font-size:16pt;margin-top:-1px"></p>
+              </div>
+              <div class="container mb-3">
+                <img src="" class="inner-foto-produk" width="100%" height="100%" >
+              </div>
+              <div class="container md-12" align="center">
+                <div class="harga-info" style="color:red;display:flex;padding-left:150px">
+                <p style="padding-top:5px">Rp</p>
+                <p class="inner-harga" style="font-size:16pt;color:red"></p>
+              </div>
+              </div>
+              <div class="container" align="center" style="display:none">
+                 <div class="b575-number-input number-input safari_only">
+                <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"></button>
+                <input class="quantity" id="quantity" min="0" name="quantity" value="1" type="number">
+                <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+              </div>
+              </div>
+              <hr style="color:white;display:none">
+              <div class="body-info">
+                <div class="inner-deskripsi">
+                  
+                </div>
+                <hr style="color:white;visibility: hidden">
+                <div class="button-order" align="center">
+                  <a href="" class="btn-checkout inner-obj" data-obj=""><button class="btn-order"><i class="fab fa-whatsapp"></i>&nbsp;&nbsp;Order via Chat</button></a>
+                  <a href="" class="inner-marketplace"><button class="btn-order"><i class="fas fa-shopping-cart"></i>&nbsp;&nbsp;Beli via Marketplace</button></a>
+                </div>
+                <div class="button-info">
+                  <button class="tombol prev-produk">Previous</button>
+                  <button class="tombol close-produk">Close</button>
+                  <button class="tombol next-produk">Next</button>
+                </div>
+              </div> 
+            </div>
+            <div class="mb-2" id="checkout-produk" style="display:none">
+              <div id="judul-checkout">
+                <p style="margin-bottom:-1px">Form Pemesanan Produk</p>
+              </div>
+              <div class="body-info mt-2">
+                <section id="contact">
+                  <div class="container">
+                    <div class="row justify-content-center">
+                      <div class="col-md-12">
+                        <form name="maspannn-form-order" action="#" class="calculator" onsubmit="return false">
+                          <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+                          <strong>Terima Kasih!</strong> Pesanan anda sudah kami terima.
+                          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                          </div>
+                          <div class="mb-3">
+                            <label for="name" class="form-label">Nama Lengkap</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" placeholder="Tulis nama lengkap" value=""/>
+                          </div>
+                          <div class="mb-3">
+                            <label for="phone" class="form-label">No WhatsApp</label>
+                            <input type="phone" class="form-control" id="phone" aria-describedby="phone" name="phone" placeholder="62897xxxxxxx" value="">
+                          </div>
+                          <div class="mb-3">
+                            <label for="alamat_1" class="form-label">Alamat I</label>
+                            <textarea class="form-control" id="alamat_1" rows="3" name="alamat_1" placeholder="Tulis alamat lengkap" value=""></textarea>
+                          </div>
+                          <div class="mb-3">
+                            <label for="alamat_2" class="form-label">Alamat II</label>
+                            <textarea class="form-control" id="alamat_2" rows="3" name="alamat_2" placeholder="Detail Lainnya (Cth: Blok/Unit,  No., Patokan)" value=""></textarea>
+                          </div>
+                          <hr style="color:white;visibility: hidden">
+                          <div class="mb-3">
+                            <label for="produk" class="form-label">Nama Produk</label>
+                            <input class="form-control inner-nama-produk" id="produk" name="produk" aria-describedby="produk" value="" readonly>
+                          </div>
+                          <div class="mb-3">
+                          <label class="form-label" for="harga"></label>Harga Produk</label><input type="text" id="harga" class="form-control inner-harga-produk" name="harga" autocomplete="off" value="" readonly>
+                          </div>
+                          <div class="mb-3">
+                          <label class="form-label" for="ongkir">Subtotal Pengiriman</label><input class="form-control inner-ongkir-produk" type="text" id="ongkir" name="ongkir" autocomplete="off" value="" readonly>
+                          </div>
+                          <div class="mb-3">
+                          <label class="form-label" for="qty">Quantity *</label><input class="form-control" type="text" id="qty" name="qty">
+                          </div>
+                          <hr style="color:white;visibility: hidden">
+                          <div class="mb-3">
+                            <label for="catatan" class="form-label">Catatan</label>
+                            <textarea class="form-control" id="catatan" rows="4" name="catatan" placeholder="Tulis catatan tambahan" value""></textarea>
+                          </div>
+                          <button type="submit" class="btn btn-primary btn-kirim" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom">Kirim</button>
+                          <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                            Loading...
+                          </button>
+                        </form>
+                        <hr style="color:white;visibility: hidden">
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <div class="container md-12" align="center">
+                  <button class="tombol3 close-checkout">Kembali</button>
+                 </div>
+              </div>
+            </div> 
+          </div>
           <div class="tab-pane fade" id="book" role="tabpanel" aria-labelledby="book-tab">
               <div class="mb-20">
                 <p id="judul-awal">Koleksi Ebook Pertanian</p><br \>
@@ -268,7 +433,7 @@
                 </div>
               </div> 
           </div>
-          <div class="tab-pane fade show active" id="budidaya" role="tabpanel" aria-labelledby="budidaya-tab" >
+          <div class="tab-pane fade" id="budidaya" role="tabpanel" aria-labelledby="budidaya-tab" >
               <p id="judul-awal">Artikel Terbaru</p><br \>
               <div id="page-post">
         	    <div id="search-bar" align="center">
@@ -347,19 +512,31 @@
                 <i class="fas fa-map-marker-alt"></i>&nbsp;Indonesia
               </div>
               <div class="profil-desc">
-                <p>SMARTani Digital adalah platform blog yang bergerak dalam bidang pertanian. Disini kalian akan mendapatkan banyak Ilmu tentang pertanian. Selain itu disini kalian juga bisa mendapatkan banyak ebook dan informasi mengenai teknik budidaya tanaman dengan baik dan benar.</p>
+                <p>SMARTani Digital adalah platform blog yang bergerak dalam bidang pertanian.</p>
+                <p>Disini kalian akan mendapatkan banyak ilmu tentang pertanian. Selain itu kalian juga bisa mendapatkan banyak ebook dan informasi mengenai teknik budidaya tanaman dengan baik dan benar.</p>
                 <p>Semua informasi disini diolah dari berbagai sumber. Dengan merujuk jurnal dan buku sebagai sumber informasi yang terpercaya. </p>
               </div>
             </div>
+           
            </div>
           </div> 
+          
+          <div class="tab-pane fade" id="dataset" role="tabpanel" aria-labelledby="dataset-tab" style="display:none">
+            <p id="judul-awal">Dataset Pesanan Produk</p><br \>
+              <div class="container md-12">
+                <embed class="container" type="text/html" src="https://script.google.com/macros/s/AKfycbxbeimruOpjz368uomoKJ0C7BN6orpyI6B20bs4fpY61eU_OVRj/exec" width="100%" height="400px">
+              </div>   
+          </div>
+          
         </div>
-       </div>
+      </div>
       </div> 
+      </div>
+    
+      
+     </div>
     </div>
-  </div>
- </div>
-</div>
+   </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
@@ -367,6 +544,7 @@
     <script src="assets/js/budidaya.js"></script>
     <script src="assets/js/book.js"></script>
     <script src="assets/js/photo.js"></script>
+    <script src="assets/js/produk.js"></script>
     <script src="assets/js/video.js"></script>
 
     <script>
@@ -413,15 +591,6 @@
           } 
       });
     }); 
-   </script>
-   
-   <script>
-     $('#blog-click').click(function () {
-        $('#blog-wrap #hidden-div').slideToggle({
-          direction: "up"
-        }, 200);
-        $(this).toggleClass('clientsClose');
-    });
    </script>
    
 </body>
