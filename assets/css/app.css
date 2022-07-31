@@ -39,7 +39,6 @@ html, body {
   color:white;
   width:20px;
   height:20px;
-  margin-left:10px;
   margin-top:-5px;
 }
 .navbar .navbar-toggler[aria-expanded="false"] {
@@ -48,9 +47,12 @@ color: #2d2c4d!important;
 .navbar .navbar-toggler:focus{
 color: #2d2c4d;
 }
-.navbar-brand {
-  margin-left:10px;
+.navbar {
+  background-color: #2d2c4d;
+  height: 50px;
+  margin-top:-10px;
 }
+
 div {
   border-color: transparent;
 }
@@ -63,14 +65,7 @@ h1 {
   font-size:14pt;
   font-style:bold;
 }
-.navbar {
-  background-color: #2d2c4d;
-  height: 50px;
-  margin-top:-10px;
-}
-.navbar-brand {
-  margin-left:-5px;
-}
+
 div.tab-container a {
   display: inline-block;
   color: white;
@@ -418,7 +413,7 @@ div.dark {
 .profil-desc {
   padding: 5px;
   text-align:left;
-  font-size:10pt;
+  font-size:11pt;
 }
 @charset "UTF-8";
 .svg-inline--fa {
