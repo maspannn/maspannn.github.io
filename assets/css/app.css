@@ -1,6 +1,7 @@
 html, body {
   overflow-x: hidden;
   padding-top:30px;
+  padding-bottom:20px;
   width:100%;
 }
 .offcanvas {
@@ -38,7 +39,7 @@ html, body {
   color:white;
   width:20px;
   height:20px;
-  margin-left:-5px;
+  margin-left:10px;
   margin-top:-5px;
 }
 .navbar .navbar-toggler[aria-expanded="false"] {
@@ -48,7 +49,7 @@ color: #2d2c4d!important;
 color: #2d2c4d;
 }
 .navbar-brand {
-  margin-left:5px;
+  margin-left:10px;
 }
 div {
   border-color: transparent;
@@ -87,7 +88,7 @@ div.tab-container a {
   text-align: center;
   border-radius: 4px;
   position: fixed;
-  bottom: 30px;
+  bottom: 20px;
   right: 20px;
   transition: background-color .3s, 
   opacity .5s, visibility .5s;
@@ -125,9 +126,14 @@ div.dark {
   background-color: #292c35;
   color: white;
 }
+.cariArtikel {
+  margin-right:15px;
+  margin-top:15px;
+}
 .darkmode {
   padding:8px;
-  margin-right:-80px;
+  margin-right:15px;
+  margin-top:13px;
 }
 .checkbox {
   opacity: 0;
@@ -169,44 +175,6 @@ div.dark {
   margin-left:-7px;
 }
 
-#cariTanaman {
-  width: 80%;
-  margin-top:-20px;
-  font-size: 14px;
-  border: 1px solid #ddd;
-  border-radius:20px;
-  line-height: 1.5;
-  background: #E9EEF0;
-  border: 1px solid #D5D9DB;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path fill='%238C92A0' d='M11.44 10.73l4.41 4.42a.5.5 0 1 1-.7.7l-4.42-4.41a6.5 6.5 0 1 1 .7-.7v-.01zM6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11z'></path></svg>");
-  background-repeat: no-repeat;
-  background-position: 15px 10px;
-  background-size: 18px 18px;
-  width: 300px;
-  padding: .5em 1em .5em 2.5em;
-} 
-#cariTanaman::placeholder{
-  color: #838D99;
-}
-#cariTanaman:focus {
-  outline: none;
-  background-color: #FFF;
-  border: 1px solid #84A2FA;
-}
-#list-tanaman {
-  width: 100%;
-  padding-top: 20px;
-  list-style: none;
-  display: grid;
-  grid-template-rows: 210px auto;
-  grid-template-columns: 50% auto;
-  grid-row-gap: 10px;
-  grid-column-gap: 10px; 
-}
-h6 {
-  font-size:11pt;
-}
-
 #cariEbook {
   width: 80%;
   margin-top:-20px;
@@ -219,7 +187,7 @@ h6 {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path fill='%238C92A0' d='M11.44 10.73l4.41 4.42a.5.5 0 1 1-.7.7l-4.42-4.41a6.5 6.5 0 1 1 .7-.7v-.01zM6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11z'></path></svg>");
   background-repeat: no-repeat;
   background-position: 15px 10px;
-  background-size: 18px 18px;
+  background-size: 16px 16px;
   width: 300px;
   padding: .5em 1em .5em 2.5em;
 } 
@@ -237,7 +205,7 @@ h6 {
   padding-bottom: 0px;
   list-style: none;
   display: grid;
-  grid-template-rows: 108px;
+  grid-template-rows: 114px;
   grid-template-columns: 100%;
   grid-row-gap: 10px;
   grid-column-gap: 10px; 
@@ -246,10 +214,10 @@ h6 {
   padding-top:5px;
   margin-left:-5px;
   margin-bottom:-5px;
-  font-size:8pt;
-  color:black;
-  height:50px;
+  font-size:7pt;
+  height:65px;
   overflow: hidden;
+  font-weight: 100;
   text-overflow: ellipsis;
   display: -webkit-box;
      -webkit-line-clamp: 3;
@@ -262,12 +230,12 @@ h6 {
   margin-left:-5px;
   overflow: hidden;
   font-size: 10pt;
-  height:35px;
+  height:25px;
   text-transform: capitalize;
   text-overflow: ellipsis;
   display: -webkit-box;
-     -webkit-line-clamp: 2;
-             line-clamp: 2; 
+     -webkit-line-clamp: 1;
+             line-clamp: 1; 
      -webkit-box-orient: vertical;
 }
 
@@ -282,8 +250,44 @@ h6 {
   display: block;
   width: 100%;
 }
+
+#cariTanaman {
+  width: 80%;
+  margin-top:-20px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius:20px;
+  line-height: 1.5;
+  background: #E9EEF0;
+  border: 1px solid #D5D9DB;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path fill='%238C92A0' d='M11.44 10.73l4.41 4.42a.5.5 0 1 1-.7.7l-4.42-4.41a6.5 6.5 0 1 1 .7-.7v-.01zM6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11z'></path></svg>");
+  background-repeat: no-repeat;
+  background-position: 15px 10px;
+  background-size: 16px 16px;
+  width: 300px;
+  padding: .5em 1em .5em 2.5em;
+} 
+#cariTanaman::placeholder{
+  color: #838D99;
+}
+#cariTanaman:focus {
+  outline: none;
+  background-color: #FFF;
+  border: 1px solid #84A2FA;
+}
+#list-tanaman {
+  width: 100%;
+  padding-top: 20px;
+  list-style: none;
+  display: grid;
+  grid-template-rows: 216px auto;
+  grid-template-columns: 50% auto;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px; 
+}
+
 .judul-post {
-  height:35px;
+  height:40px;
   margin-left:-5px;
   margin-bottom:-10px;
   margin-top:-8px;
@@ -412,9 +416,9 @@ h6 {
   float: center;
 }
 .profil-desc {
-  padding-top: 20px;
-  padding: 20px;
+  padding: 5px;
   text-align:left;
+  font-size:10pt;
 }
 @charset "UTF-8";
 .svg-inline--fa {
@@ -558,10 +562,10 @@ h6 {
   background:#212529;
   padding:10px;
   color:white;
-  font-size:16pt;
-  font-style: bold;
+  font-size:15pt;
   margin-top:10px;
   border-radius:5px;
+  text-align: center;
 }
 
 .btn-download {

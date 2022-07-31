@@ -423,10 +423,10 @@ for (i=0; i<ebookLength; i++) {
       '<div class="card shadow" style="width:100%">'+
       '<a class="button-ebook" href="'+ebook[i].id+'" data-obj="'+i+'">'+
       '<div class="card-body">'+
-      '<div class="card-text nama-ebook"><h6>'+ ebook[i].title +'</h6></div>'+
-      '<div class="desc-ebook"><h7>'+ ebook[i].deskripsi+'</h7>'+
-      '</div>'+
+      '<div class="card-text nama-ebook"><h5>'+ ebook[i].title +'</h5></div>'+
       '</a>' +
+      '<div class="desc-ebook"><h6>'+ ebook[i].deskripsi+'</h6>'+
+      '</div>'+
       '</div>'+
     '</div>';
   $("#list-ebook").append(listItemebook);
@@ -435,7 +435,7 @@ for (i=0; i<ebookLength; i++) {
 $(document).ready(function(){
 
       var list = $("#list-ebook #data-book");
-      var numToShow = 6;
+      var numToShow = 10;
       var button = $("#ebook-lainnya");
       var numInList = list.length;
       list.hide();
@@ -469,10 +469,10 @@ $(function() {
   });
 });
 
-$("#ebook-lainnya").on("click", function() {
+$("#ebook-lainnya #cariEbook").on("click", function() {
     $("#list-ebook").css({"display":"block"});
     $("#list-ebook").css({"display":"grid"});
-    $("#list-ebook").css({"grid-template-rows":"108px"});
+    $("#list-ebook").css({"grid-template-rows":"114px"});
     $("#list-ebook").css({"grid-template-columns":"100%"});
     $("#list-ebook").css({"grid-row-gap":"10px"});
     $("#list-ebook").css({"grid-column-gap":"10px"});
@@ -503,7 +503,7 @@ $(".close-ebook").click(function(){
   $("#cariEbook").css({"display":"block"});
   $("#list-ebook").css({"display":"block"});
   $("#list-ebook").css({"display":"grid"});
-  $("#list-ebook").css({"grid-template-rows":"108px"});
+  $("#list-ebook").css({"grid-template-rows":"114px"});
   $("#ebook-lainnya").css({"display":"block"});
   $("#daftar-ebook").css({"display":"none"});
   $(window).scrollTop(0);

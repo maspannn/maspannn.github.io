@@ -359,16 +359,13 @@ $(".close-post, .modal-sandbox").click(function(){
   $("#list-tanaman").css({"display":"block"});
   $("#tanaman-lainnya").css({"display":"block"});
   $("#post-blog").css({"display":"none"});
-  $(".slider").css({"display":"block"});
-  $("#judul-awal").css({"display":"block"});
   $("#list-tanaman").css({"width":"100%"});
   $("#list-tanaman").css({"padding-top":"20px"});
   $("#list-tanaman").css({"display":"grid"});
-  $("#list-tanaman").css({"grid-template-rows":"210px auto"});
+  $("#list-tanaman").css({"grid-template-rows":"216px auto"});
   $("#list-tanaman").css({"grid-template-columns":"50% auto"});
   $("#list-tanaman").css({"grid-row-gap":"10px"});
   $("#list-tanaman").css({"grid-column-gap":"10px"});
-  $("#peta-pertanian").css({"display":"none"});
   $("#judul-awal").css({"display":"none"});
 });
 
@@ -406,7 +403,7 @@ function dissBtn(){
 $(document).ready(function(){
 
       var list = $("#list-tanaman #artikel");
-      var numToShow = 6;
+      var numToShow = 10;
       var button = $("#tanaman-lainnya");
       var numInList = list.length;
       list.hide();
@@ -441,15 +438,11 @@ $(function() {
   });
 });
 
-$("#cariTanaman").on("click", function() {
-    $("#list-tanaman").css({"grid-template-rows":"210px auto"});
-});
-
-$("#tanaman-lainnya").on("click", function() {
+$("#tanaman-lainnya #cariTanaman").on("click", function() {
   $("#list-tanaman").css({"width":"100%"});
   $("#list-tanaman").css({"padding-top":"20px"});
   $("#list-tanaman").css({"display":"grid"});
-  $("#list-tanaman").css({"grid-template-rows":"210px auto"});
+  $("#list-tanaman").css({"grid-template-rows":"216px auto"});
   $("#list-tanaman").css({"grid-template-columns":"50% auto"});
   $("#list-tanaman").css({"grid-row-gap":"10px"});
   $("#list-tanaman").css({"grid-column-gap":"10px"});

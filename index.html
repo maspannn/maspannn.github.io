@@ -69,15 +69,15 @@
   
 <a id="btn-scroll"></a>
 
-<nav class="navbar navbar-expand-lg">
-  <div class="container-fluid" style="color:white">
+<nav class="container navbar navbar-expand-lg">
+  <div style="color:white">
       <a class="navbar-brand" href="#" >
         <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" >
           <span class="text-white navbar-toggler-icon"></span>
           <span style="color:white;margin-left:10px;font-family: 'Source Sans Pro', sans-serif;font-size:16pt">SmarTani Digital</span>
         </button>
       </a>
-      <div class="darkmode">
+      <div class="darkmode position-absolute top-0 end-0">
         <input type="checkbox" class="checkbox" id="checkbox">
         <label for="checkbox" class="label">
           <i class="fas fa-sun"></i>
@@ -85,7 +85,7 @@
           <div class="ball"></div>
         </label>
       </div>
-      <span class="material-symbols-outlined" id="blog-click">search</span>
+      <span class="material-symbols-outlined position-absolute top-0 end-0 cariArtikel d-none" id="blog-click">search</span>
     </div>
 
       <div class="offcanvas offcanvas-start text-white" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label" style="width:320px">
@@ -148,7 +148,7 @@
     </div>
 </nav>
 
-<div id="navbar_top">
+<div class="container" id="navbar_top">
   <div class="row">
     <div class="nav-scroller">
       <div class="nav nav-justified">
@@ -166,7 +166,7 @@
     <div style="padding:10px;height:62px;background-color:#2d2c4d">
       <form id="search-form" action="" method="POST" enctype="multipart/form-data" style="display:grid;grid-template-rows: 20px;grid-template-columns: 84% auto;grid-row-gap: 30px;grid-column-gap: 10px;">
   			<div class="form-group">
-  				<input class="form-control" type="text" placeholder="Cari produk..." id="search-produk"/>
+  				<input class="form-control" type="text" placeholder="Cari tanaman..." id="search-produk"/>
   			</div>
   			<div class="form-group">
   				<button type="submit" class="btn btn-block btn-primary">Cari</button>
@@ -199,8 +199,8 @@
         <div class="tab-content" id="tabContent">
           <div class="tab-pane fade" id="book" role="tabpanel" aria-labelledby="book-tab">
               <div style="margin-bottom:10px">
-                <p id="judul-awal">Koleksi Ebook Pertanian</p><br \>
-                <div class="mt-1 mb-4" align="center">
+                <p class="mt-10" id="judul-awal">Koleksi Ebook Pertanian</p><br \>
+                <div class="mb-4" align="center">
           	      <input type="text" id="cariEbook" placeholder="Cari ebook..." onkeyup="mySearchBook()"/>
           	    </div>
                 <div class="flex">
@@ -264,10 +264,10 @@
               </div> 
           </div>
           <div class="tab-pane fade show active" id="budidaya" role="tabpanel" aria-labelledby="budidaya-tab" >
-              <p id="judul-awal">Artikel Terbaru</p><br \>
+              <p id="judul-awal">Teknologi Budidaya Tanaman</p><br \>
               <div id="page-post" style="margin-bottom:-10px">
         	    <div id="search-bar" align="center">
-        	      <input type="text" id="cariTanaman" placeholder="Cari artikel..." onkeyup="mySearch()" style="margin-top:-25px"/>
+        	      <input type="text" id="cariTanaman" placeholder="Cari tanaman..." onkeyup="mySearch()" style="margin-top:-25px"/>
         	    </div>
         	    <div>
                 <div id="list-tanaman" align="center">
@@ -307,9 +307,9 @@
         </div>
         <div class="col-md-4 kolom-dua" >
           <div>
-            <h5 align="center" id="judul-awal">Jumlah Pengunjung</h5>
+            <div align="center" id="judul-awal">Pengunjung</div>
             <div class="counter" align="center">
-              <h6 align="center" id="date" style="font-weight:400;"></h6>
+              <div align="center" id="date" style="font-weight:400;"></div>
               <div id="hit-counter" align="center">
                  <a href='https://www.symptoma.es/'>symptom checker</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=dd525804422f0e150e3f68d08f2131ffe15db53b'></script>
                  <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/947840/t/1"></script>
@@ -330,17 +330,18 @@
             </script>
             </div>
             <hr style="color:white;visibility: hidden">
-            <h5 align="center" id="judul-awal">Mengenai Saya</h5>
+            <div align="center" id="judul-awal">Mengenai Saya</div>
             <div class="profil" align="center">
               <div class="profil-img">
                 <img src="assets/img/logo.jpg" width="100px" height="100px" style="border-radius:100%">
               </div>
-              <div class="profil-name">
-                 <h5 align="center">SmarTani Digital</h5>
+              <div class="profil-name mt-3">
+                 <h1 align="center">SmarTani Digital</h1>
               </div>
               <div class="profil-alamat">
                 <i class="fas fa-map-marker-alt"></i>&nbsp;Indonesia
               </div>
+              <hr style="visibility:hidden">
               <div class="profil-desc">
                 <p>SMARTani Digital adalah platform blog yang bergerak dalam bidang pertanian. Disini kalian akan mendapatkan banyak Ilmu tentang pertanian. Selain itu disini kalian juga bisa mendapatkan banyak ebook dan informasi mengenai teknik budidaya tanaman dengan baik dan benar.</p>
                 <p>Semua informasi disini diolah dari berbagai sumber. Dengan merujuk jurnal dan buku sebagai sumber informasi yang terpercaya. </p>
