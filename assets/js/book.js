@@ -425,7 +425,7 @@ for (i=0; i<ebookLength; i++) {
       '<div class="card-body">'+
       '<div class="card-text nama-ebook"><h5>'+ ebook[i].title +'</h5></div>'+
       '</a>' +
-      '<div class="desc-ebook"><h6>'+ ebook[i].deskripsi+'</h6>'+
+      '<div class="desc-ebook"><span>'+ ebook[i].deskripsi+'</span>'+
       '</div>'+
       '</div>'+
     '</div>';

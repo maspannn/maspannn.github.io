@@ -305,9 +305,9 @@ for (i=0; i<postLength; i++) {
     '<div id="artikel">'+
       '<a class="button" href="'+post[i].link+'" data-obj="'+i+'">'+
       '<div class="card shadow" style="width:100%">'+
-      '<img src="'+post[i].poster+'" class="card-img-top" width="100%" height="160px" alt="SmarTani Digital Budidaya Tanaman">'+
+      '<img src="'+post[i].poster+'" class="card-img-top" width="100%" style="max-inline-size: 100%;block-size: auto;aspect-ratio: 16/9;object-fit: cover;" alt="SmarTani Digital Budidaya Tanaman">'+
       '<div class="card-body">'+
-      '<div class="judul-post"><h6>'+ post[i].title+'</h6>'+
+      '<div class="judul-tanaman"><h6>'+ post[i].title+'</h6>'+
       '</div>'+
       '</a>' +
     '</div>';
@@ -362,11 +362,12 @@ $(".close-post, .modal-sandbox").click(function(){
   $("#list-tanaman").css({"width":"100%"});
   $("#list-tanaman").css({"padding-top":"20px"});
   $("#list-tanaman").css({"display":"grid"});
-  $("#list-tanaman").css({"grid-template-rows":"216px auto"});
-  $("#list-tanaman").css({"grid-template-columns":"50% auto"});
+  $("#list-tanaman").css({"grid-template-rows":"165px auto"});
+  $("#list-tanaman").css({"grid-template-columns":"48% 48%"});
   $("#list-tanaman").css({"grid-row-gap":"10px"});
   $("#list-tanaman").css({"grid-column-gap":"10px"});
   $("#judul-awal").css({"display":"none"});
+  $(".konten").css({"margin-bottom":"-20px"});
 });
 
 //Next post:
@@ -401,7 +402,6 @@ function dissBtn(){
 };
 
 $(document).ready(function(){
-
       var list = $("#list-tanaman #artikel");
       var numToShow = 10;
       var button = $("#tanaman-lainnya");
@@ -442,8 +442,8 @@ $("#tanaman-lainnya #cariTanaman").on("click", function() {
   $("#list-tanaman").css({"width":"100%"});
   $("#list-tanaman").css({"padding-top":"20px"});
   $("#list-tanaman").css({"display":"grid"});
-  $("#list-tanaman").css({"grid-template-rows":"216px auto"});
-  $("#list-tanaman").css({"grid-template-columns":"50% auto"});
+  $("#list-tanaman").css({"grid-template-rows":"165px"});
+  $("#list-tanaman").css({"grid-template-columns":"48% 48%"});
   $("#list-tanaman").css({"grid-row-gap":"10px"});
   $("#list-tanaman").css({"grid-column-gap":"10px"});
 });
