@@ -331,11 +331,9 @@ $(".button").click(function(e){
   innerContent(thisElement);
   $("#search-bar").css({"display":"none"});
   $("#list-tanaman").css({"display":"none"});
-  $(".slider").css({"display":"none"});
   $("#tanaman-lainnya").css({"display":"none"});
   $("#judul-awal").css({"display":"none"});
   $("#post-blog").css({"display":"block"});
-  $("#peta-pertanian").css({"display":"none"});
   $("#judul-awal").css({"display":"none"});
   $(window).scrollTop(0);
   dissBtn();
@@ -359,13 +357,8 @@ $(".close-post, .modal-sandbox").click(function(){
   $("#list-tanaman").css({"display":"block"});
   $("#tanaman-lainnya").css({"display":"block"});
   $("#post-blog").css({"display":"none"});
-  $("#list-tanaman").css({"width":"100%"});
   $("#list-tanaman").css({"padding-top":"20px"});
   $("#list-tanaman").css({"display":"grid"});
-  $("#list-tanaman").css({"grid-template-rows":"165px"});
-  $("#list-tanaman").css({"grid-template-columns":"48% 48%"});
-  $("#list-tanaman").css({"grid-row-gap":"10px"});
-  $("#list-tanaman").css({"grid-column-gap":"10px"});
   $("#judul-awal").css({"display":"none"});
   $(".konten").css({"margin-bottom":"-20px"});
 });
@@ -436,14 +429,4 @@ $(function() {
       $("#list-tanaman").hide();
     }
   });
-});
-
-$("#tanaman-lainnya #cariTanaman").on("click", function() {
-  $("#list-tanaman").css({"width":"100%"});
-  $("#list-tanaman").css({"padding-top":"20px"});
-  $("#list-tanaman").css({"display":"grid"});
-  $("#list-tanaman").css({"grid-template-rows":"165px"});
-  $("#list-tanaman").css({"grid-template-columns":"48% 48%"});
-  $("#list-tanaman").css({"grid-row-gap":"10px"});
-  $("#list-tanaman").css({"grid-column-gap":"10px"});
 });
