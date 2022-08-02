@@ -236,7 +236,7 @@ div.dark {
   display: grid;
   overflow: hidden;
   text-overflow: ellipsis;
-  grid-template-rows: 220px;
+  grid-template-rows: 240px;
   grid-template-columns: 48% 48%;
   grid-row-gap: 10px;
   grid-column-gap: 10px; 

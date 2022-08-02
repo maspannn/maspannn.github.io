@@ -362,7 +362,7 @@ $(".close-post, .modal-sandbox").click(function(){
   $("#list-tanaman").css({"width":"100%"});
   $("#list-tanaman").css({"padding-top":"20px"});
   $("#list-tanaman").css({"display":"grid"});
-  $("#list-tanaman").css({"grid-template-rows":"165px auto"});
+  $("#list-tanaman").css({"grid-template-rows":"165px"});
   $("#list-tanaman").css({"grid-template-columns":"48% 48%"});
   $("#list-tanaman").css({"grid-row-gap":"10px"});
   $("#list-tanaman").css({"grid-column-gap":"10px"});
