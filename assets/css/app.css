@@ -1,7 +1,6 @@
 html, body {
   overflow-x: hidden;
   width:100%;
-  margin-top:-13px;
   padding-bottom:15px;
 }
 ::-webkit-scrollbar {
@@ -21,11 +20,6 @@ div {
 a {
   text-decoration:none;
   color:white;
-}
-h1 {
-  text-transform: capitalize;
-  font-size:14pt;
-  font-style:bold;
 }
 
 div.tab-container a {
@@ -289,8 +283,7 @@ div.dark {
 .inner-title {
   padding:10px;
   border-radius:15px;
-  margin-left:5px;
-  margin-top:-75px;
+  margin-top:-85px;
   margin-bottom:-45px;
   text-transform: capitalize;
   font-size:20pt;
@@ -323,7 +316,7 @@ div.dark {
   float:bottom;
   display:flex;
   font-size:11pt;
-  padding-left:15px;
+  padding-left:10px;
   padding-top:20px;
 }
 .poster-info {
