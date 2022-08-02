@@ -236,7 +236,7 @@ div.dark {
   display: grid;
   overflow: hidden;
   text-overflow: ellipsis;
-  grid-template-rows: 390px;
+  grid-template-rows: 220px;
   grid-template-columns: 48% 48%;
   grid-row-gap: 10px;
   grid-column-gap: 10px; 
@@ -292,8 +292,7 @@ div.dark {
   margin-top:-75px;
   margin-bottom:-45px;
   text-transform: capitalize;
-  font-size:16pt;
-  font-style:bold;
+  font-size:20pt;
 }
 .inner-title-ebook {
   padding:10px;
@@ -370,7 +369,7 @@ div.dark {
   background:#f7f7f7;
   color: #2d2c4d;
   border-radius:10px;
-  padding:10px;
+  margin:5px;
 }
 #date {
   padding-top:10px;
@@ -383,7 +382,7 @@ div.dark {
   background:#f7f7f7;
   color: #2d2c4d;
   border-radius:10px;
-  padding:10px;
+  margin:5px;
 }
 .profil-img {
   padding-bottom:5px;
