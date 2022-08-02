@@ -332,9 +332,7 @@ $(".button").click(function(e){
   $("#search-bar").css({"display":"none"});
   $("#list-tanaman").css({"display":"none"});
   $("#tanaman-lainnya").css({"display":"none"});
-  $("#judul-awal").css({"display":"none"});
   $("#post-blog").css({"display":"block"});
-  $("#judul-awal").css({"display":"none"});
   $(window).scrollTop(0);
   dissBtn();
 });
@@ -359,7 +357,6 @@ $(".close-post, .modal-sandbox").click(function(){
   $("#post-blog").css({"display":"none"});
   $("#list-tanaman").css({"padding-top":"20px"});
   $("#list-tanaman").css({"display":"grid"});
-  $("#judul-awal").css({"display":"none"});
   $(".konten").css({"margin-bottom":"-20px"});
 });
 

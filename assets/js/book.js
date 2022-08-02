@@ -503,7 +503,6 @@ $(".close-ebook").click(function(){
   $("#cariEbook").css({"display":"block"});
   $("#list-ebook").css({"display":"block"});
   $("#list-ebook").css({"display":"grid"});
-  $("#list-ebook").css({"grid-template-rows":"114px"});
   $("#ebook-lainnya").css({"display":"block"});
   $("#daftar-ebook").css({"display":"none"});
   $(window).scrollTop(0);
