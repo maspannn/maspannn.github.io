@@ -1,10 +1,68 @@
 html, body {
   width: 100vw;
   height: 100%;
+  padding-top:30px;
 }
 a {
   text-decoration: none;
   color: #2d2c4d;
+}
+#goTop {
+  display: inline-block;
+  background-color: #2d2c4d;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 75px;
+  right: 20px;
+  transition: background-color .3s, 
+  opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  border-radius: 50%;
+}
+#goTop::after {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.2em;
+  line-height: 50px;
+  color: #fff;
+}
+#goTop:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#goTop:active {
+  background-color: #555;
+}
+#goTop.show {
+  opacity: 1;
+  visibility: visible;
+}
+.my-float{
+	margin-top:13px;
+	font-size:18pt;
+}
+.pesan{
+	position:fixed;
+	z-index: 999;
+	width:50px;
+	height:50px;
+	bottom:20px;
+	right:20px;
+	background-color:#2d2c4d;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-pesan{
+	margin-top:13px;
+	font-size:18pt;
 }
 .navbar {
   background-color: #2d2c4d;
@@ -19,6 +77,10 @@ a {
 .card-title {
   font-size:15pt;
   margin-top:-10px;
+}
+.offcanvas-title {
+  font-size:15pt;
+  font-weight: 400;
 }
 .svg-inline--fa {
   vertical-align: -0.200em;
