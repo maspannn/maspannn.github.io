@@ -10,6 +10,8 @@ a {
 .btn {
   background-color: #2d2c4d;
   border-radius:20px;
+  padding:5px;
+  width:45%;
 }
 #goTop {
   display: inline-block;
