@@ -6,38 +6,48 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>https://maspannn.github.io</loc>
-  <lastmod>2022-06-12T13:57:54+00:00</lastmod>
+  <loc>https://maspannn.github.io/</loc>
+  <lastmod>2022-09-01T06:26:16+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://maspannn.github.io/smartani/</loc>
-  <lastmod>2022-06-12T13:57:54+00:00</lastmod>
+  <loc>https://maspannn.github.io/index.html</loc>
+  <lastmod>2022-09-01T06:26:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://maspannn.github.io/ruangkita/</loc>
-  <lastmod>2022-06-12T13:57:54+00:00</lastmod>
+  <loc>https://maspannn.github.io/resume.html</loc>
+  <lastmod>2022-09-01T06:26:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://maspannn.github.io/racunshopee/</loc>
-  <lastmod>2022-06-12T13:57:54+00:00</lastmod>
+  <loc>https://maspannn.github.io/racunshopee/index.html</loc>
+  <lastmod>2022-09-01T06:26:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://maspannn.github.io/videoshopee/</loc>
-  <lastmod>2022-06-12T13:57:54+00:00</lastmod>
+  <loc>https://maspannn.github.io/videoshopee/index.html</loc>
+  <lastmod>2022-09-01T06:26:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://maspannn.github.io/ruangmovie/</loc>
-  <lastmod>2022-06-12T13:57:54+00:00</lastmod>
+  <loc>https://maspannn.github.io/smartani/index.html</loc>
+  <lastmod>2022-09-01T06:26:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://maspannn.github.io/storybucin/</loc>
-  <lastmod>2022-06-12T13:57:54+00:00</lastmod>
+  <loc>https://maspannn.github.io/ruangkita/index.html</loc>
+  <lastmod>2022-09-01T06:26:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://maspannn.github.io/storybucin/index.html</loc>
+  <lastmod>2022-09-01T06:26:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://maspannn.github.io/ruangmovie/index.html</loc>
+  <lastmod>2022-09-01T06:26:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
