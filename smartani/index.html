@@ -123,12 +123,10 @@
     <div class="tab-content" id="tabContent">
       <div class="tab-pane fade show active" id="budidaya" role="tabpanel" aria-labelledby="budidaya-tab" >
         <div class="row mt-2" id="judul-home">
-          <div class="col-8">
-             <h1>Halo, Smartani!</h1>
-             <p style="font-size:15pt;margin-top:-5px">Mau menanam apa hari ini?</p>
-          </div>
-          <div class="col-4">
-            <span id="today" style="font-size:10pt;text-align:right"></span>
+          <div class="col">
+            <span class="hidden-sm hidden-md hidden-lg hari-digit" style="font-size:10pt">Sabtu, 03 September 2022</span>
+            <h1 class="mt-2" style="font-size:23pt">Halo, Smartani!</h1>
+            <p style="font-size:16pt;margin-top:-5px">Mau menanam apa hari ini?</p>
           </div>
         </div>
         <div class="mt-2">
@@ -152,7 +150,7 @@
           </div>
         </div>
         <div class="mt-4">
-          <h2 id="judul" style="font-size:17pt">ARTIKEL</h2>
+          <h2 id="judul" style="font-size:17pt">Teknologi Budidaya Tanaman</h2>
         </div>
   	    <div style="margin-bottom:40px">
           <div id="list-tanaman" style="text-align:center;margin-top:-5px">
@@ -194,9 +192,6 @@
         </div>
       </div>
       <div class="tab-pane fade" id="shop" role="tabpanel" aria-labelledby="shop-tab">
-        <div class="mt-3">
-      		<h1 style="font-size:17pt">REKOMENDASI PRODUK</h1>
-      	</div>
       	<div class="row mt-3 mb-3">
           <div class="col-7" style="margin-left:-10px">
       			<form id="search-form" action="" method="POST" enctype="multipart/form-data">
@@ -226,9 +221,6 @@
         </div>
       </div>
       <div class="tab-pane fade" id="book" role="tabpanel" aria-labelledby="book-tab">
-        <div class="row mt-3 mb-1">
-          <h3 class="judul" style="font-size:17pt">EBOOK PERTANIAN</h3>
-        </div>
         <div class="mt-3 mb-3">
           <input type="text" id="cariEbook" placeholder="Cari ebook" onkeyup="mySearchBook()"/>
         </div>
@@ -242,12 +234,8 @@
       </div>
       <div class="tab-pane fade" id="photo" role="tabpanel" aria-labelledby="photo-tab">
           <div style="margin-bottom:20px">
-            <h4 class="mt-3" id="judul" style="font-size:17pt">AGRO GALLERY</h4>
-            <hr style="visibility: hidden">
-            <div>
-              <div id="list-photo">
+            <div class="mt-2" id="list-photo">
               
-              </div>
             </div>
             <hr style="visibility: hidden">
             <div class="container md-12" align="center">
@@ -257,12 +245,8 @@
       </div>
       <div class="tab-pane fade" id="video" role="tabpanel" aria-labelledby="video-tab">
           <div style="margin-bottom:20px">
-            <h5 class="mt-3" id="judul" style="font-size:17pt">AGRO VIDEO</h5>
-            <hr style="visibility: hidden">
-            <div>
-              <div id="list-video" align="center">
+            <div class="mt-2" id="list-video" align="center">
               
-              </div>
             </div>
             <hr style="visibility: hidden">
             <div class="container md-12" align="center">
@@ -355,29 +339,8 @@
         $('html, body').animate({scrollTop:0}, '300');
       });
     </script>
-    <script>
-      function getFormattedDate(date) {
-        let monthNames = [ "Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember" ];
-        let day = date.getDate();
-        let month = monthNames[date.getMonth()];
-        let year = date.getFullYear();
-      
-        return `${day} ${month} ${year}`
-      }
-      
-      function addDaysToDate(date, daysToAdd) {
-          let newDate = new Date(date);
-          newDate.setDate(date.getDate() + daysToAdd);
-        
-          return newDate
-      }
-      
-      let todaysDate = new Date();
-      let oneYearFromToday = addDaysToDate(todaysDate, 365);
-      let tenDaysAfterToday = addDaysToDate(todaysDate, 10);
-      
-      $('#today').html(getFormattedDate(todaysDate));
-    </script>
+   <script type="text/javascript">function showLocalTime(a,b,c,d){if(document.getElementById&&document.getElementById(a)){this.container=document.getElementById(a),this.displayversion=d;var e="server-php"==b?'<? print date("F d, Y H:i:s", time())?>':"server-ssi"==b?'<!--#config timefmt="%B %d, %Y %H:%M:%S"--><!--#echo var="DATE_LOCAL" -->':"9/3/2022 6:50:13 PM";this.localtime=this.serverdate=new Date(e),this.localtime.setTime(this.serverdate.getTime()+60*c*1e3),this.updateTime(),this.updateContainer()}}function formatField(a,b){if("undefined"!=typeof b){var c=a>12?a-12:a;return 0==c?12:c}return a<=9?"0"+a:a}var minggutxt=["Minggu","Senin","Selasa","Rabu","Kamis","Jumat","Sabtu"],weekdaystxt=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],bulantxt=["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"],monthstxt=["January","February","March","April","May","June","July","August","September","October","November","December"];showLocalTime.prototype.updateTime=function(){var a=this;this.localtime.setSeconds(this.localtime.getSeconds()+1),setTimeout(function(){a.updateTime()},1e3)},showLocalTime.prototype.updateContainer=function(){var a=this;if("long"==this.displayversion)this.container.innerHTML=this.localtime.toLocaleString();else{var b=this.localtime.getHours(),c=this.localtime.getMinutes(),d=this.localtime.getSeconds(),k=(this.localtime.getDate(),this.localtime.getUTCDate(),minggutxt[this.localtime.getDay()],bulantxt[this.localtime.getMonth()],weekdaystxt[this.localtime.getUTCDay()],monthstxt[this.localtime.getUTCMonth()],b+1);k>=24&&(k-=24);var l=b+2;l>=24&&(l-=24);var m=b-7;m<0&&(m+=24);this.container.innerHTML="<span class='hari-digit hidden-sm'><a href='https://time.bmkg.go.id/' target='_blank'>Standar Waktu Indonesia</a> </span><span class='FontDigit'>"+formatField(b)+":"+formatField(c)+":"+formatField(d)+" WIB / </span><span class='FontDigit'>"+formatField(m)+":"+formatField(c)+":"+formatField(d)+" UTC</span>"}setTimeout(function(){a.updateContainer()},1e3)};
+	</script>
    
 </body>
 </html>

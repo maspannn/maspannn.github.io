@@ -24,17 +24,16 @@ var video =[
 var videoLength = video.length;
 $("#list-video").empty();
 for (i=0; i<videoLength; i++) {
-  let random = video[Math.floor(Math.random() * video.length)];
   var listItemvideo =
     '<div id="video-pertanian">'+
       '<div class="card shadow" style="margin-bottom:10px">'+
-      '<a class="button" href="'+random.link+'" data-obj="'+i+'">'+
+      '<a class="button" href="'+video[i].link+'" data-obj="'+i+'">'+
       '<div style="--aspect-ratio: 16/9;">' +
-      '<iframe src="' +random.link+ '">' +
+      '<iframe src="' +video[i].link+ '">' +
       '</iframe>' +
       '</div>' +
       '</a>' +
-      '<div style="padding-top:5px;padding-left:10px;margin-bottom:0px"><h6>'+ random.title +'</h6></div>'+
+      '<div style="padding-top:5px;padding-left:10px;margin-bottom:0px"><h6>'+ video[i].title +'</h6></div>'+
       '</div>'+
     '</div>';
   $("#list-video").append(listItemvideo);
