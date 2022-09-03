@@ -327,6 +327,7 @@ $(".button").click(function(e){
   $("#tanaman-lainnya").css({"display":"none"});
   $("#post-blog").css({"display":"block"});
   $("#judul").css({"display":"none"});
+  $("#judul-home").css({"display":"none"});
   $("#carouselExampleSlidesOnly").css({"display":"none"});
   $(window).scrollTop(0);
   dissBtn();

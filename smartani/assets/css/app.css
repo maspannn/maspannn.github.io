@@ -165,7 +165,7 @@ a {
 .inner-title {
   padding:10px;
   border-radius:15px;
-  margin-top:-35px;
+  margin-top:-60px;
   margin-left:-11px;
   margin-bottom:-45px;
   text-transform: capitalize;
@@ -258,6 +258,7 @@ a {
   margin-right: 0.25rem;
   margin-bottom: 0.25rem;
   padding-bottom:30px;
+  margin-top:-10px;
 }
 .rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
   -webkit-transform: rotate(360deg);
