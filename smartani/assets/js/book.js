@@ -1,58 +1,53 @@
 var book = [
     {
-        "title": "Tanah Sawah dan Teknologi Pengelolaannya",
-        "poster": "book/011.png",
-        "link": "https://drive.google.com/file/d/1q5v-9xXoku2IREOnMt-RX9pYrMJhR-JK/preview"
+        "title": "Budidaya Sayuran Dataran Rendah",
+        "poster": "7450b09e1436f87783179.jpg",
+        "link": "https://drive.google.com/file/d/1lYa5_rZqugP-ZPW2nnF9om26gmKtCgXJ/preview"
     },
     {
-        "title": "Teknologi Pengendalian Hama Lalat Buah",
-        "poster": "book/010.png",
-        "link": "https://drive.google.com/file/d/1KOIKsAP0ozFZHKaRZ_bG_uikHttq3qNm/preview"
+        "title": "Budidaya Sayuran di Pekarangan",
+        "poster": "6598748def97258a694a6.jpg",
+        "link": "https://drive.google.com/file/d/1OASGOs59_GRxZwCCOox3HjPm6LYa33Hd/preview"
     },
     {
-        "title": "Benih Unggul Jurus Sukses Swasembada Pangan",
-        "poster": "book/009.png",
-        "link": "https://drive.google.com/file/d/1NMn_BaHeHCwGRc41iKyLemLB2Q9L_LK9/preview"
+        "title": "Budidaya Tanaman Sayuran",
+        "poster": "c553ed1accf842a405955.jpg",
+        "link": "https://drive.google.com/file/d/1a4Cgm_2D9_KAcgZBj4kQ4T4YDKb190aR/preview"
     },
     {
-        "title": "Jurus Jitu Menyikapi Iklim Ekstrim El Nino Dan La Nina",
-        "poster": "book/008.png",
-        "link": "https://drive.google.com/file/d/1SjleHoSp-IryBpb5Ic-LNzHYfbfseRav/preview"
+        "title": "Dasar - Dasar Agronomi",
+        "poster": "00ee93a5b3afe8c8b8375.jpg",
+        "link": "https://drive.google.com/file/d/1RMsXIsS9u4oHrzGrUrI5Vrk7qZixaloo/preview"
     },
     {
-        "title": "Tanah Sawah Bukaan Baru",
-        "poster": "book/007.png",
-        "link": "https://drive.google.com/file/d/1qDb9QGMahh05X5nYDcc3hk85L7cNL7JM/preview"
+        "title": "Hama, Penyakit, dan Gulma pada Tanaman Ubi Kayu",
+        "poster": "3b5bf1eac024fefc0b8fa.jpg",
+        "link": "https://drive.google.com/file/d/1cF9r8IKOK4lyAD8fbaUsPoTAWHxC7tQy/preview"
     },
     {
-        "title": "Membangkitkan Kejayaan Rempah Nusantara",
-        "poster": "book/006.png",
-        "link": "https://drive.google.com/file/d/1glK522yxEFJixnylN7-MO_QKfidd6AfW/preview"
+        "title": "Morfologi dan Klasifikasi Tanah",
+        "poster": "704d5412c8879e89de1c2.jpg",
+        "link": "https://drive.google.com/file/d/1CDkbZvluZTsz5DruWshDhhEt2DI4t9IV/preview"
     },
     {
-        "title": "Menjaring Investasi Meraih Swasembada Gula",
-        "poster": "book/005.png",
-        "link": "https://drive.google.com/file/d/1IInUVzc5NlCOKG05Cn70q1Tb2_h9TU0L/preview"
+        "title": "SOP Budidaya Jamur Tiram",
+        "poster": "7afb8da309627afe56fa6.jpg",
+        "link": "https://drive.google.com/file/d/1Fmz2aqjoVoQOfo2Si_oVTFGth6O6YXgB/preview"
     },
     {
-        "title": "Membangkitkan Lahan Rawa, Membangun Lumbung Pangan Indonesia",
-        "poster": "book/004.png",
-        "link": "https://drive.google.com/file/d/1zdRz6zBht_71aeL62HCCIbmauDcGnGQP/preview"
+        "title": "Teknologi Biochar",
+        "poster": "86b0cbbc0a9b5044fa62d.jpg",
+        "link": "https://drive.google.com/file/d/1RGw2nHCdPTgr81aJhSOV2VEbNul5Mc8a/preview"
     },
     {
-        "title": "Manajemen Kebijakan Teknologi Dan Kelembagaan Mendukung Pertanian Modern",
-        "poster": "book/003.png",
-        "link": "https://drive.google.com/file/d/1anU62ucCkpg9nmmWNrLPFKBmDscFjDgB/preview"
+        "title": "Teknologi Budidaya Ubi Kayu",
+        "poster": "0572f3b920aaed888f509.jpg",
+        "link": "https://drive.google.com/file/d/1OXqJqSpJofjo-H5cUTeorn0kZiY7ObyM/preview"
     },
     {
-        "title": "Teknologi Pengolahan dan Pengembangan Produk Olahan Daun Gambir",
-        "poster": "book/002.png",
-        "link": "https://drive.google.com/file/d/1JYWXSJ8oBg-80bzyr4A2jWH25g0Qbz0w/preview"
-    },
-    {
-        "title": "Pengelolaan Sumberdaya Menuju Pertanian Modern Berkelanjutan",
-        "poster": "book/001.png",
-        "link": "https://drive.google.com/file/d/1cf7U9JLjB_thFFfsft9CcQEptv-L_hVB/preview"
+        "title": "Untung Besar Budidaya Tanaman Anggrek",
+        "poster": "2f8ae11d17a0b0cf20100.jpg",
+        "link": "https://drive.google.com/file/d/1udvw42V7h3TTlqURoGoazKyT4ZPNzu_6/preview"
     }
 ];
 
@@ -63,23 +58,10 @@ for (var i = 0; i < book.length; i++) {
 		link = book[i].link,
 		poster = book[i].poster;
 	
-	books += "<div class='book-card' data-nama='" + nama + "' data-preview='" + link + "' data-poster='"+ poster +"'><a class='button-book' href='' data-bs-toggle='modal' data-bs-target='#preview' data-obj='"+i+"'><div class='card'><img src='"+ poster +"' alt='" + nama + "' width='100%' style='aspect-ratio: 3/4;object-fit: cover;' class='card-img-top'><div class='card-body'><p class='card-title'><b>"+ nama +"</b></p></div></div></div>";
+	books += "<div class='book-card' data-nama='" + nama + "' data-preview='" + link + "' data-poster='"+ poster +"'><a class='button-book' href='' data-bs-toggle='modal' data-bs-target='#preview' data-obj='"+i+"'><div class='card'><img src='https://telegra.ph/file/"+ poster +"' alt='" + nama + "' width='100%' style='aspect-ratio: 3/4;object-fit: cover;' class='card-img-top'><div class='card-body'><p class='card-title'><b>"+ nama +"</b></p></div></div></div>";
 }
 
 $("#list-ebook").html(books);
-
-$(document).ready(function(){
-  var list = $("#list-ebook .book-card");
-  var numToShow = 30;
-  var button = $("#ebook-lainnya");
-  var numInList = list.length;
-  list.hide();
-  if (numInList > numToShow) {
-    button.show();
-  }
-  list.slice(0, numToShow).show();
-
-});
 
 var bookLength = book.length;
 var thisElement2 = 0;
@@ -105,5 +87,26 @@ $(function() {
     } else {
       $("#list-ebook").hide();
     }
+  });
+});
+
+$(document).ready(function(){
+  var list = $("#list-ebook .book-card");
+  var numToShow = 9;
+  var button = $("#ebook-lainnya");
+  var numInList = list.length;
+  list.hide();
+  if (numInList > numToShow) {
+    button.show();
+  }
+  list.slice(0, numToShow).show();
+
+  button.click(function(){
+      var showing = list.filter(':visible').length;
+      list.slice(showing - 1, showing + numToShow).fadeIn();
+      var nowShowing = list.filter(':visible').length;
+      if (nowShowing >= numInList) {
+        button.hide();
+      }
   });
 });

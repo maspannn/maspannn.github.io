@@ -62,6 +62,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
      <link rel="stylesheet" href="assets/css/app.css">
   
     <title>SMARTANI | Tempat Belajar & Belanja Pertanian Terlengkap</title>
@@ -73,49 +75,62 @@
 
 <nav class="navbar container fixed-top" id="header">
   <div class="container" style="color:white">
-    <span class="material-symbols-outlined d-none">menu</span>
+    <span class="material-symbols-outlined" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">menu</span>
     <div class="position-absolute top-0 start-50 translate-middle-x">
       <img src="assets/img/icon.png" alt="Smartani Digital Logo" class="mylogo" onclick="myDirectAds()">
     </div>
   </div>
+  <div class="offcanvas offcanvas-start text-white" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label" style="width:330px;background-color:#2d2c4d;z-index:99999">
+    <div class="offcanvas-header" >
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/img/icon.png" alt="Smartani Digital" width="290px" height="40px">
+      </a>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="navbar-nav justify-content-end flex-grow-1">
+        <li class="nav-item">
+          <a class="nav-link text-white" aria-current="page" href="index.html"><i class="fas fa-home"></i>&nbsp;&nbsp;HOME</a>
+        </li>
+        <li class="nav-item" style="margin-left:3px">
+          <a class="nav-link text-white" href="#" target="_blank"><i class="fas fa-tree"></i>&nbsp;&nbsp;&nbsp;LIST TANAMAN</a>
+        </li>
+      </ul>
+    <div>
+    <hr style="visibility: hidden">
+    <div class="site-link" style="font-size:9pt;color:white">
+      <ul class="link-info">
+        <li><a href="#">Sitemap</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Disclaimer</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
+    <div class="rounded-social-buttons">
+      <a class="social-button github" href="https://www.github.com/maspannn" target="_blank"><i class="fab fa-github"></i></a>
+      <a class="social-button telegram" href="#" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+      <a class="social-button youtube" href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a class="social-button instagram" href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div style="font-size:9pt;margin-top:10px">
+        Copyright &copy; 2022<br>
+        <span>Theme by <a href="https://t.me/maspannn"><b>Mas Pannn</b></a></span>
+      </div>
+    </div>
 </nav>
   
 <div class="container">
   <div class="row">
     <div class="tab-content" id="tabContent">
-      <div class="tab-pane fade" id="shop" role="tabpanel" aria-labelledby="shop-tab">
-        <div class="mt-3">
-      		<h1 style="font-size:17pt">REKOMENDASI PRODUK</h1>
-      	</div>
-      	<div class="row mt-3 mb-3">
-          <div class="col-7" style="margin-left:-10px">
-      			<form id="search-form" action="" method="POST" enctype="multipart/form-data">
-          		<div class="container form-group">
-          			<input class="form-control" type="text" placeholder="Cari produk" id="search-produk"/>
-          		</div>
-          	</form>
-      		</div>
-      		<div class="col-5" id="filter">
-        		<form>
-        			<div class="form-group">
-        				<select data-filter="kategori" class="filter-kategori filter form-control form-select" style="text-align:right;font-size:11pt">
-        					<option value="">Filter</option>
-        					<option value="">Show All</option>
-        				</select>
-        			</div>
-        		</form>
-        	</div>
-        </div>
-        <div>
-          <div class="mt-2 mb-4" id="products">
-          
+      <div class="tab-pane fade show active" id="budidaya" role="tabpanel" aria-labelledby="budidaya-tab" >
+        <div class="row mt-2">
+          <div class="col-8">
+             <h1>Halo, Smartani!</h1>
+             <p style="font-size:15pt;margin-top:-5px">Mau menanam apa hari ini?</p>
+          </div>
+          <div class="col-4">
+            <span id="today" style="font-size:10pt;text-align:right"></span>
           </div>
         </div>
-        <div class="container mb-4" align="center">
-          <button class="tombol-lainnya" id="produk-lainnya">Produk Lainnya</button>
-        </div>
-      </div>
-      <div class="tab-pane fade show active" id="budidaya" role="tabpanel" aria-labelledby="budidaya-tab" >
         <div class="mt-2">
           <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -124,7 +139,7 @@
               <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="2" aria-label="Rekomendasi Produk Pertanian"></button>
             </div>
             <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
+              <div class="carousel-item active" data-bs-interval="4000">
                 <img src="assets/img/img1.png" class="d-block w-100" alt="Rekomendasi Produk Pertanian">
               </div>
               <div class="carousel-item" data-bs-interval="2000">
@@ -137,9 +152,9 @@
           </div>
         </div>
         <div class="mt-4">
-          <h2 id="judul" style="font-size:17pt">BUDIDAYA TANAMAN</h2>
+          <h2 id="judul" style="font-size:17pt">ARTIKEL</h2>
         </div>
-  	    <div>
+  	    <div style="margin-bottom:40px">
           <div id="list-tanaman" style="text-align:center;margin-top:-5px">
               
           </div>
@@ -178,6 +193,38 @@
           </div> 
         </div>
       </div>
+      <div class="tab-pane fade" id="shop" role="tabpanel" aria-labelledby="shop-tab">
+        <div class="mt-3">
+      		<h1 style="font-size:17pt">REKOMENDASI PRODUK</h1>
+      	</div>
+      	<div class="row mt-3 mb-3">
+          <div class="col-7" style="margin-left:-10px">
+      			<form id="search-form" action="" method="POST" enctype="multipart/form-data">
+          		<div class="container form-group">
+          			<input class="form-control" type="text" placeholder="Cari produk" id="search-produk"/>
+          		</div>
+          	</form>
+      		</div>
+      		<div class="col-5" id="filter">
+        		<form>
+        			<div class="form-group">
+        				<select data-filter="kategori" class="filter-kategori filter form-control form-select" style="text-align:right;font-size:11pt">
+        					<option value="">Filter</option>
+        					<option value="">Show All</option>
+        				</select>
+        			</div>
+        		</form>
+        	</div>
+        </div>
+        <div>
+          <div class="mt-2 mb-4" id="products">
+          
+          </div>
+        </div>
+        <div class="container mb-4" align="center">
+          <button class="tombol-lainnya" id="produk-lainnya">Produk Lainnya</button>
+        </div>
+      </div>
       <div class="tab-pane fade" id="book" role="tabpanel" aria-labelledby="book-tab">
         <div class="row mt-3 mb-1">
           <h3 class="judul" style="font-size:17pt">EBOOK PERTANIAN</h3>
@@ -189,6 +236,8 @@
           <div id="list-ebook">
           
           </div>
+        </div>
+        <div class="container mt-2 mb-4" align="center"><button class="tombol-lainnya" id="ebook-lainnya">Ebook Lainnya</button>
         </div>
       </div>
       <div class="tab-pane fade" id="photo" role="tabpanel" aria-labelledby="photo-tab">
@@ -244,7 +293,7 @@
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content" style="background-color:transparent;border-style:none;margin:0;padding:0">
       <div class="modal-header" style="border-style:none;">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="background-color:white;border-radius:50%" onclick="myDirectAds()"></button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="background-color:white;border-radius:50%"></button>
       </div>
       <div class="modal-body">
         <div id="iklan">
@@ -259,9 +308,9 @@
   <div class="row">
     <div class="nav-scroller">
       <div class="nav nav-justified" style="margin-top:3px">
-        <a class="nav-link text-white link-secondary active" id="budidaya-tab" data-bs-toggle="tab" data-bs-target="#budidaya" href="#"><div class="sub-menu"><img src="assets/img/budidaya.png" width="25px" alt="Teknologi Budidaya Tanaman"><span class="menu-title">BUDIDAYA</span></div></a>
+        <a class="nav-link text-white link-secondary active" id="budidaya-tab" data-bs-toggle="tab" data-bs-target="#budidaya" href="#"><div class="sub-menu"><img src="assets/img/budidaya.png" width="25px" alt="Teknologi Budidaya Tanaman"><span class="menu-title">BLOG</span></div></a>
         <a class="nav-link text-white link-secondary" id="shop-tab" data-bs-toggle="tab" data-bs-target="#shop" href="#"><div class="sub-menu"><img src="assets/img/shop.png" width="25px" alt="SmarTani Shop"><span class="menu-title">TOKO</span></div></a>
-        <a class="nav-link text-white link-secondary" id="book-tab" data-bs-toggle="tab" data-bs-target="#book" href="#"><div class="sub-menu"><img src="assets/img/ebook.png" width="37px" alt="SmarTani Repository"></div></a>
+        <a class="nav-link text-white link-secondary" id="book-tab" data-bs-toggle="tab" data-bs-target="#book" href="#"><div class="sub-menu"><img src="assets/img/ebook.png" width="25px" alt="SmarTani Repository"><span class="menu-title">EBOOK</span></div></a>
         <a class="nav-link text-white link-secondary" id="photo-tab" data-bs-toggle="tab" data-bs-target="#photo" href="#"><div class="sub-menu"><img src="assets/img/gallery.png" width="25px" alt="Koleksi Photo Pertanian"><span class="menu-title">PHOTO</span></div></a>
         <a class="nav-link text-white link-secondary" id="video-tab" data-bs-toggle="tab" data-bs-target="#video" href="#"><div class="sub-menu"><img src="assets/img/video.png" width="25px" alt="Koleksi Video Pertanian"><span class="menu-title">VIDEO</span></div></a>
       </div>
@@ -305,6 +354,29 @@
         e.preventDefault();
         $('html, body').animate({scrollTop:0}, '300');
       });
+    </script>
+    <script>
+      function getFormattedDate(date) {
+        let monthNames = [ "Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember" ];
+        let day = date.getDate();
+        let month = monthNames[date.getMonth()];
+        let year = date.getFullYear();
+      
+        return `${day} ${month} ${year}`
+      }
+      
+      function addDaysToDate(date, daysToAdd) {
+          let newDate = new Date(date);
+          newDate.setDate(date.getDate() + daysToAdd);
+        
+          return newDate
+      }
+      
+      let todaysDate = new Date();
+      let oneYearFromToday = addDaysToDate(todaysDate, 365);
+      let tenDaysAfterToday = addDaysToDate(todaysDate, 10);
+      
+      $('#today').html(getFormattedDate(todaysDate));
     </script>
    
 </body>
