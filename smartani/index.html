@@ -124,9 +124,20 @@
       <div class="tab-pane fade show active" id="budidaya" role="tabpanel" aria-labelledby="budidaya-tab" >
         <div class="row mt-2" id="judul-home">
           <div class="col">
-            <span class="hidden-sm hidden-md hidden-lg hari-digit" style="font-size:10pt">Sabtu, 03 September 2022</span>
-            <h1 class="mt-2" style="font-size:23pt">Halo, Smartani!</h1>
-            <p style="font-size:16pt;margin-top:-5px">Mau menanam apa hari ini?</p>
+            <script type='text/javascript'>
+              var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
+              var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum&#39;at', 'Sabtu'];
+              var date = new Date();
+              var day = date.getDate();
+              var month = date.getMonth();
+              var thisDay = date.getDay(),
+                  thisDay = myDays[thisDay];
+              var yy = date.getYear();
+              var year = (yy < 1000) ? yy + 1900 : yy;
+              document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
+            </script>
+            <h1 class="mt-2" style="font-size:25pt">Halo, Smartani!</h1>
+            <p style="font-size:17pt;margin-top:-5px">Mau menanam apa hari ini?</p>
           </div>
         </div>
         <div class="mt-2">
@@ -150,7 +161,7 @@
           </div>
         </div>
         <div class="mt-4">
-          <h2 id="judul" style="font-size:17pt">Teknologi Budidaya Tanaman</h2>
+          <h1 id="judul" style="font-size:17pt">Artikel Terbaru</h1>
         </div>
   	    <div style="margin-bottom:40px">
           <div id="list-tanaman" style="text-align:center;margin-top:-5px">
@@ -292,7 +303,7 @@
   <div class="row">
     <div class="nav-scroller">
       <div class="nav nav-justified" style="margin-top:3px">
-        <a class="nav-link text-white link-secondary active" id="budidaya-tab" data-bs-toggle="tab" data-bs-target="#budidaya" href="#"><div class="sub-menu"><img src="assets/img/budidaya.png" width="25px" alt="Teknologi Budidaya Tanaman"><span class="menu-title">BLOG</span></div></a>
+        <a class="nav-link text-white link-secondary active" id="budidaya-tab" data-bs-toggle="tab" data-bs-target="#budidaya" href="#"><div class="sub-menu"><img src="assets/img/blog.png" width="25px" alt="Teknologi Budidaya Tanaman"><span class="menu-title">BLOG</span></div></a>
         <a class="nav-link text-white link-secondary" id="shop-tab" data-bs-toggle="tab" data-bs-target="#shop" href="#"><div class="sub-menu"><img src="assets/img/shop.png" width="25px" alt="SmarTani Shop"><span class="menu-title">TOKO</span></div></a>
         <a class="nav-link text-white link-secondary" id="book-tab" data-bs-toggle="tab" data-bs-target="#book" href="#"><div class="sub-menu"><img src="assets/img/ebook.png" width="25px" alt="SmarTani Repository"><span class="menu-title">EBOOK</span></div></a>
         <a class="nav-link text-white link-secondary" id="photo-tab" data-bs-toggle="tab" data-bs-target="#photo" href="#"><div class="sub-menu"><img src="assets/img/gallery.png" width="25px" alt="Koleksi Photo Pertanian"><span class="menu-title">PHOTO</span></div></a>
@@ -339,8 +350,6 @@
         $('html, body').animate({scrollTop:0}, '300');
       });
     </script>
-   <script type="text/javascript">function showLocalTime(a,b,c,d){if(document.getElementById&&document.getElementById(a)){this.container=document.getElementById(a),this.displayversion=d;var e="server-php"==b?'<? print date("F d, Y H:i:s", time())?>':"server-ssi"==b?'<!--#config timefmt="%B %d, %Y %H:%M:%S"--><!--#echo var="DATE_LOCAL" -->':"9/3/2022 6:50:13 PM";this.localtime=this.serverdate=new Date(e),this.localtime.setTime(this.serverdate.getTime()+60*c*1e3),this.updateTime(),this.updateContainer()}}function formatField(a,b){if("undefined"!=typeof b){var c=a>12?a-12:a;return 0==c?12:c}return a<=9?"0"+a:a}var minggutxt=["Minggu","Senin","Selasa","Rabu","Kamis","Jumat","Sabtu"],weekdaystxt=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],bulantxt=["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"],monthstxt=["January","February","March","April","May","June","July","August","September","October","November","December"];showLocalTime.prototype.updateTime=function(){var a=this;this.localtime.setSeconds(this.localtime.getSeconds()+1),setTimeout(function(){a.updateTime()},1e3)},showLocalTime.prototype.updateContainer=function(){var a=this;if("long"==this.displayversion)this.container.innerHTML=this.localtime.toLocaleString();else{var b=this.localtime.getHours(),c=this.localtime.getMinutes(),d=this.localtime.getSeconds(),k=(this.localtime.getDate(),this.localtime.getUTCDate(),minggutxt[this.localtime.getDay()],bulantxt[this.localtime.getMonth()],weekdaystxt[this.localtime.getUTCDay()],monthstxt[this.localtime.getUTCMonth()],b+1);k>=24&&(k-=24);var l=b+2;l>=24&&(l-=24);var m=b-7;m<0&&(m+=24);this.container.innerHTML="<span class='hari-digit hidden-sm'><a href='https://time.bmkg.go.id/' target='_blank'>Standar Waktu Indonesia</a> </span><span class='FontDigit'>"+formatField(b)+":"+formatField(c)+":"+formatField(d)+" WIB / </span><span class='FontDigit'>"+formatField(m)+":"+formatField(c)+":"+formatField(d)+" UTC</span>"}setTimeout(function(){a.updateContainer()},1e3)};
-	</script>
    
 </body>
 </html>
