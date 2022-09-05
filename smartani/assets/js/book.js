@@ -1,5 +1,15 @@
 var book = [
     {
+        "title": "Budidaya Jamur Merang",
+        "poster": "d17282bd080331c9e9727.jpg",
+        "link": "https://drive.google.com/file/d/1jM6-7gWrZ9abJKtvF3yPbUiI88XQF-hn/preview"
+    },
+    {
+        "title": "Budidaya Tanaman Teh Organik",
+        "poster": "80cc4bef1757ec7c5ea87.jpg",
+        "link": "https://drive.google.com/file/d/1jLQvxLEH4Zd-IwcP6rNSA4RqvPADQ54i/preview"
+    },
+    {
         "title": "Budidaya Sayuran Dataran Rendah",
         "poster": "7450b09e1436f87783179.jpg",
         "link": "https://drive.google.com/file/d/1lYa5_rZqugP-ZPW2nnF9om26gmKtCgXJ/preview"
@@ -43,7 +53,12 @@ var book = [
         "title": "Untung Besar Budidaya Tanaman Anggrek",
         "poster": "2f8ae11d17a0b0cf20100.jpg",
         "link": "https://drive.google.com/file/d/1udvw42V7h3TTlqURoGoazKyT4ZPNzu_6/preview"
-    }
+    },
+    {
+        "title": "Teknologi Budidaya Ubi Kayu",
+        "poster": "0572f3b920aaed888f509.jpg",
+        "link": "https://drive.google.com/file/d/1OXqJqSpJofjo-H5cUTeorn0kZiY7ObyM/preview"
+    },
 ];
 
 var books = "";
