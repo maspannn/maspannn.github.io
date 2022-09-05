@@ -40,11 +40,6 @@ var book = [
         "link": "https://drive.google.com/file/d/1RGw2nHCdPTgr81aJhSOV2VEbNul5Mc8a/preview"
     },
     {
-        "title": "Teknologi Budidaya Ubi Kayu",
-        "poster": "0572f3b920aaed888f509.jpg",
-        "link": "https://drive.google.com/file/d/1OXqJqSpJofjo-H5cUTeorn0kZiY7ObyM/preview"
-    },
-    {
         "title": "Untung Besar Budidaya Tanaman Anggrek",
         "poster": "2f8ae11d17a0b0cf20100.jpg",
         "link": "https://drive.google.com/file/d/1udvw42V7h3TTlqURoGoazKyT4ZPNzu_6/preview"
@@ -79,14 +74,10 @@ $(".button-book").click(function(e){
 $(function() {
   $("#cariEbook").on("keyup", function() {
     var value = $(this).val().toLowerCase();
-    if (value.length) {
-      $("#list-ebook .book-card").filter(function() {
+    $("#list-ebook .book-card").filter(function() {
         $("#list-ebook").show();
         $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
       });
-    } else {
-      $("#list-ebook").hide();
-    }
   });
 });
 
