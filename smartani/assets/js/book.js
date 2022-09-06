@@ -1,5 +1,15 @@
 var book = [
     {
+        "title": "Buku Saku Tanaman Obat",
+        "poster": "5df5b49e4ad5db5f183df.jpg",
+        "link": "https://drive.google.com/file/d/1s-znvUQ_0AW-gcQX0JFykZXn_sz5ibNp/preview"
+    },
+    {
+        "title": "Budidaya Jahe",
+        "poster": "08fc2ac1d300957639e4c.jpg",
+        "link": "https://drive.google.com/file/d/1rho0i9IJsQIFYrCMpNO75lIXgtwoR539/preview"
+    },
+    {
         "title": "Budidaya Jamur Merang",
         "poster": "d17282bd080331c9e9727.jpg",
         "link": "https://drive.google.com/file/d/1jM6-7gWrZ9abJKtvF3yPbUiI88XQF-hn/preview"
