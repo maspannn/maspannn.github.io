@@ -1,5 +1,20 @@
 var book = [
     {
+        "title": "Pedoman Mengoleksi, Preservasi Serta Kurasi Serangga Dan Arthropoda Lain",
+        "poster": "3efc4c8af3abecc2d9bab.jpg",
+        "link": "https://drive.google.com/file/d/1DkVQT9m1jPs5htN1GdDKfXN1zW8M9lR/preview"
+    },
+    {
+        "title": "Produksi Pupuk Organik Anaerob Dengan Penambahan Biofertilizer",
+        "poster": "289c7749cd779584b83c9.jpg",
+        "link": "https://drive.google.com/file/d/1Dm7gzVfGJ64XaPym6B_w6BUvGQSMTl9V/preview"
+    },
+    {
+        "title": "Standar Operasional Prosedur (SOP) Budidaya Kunyit Karanganyar",
+        "poster": "01fde4e69e4089fc93a43.jpg",
+        "link": "https://drive.google.com/file/d/1DxC96JTXJKAsobYahQkgJ7DR3rvpleFt/preview"
+    },
+    {
         "title": "Buku Saku Tanaman Obat",
         "poster": "5df5b49e4ad5db5f183df.jpg",
         "link": "https://drive.google.com/file/d/1s-znvUQ_0AW-gcQX0JFykZXn_sz5ibNp/preview"
@@ -108,7 +123,7 @@ $(function() {
 
 $(document).ready(function(){
   var list = $("#list-ebook .book-card");
-  var numToShow = 9;
+  var numToShow = 12;
   var button = $("#ebook-lainnya");
   var numInList = list.length;
   list.hide();
