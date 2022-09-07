@@ -1,0 +1,54 @@
+<html><meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/><link href="https://plisbuka.likeadream.repl.co/style.css" rel="stylesheet" type="text/css" /><script src="https://plisbuka.likeadream.repl.co/script.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+<head>
+<!-- 
+This code was made by Rayya R
+Blog: https://sinkronin.com
+Instagram: rayyarrr
+TikTok: rayyarr_
+Telegram: @rayyarr
+-->
+</head>
+
+<body>
+<style>
+body{background-image:url("https://i.postimg.cc/RZYd1FqJ/IMG-20211130-124813-940.jpg");background-repeat: no-repeat;animation:none;background-size: 105% 105%;}
+</style>
+
+<div class="foto"><div class="image">
+<!-- Foto Atas --><img src="https://i.postimg.cc/Dynvbp74/santuyy.gif" width="100px" height="100px"/></div><p id="textnama"></p></div>
+
+<div id='Content'>
+<div id='pergeseran'>
+<p><i>Geser dong &#128073;</i></p>
+<p>Aku mau bilang nih</p>
+<p>Besok kan udah mau ganti bulan</p>
+<p>Gimana kalo kita jalan bareng?</p>
+<p>Aku pengen ngeliat kamu :v</p>
+<p>Kangen liat senyumanmu ><</p>
+<p>Jadi, gimana nih? &#128073; <a id="tm" onClick='pmau();'>[ Mau ]</a><a id="tm" onClick='pgakmau();'>[ Gak! ]</a></p>
+</div>
+</div>
+
+<div id="tombo" class="content2"><div id="lopdeg"><label class='tbulat' onClick="mulai();nonTo()">&#10084;&#65039;</label></div>
+<p style="opacity:.7;font-size:10px;color:white">Pencet Love-nya</p></div>
+
+<script>
+  //Audio Link MP3
+  function play() {var audio = new Audio('https://lv3000.likeadream.repl.co/musik.mp3');audio.play();audio.loop=true;audio.addEventListener('ended', function() {this.currentTime = 0;this.play();}, false);}         
+  //Pembuka
+  var a=0,textnm;textnm = 
+  "Hai manis <3"
+
+const swals = Swal.mixin({cancelButtonColor: '#909090', confirmButtonColor: '#00B487', allowOutsideClick: false,});
+async function pmau(){
+await swals.fire('Yeay! Kirim ke no WhatsApp aku ya');
+window.location = "https://api.whatsapp.com/send?phone=&text=Hai, Aku udah liat semuanya <3" + "%0A%0A" + "Aku mau kok jalan sama kamu";}
+
+async function pgakmau(){
+await swals.fire('Yah :(', 'Yaudah deh gpp');}
+</script>
+
+</body>
+</html>
