@@ -323,9 +323,7 @@ $(".button").click(function(e){
   $("#list-tanaman").css({"display":"none"});
   $("#tanaman-lainnya").css({"display":"none"});
   $("#post-blog").css({"display":"block"});
-  $("#judul").css({"display":"none"});
-  $("#judul-home").css({"display":"none"});
-  $("#carouselExampleSlidesOnly").css({"display":"none"});
+  $("#judul-artikel").css({"display":"none"});
   $(window).scrollTop(0);
   dissBtn();
 });

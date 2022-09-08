@@ -47,6 +47,18 @@ video {
 	text-align:center;
 	box-shadow: 2px 2px 3px #999;
 }
+.tombolhome{
+	position:fixed;
+	z-index:1;
+	width:50px;
+	height:50px;
+	top:7px;
+	right:8px;
+	background-color:#2d2c4d;
+	color:#FFF;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
 @font-face {
 	font-family: 'proxima_nova_rgregular';
 	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot');
@@ -113,9 +125,6 @@ h1{
   background-color: #2d2c4d;
   height: 55px;
   z-index: 999;
-}
-.fa {
-  font-size:20pt;
 }
 .nav-scroller {
   position: relative;
