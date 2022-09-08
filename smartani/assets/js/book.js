@@ -1,5 +1,20 @@
 var book = [
     {
+        "title": "Aktualisasi Teknologi Inovatif Pemanfaatan Lahan Pekarangan ",
+        "poster": "1e21925d82af68c584684.jpg",
+        "link": "https://drive.google.com/file/d/1DkVQT9m1jPs5htN1GdDKfXN1zW8M9lR/preview"
+    },
+    {
+        "title": "Aplikasi Statistika Pada Data Pendampingan Untuk Karya Tulis Ilmiah",
+        "poster": "21e7ddbd655a13fb13345.jpg",
+        "link": "https://drive.google.com/file/d/1dluxBqKEEtrEP8GwmdGzPujSqrLmeOuA/preview"
+    },
+    {
+        "title": "AREN Untuk Pangan, Bioenergi, dan Konservasi",
+        "poster": "59c868d26382500058e87.jpg",
+        "link": "https://drive.google.com/file/d/1dvOLLelgna2QdJ3nY5b2i4CF_TtOut7U/preview"
+    },
+    {
         "title": "Pedoman Mengoleksi, Preservasi Serta Kurasi Serangga Dan Arthropoda Lain",
         "poster": "3efc4c8af3abecc2d9bab.jpg",
         "link": "https://drive.google.com/file/d/1DkVQT9m1jPs5htN1GdDKfXN1zW8M9lR/preview"
