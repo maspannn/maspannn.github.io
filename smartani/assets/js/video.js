@@ -1,61 +1,36 @@
-var video =[
+const agro = [
     {
-        "title": "Pertanian Dunia. Cara Panen Jutaan Buah Mangga dan Pengolahanya",
-        "link": "https://youtube.com/embed/A2y2OXxr-do",
+      "poster": "https://i.pinimg.com/736x/8a/48/6d/8a486db0697463decea88b7f8059f3d3.jpg",
+      "link": "https://v.pinimg.com/videos/mc/720p/fc/70/71/fc7071f49805eb564b6f5493c56bb3d8.mp4"
     },
     {
-        "title": "Cara Mudah Menanam Tanaman Tomat dalam Botol Gantung Plastik | Menanam Tomat dari Biji",
-        "link": "https://youtube.com/embed/-VkJIf4Nmck",
+      "poster": "https://i.pinimg.com/736x/46/ab/75/46ab75c1556eaefde46f04699bc43b78.jpg",
+      "link": "https://v.pinimg.com/videos/mc/720p/0b/eb/03/0beb03c8730ff6ca6beae1d8e1b80da4.mp4"
     },
     {
-        "title": "Cara menanam mangga agar berbuah lebat, Cara Menanam mangga agar cepat Berbuah, Tabulampot Mangga..!",
-        "link": "https://youtube.com/embed/ud-xGb2fNkE",
+      "poster": "https://i.pinimg.com/736x/4d/5a/c8/4d5ac802c364d3daa1db285c66288119.jpg",
+      "link": "https://v.pinimg.com/videos/mc/720p/76/e2/89/76e28943419dec66b262d2ba93783429.mp4"
     },
     {
-        "title": "TUTORIAL BUDIDAYA KACANG PANJANG BUAH LEBAT | TIPS DAN TRIK KIAT SUKSES TANAM KACANG PANJANG",
-        "link": "https://youtube.com/embed/w5y3EAZ4C14",
+      "poster": "https://i.pinimg.com/736x/1b/b5/15/1bb5157a6993161fc92749db4cea80a3.jpg",
+      "link": "https://v.pinimg.com/videos/mc/720p/06/f6/ea/06f6eaf25bb487f0942ee7b5f6c177fc.mp4"
     },
     {
-        "title": "VIRAL !!! BUDIDAYA KUNYIT HITAM SAMPAI HARGA 5 JUTA PERKILO - JURAGAN LAHAN",
-        "link": "https://youtube.com/embed/y5nZOhsqb2U",
+      "poster": "https://i.pinimg.com/736x/12/ab/3b/12ab3b16730940d95fbd4ad7a24bc189.jpg",
+      "link": "https://v.pinimg.com/videos/mc/720p/c3/a3/7a/c3a37ae849221e5caae8c469d17541d3.mp4"
     },
-];
+    {
+      "poster": "https://i.pinimg.com/736x/fa/bc/4d/fabc4d05115fc19cb99613defe683483.jpg",
+      "link": "https://v.pinimg.com/videos/mc/720p/89/38/68/893868acd8bfa083c48062dfab62d05b.mp4"
+    },
+]
 
-var videoLength = video.length;
-$("#list-video").empty();
-for (i=0; i<videoLength; i++) {
-  var listItemvideo =
-    '<div id="video-pertanian">'+
-      '<div class="card shadow" style="margin-bottom:10px">'+
-      '<a class="button" href="'+video[i].link+'" data-obj="'+i+'">'+
-      '<div style="--aspect-ratio: 16/9;">' +
-      '<iframe src="' +video[i].link+ '">' +
-      '</iframe>' +
-      '</div>' +
-      '</a>' +
-      '<div style="padding-top:5px;padding-left:10px;margin-bottom:0px"><h6>'+ video[i].title +'</h6></div>'+
-      '</div>'+
-    '</div>';
-  $("#list-video").append(listItemvideo);
-};
+function randomagro() {
+  let random = agro[Math.floor(Math.random() * agro.length)];
+  video.innerHTML = `<video id="myVideo" width="100%" height="100%" controls controlsList="noplaybackrate nodownload" preload="none"poster="${random.poster}"><source src="${random.link}" type="video/mp4"></video>`;
+  agro.innerHTML = random.agro;
+}
 
-$(document).ready(function(){
-  var list = $("#list-video #video-pertanian");
-  var numToShow = 4;
-  var button = $("#video-lainnya");
-  var numInList = list.length;
-  list.hide();
-  if (numInList > numToShow) {
-    button.show();
-  }
-  list.slice(0, numToShow).show();
+randomagro();
 
-  button.click(function(){
-      var showing = list.filter(':visible').length;
-      list.slice(showing - 1, showing + numToShow).fadeIn();
-      var nowShowing = list.filter(':visible').length;
-      if (nowShowing >= numInList) {
-        button.hide();
-      }
-  });
-});
+document.querySelector("button.tombolagro").addEventListener('click', randomagro)

@@ -13,7 +13,7 @@
     </script>
     <meta name="google-site-verification" content="oNRjU30FTz1XeTRc8H-7DkXprtpY-S3OTt3oVXpW_3o" />
     <meta name="author" content="SmarTani Digital">
-    <meta name="theme-color" content="#212529">
+    <meta name="theme-color" content="#2d2c4d">
     <meta name="description" content="Tempat berbagi ilmu & belanja kebutuhan pertanian terlengkap.">
     <meta property="og:image:width" content="300">
     <meta property="og:image:height" content="425">
@@ -140,34 +140,30 @@
             <p style="font-size:17pt;margin-top:-5px">Mau menanam apa hari ini?</p>
           </div>
         </div>
-        <div class="mt-2">
-          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Rekomendasi Produk Pertanian"></button>
-              <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="1" aria-label="Rekomendasi Produk Pertanian"></button>
-              <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="2" aria-label="Rekomendasi Produk Pertanian"></button>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Rekomendasi Produk Pertanian"></button>
+            <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="1" aria-label="Rekomendasi Produk Pertanian"></button>
+            <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="2" aria-label="Rekomendasi Produk Pertanian"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="4000">
+              <img src="assets/img/img1.png" class="d-block w-100" alt="Rekomendasi Produk Pertanian">
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="4000">
-                <img src="assets/img/img1.png" class="d-block w-100" alt="Rekomendasi Produk Pertanian">
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="assets/img/img2.png" class="d-block w-100" alt="Rekomendasi Produk Pertanian">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/img/img3.png" class="d-block w-100" alt="Rekomendasi Produk Pertanian">
-              </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="assets/img/img2.png" class="d-block w-100" alt="Rekomendasi Produk Pertanian">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/img3.png" class="d-block w-100" alt="Rekomendasi Produk Pertanian">
             </div>
           </div>
         </div>
-        <div class="mt-4">
+        <div class="mt-4" style="margin-bottom:-20px">
           <h1 id="judul" style="font-size:17pt">Artikel Terbaru</h1>
-        </div>
-  	    <div style="margin-bottom:40px">
-          <div id="list-tanaman" style="text-align:center;margin-top:-5px">
-              
+          <div id="list-tanaman" style="text-align:center">
+            
           </div>
-          <div class="container mt-3" align="center">
+          <div align="center">
             <button class="tombol-tanaman" id="tanaman-lainnya">Tanaman Lainnya</button>
           </div>
         </div>
@@ -227,7 +223,7 @@
           
           </div>
         </div>
-        <div class="container mb-4" align="center">
+        <div align="center">
           <button class="tombol-lainnya" id="produk-lainnya">Produk Lainnya</button>
         </div>
       </div>
@@ -244,26 +240,17 @@
         </div>
       </div>
       <div class="tab-pane fade" id="photo" role="tabpanel" aria-labelledby="photo-tab">
-          <div style="margin-bottom:20px">
-            <div class="mt-2" id="list-photo">
-              
-            </div>
-            <hr style="visibility: hidden">
-            <div class="container md-12" align="center">
-              <button class="tombol-lainnya" id="photo-lainnya">Photo Lainnya</button>
-            </div>
-          </div>   
+        <div style="margin-bottom:20px">
+          <div class="mt-2" id="list-photo">
+            
+          </div>
+        </div>   
       </div>
-      <div class="tab-pane fade" id="video" role="tabpanel" aria-labelledby="video-tab">
-          <div style="margin-bottom:20px">
-            <div class="mt-2" id="list-video" align="center">
-              
-            </div>
-            <hr style="visibility: hidden">
-            <div class="container md-12" align="center">
-              <button class="tombol-lainnya" id="video-lainnya">Video Lainnya</button>
-            </div>
-          </div> 
+      <div class="tab-pane fade" id="videos" role="tabpanel" aria-labelledby="videos-tab">
+          <div id="video" >
+            <div id="agro"></div>
+          </div>
+          <button type="button" class="tombolagro float"><i class="fa fa-arrow-right my-icon mt-1"></i></button>
         </div>
       </div>
     </div>
@@ -305,9 +292,9 @@
       <div class="nav nav-justified" style="margin-top:3px">
         <a class="nav-link text-white link-secondary active" id="budidaya-tab" data-bs-toggle="tab" data-bs-target="#budidaya" href="#"><div class="sub-menu"><img src="assets/img/blog.png" width="25px" alt="Teknologi Budidaya Tanaman"><span class="menu-title">BLOG</span></div></a>
         <a class="nav-link text-white link-secondary" id="shop-tab" data-bs-toggle="tab" data-bs-target="#shop" href="#"><div class="sub-menu"><img src="assets/img/shop.png" width="25px" alt="SmarTani Shop"><span class="menu-title">TOKO</span></div></a>
+        <a class="nav-link text-white link-secondary" id="videos-tab" data-bs-toggle="tab" data-bs-target="#videos" href="#"><div class="sub-menu"><img src="assets/img/video.png" width="25px" alt="Koleksi Video Pertanian"><span class="menu-title">SHORTS</span></div></a>
         <a class="nav-link text-white link-secondary" id="book-tab" data-bs-toggle="tab" data-bs-target="#book" href="#"><div class="sub-menu"><img src="assets/img/ebook.png" width="25px" alt="SmarTani Repository"><span class="menu-title">EBOOK</span></div></a>
         <a class="nav-link text-white link-secondary" id="photo-tab" data-bs-toggle="tab" data-bs-target="#photo" href="#"><div class="sub-menu"><img src="assets/img/gallery.png" width="25px" alt="Koleksi Photo Pertanian"><span class="menu-title">PHOTO</span></div></a>
-        <a class="nav-link text-white link-secondary" id="video-tab" data-bs-toggle="tab" data-bs-target="#video" href="#"><div class="sub-menu"><img src="assets/img/video.png" width="25px" alt="Koleksi Video Pertanian"><span class="menu-title">VIDEO</span></div></a>
       </div>
     </div>
   </div>
@@ -321,19 +308,16 @@
     <script src="assets/js/produk.js"></script>
     <script src="assets/js/photo.js"></script>
     <script src="assets/js/video.js"></script>
-    
     <script>
       $(document).ready(function () {
         $("#myAds").modal("show");
       });
     </script>
-    
     <script>
-    function myDirectAds() {
-      window.open("https://shope.ee/6pOZRleqLY");
-    }
+      function myDirectAds() {
+        window.open("https://shope.ee/6pOZRleqLY");
+      }
     </script>
-
     <script>
       var btn = $('#btn-scroll');
 
@@ -350,6 +334,6 @@
         $('html, body').animate({scrollTop:0}, '300');
       });
     </script>
-   
+
 </body>
 </html>

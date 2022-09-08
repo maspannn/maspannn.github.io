@@ -303,15 +303,7 @@ var postLength = post.length;
 $("#list-tanaman").empty();
 for (i=0; i<postLength; i++) {
   var listItem =
-    '<div id="artikel">'+
-      '<a class="button" href="'+post[i].link+'" data-obj="'+i+'">'+
-      '<div class="card" style="width:100%">'+
-      '<img src="'+post[i].poster+'" class="card-img-top" width="100%" style="max-inline-size: 100%;block-size: auto;aspect-ratio: 16/9;object-fit: cover;" alt="SmarTani Digital Budidaya Tanaman">'+
-      '<div class="card-body">'+
-      '<div class="judul-tanaman"><h6>'+ post[i].title+'</h6>'+
-      '</div>'+
-      '</a>' +
-    '</div>';
+    '<div id="artikel"><a class="button" href="'+post[i].link+'" data-obj="'+i+'"><div class="card" style="width:100%"><img src="'+post[i].poster+'" class="card-img-top" width="100%" style="max-inline-size: 100%;block-size: auto;aspect-ratio: 16/9;object-fit: cover;" alt="SmarTani Digital Budidaya Tanaman"><div class="card-body"><div class="judul-tanaman"><h6>'+ post[i].title+'</h6></div></a></div>';
   $("#list-tanaman").append(listItem);
 };
 
