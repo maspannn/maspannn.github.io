@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://smartani.my.id/sitemap.xml

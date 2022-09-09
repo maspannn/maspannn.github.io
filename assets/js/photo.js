@@ -49,42 +49,24 @@ var photoLength = photo.length;
 $("#list-photo").empty();
 
 for (i=0; i<photoLength; i++) {
+  let random = photo[Math.floor(Math.random() * photo.length)];
   var listItemphoto =
-    '<div class="grid__item">'+
-      '<img src="'+photo[i].link+'" style="margin-bottom:10px;width:100%;border-radius:13px">'+
-    '</div>';
+    '<div class="grid"><img src="'+ random.link +'" style="margin-bottom:10px;width:100%;border-radius:13px"></div>';
   $("#list-photo").append(listItemphoto);
 };
 
 $(document).ready(function(){
-
-      var list = $("#list-photo div");
-      var numToShow = 7;
-      var button = $("#photo-lainnya");
-      var numInList = list.length;
-      list.hide();
-      if (numInList > numToShow) {
-        button.show();
-      }
-      list.slice(0, numToShow).show();
-
-      button.click(function(){
-          var showing = list.filter(':visible').length;
-          list.slice(showing - 1, showing + numToShow).fadeIn();
-          var nowShowing = list.filter(':visible').length;
-          if (nowShowing >= numInList) {
-            button.hide();
-          }
-      });
-
+  var list = $("#list-photo div");
+  var numToShow = 7;
+  var button = $("#photo-lainnya");
+  var numInList = list.length;
+  list.hide();
+  if (numInList > numToShow) {
+    button.show();
+  }
+  list.slice(0, numToShow).show();
 });
 
 $("#photo-lainnya").on("click", function() {
   $(window).scrollTop(0);
-});
-
-$(document).ready(function(){
-jQuery('img').each(function(){
-jQuery(this).attr('src',jQuery(this).attr('src')+ '?' + (new Date()).getTime());
-});
 });
