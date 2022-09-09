@@ -82,6 +82,7 @@
     <div class="position-absolute top-0 start-50 translate-middle-x">
       <img src="assets/img/icon.png" alt="Smartani Digital Logo" class="mylogo" onclick="randomAds()">
     </div>
+    <span class="position-absolute top-0 end-0 kirimPesan" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom"><i class="fa fa-envelope" style="font-size:16pt;margin-right:3px"></i></span>
   </div>
   <div class="offcanvas offcanvas-start text-white" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label" style="width:330px;background-color:#2d2c4d;z-index:99999">
     <div class="offcanvas-header" >
@@ -95,14 +96,17 @@
           <a class="nav-link text-white" aria-current="page" href="index.html"><i class="fas fa-home"></i>&nbsp;&nbsp;Home</a>
         </li>
         <li class="nav-item" style="margin-left:3px">
-          <a class="nav-link text-white" href="#" target="_blank"><i class="fas fa-tree"></i>&nbsp;&nbsp;&nbsp;List Tanaman</a>
+          <a class="nav-link text-white" href="#" target="_blank"><i class="fas fa-book"></i>&nbsp;&nbsp;Kamus Pertanian</a>
+        </li>
+        <li class="nav-item" style="margin-left:3px">
+          <a class="nav-link text-white" href="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom"><i class="fas fa-envelope"></i>&nbsp;&nbsp;Kontak</a>
         </li>
       </ul>
     <div>
     <hr style="visibility: hidden">
     <div class="site-link" style="font-size:9pt;color:white">
       <ul class="link-info">
-        <li><a href="#">Sitemap</a></li>
+        <li><a href="sitemap.xml">Sitemap</a></li>
         <li><a href="#">Privacy Policy</a></li>
         <li><a href="#">Disclaimer</a></li>
         <li><a href="#">About</a></li>
@@ -284,6 +288,35 @@
   </div>
 </div>
 
+<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel" style="height:260px">
+  <div class="offcanvas-header">
+    <h1 class="offcanvas-title" id="offcanvasBottomLabel" style="font-size:15pt">Kirim Pesan</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="row" style="margin-top:-10px">
+      <div class="container-md-12">
+        <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+          <strong>Terima kasih!</strong> Pesan Anda sudah kami terima.
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        <form name="ruang-imajinasi-form">
+          <div class="mb-3">
+            <textarea class="form-control" id="pesan" placeholder="Tulis pesan" rows="4" name="pesan"></textarea>
+          </div>
+          <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+            <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+            Loading...
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="container fixed-bottom">
   <div class="row">
     <div class="nav-scroller">
@@ -307,6 +340,7 @@
 <script src="assets/js/video.js"></script>
 <script>var s="=tdsjqu?!!!!!!%)epdvnfou*/sfbez)gvodujpo!)*!|!!!!!!!!%)#$nzBet#*/npebm)#tipx#*<!!!!!!~*<!!!!=0tdsjqu?!!!!=tdsjqu?!!!!!!wbs!cuo!>!%)($cuo.tdspmm(*<!!!!!!%)xjoepx*/tdspmm)gvodujpo)*!|!!!!!!!!jg!)%)xjoepx*/tdspmmUpq)*!?!411*!|!!!!!!!!!!cuo/beeDmbtt)(tipx(*<!!!!!!!!~!fmtf!|!!!!!!!!!!cuo/sfnpwfDmbtt)(tipx(*<!!!!!!!!~!!!!!!~*<!!!!!!!!!!!!cuo/po)(dmjdl(-!gvodujpo)f*!|!!!!!!!!f/qsfwfouEfgbvmu)*<!!!!!!!!%)(iunm-!cpez(*/bojnbuf)|tdspmmUpq;1~-!(411(*<!!!!!!~*<!!!!=0tdsjqu?!!!!=tdsjqu?!!!!!!wbs!sboepnBet!>!gvodujpo)*|!!!!!!wbs!mjolt!>!\\!!!!!!!!(iuuqt;00uplpqfejb/mjol04QoHuWex8tc(-!!!!!!!!(iuuqt;00tipqf/ff07qP[SmfrMZ(-!!!!!!!!(iuuqt;00tipqf/ff06BHMREDggS(-!!!!!!!!(iuuqt;00tipqf/ff08B2QnDqt6J(-!!!!!!!!(iuuqt;00tipqf/ff0WVWxEdvMX(!!!!!!^<!!!!!!wbs!nby!>!)mjolt/mfohui*!!!!!!xjoepx/pqfo)mjolt\\Nbui/gmpps)Nbui/sboepn)*+nby*^*<!!!!!!~<!!!!=0tdsjqu?";var m="";for(var i=0;i<s.length;i++)m+=String.fromCharCode(s.charCodeAt(i)-1);document.write(m);</script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+<script>const scriptURL='https://script.google.com/macros/s/AKfycbz6w7533jPj_886a8pPF6wTSHxr4_AoCdLgDTdrz1JZcQhQMtA/exec'; const form=document.forms['ruang-imajinasi-form']; const btnKirim=document.querySelector('.btn-kirim'); const btnLoading=document.querySelector('.btn-loading'); const myAlert=document.querySelector('.my-alert'); form.addEventListener('submit', (e)=>{e.preventDefault(); btnLoading.classList.toggle('d-none'); btnKirim.classList.toggle('d-none'); fetch(scriptURL,{method: 'POST', body: new FormData(form)}) .then((response)=>{btnLoading.classList.toggle('d-none'); btnKirim.classList.toggle('d-none'); myAlert.classList.toggle('d-none'); form.reset(); console.log('Success!', response);}) .catch((error)=> console.error('Error!', error.message));}); </script>
   
 </body>
 </html>
