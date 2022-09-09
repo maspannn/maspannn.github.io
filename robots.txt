@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://maspannn.github.io/sitemap.xml
+Sitemap: https://smartani.my.id/sitemap.xml
