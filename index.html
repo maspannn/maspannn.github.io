@@ -95,8 +95,25 @@
         <li class="nav-item">
           <a class="nav-link text-white" aria-current="page" href="index.html"><i class="fas fa-home"></i>&nbsp;&nbsp;Home</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#" data-bs-toggle="modal" data-bs-target="#pestisida"><button type="button" class="btn btn-primary position-relative" style="background-color:transparent;border:none;margin-left:-12px;box-sizing: border-box;-webkit-box-shadow: none !important;">
+            <i class="fas fa-bug"></i>&nbsp;&nbsp;Cek Pestisida
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              Baru
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </button>
+          </a>
+        </li>
         <li class="nav-item" style="margin-left:3px">
-          <a class="nav-link text-white" href="#" data-bs-toggle="modal" data-bs-target="#kamuspertanian"><i class="fas fa-book"></i>&nbsp;&nbsp;Kamus Pertanian</a>
+          <a class="nav-link text-white" href="#" data-bs-toggle="modal" data-bs-target="#kamuspertanian"><button type="button" class="btn btn-primary position-relative" style="background-color:transparent;border:none;margin-left:-12px;box-sizing: border-box;-webkit-box-shadow: none !important;">
+            <i class="fas fa-book"></i>&nbsp;&nbsp;Kamus Pertanian
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              Baru
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </button>
+          </a>
         </li>
       </ul>
       <div class="dropdown">
@@ -111,7 +128,8 @@
       </div>
     <div>
     <hr style="visibility: hidden">
-    <div class="site-link" style="font-size:9pt;color:white">
+    <div class="footer">
+      <div class="site-link" style="font-size:9pt;color:white">
       <ul class="link-info">
         <li><a href="sitemap.xml">Sitemap</a></li>
         <li><a href="#">Privacy Policy</a></li>
@@ -130,6 +148,7 @@
         <span>Theme by <a href="https://t.me/maspannn"><b>Mas Pannn</b></a></span>
       </div>
     </div>
+  </div>
 </nav>
   
 <div class="container">
@@ -265,12 +284,32 @@
   </div>
 </div>
 
+<div class="modal" id="pestisida" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title"><b>Cek Pestisida</b></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="randomAds()"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <input type="text" id="cariPestisida" placeholder="Cari pestisida" onkeyup="mySearchPestisida()"/>
+        </div>
+        <div id="list-pestisida">
+          
+        </div>
+        <div class="container mt-2 mb-4" align="center"><button class="tombol-pestisida" id="pestisida-lainnya">Lebih Banyak</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="modal" id="kamuspertanian" tabindex="-1">
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title"><b>Kamus Pertanian</b></h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="randomAds()"></button>
       </div>
       <div class="modal-body">
         <div class="mb-3">
@@ -278,6 +317,8 @@
         </div>
         <div id="list-kamus">
           
+        </div>
+        <div class="container mt-2 mb-4" align="center"><button class="tombol-kamus" id="kamus-lainnya">Lebih Banyak</button>
         </div>
       </div>
     </div>
@@ -408,6 +449,7 @@
 <script src="assets/js/photo.js"></script>
 <script src="assets/js/video.js"></script>
 <script src="assets/js/kamus.js"></script>
+<script src="assets/js/pestisida.js"></script>
 <script>var s="=tdsjqu?!!!!!!%)epdvnfou*/sfbez)gvodujpo!)*!|!!!!!!!!%)#$nzBet#*/npebm)#tipx#*<!!!!!!~*<!!!!=0tdsjqu?!!!!=tdsjqu?!!!!!!wbs!cuo!>!%)($cuo.tdspmm(*<!!!!!!%)xjoepx*/tdspmm)gvodujpo)*!|!!!!!!!!jg!)%)xjoepx*/tdspmmUpq)*!?!411*!|!!!!!!!!!!cuo/beeDmbtt)(tipx(*<!!!!!!!!~!fmtf!|!!!!!!!!!!cuo/sfnpwfDmbtt)(tipx(*<!!!!!!!!~!!!!!!~*<!!!!!!!!!!!!cuo/po)(dmjdl(-!gvodujpo)f*!|!!!!!!!!f/qsfwfouEfgbvmu)*<!!!!!!!!%)(iunm-!cpez(*/bojnbuf)|tdspmmUpq;1~-!(411(*<!!!!!!~*<!!!!=0tdsjqu?!!!!=tdsjqu?!!!!!!wbs!sboepnBet!>!gvodujpo)*|!!!!!!wbs!mjolt!>!\\!!!!!!!!(iuuqt;00uplpqfejb/mjol04QoHuWex8tc(-!!!!!!!!(iuuqt;00tipqf/ff07qP[SmfrMZ(-!!!!!!!!(iuuqt;00tipqf/ff06BHMREDggS(-!!!!!!!!(iuuqt;00tipqf/ff08B2QnDqt6J(-!!!!!!!!(iuuqt;00tipqf/ff0WVWxEdvMX(!!!!!!^<!!!!!!wbs!nby!>!)mjolt/mfohui*!!!!!!xjoepx/pqfo)mjolt\\Nbui/gmpps)Nbui/sboepn)*+nby*^*<!!!!!!~<!!!!=0tdsjqu?";var m="";for(var i=0;i<s.length;i++)m+=String.fromCharCode(s.charCodeAt(i)-1);document.write(m);</script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
 <script>const scriptURL='https://script.google.com/macros/s/AKfycbxnX_ZYcLfVF2VJ3JA860twO7TQoIt0NRP1B5mUyt-kqnVibg5y/exec'; const form=document.forms['smartani-form']; const btnKirim=document.querySelector('.btn-kirim'); const btnLoading=document.querySelector('.btn-loading'); const myAlert=document.querySelector('.my-alert'); form.addEventListener('submit', (e)=>{e.preventDefault(); btnLoading.classList.toggle('d-none'); btnKirim.classList.toggle('d-none'); fetch(scriptURL,{method: 'POST', body: new FormData(form)}) .then((response)=>{btnLoading.classList.toggle('d-none'); btnKirim.classList.toggle('d-none'); myAlert.classList.toggle('d-none'); form.reset(); console.log('Success!', response);}) .catch((error)=> console.error('Error!', error.message));}); </script>
