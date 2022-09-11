@@ -22392,9 +22392,8 @@ var kamus = [
 var words = "";
 	  
 for (var i = 0; i < kamus.length; i++) {
-  let random = kamus[Math.floor(Math.random() * kamus.length)];
-	var kata = random.kata,
-		arti = random.arti;
+	var kata = kamus[i].kata,
+		arti = kamus[i].arti;
 	
 	words += "<div class='word' data-kata='" + kata + "' data-arti='" + arti + "'><h4><b>"+ kata +"</b></h4><p>👉 "+ arti +"</p></div>";
 }
