@@ -22395,7 +22395,7 @@ for (var i = 0; i < kamus.length; i++) {
 	var kata = kamus[i].kata,
 		arti = kamus[i].arti;
 	
-	words += "<div class='word' data-kata='" + kata + "' data-arti='" + arti + "'><h4><b>"+ kata +"</b></h4><p>👉 "+ arti +"</p></div>";
+	words += "<div class='word' data-kata='" + kata + "' data-arti='" + arti + "'><h4><b>"+ kata +"</b></h4><p>👉 "+ arti +"</p><hr></div>";
 }
 
 $("#list-kamus").html(words);

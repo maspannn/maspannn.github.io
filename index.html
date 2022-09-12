@@ -95,9 +95,9 @@
         <li class="nav-item">
           <a class="nav-link text-white" aria-current="page" href="index.html"><i class="fas fa-home"></i>&nbsp;&nbsp;Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#" data-bs-toggle="modal" data-bs-target="#pestisida"><button type="button" class="btn btn-primary position-relative" style="background-color:transparent;border:none;margin-left:-12px;box-sizing: border-box;-webkit-box-shadow: none !important;">
-            <i class="fas fa-bug"></i>&nbsp;&nbsp;Cek Pestisida
+         <li class="nav-item" style="margin-left:3px">
+          <a class="nav-link text-white" href="#" data-bs-toggle="modal" data-bs-target="#data-opete"><button type="button" class="btn btn-primary position-relative" style="background-color:transparent;border:none;margin-left:-15px;box-sizing: border-box;-webkit-box-shadow: none !important;">
+            <i class="fas fa-bug"></i>&nbsp;&nbsp;Cek OPT
             <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
               Baru
               <span class="visually-hidden">unread messages</span>
@@ -105,9 +105,9 @@
           </button>
           </a>
         </li>
-        <li class="nav-item" style="margin-left:3px">
-          <a class="nav-link text-white" href="#" data-bs-toggle="modal" data-bs-target="#kamuspertanian"><button type="button" class="btn btn-primary position-relative" style="background-color:transparent;border:none;margin-left:-12px;box-sizing: border-box;-webkit-box-shadow: none !important;">
-            <i class="fas fa-book"></i>&nbsp;&nbsp;Kamus Pertanian
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#" data-bs-toggle="modal" data-bs-target="#pestisida"><button type="button" class="btn btn-primary position-relative" style="background-color:transparent;border:none;margin-left:-12px;box-sizing: border-box;-webkit-box-shadow: none !important;">
+            <i class="fas fa-paw"></i>&nbsp;&nbsp;Cek Pestisida
             <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
               Baru
               <span class="visually-hidden">unread messages</span>
@@ -121,7 +121,7 @@
         </li>
       </ul>
       <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color:transparent;border:none;margin-left:-6px;box-sizing: border-box;-webkit-box-shadow: none !important;">
+        <button class="btn mt-2 btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color:transparent;border:none;margin-left:-6px;box-sizing: border-box;-webkit-box-shadow: none !important;">
           <i class="fas fa-tree"></i>&nbsp;&nbsp;Daftar Tanaman
         </button>
         <ul class="dropdown-menu">
@@ -158,7 +158,7 @@
 <div class="container">
   <div class="row">
     <div class="tab-content" id="tabContent">
-      <div class="tab-pane fade show active" id="book" role="tabpanel" aria-labelledby="book-tab">
+      <div class="tab-pane fade show active" id="blog" role="tabpanel" aria-labelledby="blog-tab">
         <div class="row mt-2" id="judul-home">
           <div class="col">
             <script type='text/javascript'>
@@ -174,57 +174,28 @@
               document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
             </script>
             <h1 class="mt-2" style="font-size:25pt">Halo, Smartani!</h1>
-            <p style="font-size:17pt;margin-top:-5px">Mau membaca buku apa hari ini?</p>
+            <p style="font-size:17pt;margin-top:-5px">Mau menanam apa hari ini?</p>
           </div>
         </div>
         <div class="mb-3">
-          <input type="text" id="cariEbook" placeholder="Cari ebook" onkeyup="mySearchWord()"/>
+          <input type="text" id="cariArtikel" placeholder="Cari artikel" onkeyup="mySearchWord()"/>
         </div>
-        <div class="mt-3">
-          <div id="list-ebook">
-          
-          </div>
-        </div>
-        <div class="container mt-2 mb-4" align="center"><button class="tombol-ebook" id="ebook-lainnya">Ebook Lainnya</button>
-        </div>
-      </div>
-      <div class="tab-pane fade" id="budidaya" role="tabpanel" aria-labelledby="budidaya-tab" >
-        <h1 class="mt-2" id="judul-artikel" style="font-size:17pt">Artikel Terbaru</h1>
-        <div id="list-tanaman" style="text-align:center">
+        <div id="list-artikel" style="text-align:center">
             
         </div>
-        <div align="center">
-          <button class="tombol-tanaman" id="tanaman-lainnya">Artikel Lainnya</button>
+        <div align="center" style="margin-bottom:20px">
+          <button class="tombol-artikel" id="artikel-lainnya">Lebih Banyak</button>
         </div>
-        <hr style="color:white;visibility: hidden">
-        <div id="post-blog" style="display:none">
-          <div class="title-info">
-            <div class="inner-title"></div><br>
-          </div>
-          <div class="date-info">
-            <span>Smartani Team &#160;-&#160;&#160;</span>
-            <span class="inner-tanggal"></span>
-          </div>
-          <div class="poster-info mt-3">
-            <img src=""  class="inner-poster" width="100%" alt="Teknologi Budidaya Tanaman" height="250px" style="object-fit:cover">
-          </div>
-          <div class="body-info">
-            <div class="inner-konten">
-              
-            </div>
-            <p class="mt-3" align="center">SHARE :</p>
-            <div class="rounded-social-buttons" align="center">
-        			<a class="social-button facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://maspannn.github.io" target="_blank" rel="nofollow"><i class="fab fa-facebook"></i></a>
-              <a class="social-button twitter" href="https://twitter.com/intent/tweet?url=https://maspannn.github.io/smartani" target="_blank" rel="nofollow"><i class="fab fa-twitter"></i></a>
-              <a class="social-button telegram" href="tg://msg_url?url=https://maspannn.github.io/smartani" target="_blank" rel="nofollow"><i class="fab fa-telegram-plane"></i></a>
-              <a class="social-button whatsapp" href="whatsapp://send?text=https://maspannn.github.io/smartani" target="_blank" rel="nofollow"><i class="fab fa-whatsapp"></i></a>
-        		</div>
-            <div class="button-info">
-              <button class="tombol prev-post">Previous</button>
-              <button class="tombol close-post"><a href="index.html" onclick="randomAds()">Home</a></button>
-              <button class="tombol next-post">Next</button>
-            </div>
-          </div> 
+      </div>
+      <div class="tab-pane fade" id="book" role="tabpanel" aria-labelledby="book-tab" >
+        <h1 class="mt-2" id="judul-artikel" style="font-size:20pt">Koleksi Ebook</h1>
+        <div class="mt-4 mb-2">
+          <input type="text" id="cariEbook" placeholder="Cari ebook" onkeyup="mySearchWord()"/>
+        </div>
+        <div id="list-ebook">
+          
+        </div>
+        <div class="container mt-4" align="center" style="margin-bottom:-15px"><button class="tombol-ebook" id="ebook-lainnya">Lebih Banyak</button>
         </div>
       </div>
       <div class="tab-pane fade" id="shop" role="tabpanel" aria-labelledby="shop-tab">
@@ -242,7 +213,7 @@
           </div>
         </div> 
         <h1 class="mt-3" id="judul" style="font-size:17pt">Rekomendasi Produk</h1>
-        <div class="row mt-3 mb-3">
+        <div class="row mt-3">
           <div class="col-7" style="margin-left:-10px">
       			<form id="search-form" action="" method="POST" enctype="multipart/form-data">
           		<div class="container form-group">
@@ -262,18 +233,24 @@
         	</div>
         </div>
         <div>
-          <div class="mt-2 mb-4" id="products">
+          <div class="mt-2" id="products">
           
           </div>
         </div>
-        <div align="center">
-          <button class="tombol-lainnya" id="produk-lainnya">Produk Lainnya</button>
+        <div class="mt-2" align="center">
+          <button class="tombol-lainnya" id="produk-lainnya" style="margin-bottom:20px">Lebih Banyak</button>
         </div>
       </div>
-      <div class="tab-pane fade" id="photo" role="tabpanel" aria-labelledby="photo-tab">
-        <div style="margin-bottom:20px">
-          <div class="mt-2" id="list-photo">
+      <div class="tab-pane fade" id="kamus" role="tabpanel" aria-labelledby="kamus-tab">
+        <h1 class="mt-2" id="judul" style="font-size:20pt">Kamus Pertanian</h1>
+        <div class="mt-4">
+          <div class="mb-4">
+            <input type="text" id="cariKata" placeholder="Cari kata" onkeyup="mySearchBook()"/>
+          </div>
+          <div id="list-kamus">
             
+          </div>
+          <div class="container mt-2" align="center" style="margin-bottom:20px"><button class="tombol-kamus" id="kamus-lainnya">Lebih Banyak</button>
           </div>
         </div>   
       </div>
@@ -288,15 +265,54 @@
   </div>
 </div>
 
+<div class="modal" id="data-opete" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color:#2d2c4d;color:white;height:60px">
+        <h1 class="modal-title"><b>Cek OPT</b></h1>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mt-2 mb-3">
+          <input type="text" id="cariOPT" placeholder="Cari OPT" onkeyup="mySearchOPT()"/>
+        </div>
+        <span>Sumber: </span><a href="http://www.opete.info" onclick="randomAds()" style="color:green">opete.info</a>
+        <div class="mt-4" id="list-opt">
+          
+        </div>
+        <div class="container mt-2 mb-4" align="center"><button class="tombol-pestisida" id="opt-lainnya">Lebih Banyak</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal" id="opete" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color:#2d2c4d;color:white;height:60px">
+        <h1 class="modal-title"><b>Detail OPT</b></h1>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close" style="z-index:9999" onclick="randomAds()"></button>
+      </div>
+      <div class="modal-body" style="margin-top:-35px">
+        <div class="body-info">
+          <div class="inner-konten-opt">
+              
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="modal" id="pestisida" tabindex="-1">
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
-      <div class="modal-header">
+      <div class="modal-header" style="background-color:#2d2c4d;color:white;height:60px">
         <h1 class="modal-title"><b>Cek Pestisida</b></h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="randomAds()"></button>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close" onclick="randomAds()"></button>
       </div>
       <div class="modal-body">
-        <div class="mb-3">
+        <div class="mt-2 mb-3">
           <input type="text" id="cariPestisida" placeholder="Cari pestisida" onkeyup="mySearchPestisida()"/>
         </div>
         <span>Sumber: </span><a href="https://pestisida.id/" style="color:green">pestisida.id</a>
@@ -309,39 +325,39 @@
     </div>
   </div>
 </div>
-<div class="modal" id="kamuspertanian" tabindex="-1">
-  <div class="modal-dialog modal-fullscreen">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title"><b>Kamus Pertanian</b></h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="randomAds()"></button>
-      </div>
-      <div class="modal-body">
-        <div class="mb-3">
-          <input type="text" id="cariKata" placeholder="Cari kata" onkeyup="mySearchBook()"/>
-        </div>
-        <div id="list-kamus">
-          
-        </div>
-        <div class="container mt-2 mb-4" align="center"><button class="tombol-kamus" id="kamus-lainnya">Lebih Banyak</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
 <div class="modal" id="preview" tabindex="-1">
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
-      <a href="index.html" onclick="randomAds()">
-        <div class="modal-header" style="background-color:transparent;z-index:9999;height:60px;border:none;position:relative">
+      <div class="modal-header" style="background-color:#2d2c4d;color:white;height:60px">
+        <h1 class="modal-title"><b>Detail Artikel</b></h1>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close" onclick="randomAds()"></button>
+      </div>
+      <div class="modal-body">
+        <div class="title-info">
+            <div class="inner-title"></div><br>
+          </div>
+          <div class="date-info">
+            <span>Smartani Team &#160;-&#160;&#160;</span>
+            <span class="inner-tanggal"></span>
+          </div>
+          <div class="poster-info mt-3">
+            <img src=""  class="inner-poster" width="100%" alt="Teknologi Budidaya Tanaman" height="250px" style="object-fit:cover">
+          </div>
+          <div class="body-info">
+            <div class="inner-konten">
+              
+            </div>
+            <p class="mt-3" align="center">SHARE :</p>
+            <div class="rounded-social-buttons" align="center" style="margin-bottom:-35px">
+        			<a class="social-button facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://maspannn.github.io" target="_blank" rel="nofollow"><i class="fab fa-facebook"></i></a>
+              <a class="social-button twitter" href="https://twitter.com/intent/tweet?url=https://maspannn.github.io/smartani" target="_blank" rel="nofollow"><i class="fab fa-twitter"></i></a>
+              <a class="social-button telegram" href="tg://msg_url?url=https://maspannn.github.io/smartani" target="_blank" rel="nofollow"><i class="fab fa-telegram-plane"></i></a>
+              <a class="social-button whatsapp" href="whatsapp://send?text=https://maspannn.github.io/smartani" target="_blank" rel="nofollow"><i class="fab fa-whatsapp"></i></a>
+        		</div>
         </div>
-      </a>
-      <div style="width: 100%;height: 100%;position: absolute;top: 0;left: 0;right:0;bottom:0">
-        <iframe class="inner-link-preview" src="" width="100%" height="100%"></iframe>
       </div>
     </div>
-    <a href="index.html"><button type="button" class="tombolhome float"><i class="fa fa-home my-icon mt-1"></i></button></a>
   </div>
 </div>
 
@@ -436,11 +452,11 @@
   <div class="row">
     <div class="nav-scroller">
       <div class="nav nav-justified" style="margin-top:3px">
-        <a class="nav-link text-white link-secondary active" id="book-tab" data-bs-toggle="tab" data-bs-target="#book" href="#"><div class="sub-menu"><img src="assets/img/ebook.png" width="25px" alt="SmarTani Repository"><span class="menu-title">EBOOK</span></div></a>
+        <a class="nav-link text-white link-secondary active" id="blog-tab" data-bs-toggle="tab" data-bs-target="#blog" href="#"><div class="sub-menu"><img src="assets/img/blog.png" width="25px" alt="Teknologi Budidaya Tanaman"><span class="menu-title">BLOG</span></div></a>
         <a class="nav-link text-white link-secondary" id="shop-tab" data-bs-toggle="tab" data-bs-target="#shop" href="#"><div class="sub-menu"><img src="assets/img/shop.png" width="25px" alt="SmarTani Shop"><span class="menu-title">TOKO</span></div></a>
+        <a class="nav-link text-white link-secondary" id="kamus-tab" data-bs-toggle="tab" data-bs-target="#kamus" href="#"><div class="sub-menu"><img src="assets/img/kamus.png" width="28px" alt="Kamus Pertanian" style="margin-top:-1px"><span class="menu-title">KAMUS</span></div></a>
+        <a class="nav-link text-white link-secondary" id="book-tab" data-bs-toggle="tab" data-bs-target="#book" href="#"><div class="sub-menu"><img src="assets/img/ebook.png" width="25px" alt="SmarTani Repository"><span class="menu-title">EBOOK</span></div></a>
         <a class="nav-link text-white link-secondary" id="videos-tab" data-bs-toggle="tab" data-bs-target="#videos" href="#"><div class="sub-menu"><img src="assets/img/video.png" width="25px" alt="Koleksi Video Pertanian"><span class="menu-title">SHORTS</span></div></a>
-        <a class="nav-link text-white link-secondary" id="budidaya-tab" data-bs-toggle="tab" data-bs-target="#budidaya" href="#"><div class="sub-menu"><img src="assets/img/blog.png" width="25px" alt="Teknologi Budidaya Tanaman"><span class="menu-title">BLOG</span></div></a>
-        <a class="nav-link text-white link-secondary" id="photo-tab" data-bs-toggle="tab" data-bs-target="#photo" href="#"><div class="sub-menu"><img src="assets/img/gallery.png" width="25px" alt="Koleksi Photo Pertanian"><span class="menu-title">PHOTO</span></div></a>
       </div>
     </div>
   </div>
@@ -448,10 +464,10 @@
     
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-<script src="assets/js/budidaya.js"></script>
+<script src="assets/js/blog.js"></script>
 <script src="assets/js/book.js"></script>
 <script src="assets/js/produk.js"></script>
-<script src="assets/js/photo.js"></script>
+<script src="assets/js/opete.js"></script>
 <script src="assets/js/video.js"></script>
 <script src="assets/js/kamus.js"></script>
 <script src="assets/js/pestisida.js"></script>

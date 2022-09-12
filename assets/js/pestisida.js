@@ -11301,7 +11301,7 @@ for (var i = 0; i < pestisida.length; i++) {
 		carapemakaian = pestisida[i].carapemakaian,
 		perusahaan = pestisida[i].perusahaan;
 	
-	words += "<div class='word-pestisida' data-merekdagang='" + merekdagang + "' data-carapemakaian='" + carapemakaian + "' data-perusahaan='"+ perusahaan +"'><h4><b>"+ merekdagang +"</b></h4><b>Cara Pemakaian :</b><p>"+ carapemakaian +"</p><p>® "+ perusahaan +"</p></div>";
+	words += "<div class='word-pestisida' data-merekdagang='" + merekdagang + "' data-carapemakaian='" + carapemakaian + "' data-perusahaan='"+ perusahaan +"'><h4><b>"+ merekdagang +"</b></h4><b>Cara Pemakaian :</b><p>"+ carapemakaian +"</p><p>® "+ perusahaan +"</p><hr></div>";
 }
 
 $("#list-pestisida").html(words);

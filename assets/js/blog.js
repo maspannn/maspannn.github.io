@@ -1,4 +1,4 @@
-var post=[
+var post = [
     {
       "title":"Budidaya Alpukat (Tabulampot)",
       "konten": "<div><p>Alpukat atau Apokat atau Avocad adalah salah satu jenis buah yang berasal dari Amerika Tengah dan Meksiko. Alpukat berasal dari famili Lauraceae dan genus Persea dengan nama latin Persea americana. Alpukat memiliki pohon dengan ketinggian dapat mencapai sekitar 20 meter, daunnya memiliki panjang sekitar 12 cm-25 cm. Buah alpukat bertipe buni dengan biji berukuran 5 cm- 6,4 cm didalamnya, kulit buahnya berwarna hijau tua sampai ungu kecokelatan tergantung varietasnya serta permukaannya tidak rata. Daging buahnya bertekstur lembut dengan warna kuning muda pada bagian dekat biji dan berwarna hijau muda dibagian dekat kulit buah.<br></p><p>Alpukat memiliki banyak manfaat, manfaat apokat diantaranya seperti dapat mencegah&nbsp;risiko terkena penyakit stroke, dapat menjaga kesehatan mata, dapat membantu mengobati sakit Maag, dapat membantu menurunkan kadar kolesterol dan masih banyak lagi yang lainnya. Karena banyak orang yang gemar mengkonsumsi alpukat ini serta banyaknya manfaat dari alpukat, kini banyak orang yang membudidayakan alpukat ini. Namun bagi anda yang<br>tidak memiliki lahan luas untuk menanam apokat ini, anda dapat menanam alpukat dalam pot&nbsp; atau tabulampot alpukat, berikut cara selengkapnya:<br></p><p><strong>Cara Menanam Alpukat Dalam Pot (Tabulampot Alpukat)</strong><br><strong>Persiapan Bibit Alpukat</strong><br>Bibit pohon alpukat dapat diperoleh dengan 3 cara yaitu dengan cara cangkok atau setek&nbsp; batang, melalui biji, dan juga okulasi atau sambung pucuk.<br></p><p><strong>Melalui Cangkok</strong><br>Pilihlah cabang yang subur , tidak memiliki banyak cabang baru, tidak terlalu tua ataupun muda, cabang tersebut merupakan cabang pohon indukan yang memiliki riwayat buah yang baik mulai dari rasanya, ketahanananya terhadap serangan hama dan penyakit dan lain sebagainya.<br></p><p>Setelah cabang cangkok memiliki akar, maka potonglah bagian pangkal cabang sekitar 3 cm dari cangkokan. Jika sudah, selanjutya tanam cabang cangkok tersebut dalam polybag semai dengan terlebih dahulu penutup cangkokan dibuka. Letakkan bibit alpukat pada tempat yang teduh, lakukan penyiraman secara rutin, serta lakukan perawatan lainnya hingga bibit cangkok memiliki banyak akar dan dapat dipindahtanamkan pada lahan tanam.<br></p><p><strong>Melalui Biji</strong><br></p><p>Apabila anda akan menanam alpukat dari biji, maka anda perlu penyemaian biji terlebih dahulu. Buah alpukat yang sudah tua di belah kemudian bijinya diambil, selanjutnya biji dijemur selama sekitar 3 jam setelah itu letakkan pada tempat yang teduh. Semailah biji benih pada polybag semai, lakukan perawatan pada biji benih hingga tumbuh menjadi bibit dengan ketinggian sekitar 1 meter atau siap di pindah tanamkan pada lahan tanam.<br></p><p><strong>Melalui Sambung Pucuk atau Okulasi</strong> <br></p><p>Apabila anda ingin pohon alpukat yang anda semai dari biji dapat cepat berbuah, anda dapat memilih cara sambung pucuk ini. Caranya ambillah tunas pohon alpukat yang telah berbuah sebagai batang atas dan pohon alpukat hasil semai biji menjadi batang bawah.<br>Namun jika anda tidak mau repot, anda dapat membeli bibit alpukat tersebut di toko tanaman.<br></p><p><strong>Cara Menanam Alpukat Dalam Pot</strong><br></p><p>Pot yang digunakan untuk menanam alpukat ini perlu berukuran besar karena tanaman&nbsp; alpukat akan tumbuh membesar, pot yang digunakan kira-kira berdiameter sekitar 40 cm dengan tinggi sekitar 45 cm.<br>Selanjutnya, isi pot dengan media tanam berupa cempuran tanah bakar dengan pasir dan&nbsp; pupuk kandang, serta pupuk jenis kimia lainnya. Perbandingan yang di anjurkan yaitu berbanding sama dengan tanahnya.<br>Biasanya, penanaman dilakukan pada malam hari, karena pada malam hari suhu udara dingin sehingga tanaman dapat tumbuh dengan subur. Karena tanaman alpukat tersebut memang menyukai udara yang dingin dan lembab.<br></p><p><strong>Cara Merawat Tabulampot Alpukat</strong><br></p><p>Setelah penanaman dilakukan, lakukan perawatan secara rutin. Lakukan penyiraman dan pemupukan secara teratur setiap harinya, penyiraman dan pemupukan dilakukan harus sesuai dosis yang di anjurkan.<br>Selain itu, lakukan pula pemangkasan setiap 3 bulan sekali agar tanaman tidak mudah terserang hama dan penyakit, dan jangan lupa semprotkan cairan pestisida secara teratur.<br>Lakukan pula pergantian pot harus dilakukan setiap 2 tahun sekali, karena tanaman alpukat ini cepat tumbuh membesar sehingga membutuhkan pot yang lebih besar dari sebelumnya. Selain pot, lakukan pula pergantian media tanam yang dapat dilakukan setiap 4-6 tahun sekali.</p>Demikian artikel pembahasan tentang Cara Mudah Menanam Alpukat Dalam Pot (Tabulampot Alpukat) Agar Cepat Berbuah Di Rumah</a></u>&ldquo;, semoga bermanfaat. </div></div></div>",
@@ -300,13 +300,14 @@ var post=[
 ];
 
 var postLength = post.length;
-$("#list-tanaman").empty();
+$("#list-artikel").empty();
 for (i=0; i<postLength; i++) {
   var listItem =
-    '<div id="artikel"><a class="button" href="'+post[i].link+'" data-obj="'+i+'"><div class="card" style="width:100%"><img src="'+post[i].poster+'" class="card-img-top" width="100%" style="max-inline-size: 100%;block-size: auto;aspect-ratio: 16/9;object-fit: cover;" alt="SmarTani Digital Budidaya Tanaman"><div class="card-body"><div class="judul-tanaman"><h6>'+ post[i].title+'</h6></div></a></div>';
-  $("#list-tanaman").append(listItem);
+    '<div id="artikel"><a class="button" data-bs-toggle="modal" data-bs-target="#preview" data-obj="'+i+'"><div class="card" style="width:100%"><img src="'+post[i].poster+'" class="card-img-top" width="100%" style="max-inline-size: 100%;block-size: auto;aspect-ratio: 16/9;object-fit: cover;" alt="SmarTani Digital"><div class="card-body"><div class="judul-tanaman"><h6>'+ post[i].title+'</h6></div></a></div>';
+  $("#list-artikel").append(listItem);
 };
 
+var postLength = post.length;
 var thisElement = 0;
 
 function innerContent(content){
@@ -320,54 +321,23 @@ $(".button").click(function(e){
   e.preventDefault();
   thisElement = $(this).attr("data-obj");
   innerContent(thisElement);
-  $("#list-tanaman").css({"display":"none"});
-  $("#tanaman-lainnya").css({"display":"none"});
-  $("#post-blog").css({"display":"block"});
-  $("#judul-artikel").css({"display":"none"});
-  $(window).scrollTop(0);
-  dissBtn();
 });
 
-$(".next-post").click(function(e){
-  e.preventDefault();
-  if (thisElement<postLength-1) {
-    thisElement = parseInt(thisElement) + 1;
-    innerContent(thisElement);
-    dissBtn();
-  };
-});
-
-$(".prev-post").click(function(e){
-  e.preventDefault();
-  if (thisElement>0) {
-    thisElement = parseInt(thisElement) - 1;
-    innerContent(thisElement);
-    dissBtn();
-  };
-});
-
-function dissBtn(){
-  $(".prev-post, .next-post").removeClass("disabled");
-  if (thisElement4<=0){
-    $(".prev-post").addClass("disabled");
-  }
-  else if (thisElement4>=ebookLength-1){
-    $(".next-post").addClass("disabled");
-  };
-};
-
-$(".prev-post").on("click", function() {
-    $(window).scrollTop(0);
-});
-
-$(".next-post").on("click", function() {
-    $(window).scrollTop(0);
+$(function() {
+  $("#cariArtikel").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#list-artikel #artikel").filter(function() {
+        $("#list-artikel").show();
+        $("#artikel-lainnya").hide();
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      });
+  });
 });
 
 $(document).ready(function(){
-  var list = $("#list-tanaman #artikel");
+  var list = $("#list-artikel #artikel");
   var numToShow = 12;
-  var button = $("#tanaman-lainnya");
+  var button = $("#artikel-lainnya");
   var numInList = list.length;
   list.hide();
   if (numInList > numToShow) {
