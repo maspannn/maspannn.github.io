@@ -92,10 +92,10 @@
     </div>
     <div class="offcanvas-body">
       <ul class="navbar-nav justify-content-end flex-grow-1">
-        <li class="nav-item">
+        <li class="nav-item" style="margin-left:-2px">
           <a class="nav-link text-white" aria-current="page" href="index.html"><i class="fas fa-home"></i>&nbsp;&nbsp;Home</a>
         </li>
-         <li class="nav-item" style="margin-left:3px">
+        <li class="nav-item" style="margin-left:3px">
           <a class="nav-link text-white" href="#" data-bs-toggle="modal" data-bs-target="#data-opete"><button type="button" class="btn btn-primary position-relative" style="background-color:transparent;border:none;margin-left:-15px;box-sizing: border-box;-webkit-box-shadow: none !important;">
             <i class="fas fa-bug"></i>&nbsp;&nbsp;Cek OPT
             <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
@@ -115,13 +115,13 @@
           </button>
           </a>
         </li>
-        <li class="nav-item" style="margin-left:3px">
+        <li class="nav-item">
           <a class="nav-link text-white" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom"><i class="fas fa-envelope"></i>&nbsp;&nbsp;Hubungi Saya
           </a>
         </li>
       </ul>
       <div class="dropdown">
-        <button class="btn mt-2 btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color:transparent;border:none;margin-left:-6px;box-sizing: border-box;-webkit-box-shadow: none !important;">
+        <button class="btn mt-2 btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color:transparent;border:none;margin-left:-8px;box-sizing: border-box;-webkit-box-shadow: none !important;">
           <i class="fas fa-tree"></i>&nbsp;&nbsp;Daftar Tanaman
         </button>
         <ul class="dropdown-menu">
@@ -174,10 +174,10 @@
               document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
             </script>
             <h1 class="mt-2" style="font-size:25pt">Halo, Smartani!</h1>
-            <p style="font-size:17pt;margin-top:-5px">Mau menanam apa hari ini?</p>
+            <h2 style="font-size:17pt;margin-top:-5px">Mau menanam apa hari ini?</h2>
           </div>
         </div>
-        <div class="mb-3">
+        <div class="mt-3 mb-3">
           <input type="text" id="cariArtikel" placeholder="Cari artikel" onkeyup="mySearchWord()"/>
         </div>
         <div id="list-artikel" style="text-align:center">
@@ -188,7 +188,6 @@
         </div>
       </div>
       <div class="tab-pane fade" id="book" role="tabpanel" aria-labelledby="book-tab" >
-        <h1 class="mt-2" id="judul-artikel" style="font-size:20pt">Koleksi Ebook</h1>
         <div class="mt-4 mb-2">
           <input type="text" id="cariEbook" placeholder="Cari ebook" onkeyup="mySearchWord()"/>
         </div>
@@ -212,7 +211,7 @@
             </div>
           </div>
         </div> 
-        <h1 class="mt-3" id="judul" style="font-size:17pt">Rekomendasi Produk</h1>
+        <div class="mt-3" id="judul" style="font-size:18pt"><b>Rekomendasi Produk</b></div>
         <div class="row mt-3">
           <div class="col-7" style="margin-left:-10px">
       			<form id="search-form" action="" method="POST" enctype="multipart/form-data">
@@ -233,7 +232,7 @@
         	</div>
         </div>
         <div>
-          <div class="mt-2" id="products">
+          <div class="mt-3" id="products">
           
           </div>
         </div>
@@ -242,7 +241,6 @@
         </div>
       </div>
       <div class="tab-pane fade" id="kamus" role="tabpanel" aria-labelledby="kamus-tab">
-        <h1 class="mt-2" id="judul" style="font-size:20pt">Kamus Pertanian</h1>
         <div class="mt-4">
           <div class="mb-4">
             <input type="text" id="cariKata" placeholder="Cari kata" onkeyup="mySearchBook()"/>
@@ -269,14 +267,14 @@
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header" style="background-color:#2d2c4d;color:white;height:60px">
-        <h1 class="modal-title"><b>Cek OPT</b></h1>
+        <h5 class="modal-title"><b>Cek OPT</b></h5>
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <div class="mt-2 mb-3">
           <input type="text" id="cariOPT" placeholder="Cari OPT" onkeyup="mySearchOPT()"/>
         </div>
-        <span>Sumber: </span><a href="http://www.opete.info" onclick="randomAds()" style="color:green">opete.info</a>
+        <span>Sumber: www.opete.info</span>
         <div class="mt-4" id="list-opt">
           
         </div>
@@ -290,7 +288,7 @@
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header" style="background-color:#2d2c4d;color:white;height:60px">
-        <h1 class="modal-title"><b>Detail OPT</b></h1>
+        <h5 class="modal-title"><b>Detail OPT</b></h5>
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close" style="z-index:9999" onclick="randomAds()"></button>
       </div>
       <div class="modal-body" style="margin-top:-35px">
@@ -308,14 +306,14 @@
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header" style="background-color:#2d2c4d;color:white;height:60px">
-        <h1 class="modal-title"><b>Cek Pestisida</b></h1>
+        <h5 class="modal-title"><b>Cek Pestisida</b></h5>
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close" onclick="randomAds()"></button>
       </div>
       <div class="modal-body">
         <div class="mt-2 mb-3">
           <input type="text" id="cariPestisida" placeholder="Cari pestisida" onkeyup="mySearchPestisida()"/>
         </div>
-        <span>Sumber: </span><a href="https://pestisida.id/" style="color:green">pestisida.id</a>
+        <span>Sumber: www.pestisida.id</span>
         <div class="mt-4" id="list-pestisida">
           
         </div>
@@ -330,7 +328,7 @@
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header" style="background-color:#2d2c4d;color:white;height:60px">
-        <h1 class="modal-title"><b>Detail Artikel</b></h1>
+        <h5 class="modal-title"><b>Artikel Terbaru</b></h5>
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close" onclick="randomAds()"></button>
       </div>
       <div class="modal-body">
@@ -421,7 +419,7 @@
 
 <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel" style="height:260px">
   <div class="offcanvas-header">
-    <h1 class="offcanvas-title" id="offcanvasBottomLabel" style="font-size:15pt">Kirim Pesan</h1>
+    <div class="offcanvas-title" id="offcanvasBottomLabel" style="font-size:15pt">Kirim Pesan</div>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
@@ -454,9 +452,9 @@
       <div class="nav nav-justified" style="margin-top:3px">
         <a class="nav-link text-white link-secondary active" id="blog-tab" data-bs-toggle="tab" data-bs-target="#blog" href="#"><div class="sub-menu"><img src="assets/img/blog.png" width="25px" alt="Teknologi Budidaya Tanaman"><span class="menu-title">BLOG</span></div></a>
         <a class="nav-link text-white link-secondary" id="shop-tab" data-bs-toggle="tab" data-bs-target="#shop" href="#"><div class="sub-menu"><img src="assets/img/shop.png" width="25px" alt="SmarTani Shop"><span class="menu-title">TOKO</span></div></a>
-        <a class="nav-link text-white link-secondary" id="kamus-tab" data-bs-toggle="tab" data-bs-target="#kamus" href="#"><div class="sub-menu"><img src="assets/img/kamus.png" width="28px" alt="Kamus Pertanian" style="margin-top:-1px"><span class="menu-title">KAMUS</span></div></a>
-        <a class="nav-link text-white link-secondary" id="book-tab" data-bs-toggle="tab" data-bs-target="#book" href="#"><div class="sub-menu"><img src="assets/img/ebook.png" width="25px" alt="SmarTani Repository"><span class="menu-title">EBOOK</span></div></a>
         <a class="nav-link text-white link-secondary" id="videos-tab" data-bs-toggle="tab" data-bs-target="#videos" href="#"><div class="sub-menu"><img src="assets/img/video.png" width="25px" alt="Koleksi Video Pertanian"><span class="menu-title">SHORTS</span></div></a>
+        <a class="nav-link text-white link-secondary" id="book-tab" data-bs-toggle="tab" data-bs-target="#book" href="#"><div class="sub-menu"><img src="assets/img/ebook.png" width="25px" alt="SmarTani Repository"><span class="menu-title">EBOOK</span></div></a>
+        <a class="nav-link text-white link-secondary" id="kamus-tab" data-bs-toggle="tab" data-bs-target="#kamus" href="#"><div class="sub-menu"><img src="assets/img/kamus.png" width="25px" alt="Kamus Pertanian"><span class="menu-title">KAMUS</span></div></a>
       </div>
     </div>
   </div>

@@ -22404,7 +22404,7 @@ $(function() {
   $("#cariKata").on("keyup", function() {
     var value = $(this).val().toLowerCase();
     $("#list-kamus .word").filter(function() {
-        $("#list-kamus").show();
+        $("#listmmm").show();
         $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
       });
   });
