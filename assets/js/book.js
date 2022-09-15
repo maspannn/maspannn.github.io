@@ -1,5 +1,3167 @@
 var book = [
     {
+        "title": "Characterization of Japansche Citroen Rootstock Somaclones and In Vitro Selection for Aluminium Tolerance",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14705/Characterization2022.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "PENINGKATAN MUTU DAN DAYA SAING PRODUK PERKEBUNAN",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14704/UPAYA%20PENINGKATAN%20MUTU%20DAN%20DAYA%20SAING%20PRODUK%20PERKEBUNAN%281%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Existing Diversity Profile for Kernel Characteristics of Maize Germplasm in IAARD-ICABIOGRAD Gene Bank",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14703/Existing%20Diversity2022.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Rice Grain Quality Evaluation of Promising Lines of Rice under Irrigation and for Salinity Tolerance",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14702/Rice%20Grain%20Quality2022.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Polymorphisms and Associations of the RACK1 Genes with Antibody Response to Newcastle Disease in KUB Chickens",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14701/Polymorphisms2022.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 26 Januari 2022",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14700/26-1-22.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Yield Stability Performance of Soybean (Glycine max [L.] Merrill) Lines Tolerant to Drought",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14699/Yield%20Stability2022.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Genetic Parameters of Agronomic Traits in Soybean (Glycine max [L.] Merrill) Genotypes Tolerant to Drought",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14698/genetic%20parametrs%202022.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "DNA Barcoding of Vatica bantamensis, a Critically Endangered Tree Endemic to Banten, Indonesia",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14697/DNA%20Barcoding2022.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "EFEKTIVITAS PENGEMBANGAN METODA PENYULUHAN FARMHOUSE VISIT",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14696/Bul.%20Vol.%207%20no.%201%20%288%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "PENGEMBANGAN HIJAUAN PAKAN TERNAK BERKUALITAS MENDUKUNG PROGRAM UPSUS SIWAB DI PROVINSI RIAU",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14695/Bul.%20Vol.%207%20no.%201%20%287%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "PEMANFAATAN LIMBAH PETERNAKAN SAPI SEBAGAI PUPUK ORGANIK UNTUK MENINGKATKAN PRODUKTIVITAS TANAMAN KELAPA SAWIT",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14694/Bul.%20Vol.%207%20no.%201%20%286%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "ANALISIS FINANSIAL TEKNOLOGI BUDIDAYA JAGUNG DENGAN PENDEKATAN PTT PADA LAHAN REPLANTING SAWIT",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14693/Bul.%20Vol.%207%20no.%201%20%285%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pengaruh Cara Tanam dan Pengendalian Gulma Padi di Lahan Rawa Pasang Surut"
+    },
+    {
+        "title": "PERILAKU DAN TINGKAT PARASITISASI PARASITOID TELUR Trichogramma chilonis Ishii. (Hymenoptera:Trichogrammatidae) pada INANG TELUR Corcyra cephalonica (Lepidoptera: Pyralidae)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14691/Bul.%20Vol.%207%20no.%201%20%284%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Padi Apung Sebagai Inovasi Petani Terhadap Dampak Perubahan Iklim di Pangandaran"
+    },
+    {
+        "title": "PERBANYAKAN MASSAL Trichoderma sp. PADA MEDIA POTATO DEXTROSE AGAR (PDA), BERAS DAN JAGUNG",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14689/Bul.%20Vol.%207%20no.%201%20%283%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "PENGUJIAN KEMURNIAN BENIH PADI DAN BAYAM SERTA KADAR AIRNYA",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14688/Bul.%20Vol.%207%20no.%201%20%282%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Dosis Perlakuan Sianobacter Pada Pertumbuhan Padi Fase Vegetatif"
+    },
+    {
+        "title": "Interaksi Varietas Dan Penerapan Sistem Tanam Legowo Terhadap Peningkatan Hasil Padi"
+    },
+    {
+        "title": "Penggunaan Polymer Pengikat Air (PPA) Terhadap Pertumbuhan dan Hasil Padi di Lahan Tadah Hujan"
+    },
+    {
+        "title": "PENINGKATAN PENDAPATAN PETANI PADI SAWAH PASANG SURUT MELALUI TEKNOLOGI JARWO SUPER-ITIK MENDUKUNG PERTANIAN PRESISI DAN BERKELANJUTAN DI PROVINSI RIAU",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14684/Bul.%20Vol.%207%20no.%201%20%281%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 25 Januari 2022",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14683/25-1-22.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Teknologi Pengolahan Tebu",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14682/Pedoman%20Teknologi%20Pengolahan%20Tebu.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Panduan Teknis Produksi Benih dan Pengembangan Padi Hibrida",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14681/Panduan%20Teknis%20Produksi%20Benih%20dan%20Pengembangan%20Padi%20Hibrida.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Inovasi Teknologi Untuk Peningkatan Produksi Padi dan Kesejahteraan Petani",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14680/Inovasi%20Teknologi%20Untuk%20Peningkatan%20Produksi%20Padi%20dan%20Kesejahteraan%20Petani.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Panduan Teknis Penggunaan Bagan Warna Daun Untuk Meningkatkan Efisiensi Pemupukan Urea Pada Tanaman Padi Sawah",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14679/Panduan%20Teknis%20Penggunaan%20Bagan%20Warna%20Daun%20Untuk%20Meningkatkan%20Efisiensi%20Pemupukan%20Urea%20Pada%20Tanaman%20Padi%20Sawah.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 24 Januari 2022",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14678/24-1-22.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Laporan Tahunan Kementerian Pertanian 2020",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14677/Laporan%20Tahunan%20Kementerian%20Pertanian%202020.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 21 Januari 2022",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14676/21-1-22.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 20 Januari 2022",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14675/20-1-22.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Harnessing Plant Genetic Resources through Biotechnology for Food Security in Indonesia",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14674/Harnessing%20Plant%20Genetic2022.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Proyeksi Ketersediaan dan Kebutuhan Minyak Goreng Tahun 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14673/PROYEKSI%20KETERSEDIAAN%20DAN%20KEBUTUHAN%20MINYAK%20GORENG%20INDONESIA%20TAHUN%202021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Profil Indikasi Geografis (IG) Produk Tahun 2020",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14672/Buku%20Profil%20%20IG%202020%20-Final.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Profil Kerja Sama International Fund For Agricultural Development (IFAD) di Indonesia",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14671/Profil%20Kerja%20Sama%20International%20Fund%20For%20Agricultural%20Development%20%28IFAD%29%20di%20Indonesia.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buletin DIPLOMASI Edisi IX Tahun 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14670/Buletin%20DIPLOMASI%20Biro%20KLN%20Edisi%209%202021%20%281%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buletin DIPLOMASI Edisi VIII Tahun 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14669/Buletin%20DIPLOMASI%20Biro%20KLN%20Edisi%208%202021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "ANALISIS PENDAPATAN DAN KELAYAKAN USAHA TANI JAGUNG DI KECAMATAN TANGGUNGHARJO KABUPATEN GROBOGAN PROVINSI JAWA TENGAH TAHUN 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14667/analisis%20pendapatan%20dan%20kelayakan%20usahatani%20jagung%20kab%20grobogan%202021%20%281%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Biologi Tembakau Temanggung",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14666/Biologi%20Tembakau%20Temanggung.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Metode Standar Pengujian Efikasi Insektisida T.A. 2012",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14665/Metode%20Standar%20Pengujian%20Efikasi%20Insektisida%20T.A.%202012.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 19 Januari 2022",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14664/19-1-22.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 18 Januari 2022",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14663/18-1-22.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Direktori UMKM Pangan Lokal Tahun 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14662/UMKM.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kreasi Resep Pangan Lokal ala Milenial",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14661/KPLN%202021%20EBOOK%20%28PUBLISH%20REV_5%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Keragaan Sifat Morfologi Batang dan Daun Pada Plasma Nutfah Gembili ( Diascurea spp)Di Papua ( Marfolgical Stem and Leaf Charakter Diversity Gemplasant Of Yun ( Diasconer spp in Papua",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14660/wahid.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Teknologi Produksi Benih Sayuran Perkotaan( Urban Vegetable Seed Production Technology)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14659/06.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pemberian Pupuk Organik Terhadap Viabilitas Vigor Benih Jagung ( The Effect Of Organic Fertilization On Vabiality and Vigor Of Corn Seeds)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14658/05.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Ketepeng Cina ( Cassia Alata Linn) Tanaman Potensi Untuk Pakan Ternak",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14657/04.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Potensi Pengembangan Kakao Di Kabupaten Bantaeng Provinsi Sulawesi Selatan ( Potential Development Of Cocoa In Bantaeng Distrid South Sulawesi Province",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14656/03.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kajian Spruluna Sebagai Permentor Terhadap Kualitas Tepung isi Rumen",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14655/02.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Rencana Strategis Penerapan Sistem Informasi Zoonosis dan Emerging Infectious Deseases (Size) 2.0 Berbasis Data Surveilans Untuk Pengendalian Penyakit Trypanosomiasis (Surra) di Madura Tahun 2020",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14654/Prosiding%20Penyakit%20Hewan%202020-43-56.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pemantauan Penyakit Brucellosis Pada Daerah Berstatus Bebas dengan Surveilans Berbasis Resiko",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14653/Prosiding%20Penyakit%20Hewan%202020-33-42.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Investigasi Wabah Pertama Penyakit African Swine Fever pada Peternakan Babi Rakyat di Kabupaten Dairi Provinsi Sumatera Utara pada Bulan September 2019",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14652/Prosiding%20Penyakit%20Hewan%202020-26-32.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Distribusi Virus Avian Influenza (AI) Pada Live Bird Markets (LBM) di Wilayah Kerja Balai Veteriner Subang Tahun 2019",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14651/Prosiding%20Penyakit%20Hewan%202020-15-25.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Investigasi Kematian Babi di Kabupaten Deli Serdang pada Tahun 2019",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14650/Prosiding%20Penyakit%20Hewan%202020-1-14.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Panduan Teknis Sistem Integrasi Padi - Ternak",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14649/Panduan%20Teknis%20Sistem%20Integrasi%20Padi-Ternak.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Petunjuk Teknis Budidaya Tanaman Ganyong, Garut, Singkong, Ubi Jalar, Kentang Hitam, Kacang Tanah, dan Jagung",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14648/Petunjuk%20Teknis%20Budidaya%20Tanaman%20Ganyong%2c%20Garut%2c%20Singkong%2c%20Ubi%20Jalar%2c%20Kentang%20Hitam%2c%20Kacang%20Tanah%2c%20dan%20Jagung.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Poster Pupuk Organik Pilihan Terbaik",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14647/3.%20Poster%20Pupuk%20Organik.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Profil Food and Agriculture Organization (FAO) Indonesia",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14646/Profil%20Food%20and%20Agriculture%20Organization%20%28FAO%29%20Indonesia.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman cara praktis membuat taman vertikal",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14645/BUKU%20PEDOMAN%20CARA%20PRAKTIS%20MEMBUAT%20TAMAN%20VERTIKAL.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Katalog Anggrek : Anggrek Spesies Indonesia Yang Telah Dibudidayakan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14644/KATALOG%20ANGGREK%202021%20%28fix%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Uji Multilokasi Galur Harapan Padi Sawah Dengan Sifat Khusus Di Sulawesi Selatan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14643/BUL.01.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Informasi teknis tanaman hias berdaun indah",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14642/INFORMASI%20TEKNIS%20BERDAUN%20INDAH%202021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Gedung Perpustakaan dan Pengetahuan Digital Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14641/Leaflet%20-%20P3D%20%28rev5%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Informasi teknis tanaman hias berbunga indah",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14640/BUKU%20BUNGA%20INDAH%202021.pdf?sequence=4&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 17 Januari 2022",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14639/17-1-22.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 14 Januari 2022",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14638/14-1-22.pdf?sequence=2&isAllowed=y"
+    },
+    {
+        "title": "Warta BKP Edisi Desember 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14637/Warta%20BKP%20Des%202021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Sepuluh Windu (80 Tahun) Penyuluhan Pertanian di Indonesia (1908-1988)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14636/Sepuluh%20Windu%20%2880%20Tahun%29%20Penyuluhan%20Pertanian%20di%20Indonesia%20%281908-1988%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Budidaya Anggur",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14635/Budidaya%20Anggur.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Proceeding Focus Group Discussion (FGD) Hasil Kajian Analisa Kesiapan Sektor Pertanian Dalam Menghadapi Aksesi Trans Pacific Partnership (TPP)"
+    },
+    {
+        "title": "Peranan Sektor Pertanian dalam Kerja Sama Selatan-Selatan & Triangular Indonesia (Periode 2014-2015)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14633/Peranan%20Sektor%20Pertanian%20dalam%20Kerja%20Sama%20Selatan-Selatan%20%26%20Triangular%20Indonesia%20%28Periode%202014-2015%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pemetaan Produksi dan Konsumsi Unggulan Hortikultura Internasional",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14632/Pemetaan%20Produksi%20dan%20Konsumsi%20Unggulan%20Hortikultura%20Internasional.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pemetaan Daya Dukung Teknis Pembangunan Pertanian Negara Mitra",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14631/Pemetaan%20Daya%20Dukung%20Teknis%20Pembangunan%20Pertanian%20Negara%20Mitra.pdf?sequence=3&isAllowed=y"
+    },
+    {
+        "title": "Pemetaan Agenda Pembangunan dan Kebijakan Pertanian Negara Mitra",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14630/Pemetaan%20Agenda%20Pembangunan%20dan%20Kebijakan%20Pertanian%20Negara%20Mitra.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "New Vision of ASEAN Coorperation in Food Agriculture and Forestry Towards 2025",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14629/New%20Vision%20of%20ASEAN%20Coorperation%20in%20Food%20Agriculture%20and%20Forestry%20Towards%202025.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Grand Design Kerjasama Bidang Pertanian dengan Negara Afrika",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14628/Grand%20Design%20Kerjasama%20Bidang%20Pertanian%20dengan%20Negara%20Afrika.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "International Cooperation Bureau Newsletter Edition 2, 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14627/e-Newsletter%20MoA%20Vol.%20II-2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "International Cooperation Bureau Newsletter Edition 1, 2020",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14626/e-Newsletter%20MoA%20Vol.%20I2020.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Bulletin Attani Tokyo Volume 4 Nomor 1, Januari 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14625/buletin%20attani%20tokyo%20vol%204%20no%201%20januari%202021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Bulletin Attani Tokyo Volume 3 Nomor 4, April 2020",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14624/buletin%20attani%20tokyo%20vol%203%20no%204%20april%202020.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Bulletin Attani Tokyo Volume 2 Nomor 10, Oktober 2019",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14623/Buletin%20Attani%20Tokyo%202019-10.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Grande Agricoltura Buletin Atase Pertanian KBRI Roma Edisi 27, Maret-April 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14622/buletin%20attani%20roma%20edisi%2027%20mar-apr%202021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Grande Agricoltura Buletin Atase Pertanian KBRI Roma Edisi 26, Februari-Maret 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14621/buletin%20attani%20roma%20edisi%2026%20feb-mar%202021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Grande Agricoltura Buletin Atase Pertanian KBRI Roma Edisi 25, Januari-Februari 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14620/buletin%20attani%20roma%20edisi%2025%20jan-feb%202021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Pedoman Pinjaman dan Hibah Luar Negeri Tahun 2009",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14619/Buku%20Pedoman%20Pinjaman%20dan%20Hibah%20Luar%20Negeri%20%28PHLN%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 13 Januari 2022",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14618/13-1-22.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 12 Januari 2022",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14617/12-1-22.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 11 Januari 2022",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14616/11-1-22.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Pembibitan Kelinci Yang Baik",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14615/Pedoman%20Pembibitan%20Kelinci%20Yang%20Baik.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pola Tanam Berantai Lahan Sawah Irigasi Mendukung Prima Tani Sumatera Selatan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14614/Pola%20Tanam%20Berantai%20Lahan%20Sawah%20Irigasi%20Mendukung%20Prima%20Tani%20Sumatera%20Selatan.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Pembibitan Ayam Ras Yang Baik",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14613/Pedoman%20Pembibitan%20Ayam%20Ras%20Yang%20Baik.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Panduan Teknis Teknologi Produksi Lipat Ganda (Proliga) Cabai Merah Spesifik Sumatera Barat",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14612/Panduan%20Teknis%20Teknologi%20Produksi%20Lipat%20Ganda%20%28Proliga%29%20Cabai%20Merah%20Spesifik%20Sumatera%20Barat.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pengunaan Bubur Bordo Untuk Pengendalian OPT Buah",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14611/leaflpet%20bubur%20bordo.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Peta Penyebaran Varietas Hortikultura (Edisi Buah Dan Sayuran)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14610/Buku%20Peta%20Penyebaran%20Varietas%20Hortikultura0001.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pengendalian penyakit layu (Bayong) pada kacang tanah",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14609/Pengendalian%20penyakit%20Layu.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Penggunaan mulsa jerami padi pada budidaya kentang dataran medium",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14608/Penggunaan%20Mulsa%20Jerami.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Penanganan Pascapanen Sayuran",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14607/Pedoman%20Penanganan%20Pascapenen%20Sayuran.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Penyakit utama pada tanaman lada",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14606/Penyakit%20utama.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Perbaikan kualitas jerami padi dan ampas tebu sebagai pakan ternak",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14605/Perbaikan%20kualitas.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Perbaikan pakan itik turi diwilayah Bantul Selatan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14604/Perbaikan%20pakan0001.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Tata cara pengambilan cobtoh tanah untuk uji tanah",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14603/Tata%20cara%20pengambilan%20contoh.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Persiapan bibit bawang merah",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14602/bibitbawangmerah.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Hama penggerak buah kopi dan cara pengendaliannya",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14601/Hama%20Penggerek%20.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kapan benih gurami mulai diangkut secara terbuka",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14600/Kapan%20benih%20gurami.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Membuat kembang tahu",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14599/kembangtahu.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "KUM(Kredit Usaha mandiri)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14598/KUM.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Budidaya korobenguk(mucuna pruriens)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14597/Budidaya%20Korobenguk.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Teknologi penanganan pascapanen buah salak",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14596/pascapanensalak.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pengelolaan tanaman dan sumberdaya terpadu inovasi sistem produksi padi sawah irigasi",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14595/Pengelolaan%20tanaman%20dan.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Penggunaan bagan warna daun (BWD)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14594/Penggunaan%20bagan%20warna%20daun.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Penggunaan pupuk P,K Hara mikro pada padi sawah",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14593/Penggunaan%20pupu%20P%2c%20K.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Bawang merah tiron Bantul",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14592/2003%20bAWANG%20mERAH%20tIRON.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Hama Dan Penyakit Pada Buah Mangga",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14591/hama%20dan%20penyakit%20pada%20buah%20mangga.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Teknologi Budidaya Kentang (Solanum Tuberosum, L)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14590/budidaya%20kentang%20%281%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pola Tumpangsari Jahe dengan Jagung dan Cabai di Lahan Kering",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14589/Pola%20Tumpangsari%20Jahe%20dengan%20Jagung%20dan%20Cabai%20di%20Lahan%20Kering.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Petunjuk Penggunaan Perangkat Uji Tanah Sawah (Paddy Soil Test Kit) Versi 1.0",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14588/Buku%20Petunjuk%20Penggunaan%20Perangkat%20Uji%20Tanah%20Sawah%20v.01.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Peranan Pupuk NPK pada Tanaman Padi",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14587/Peranan%20Pupuk%20NPK%20pada%20Tanaman%20Padi.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Petunjuk Teknis Pengembangbiakan Rumpun Ayam Lokal",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14586/Petunjuk%20Teknis%20Pengembangbiakan%20Rumpun%20Ayam%20Lokal.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pengendalian Ternak Ruminansia Betina Produktif",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14585/Pengendalian%20Ternak%20Ruminansia%20Betina%20Produktif.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Pemanfaatan Hasil Samping Ubi Kayu",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14584/Pedoman%20Pemanfaatan%20Hasil%20Samping%20Ubi%20Kayu.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Teknologi Pembuatan Kompos",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14583/Teknologi%20Pembuatan%20Kompos.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Petunjuk Teknis Teknologi Inovasi Pakan Murah untuk Usaha Pembibitan Sapi Potong",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14582/Petunjuk%20Teknis%20Teknologi%20Inovasi%20Pakan%20Murah%20untuk%20Usaha%20Pembibitan%20Sapi%20Potong.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Usahatani Panili",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14581/Usahatani%20Panili.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Budidaya Sayuran Bawang Putih",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14580/bawang%20putih%20%284%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 10 Januari 2022",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14579/10-1-22.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 31 Desember 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14578/31-12-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 30 Desember 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14577/30-12-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 29 Desember 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14576/29-12-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 28 Desember 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14575/28-12-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 27 Desember 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14574/27-12-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 24 Desember 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14573/24-12-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 23 Desember 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14572/23-12-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 22 Desember 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14571/22-12-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 21 Desember 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14570/21-12-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 20 Desember 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14569/20-12-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 17 Desember 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14568/17-12-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 16 Desember 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14567/16-12-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 15 Desember 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14566/15-12-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 15 Desember 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14565/15-12-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 14 Desember 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14564/14-12-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 10 Desember 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14563/10-12-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 9 Desember 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14562/9-12-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 8 Desember 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14561/8-12-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 7 Desember 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14560/7-12-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 6 Desember 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14559/6-12-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 3 Desember 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14558/3-12-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 2 Desember 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14557/2-12-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 1 Desember 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14556/1-12-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 7 Januari 2022",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14555/7-1-22.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 6 Januari 2022",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14554/6-1-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 5 Januari 2022",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14553/5-1-22.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 4 Januari 2022",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14552/4-1-22.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 3 Januari 2022",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14551/3-1-22.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pemanfaatan Limbah Pasar Sebagai Pakan Ruminansia Sapi dan Kambing di DKI Jakarta",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14550/Pemanfaatan%20Limbah%20Pasar%20Sebagai%20Pakan%20Ruminansia%20Sapi%20dan%20Kambing%20di%20DKI%20Jakarta.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Penyimpanan Cendawan Blas Pyricularia grisea untuk Jangka Panjang",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14549/Penyimpanan%20Cendawan%20Blas%20Pyricularia%20grisea%20untuk%20Jangka%20Panjang.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Manajemen Perkawinan Sapi Potong",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14548/Manajemen%20Perkawinan%20Sapi%20Potong.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Teknologi Budidaya Sayuran",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14547/Teknologi%20Budidaya%20Sayuran.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Panduan Kerja Sama Bilateral Bidang Pertanian Indonesia-Asia Pasifik",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14546/Buku%20Panduan%20Kerja%20Sama%20Bilateral%20Bidang%20Pertanian%20Indonesia-Asia%20Pasifik.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Panduan Kerja Sama Bilateral Bidang Pertanian Indonesia-Amerika dan Eropa",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14545/Buku%20Panduan%20Kerja%20Sama%20Bilateral%20Bidang%20Pertanian%20Indonesia-Amerika%20dan%20Eropa.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Panduan Kerja Sama Bilateral Bidang Pertanian Indonesia-Afrika dan Timur Tengah",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14544/Buku%20Panduan%20Kerja%20Sama%20Bilateral%20Bidang%20Pertanian%20Indonesia-Afrika%20dan%20Timur%20Tengah.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "The Agrilo Edisi 1 Agustus 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14543/Buletin%20Hukum%20Pertanian%20edisi%201.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Telaahan Tren Isu Pertanian Periode Juli 2013",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14542/07.%20Telaahan%20Tren%20Isu%20Kementan_Periode%20Juli%202013.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Telaahan Tren Isu Pertanian Periode Juni 2013",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14541/06.%20Telaahan%20Tren%20Isu%20Kementan_Periode%20Juni%202013.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Telaahan Tren Isu Pertanian Periode Mei 2013",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14540/05.%20Telaahan%20Tren%20Isu%20Kementan_Periode%20Mei%202013.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Telaahan Tren Isu Pertanian Periode April 2013",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14539/04.%20Telaahan%20Tren%20Isu%20Kementan_Periode%20April%202013.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Telaahan Tren Isu Pertanian Periode Januari 2013",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14538/Telaahan%20Tren%20Isu%20Pertanian%20Periode%20Januari%202013.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Petunjuk pelaksanaan Pemberdayaan Petani Melalui Metode Demfarm Padi, Jagung, dan Kedelai",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14537/metode%20demfarm%20padi.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Pintar Pengelolaan Data Di Balai Penyuluhan Pertanian, Perikanan dan Kehutanan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14536/buku%20pintar%20balai%20penyuluhan.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Sistem Kerja Laku Susi",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14535/sistem%20kerja%20laku%20susi.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Cyber Extension : meretas gerbang pertanian 4.0 tanpa batas",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14534/komik%20cyber%20extension.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Sekolah Lapangan Pengelolaan Tanaman Terpadu-Jagung : SLPTT-Jagung",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14533/SLPTT%20Jagung.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Profil Kelembagaan Ekonomi Petani Berprestasi : tingkat nasional 2015",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14532/profil%2070th.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Profil Kelembagaan Ekonomi Petani Berprestasi : tingkat nasional 2013",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14531/profil%2068th.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Perancangan Aplikasi Peta D igital ( Carry Map ) Guna Opt imalisasi Pengelolaan Data di BPP Kecam atan Sinjai Utara , Sulawesi Selatan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14530/79-Article%20Text-398-1-10-20210501.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kualitas Melon Hidroponik dengan Penggunaan Media Tanam dan Dosis Pem berian Unsur Magnesium",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14529/92-Article%20Text-394-1-10-20210430.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pengaruh Pupuk Kascing terhadap Produksi Pakcoy (Brassica r apa L.) pada KRPL KWT Melati , Kota Malang",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14528/80-Article%20Text-390-1-10-20210428.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Sikap Petani Padi Terhadap Penerapan Pertanian Organik di Kecamatan Mojogedang Kabupaten Karanganyar",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14527/88-Article%20Text-389-1-10-20210428.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Perilaku dalam Pengelolaan Lahan Pertanian di Kawasan Konservasi Daerah Aliran Sungai (DAS) Hulu Kabupaten Karanganya",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14526/96-Article%20Text-382-1-10-20210427.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Perubahan Orientasi Keberfungsian Lahan dan Nilai Sosial Petani Pasca Gempa dan Likuifaksi di Sulawesi Tengah",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14525/95-Article%20Text-377-3-10-20210426.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pengaruh Lama Perendaman Biji Kedelai ( Glycine max L.Merr ) terhadap Karakteristik Organoleptik Susu Kedelai",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14524/90-Article%20Text-374-4-10-20210511.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kelimpahan Relatif Antropoda Predator Penghuni Tajuk Tanaman Padi pada Galur Padi Rakitan Politeknik Negeri Lampung",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14523/97-Article%20Text-371-5-10-20210618.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pengembangan Kapasitas Kelompok Tani dalam Penerapan Pertanian Terpadu di Nglebak , Karanganyar",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14522/102-Article%20Text-516-2-10-20211209.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Motivasi Petani Menggunakan Padi Varietas Baru Hasil Riset Badan Tenaga Nuklir Nasional Di Kecamatan Karangdowo Kabupaten Klaten",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14521/106-Article%20Text-513-2-10-20211209.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Motivasi Petani dalam Usahatani Bawang Putih ( Allium sativum ) di Kecamatan Tawangmangu, Kabupaten Karanganyar",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14520/103-Article%20Text-510-2-10-20211209.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Aplikasi POC POMI dan Kompos Tricho Jagung Terhadap Pertumbuhan Kailan (Brassica oleraceae.L)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14519/87-Article%20Text-507-2-10-20211110.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kajian Sistem Jajar Legowo dan Penambahan Abu Sekam Padi Terhadap Intensitas Serangan Hama Penggerak Batang",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14518/91-Article%20Text-499-2-10-20211209.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Proses Keputusan Pembelian Produk Bayam Hidroponi",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14517/93-Article%20Text-491-1-10-20211018.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Analisis Integrasi Pasar dan Transmisi Harga Gabah di Pro v insi Lampung",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14516/108-Article%20Text-481-1-10-20211017.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kontribusi Pelatihan Dasar Fungsional terhadap Peningkatan Kompetensi Penyuluh Pertanian di Provinsi Jambi",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14515/94-Article%20Text-467-1-10-20211005.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Seri 4 Komik Sosialisasi Penyuluhan Pertanian Kompos : Membangun pertanian terkini dari pinggir",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14514/Seri%204%20komik.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Panduan Penggunaan Laporan Utama Kementrian Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14513/Panduan%20laporan%20utama.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Modul Pelatihan Literasi Dan Edukasi Keuangan Pengelolaan Keuangan Usaha Tani",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14511/Pengelolaan%20keuangan%20usaha%20tani.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Modul Pelatihan Literasi Dan Edukasi Keuangan Pengelolaan Keuangan Rumah Tangga",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14510/Pengelolaan%20keuangan%20rumah%20tangga.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Statistik Pertanian Tahun 2020",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14509/Final%20Buku%20Statistik%20Pertanian%202020.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Poles Padi Seseksi Sawit",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14508/Poles%20Padi%20Seseksi%20Sawit.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Tiga Pilar Kelola Rawa",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14507/Tiga%20Pilar%20Kelola%20Rawa.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kebijakan Pengembangan Lahan Rawa : Menggantang Langit, Tapi Belum Membumi",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14506/Kebijakan%20Pengembangan%20Lahan%20Rawa.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pertanian Ramah Lingkungan Berbasis Scientific",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14505/Pertanian%20Ramah%20Lingkungan%20Berbasis%20Scientific.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Nanas Rawa untuk Industri",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14504/Nanas%20Rawa%20untuk%20Industri.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Model Pertanian Ramah Lingkungan Lahan Rawa",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14503/Model%20Pertanian%20Ramah%20Lingkungan%20Lahan%20Rawa.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Rawa Lebak : Perspektif Kelembagaan Pengelolaan Air",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14502/Rawa%20Lebak.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Inspirasi Rice Food Estate dari Timur",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14501/Inspirasi%20Rice%20Food%20Estate%20dari%20Timur.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Ketika Etalase Rawa Berubah",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14500/Ketika%20Etalase%20Rawa%20Berubah.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Balittra Siapkan Soil Digital Mapping",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14499/Balittra%20Siapkan%20Soil%20Digital%20Mapping.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Minimum Tillage ala Petani Rawa",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14498/Minimum%20Tillage%20ala%20Petani%20Rawa.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Keamanan Tanah untuk Dunia",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14497/Keamanan%20Tanah%20untuk%20Dunia.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Balittra Latih Tanam Melon di Lahan Rawa",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14496/Balittra%20Latih%20Tanam%20Melon%20di%20Lahan%20Rawa.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Lahan Rawa, Solusi Krisis Kedelai",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14495/Lahan%20Rawa.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kebangkitan Peneliti dan Penyuluh Lahan Rawa",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14494/Kebangkitan%20Peneliti%20dan%20Penyuluh%20Lahan%20Rawa.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Panen Semangka di PPRN I",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14493/Panen%20Semangka%20di%20PPRN%20I.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Lahan Rawa Pasang Surut Berbasis Tanaman Pangan dan Ternak",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14492/Model%20Pertanian%20Lahan%20Rawa%20Pasang%20Surut%20Berbasis%20Tanaman%20Pangan%20dan%20Ternak.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Peneliti, Widyaiswara, dan Penyuluh Bergerak Cepat Dukung P2BN",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14491/Peneliti.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Cegah Penipisan Lahan Gambut",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14490/Cegah%20Penipisan%20Lahan%20Gambut.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Perbandingan Morfometrik Ayam Cemani Berdasarkan Perbedaan Tempat Konservasi",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14489/komnas%20ayam%20cemani2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Efektivitas Parasitoid Anisopteromalus calandrae (Howard, 1881) (Hymenoptera: Pteromalidae) sebagai Agen Biokontrol terhadap Sitophilus oryzae pada Media Jagung",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14488/komnas%20Sitophilus%20oryzae2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Inisiasi dan Multiplikasi Tunas Rumput Gajah (Pennisetum purpureum) secara In Vitro pada Konsentrasi IBA Berbeda",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14487/komnas%20IBA2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pengaruh Modifikasi Pakan Formula terhadap Aspek Biologi Ngengat Lilin Galleria mellonella (L.) (Lepidoptera: Pyralidae)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14486/komnas%20lilin2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Karakterisasi Molekuler Helicoverpa armigera Nucleopolyhedrovirus (HearNPV) Menggunakan Sekuen DNA Polimerase",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14485/komnas%20Biological%20agents2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Optimasi Fermentasi Nira Sorgum untuk Produksi Etanol dengan Menggunakan Isolat Yeast Saccharomyces cerevisiae DBY-1",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14484/komnas%20sorghum%20juice2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Isolasi dan Identifikasi Molekuler Khamir yang Berkemampuan Memfermentasi Xilosa untuk Produksi Bioetanol Generasi Kedua",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14483/komnas%20Bioetanol2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pengkajian Pengembangan Kerbau Krayan sebagai Sumber Daya Genetik Lokal Mendukung Ketahanan Pangan dan Ekspor",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14482/komnas%20kerbau2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Potensi Pembentukan Alfalfa (Medicago sativa) Toleran Kering Melalui Induksi Mutasi Iradiasi Sinar UV-C dan Seleksi Variasi Somaklonal",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14481/komnas%20alffa2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Biologi Spodoptera frugiperda J.E. Smith (Lepidoptera: Noctuidae) pada Pakan Buatan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14480/komnas%20Artificial%20diet2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kemampuan Antagonis Bakteri Lipolitik asal Tanah terhadap Ganoderma",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14479/komnas%20Ganoderma2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Karakter Mikromorfologi dan Patogenisitas Phakopsora pachyrhizi Syd. Isolat Asal Cikeumeuh, Bogor Terhadap Dua Belas Genotipe Kedelai",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14478/komnas%20Morphology2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Itik Alabio Plasma Nutfah Kalimantan Selatan: Potensi, Permasalahan, dan Upaya Pelestariannya",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14477/komnas%20South%20Kalimantan2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Monitoring Populasi Hama Cylas formicarius dengan Perangkap Feromon pada Lahan Budidaya Ubi Jalar",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14476/komnas%20Sex%20pheromones2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Studi Kekerabatan Kelapa Genjah Menggunakan Marka Simple Sequence Repeat",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14474/komnas%20variety2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pengaruh Pemangkasan dan Pengendalian Penyakit Mosaik Terhadap Pertumbuhan, Produksi Setek dan Intensitas Penyakit Nilam",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14473/komnas%20pruning2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Upaya Pelestarian Sumber Daya Genetik Tebu Lokal Kerinci Melalui Perbaikan Teknologi Budidaya",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14472/komnas%20tebu%20lokal2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Eksplorasi Dan Karakterisasi Tanaman Teh Tayu (Camellia sinensis L.) di Kabupaten Bangka Barat",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14471/komnas%20teh%20tayu2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Peningkatan Keragaman Morfologi Keladi Tikus (Typhonium flagelliforme Lodd.) melalui Iradiasi Sinar Gamma",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14470/komnas%20keladi%20tikus2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Penampilan Kopi Liberika Bacan di Kebun Percobaan Bacan Kabupaten Halmahera Selatan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14469/komnas%20kopi2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Aplikasi Thidiazuron secara In Vitro terhadap Multiplikasi Tunas Gambir (Uncaria gambir (Hunter) Roxb)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14468/komnas%20tunas%20gambir2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pembentukan Embrio Somatik Bawang Putih (Allium sativum) untuk Mendukung Penyediaan Bibit Bermutu",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14467/komnas%20somatic%20embryogenesis2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Inventarisasi dan Koleksi Jenis-Jenis Anggrek di Beberapa Kawasan Konservasi di Kabupaten Pelalawan, Riau",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14466/komnas%20palawan2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kajian Keanekaragaman Morfologi, Komposisi Proksimat, Karotenoid, dan Saponin Tiga Aksesi Ubi Jalar di Indonesia",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14465/komnas%20sweet%20potatoes2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Keragaan Agronomi Mutan Cabai Merah Besar Tahan Virus Kuning Hasil Pengeditan Genom",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14464/komnas%20virus%20kuning2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Inventarisasi Tumbuhan Penunjang Tradisi Adat Batak Toba di Balige Kabupaten Toba Sumatera Utara",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14463/komnas%20batak2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Karakterisasi Morfo-Agronomi Tanaman Tomat Produk Rekayasa Genetik Tahan Tomato Yellow Leaf Curl Virus dan Cucumber Mosaic Virus",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14462/komnas%20CMV2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Deteksi Gen Tet pada Tanaman Kentang PRG Katahdin Event SP951 dan Hasil Persilangannya dengan PCR",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14461/komnas%20Tet%20gene2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Keberhasilan Okulasi Batang Bawah Japansche Citroen dengan Mata Tempel Jeruk Poliploid Hasil Pemuliaan In Vitro",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14460/komnas%20okulasi2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Multiplikasi Tunas dan Pembentukan Umbi Mikro pada Bawang Merah Varietas Bima",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14459/komnas%20kinetin2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Karakteristik Morfologi Aksesi Terung (Solanum sp.) Koleksi dari Beberapa Wilayah di Indonesia",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14458/komnas%20terung2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Optimasi Multiplikasi dan Elongasi Tunas In Vitro Pisang Tanduk (Grup AAB)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14457/komnas%20indole%20acetic%20acid2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Peningkatan Produksi Tanaman Cabai Hias pada Sistem Pipa Vertikal melalui Komposisi Media Tanam dan Frekuensi Penyiraman",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14456/komnas%20cabe%20hias2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pemanfaatan Penanda SSR untuk Analisis Sidik Jari DNA Kentang (Solanum tuberosum L.)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14455/komnas%20kentang2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Karakterisasi Morfologi dan Konservasi Anggrek Paphiopedilum sp.",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14454/komnas%20anggrek2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Uji Ketahanan Klon Kentang (Solanum tuberosum L.) Baru terhadap Hawar Daun Phytophthora",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14453/komnas%20potato2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Identifikasi 27 Varietas Cabai Menggunakan Beberapa Jenis Marka Molekuler dan Asosiasinya dengan Ketahanan Antraknosa",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14452/komnas%20Antraknos2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Keragaan Agronomi F4 Kedelai Anjasmoro-IAC100 untuk Ketahanan terhadap Hama Pengisap Polong",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14451/komnas%20pod%20sucking2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Deteksi Produk Rekayasa Genetika: Blind Test untuk Sampel Campuran Tepung",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14450/komnas%20Blind%20Test2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Evaluasi Beberapa Varietas Unggul Baru Padi terhadap Cekaman Anaerob Germination",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14449/komnas%20Anaerobic2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Analisa Kandungan Pati 50 Aksesi Plasma Nutfah Ubi Kayu (Manihot esculenta Crantz.) Koleksi Bank Gen Balitbangtan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14448/komnas%20starch2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Analisis Keragaman Genetik Aksesi Ubi Jalar Lokal Menggunakan Marka Simple Sequence Repeat (SSR)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14447/komnas%20sweet%20potato2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Keragaman Genetik 30 Aksesi Kedelai Introduksi Berdasarkan Marka Single Nucleotide Amplified Polymorphism (SNAP)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14446/komnas%20soybean%20introduction2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Ragam dan Ketersediaan Plasma Nutfah Ubi untuk Mendukung Ketahanan Pangan dan Pertanian Berkelanjutan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14445/komnas%20tuber%20food%20sources2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Metode Skrining untuk Seleksi Ketahanan terhadap Cekaman Aluminum pada Tanaman Padi",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14444/komnas%20Hydroponic2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Respon Genotipe Padi Indonesia terhadap Efisiensi Regenerasi dan Transformasi Genetik melalui Agrobacterium tumefaciens",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14443/komnas%20gene%20expression2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Observasi Fenotipik dan Stabilitas Genetik Mutasi Gen GA20ox-2 pada Padi Mutan CRISPR/Cas9 Turunan Inpari HDB",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14442/komnas%20Inpari%20HDB%2c2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Keragaman Genetik Beberapa Aksesi Padi Rawa Berdasarkan Marka STS Spesifik Subspesies",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14441/komnas%20swampy%20rice2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Keragaman Genetik 82 Aksesi Padi Liar (Oryza spp.) Menggunakan Marka Mikrosatelit dan Sequence Tagged Site (STS)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14440/komnas%20PIC2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Sterilisasi dan Pemanjangan Tunas Talas Beneng (Xanthosoma undipes K. Koch) pada Kultur In Vitro",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14439/komnas%20Beneng%20taro2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Mutasi Radiasi Kombinasi dengan Kultur In Vitro pada Kedelai Varietas Wilis, Grobogan dan Dering-1 untuk Meningkatkan Keragaman Genetik pada Mutan M2",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14438/komnas%20Iradiasi%20sinar%20gamma2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Monitoring Viabilitas Benih SDG Kacang Hijau di Bank Gen Pertanian Balitbangtan, BB Biogen",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14437/komnas%20seed%20longevity2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Variabilitas Ketahanan Hawar Daun Bakteri (Xanthomonas oryzae pv. oryzae) pada Aksesi-Aksesi Padi Asia",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14436/komnas%20Galur%20padi%20lokal%20dan%20introduksi2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pembentukan Kalus Mutan Padi Sawah (Oryza sativa L.) Varietas Inpari 42 Agritan GSR Toleran NaCl",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14435/komnas%20Inpari%2042%20Agritan2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Analisa Kandungan Pati dan Kadar Air pada Umbi Garut (Maranta arundinacea)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14434/komnas%20water%20content2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Hasil Polong Plasma Nutfah Kacang Tanah (Arachis hypogaea L.) asal Pulau Jawa",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14433/komnas%20Branches2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Keragaan Pertumbuhan dan Hasil Beberapa Genotipe Kedelai Berbiji Besar dalam Kondisi Naungan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14431/komna%20soybean2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Karakterisasi Morfologi Dua Kultivar Padi Ketan Lokal asal Kabupaten Gunung Kidul Daerah Istimewa Yogyakarta",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14430/komnas%20serang2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Evaluasi Metode Skrining untuk Cekaman Kekeringan pada Aksesi Lokal Padi Gogo",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14429/komnas%20IAARD%20gene%20bank2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Keragaan Galur Harapan Padi Sawah Toleran Cekaman Suhu Rendah di Rejang Lebong, Bengkulu",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14428/komnas%20bengkulu%202021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pengembangan Sistem Seleksi Kandidat Tetua Pemuliaan Kedelai dari Koleksi Sumber Daya Genetik Berbasis Genotip dan Fenotip",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14427/komnas%20parental%20selection2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Evaluasi Keragaman Karakter Agronomi Tanaman Sorgum Varietas Suri 3 Hasil Iradiasi Sinar Gamma",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14426/komnas%20varietas%20suri2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Keragaman Karakter Morfologi dan Agronomi Galur Mutan M2 Sorgum Varietas Suri 3",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14425/komnas%20sorgum2021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Pelaksanaan Sertifikasi Profesi Penyuluh Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14423/pedoman%20pelaksanaan%20sertifikat%20profil%20penyuluhan%20pertanian.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kegiatan Dan Tugas Pokok Penyuluh Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14422/tugas%20pokok.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kelembagaan dan Sistem Kerja Penyuluhan Pertanian : Pedoman umum Komisi Penyuluhan Pertanian dan Kehutanan Kabupaten (KP2K2), pedoman kerja Tim Penyusun Lapangan (TPL)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14421/seri%202.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Penyuluhan Pertanian Sebagai Ujung Tombak Menuju Pertanian tangguh 1986",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14420/pertanian%20tangguh.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Penyuluhan Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14419/penyuluhan%20pertanian.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Penyuluhan Pertanian Sebagai Ujung Tombak Menuju Pertanian tangguh : 1985",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14418/penyuluhan%20pertanian%20sebagai%20ujung%20tombak%20.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Parlabek Dan Peluangnya Di Sumatera Barat",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14417/peluangnya.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Penyusunan Programa Penyuluhan Pertanian Dan Programa Penyelenggaraan Penyuluhan Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14416/pedoman%20penyusutan%20progma.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Penyusunan dan Pelaksanaan Programa Penyuluhan Pertanian Di Tingkat WKBPP : Timor Timur",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14415/pedoman%20penyusutan%20progma%20penyuluhan.pdf?sequence=4&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Penyusunan dan Pelaksanaan Programa Penyuluhan Pertanian Di Tingkat WKBPP : Samarinda",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14414/pedoman%20penyusunan%20dan%20pelaksanaan.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Pemilihan Metoda Penyuluhan Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14413/pedoman%20pemilihan%20metoda.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Agricultural Extension Institution and Mechanism : guidelines of District Extension Committe (DEC), guidelines of Field Extension Committee (FET)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14412/national%20cantre.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Pembinaan Kelompoktani-Nelayan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14411/kelompok%20tani%20nelayan.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kebijaksanaan Penyuluhan Pertanian Dalam Pelita VI",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14410/kebijaksanaan%20penyuluhan%20pertanian.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Katalog Pelatihan Pertanian Tahun 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14409/KATALOG%20PELATIHAN%202021%20NEW%2019042021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Laporan Kinerja Badan Penyuluhan Dan Pengembangan Sumber Daya Manusia Pertanian Tahun 2019",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14408/LAKIN%20BPPSDMP%202019.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Laporan Kinerja 2017",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14407/LAKIN%20BADAN%20PPSDMP%202017.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Laporan Kinerja Badan Penyuluhan Dan Pengembangan Sumber Daya Manusia Pertanian Tahun 2020",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14406/LAKIN%20Badan%202020.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Laporan Kinerja Badan Penyuluhan Dan Pengembangan Sumber Daya Manusia Pertanian Tahun 2018",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14405/LAKIN%202018.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Laporan Kinerja Badan Penyuluhan Dan Pengembangan Sumber Daya Manusia Pertanian Tahun 2016",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14404/LAKIN%202016.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Laporan Kinerja Badan Penyuluhan Dan Pengembangan Sumber Daya Manusia Pertanian Tahun 2015",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14403/LAKIN%202015.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Laporan Kinerja Badan Penyuluhan Dan Pengembangan Sumber Daya Manusia Pertanian Tahun 2014",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14402/LAKIN%202014.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Badan Penyuluhan dan Pengembangan SDM Pertanian dalam Angka Tahun 2010 : Buku Saku",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14400/Buku%20Saku%20Edit.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Analisa Posisi Sektor Pertanian terhadap Rencana Aksesi TPP Agreement",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14399/Analisa%20Posisi%20Sektor%20Pertanian%20terhadap%20Rencana%20Aksesi%20TPP%20Agreement.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Panduan GEMA Sayuran (Gerakan Makan Sayuran)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14398/Panduan%20GEMA%20Sayuran%20%28Gerakan%20Makan%20Sayuran%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Baku Operasional Pengendalian Hama Terpadu Tanaman Kelapa Sawit",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14397/Baku%20Operasional%20Pengendalian%20Hama%20Terpadu%20Tanaman%20Kelapa%20Sawit.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Budi Daya Terpadu Ayam Buras dan Ikan (Longyam) di Daerah Pasang Surut",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14396/Budi%20Daya%20Terpadu%20Ayam%20Buras%20dan%20Ikan%20%28Longyam%29%20di%20Lahan%20Pasang%20Surut.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Teknologi Inseminasi Buatan Pada Ayam Buras",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14395/Teknologi%20Inseminasi%20Buatan%20Pada%20Ayam%20Buras.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Data Statistik Sekretariat BPPSDMP Tahun 2019 : seri anggaran satker lingkup BPPSDMP",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14394/66.%20Buku-05b%20-%20Buku%20Statistik%20Anggaran%202019_23-4-2020_113hal.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Integrated Laboratory Corps Sheep Village As a Field Agency for Agricultural Research and Development",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14393/Integrated%20Laboratory%20Corps%20Sheep%20Village%20As%20a%20Field%20Agency%20for%20Agricultural%20Research%20and%20Development.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Teknologi Minapadi Legowo",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14392/Teknologi%20Minapadi%20Legowo.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Hidup Sehat dengan Produk Hortikultura Nusantara : Semangka",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14391/Hidup%20Sehat%20dengan%20Produk%20Hortikultura%20Nusantara%20Semangka.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Petunjuk Teknis Budidaya Salak Sidimpuan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14390/Petunjuk%20Teknis%20Budidaya%20Salak%20Sidimpuan.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Data Statistik Sekretariat BPPSDMP Tahun 2019 : Seri ASN",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14389/65.%20Buku-05a%20-%20Buku%20Statistik%20ASN%202019_27-4-2020_158hal.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Data Statistik Penyuluhan Pertanian tahun 2019",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14388/64.%20Buku-04%20-%20Buku%20Statistik%20PENYULUHAN%202019_23-4-2020_150hal.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Data Statistik Pendidikan Pertanian Tahun 2019",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14387/63.%20Buku-03%20-%20Buku%20Statistik%20Pendidikan%202019_5-8-2020_124hal.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Petunjuk Teknis Penyerbukan Tanaman Salak",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14386/Petunjuk%20Teknis%20Penyerbukan%20Tanaman%20Salak.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Data Statistik Pelatihan Pertanian Tahun 2019",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14385/62.%20Buku-02%20-%20Statistik%20PELATIHAN%202019_23-4-2020_82hal.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Teknologi Pemeliharaan Ayam Buras",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14384/Teknologi%20Pemeliharaan%20Ayam%20Buras.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Teknologi Pasca Panen Susu Kambing",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14383/Teknologi%20Pasca%20Panen%20Susu%20Kambing.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Profil ICCTF di Kalimantan Tengah : Pengelolaan Lahan Gambut Berkelanjutan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14382/Profil%20ICCTF%20di%20Kalimantan%20Tengah_Pengelolaan%20Lahan%20Gambut%20Berkelanjutan.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Petunjuk Teknis Aplikasi Perangkap Berferomon di Pertanaman Padi",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14381/Petunjuk%20Teknis%20Aplikasi%20Perangkap%20Berferomon%20di%20Pertanaman%20Padi.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Teknis Budidaya Ternak Kambing/Domba",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14380/Pedoman%20Teknis%20Budidaya%20Ternak%20Kambing%20Domba.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Satu Periode Data Statistik BPPSDMP Dalam Angka Tahun 2015-2019",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14379/61.%20Buku-01%20-%20Buku%20Statistik%20BPPSDMP%20Periode%20%202015-2019__21-7-2020_182hal.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Mina Padi",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14378/Mina%20Padi.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kultur Jaringan Manggis (Garcinia mangostana L.)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14377/Kultur%20Jaringan%20Manggis.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Badan Penyuluhan dan Pengembangan SDM Pertanian dalam Angka Tahun 2010",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14376/60.%20buku%20statistik%20bpsdmp.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Teknologi Top Working (Revisi)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14375/Buku%20Teknologi%20Top%20Working%20%28Revisi%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Budidaya Tomat",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14374/Budidaya%20Tomat.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Budidaya dan Analisa Usaha Tani Padi dan Jagung pada Lahan Pasang Surut",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14373/Budidaya%20dan%20Analisa%20Usaha%20Tani%20Padi%20dan%20Jagung%20pada%20Lahan%20Pasang%20Surut.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Seri 5 Komik Sosialisasi Penyuluhan Pertanian Kurtani Menguak Celah Pembiayaan Mikro Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14372/59.%20304-2020_Seri%205_KURTani_02.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Seri 3 Komik Sosialisasi Penyuluhan Pertanian Kompos : dari limbah yang bernilai tambah",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14370/57.%200802-2020_DRAFT%20Komik%20Kompos.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Peraturan Menteri Pertanian Nomor: 72/Permentan/OT.140/10/2011 Tentang Pedoman Formasi Jabatan Fungsional Penyuluh Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14369/56.%20Permentan%2072%202011.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Vademecum Peraturan Turunan Undang-Undang No. 16 Tahun 2006 tentang Sistem Penyuluhan Pertanian, Perikanan, dan Kehutanan (SP3K)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14368/55.%20vademecum%20peraturan%20turunan.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Yuk Bangun Negeri Dengan Bertani",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14367/54.%20petani%20indonesia%20brosur.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Peraturan Menteri Pertanian Nomor: 25/Permentan/OT.140/5/2009 Tentang Pedoman Penyusunan Programa Penyuluhan Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14366/53.%20peraturan%20materi%20pertanian%20no%2025.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Revitalisasi Penyuluhan Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14365/52.%20Revitalisasi%20Penyuluhan%20Pertanian.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Standar Operasional Prosedur Pengelolaan Sistim Informasi Manajemen Penyuluhan Pertanian (SIMLUHTAN)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14364/51.%20SOP%20SIMLUHTAN%202017.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Penilaian Kelas Kemampuan Kelompoktani",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14363/50.%20pedoman%20kelas%20kemampuan%20kelompok%202018%20full.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Umum dan Petunjuk Pelaksanaan Kegiatan Dana Dekonsentrasi Penyelenggaraan Penyuluhan Pertanian Tahun 2018",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14362/49.%20pedoman%20dekon%202018.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Petunjuk Pelaksanaan Adaptasi Paket Teknologi Spesifik Lokasi",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14361/49.%20b.%20Juklak%20Adaptasi%20Paket%20Teknologi.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Petunjuk Pelaksanaan Sekolah Lapangan Komoditas Pangan Stretegis Nasional",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14360/49.%20a.%20Juklak%20SL.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Pembentukan dan Pengelolaan Badan Usaha Milik Petani (BUMP)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14359/48.%20Pedoman%20BUMP%20fix.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Panduan Penggunaan Website Cyber Extension",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14358/47.%20panduan%20cyber%20extension%202016.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Petunjuk Pelaksanaan Pengembangan Kelembagaan Ekonomi Petani",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14357/45.Juklak%20Pengembangan%20kelembagaan%20ekonomi%20Ptni.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Peran Penyuluh Pertanian Pada Pendampingan dan Pengawalan UPSUS SIWAB",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14356/44.%20pendampingan%20pengawalan%20program%20SIWAB.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Penyelenggaraan Sertifikasi Profesi Penyuluhan Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14355/43.%20pedoman%20penyelenggaraan%20sertifikasi%20profesi%20penyuluhan%20pertanian.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Materi Penyuluhan Pertanian Penguatan Kelembagaan Petani Buku IV Pembentukan Koperasi Tani",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14354/42.%20pembentukan%20koperasi%20tani%204.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Materi Penyuluhan Pertanian Penguatan Kelembagaan Petani Buku III Kelompoktani Sebagai Unit Produksi",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14353/40.%20Materi%20Penyuluhan%20Pertanian%20Penguatan%20Kelembangaan%20Petani%202.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Materi Penyuluhan Pertanian Penguatan Kelembagaan Petani Buku II Kelompoktani Sebagai Wahana Kerja Sama",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14352/40.%20Materi%20Penyuluhan%20Pertanian%20Penguatan%20Kelembangaan%20Petani%202.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Materi Penyuluhan Pertanian Penguatan Kelembagaan Petani Buku I Kelompoktani Sebagai Kelas Belajar",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14351/39.%20Materi%20Penyuluhan%20Pertanian%20Penguatan%20Kelembangaan%20Petani.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Pelaksaan Kegiatan Penyuluhan Yang Dikelola Oleh Petani (FMA) Volume I",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14350/38.%20fma-vol.%202.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Statistik Ketahanan Pangan 2020",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14349/Statistik%20KP%202020-.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Pemberdayaan Masyarakat Tani Dalam Pengembangan Agribisnis",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14348/37.%20Pedoman%20Pemberdayaan%20Masyarakat%20Tani%20Dalam%20Pengembangan%20Agribisnis.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Modul Penguatan Kapasitas Gabungan KPK Pengenalan Gabungan KPK",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14347/36.%20modul%20penguatan%20kapasitas%20gabungan%20kpk%20%20Pengenalan%20gabungan%20KPK%20%20A.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Seri Panduan Pemberdayaan KPK Modul 5 Pencatatan Kelompok",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14346/35.%20modul%205%20Pencatatan%20Kelompok%20%20seri%20Pemberdayaan%20KPK.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Seri Pemberdayaan KPK Modul 2 Membangun Cita-Cita/Harapan Kelompok",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14345/34.%20Modul%202%20Membangun%20Cita%20-%20Cita%20%20Harapan%20Kelompok%20%20%20%20seri%20Pemberdayaan%20KPK.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Seri Panduan Pemberdayaan KPK Modul 1 Mengenal Potensi Diri",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14344/33.%20modul%201.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Laporan Pengkaji Perencanaan Tenaga Kerja Medik Dan Paramedik Veteriner",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14343/32.%20Laporan%20Pengkajian%20Perencanaan%20Tenaga%20Kerja%20Medik%20dan%20Paramedik%20Veteriner.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Laporan Pengkaji Penyusunan Indikator Kemampuan SDM Agribisnis Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14342/31.%20laporan%20pengkajian%20penyusunan%20indikator%20kemampuan%20sdm%20agribisnis%20pertanian.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Laporan Pengkaji Kondisi Penyuluhan Pertanian Dewasa Ini",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14341/30.%20Laporan%20Pengkajian%20Kondisi%20Penyuluh%20Pertanian%20Dewasa%20Ini.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Katalog Pelatihan Pertanian Tahun 2010",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14340/29.%20Katalog%20Pelatihan%20Pertanian%20tahun%202010.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Hubungan Kerja Penyuluh Pendamping dan Penyelia Mitra Tani (PMT)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14339/28.%20Hubungan%20Kerja%20Penyuluh%20Pendamping%20dan%20Penyelia%20Mitra%20Tani%20%28PMT%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Budidaya Belimbing Manis Secara Agribisnis di DKI Jakarta",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14338/Budidaya%20Belimbing%20Manis%20Secara%20Agribisnis%20di%20DKI%20Jakarta.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Petunjuk Teknis tata Kerja Dan Tata cara Penilaian Angka Kredit Widyaiswara Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14337/27.%20widya.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Tujuan Pembelajaran Khusus (TPK) dan Evaluasi Dalam Pelatihan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14336/26.%20tpk.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Petunjuk Pelaksanaan Penyelenggaraan Diklat Fungsional Paramedik Veteriner dan Medik Veteriner",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14335/25.%20vtriner.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Petunjuk Pelaksanaan Penyelenggaraan Diklat Fungsional Bagi Pengawas Bibit Ternak",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14334/24.%20ternak.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Petugas Pemeriksa Daging dan Rancangan Pelatihannya",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14333/23.%20skk2.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Penilai Angka Kredit Jabatan Fungsional Lingkup Direktorat Jenderal Bina Produksi Peternakan Dan Rancang Bangun Diklatnya",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14332/22.%20skk1.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pejabat Pada Bagian Perencanaan Direktorat Jenderal Lingkup Departemen Pertanian Dan Rancangan Pelatihannya",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14331/21.%20skk.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kebijaksanaan Nasional Penyelenggaraan Penyuluhan Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14330/20.%20pnyluh.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Menyusun Rencana Pembelajaran Dalam Pelatihan Yang Efektif",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14329/19.%20pltihan.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Pengembangan Pusat Inkubator Agribisnis (PIA)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14328/18.%20pia.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Umum Pengembangan Kewirausahaan Agribisnis",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14327/17.%20pedum.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Petunjuk Pelaksanaan Penyelenggaraan Diklat Fungsional Bagi Pengendali Organisme Pengganggu Tumbuhan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14326/16.%20opt.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Umum Pemilihan Metode Penyuluhan Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14325/15.%20metode.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Media Penyuluhan Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14324/14.%20media.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Penyelenggaraan Penyuluhan Pertanian Partisipatif Spesifik Lokal : penerapan pendekatan penyuluhan pertanian partisipatif",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14323/13.%20lokal.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kisi-Kisi Pemberdayaan Kelembagaan Penyuluhan Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14322/12.%20kisi.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Paket Pembelajaran Gugus Kendali Mutu (GKM)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14321/11.%20gkm.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Pelaksanaan Kegiatan Penyuluhan yang Dikelola oleh Petani : Farmer managed Extension Activities -FMA)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14320/10.%20fma.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku 4 Bimbingan Lanjutan Dan Evaluasi Diklat",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14319/9.%20diklat4.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku 3 Pelaksanaan Diklat",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14318/8.%20diklat3.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku 2 Perencanaan Diklat",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14317/7.%20diklat2.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku 1 Pengembangan Program Diklat Berbasis Kompetensi (CBT)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14316/6.%20diklat1.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Penyelenggaraan Pelatihan Non Aparatur Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14315/5.%20apratur.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Pendirian dan Akreditasi Sekolah Pertanian Pembangunan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14314/4.%20akredit.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Umum Pengembangan Kawasan Agropolitan & Pedoman Program Rintisan Pengembangan Kawasan Agropolitan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14313/3.%20agro1.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Gerakan Pengembangan Kawasan Agropolitan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14312/2.%20agro.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Sentra Pembelajaran dan Pengembangan Agribisnis",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14311/1.%20agri.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Varietas Lokal Terdaftar Provinsi Papua Tahun 2018 - 2020",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14309/Buku%20VarLok%20benar.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Hidup Sehat dengan Produk Hortikultura Nusantara : Nenas",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14308/Hidup%20Sehat%20dengan%20Produk%20Hortikultura%20Nusantara%20Nenas.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Hidup Sehat dengan Produk Hortikultura Nusantara : Mentimun",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14307/Hidup%20Sehat%20dengan%20Produk%20Hortikultura%20Nusantara%20Mentimun.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Hidup Sehat dengan Produk Hortikultura Nusantara : Jamur Kuping",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14306/Hidup%20Sehat%20dengan%20Produk%20Hortikultura%20Nusantara%20Jamur%20Kuping.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Hidup Sehat dengan Produk Hortikultura Nusantara : Jamur",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14305/Hidup%20Sehat%20dengan%20Produk%20Hortikultura%20Nusantara%20Jamur.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Standar Operasional Prosedur (SOP) Budidaya Kangkung Darat",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14304/Standar%20Operasional%20Prosedur%20%28SOP%29%20Budidaya%20Kangkung%20Darat.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Petunjuk Teknis Produksi dan Pengelolaan Benih Semangka",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14303/Petunjuk%20Teknis%20Produksi%20dan%20Pengelolaan%20Benih%20Semangka.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Budidaya Sayuran Yang Baik (Good Agriculture Practices)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14302/Pedoman%20Budidaya%20Sayuran%20Yang%20Baik%20%28Good%20Agriculture%20Practices%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Teknologi Pembuatan Effervescent Instan Jahe",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14301/Teknologi%20Pembuatan%20Effervescent%20Instan%20Jahe.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Teknologi Pengolahan Sari Belimbing",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14300/Teknologi%20Pengolahan%20Sari%20Belimbing.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Sorgum",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14299/Sorgum.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Petunjuk Teknis Budidaya Sirsak",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14298/Petunjuk%20Teknis%20Budidaya%20Sirsak.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Indo Jarwo Transplanter dan Indo Combine Harvester Mendukung Swasembada Beras Berkelanjutan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14297/Indo%20Jarwo%20Transplanter%20dan%20Indo%20Combine%20Harvester%20Mendukung%20Swasembada%20Beras%20Berkelanjutan.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Petunjuk Teknis Budidaya Ternak Kuda",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14296/Petunjuk%20Teknis%20Budidaya%20Ternak%20Kuda.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Seleksi & Penyembelihan Hewan Qurban",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14295/Pedoman%20Seleksi%20%26%20Penyembelihan%20Hewan%20Qurban.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Teknologi Pembuatan Pakan Alternatif Ayam Buras",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14294/Teknologi%20Pembuatan%20Pakan%20Alternatif%20Ayam%20Buras.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Petunjuk Praktikum Nutrisi dan Pakan Ternak",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14293/14.BP%20NUTRISI%20TERNAK.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Nutrisi dan Pakan Ternak",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14292/14.%20BA%20NUTRISI%20TERNAK.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Petunjuk Praktikum Teknologi Penanganan dan Pengolahan Hasil Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14291/13.%20BP%20PENGOLAHAN%20HASIL.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Teknologi Penanganan dan Pengolahan Hasil Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14290/13.%20BA%20PENGOLAHAN%20HASIL.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Petunjuk Praktikum Teknologi Produksi Benih Tanaman",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14289/12.%20BP%20TEKNOLOGI%20BENIH.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Teknologi Produksi Benih Tanaman",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14288/12.%20BA%20TEKNOLOGI%20BENIH.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Petunjuk Praktikum Teknologi Pemupukan Ramah Lingkungan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14287/10.%20BP%20PUPUK.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Teknologi Pemupukan Ramah Lingkungan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14286/10.%20BA%20PUPUK.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Petunjuk Praktikum Sertifikasi Benih",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14285/9.%20BP%20SERTIFIKASI%20BENIH.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Sertifikasi Benih",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14284/9.%20BA%20SERTIFIKASI%20BENIH.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Petunjuk Praktikum Proyek Pengembangan Teknologi Pertanian Berkelanjutan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14283/8.%20BP%20PERT%20BERKELANJUTAN.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Proyek Pengembangan Teknologi Pertanian Berkelanjutan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14282/8.%20BA%20PERT%20BERKELANJUTAN.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Petunjuk Praktikum Produksi Tanaman Biofarmaka II",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14281/7.%20BP%20BIOFARMAKA.pdf?sequence=4&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Produksi Tanaman Biofarmaka II",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14280/7.%20BA%20BIOFARMAKA.pdf?sequence=4&isAllowed=y"
+    },
+    {
+        "title": "Buku Petunjuk Praktikum Reproduksi Ternak Ruminansia",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14279/6.%20BP%20REPRODUKSI%20TERNAK%20RUMINANSIA.pdf?sequence=4&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Reproduksi Ternak Ruminansia",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14278/6.%20BA%20REPRODUKSI%20TERNAK%20RUMINANSIA.pdf?sequence=4&isAllowed=y"
+    },
+    {
+        "title": "Buku Petunjuk Praktikum Teknologi Produksi Tanaman Perkebunan Keras Presisi",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14277/5.%20BP%20TANAMAN%20KERAS%20PRESISI.pdf?sequence=4&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Teknologi Produksi Tanaman Perkebunan Keras Presisi",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14276/5.%20BA%20TANAMAN%20KERAS%20PRESISI.pdf?sequence=4&isAllowed=y"
+    },
+    {
+        "title": "Buku Petunjuk Praktikum Teknologi Produksi Ternak Ruminansia Kecil",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14275/4.%20BP%20PRODUKSI%20TERNAK.pdf?sequence=4&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Teknologi Produksi Ternak Ruminansia kecil",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14274/4.%20BA%20PRODUKSI%20TERNAK.pdf?sequence=4&isAllowed=y"
+    },
+    {
+        "title": "Buku Petunjuk Praktikum Media Penyuluhan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14273/3.%20MEDIA%20PENYULUHAN.pdf?sequence=4&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Media Penyuluhan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14272/3.%20BA%20MEDIA%20PENYULUHAN.pdf?sequence=4&isAllowed=y"
+    },
+    {
+        "title": "Buku Petunjuk Praktikum Pengelolaan Media Tanam",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14271/2.%20BP%20PENGELOLAAN%20MEDIA%20TANAM.pdf?sequence=4&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Pengelolaan Media Tanam",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14270/2.%20BA%20PENGELOLAAN%20MEDIA%20TANAM.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Petunjuk Praktikum Motor Penggerak",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14269/1.%20BP%20MOTOR%20PENGGERAK.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Motor Penggerak",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14268/1.%20BA%20MOTOR%20PENGGERAK.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Petunjuk Praktikum Ekonomi Agribisnis",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14267/14B.%20%20BP_EKONOMI%20AGRIBISNIS_REV2.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Ekonomi Agribisnis",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14266/14A.%20BA_EKONOMI%20AGRIBISNIS_REV03.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Petunjuk Praktikum Budidaya Ternak Potong",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14265/9B.%20BP%20TERNAK%20POTONG_rev4.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Budidaya Ternak Potong",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14264/9A.%20BA%20TERNAK%20POTONG_rev4.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Petunjuk Praktikum Bioteknologi Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14263/8B.%20BP_BIOTEKNOLOGI%20PERTANIAN_rev3.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Bioteknologi Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14262/8A.%20Bahan%20Ajar_BIOTEKNOLOGI%20PERTANIAN_rev4.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Analisa Perluasan dan Penyiasatan Pasar Ekspor Tanaman Pangan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14261/Analisa%20Perluasan%20dan%20Penyiasatan%20Pasar%20Ekspor%20Tanaman%20Pangan.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Senarai Standar Nasional Indonesia Sektor Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14260/Senarai%20Standar%20Nasional%20Indonesia%20Sektor%20Pertanian%202007.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Himpunan Peraturan Perundang-Undangan Bidang Informasi Publik",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14259/Himpunan%20Peraturan%20Perundang-Undangan%20Bidang%20Informasi%20Publik.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Direktori Pengolahan dan Pemasaran Hasil Pertanian 2010",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14258/Direktori%20Pengolahan%20dan%20Pemasaran%20Hasil%20Pertanian%202010.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pembaruan Agraria dan Pengelolaan Sumber Daya Alam bagi Pengembangan Sistem dan Usaha Agribisnis",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14257/Pembaruan%20Agraria%20dan%20Pengelolaan%20Sumber%20Daya%20Alam%20bagi%20Pengembangan%20Sistem%20dan%20Usaha%20Agribisnis.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Direktori Sarana Usaha Pasca Panen dan Pengolahan Hortikultura",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14256/Direktori%20Sarana%20Usaha%20Pasca%20Panen%20dan%20Pengolahan%20Hortikultura.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Indonesian Fruits dan Vegetables Catalogue",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14255/Indonesian%20Fruits%20dan%20Vegetables%20Catalogue%202011.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Estate Crop Product of Indonesia: Tea",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14254/Estate%20Crop%20Product%20of%20Indonesia%20Tea.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Sentra Pengemasan Produk Olahan Hortikultura",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14253/Sentra%20Pengemasan%20Produk%20Olahan%20Hortikultura.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Teknis Pengolahan Hasil Perkebunan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14252/Pedoman%20Teknis%20Pengolahan%20Hasil%20Perkebunan.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Policy and Program of Processing and Marketing Development of Agricultural Products",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14251/Policy%20and%20Program%20of%20Processing%20and%20Marketing%20Development%20of%20Agricultural%20Products.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Teknis Pengolahan Hasil Tanaman Pangan 2015",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14250/Pedoman%20Teknis%20Pengolahan%20Hasil%20Tanaman%20Pangan%202015.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Analisa PDB Industri Penggilingan Padi 2010",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14249/Analisa%20PDB%20Industri%20Penggilingan%20Padi%202010.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Analisis Dampak Kebijakan Pembangunan Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14248/Pedoman%20Analisis%20Dampak%20Kebijakan%20Pembangunan%20Pertanian.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Bunga Rampai: Nilai Tambah dan Daya Saing Produk Produk Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14247/Bunga%20Rampai%20Nilai%20Tambah%20dan%20Daya%20Saing%20Produk%20Produk%20Pertanian.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Peluang Penanaman Modal di Sektor Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14246/Peluang%20Penanaman%20Modal%20di%20Sektor%20Pertanian.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kumpulan Standar Mutu Produksi Daging, Telur, dan Olahannya berdasarkan Standar Nasional Indonesia (SNI)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14245/Kumpulan%20Standar%20Mutu%20Produksi%20Susu%20dan%20Olahannya%20Berdasarkan%20Standar%20Nasional%20Indonesia%20%28SNI%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kumpulan Standar Mutu Produksi Susu dan Olahannya Berdasarkan Standar Nasional Indonesia (SNI)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14244/Kumpulan%20Standar%20Mutu%20Produksi%20Susu%20dan%20Olahannya%20Berdasarkan%20Standar%20Nasional%20Indonesia%20%28SNI%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Telaahan Peraturan Perundang-Undangan dalam Pengembangan Agribisnis (Aspek Kelembagaan/Kemitraan)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14243/Telaahan%20Peraturan%20Perundang-Undangan%20dalam%20Pengembangan%20Agribisnis%20%28Aspek%20Kelembagaan%20Kemitraan%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buletin Informasi Pasar Edisi Maret 2011",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14242/Buletin%20Informasi%20Pasar%20Edisi%20Maret%202011.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Indonesian Foliage Plants Catalogue",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14241/Indonesian%20Foliage%20Plants%20Catalogue%202011.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Umum Pengolahan Hasil Perkebunan (Gula)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14240/Pedoman%20Umum%20Pengolahan%20Hasil%20Perkebunan%20%28Gula%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kebijakan dan Program Pembangunan Pengolahan dan Pemasaran Hasil Pertanian 2001-2004",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14239/Kebijakan%20dan%20Program%20Pembangunan%20Pengolahan%20dan%20Pemasaran%20Hasil%20Pertanian%202001-2004.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Statistik Pengolahan dan Pemasaran Hasil Pertanian 2011",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14238/Statistik%20Pengolahan%20dan%20Pemasaran%20Hasil%20Pertanian%202011.pdf?sequence=2&isAllowed=y"
+    },
+    {
+        "title": "Statistik Konsumsi Pangan Tahun 2015",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14237/Statistik%20Konsumsi%20Pangan%20Tahun%202015.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pemetaan Proses Penyusunan Regulasi Kementerian Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14236/Pemetaan%20Proses%20Penyusunan%20Regulasi%20Kementerian%20Pertanian.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Panduan Penyusunan Regulasi Lingkup Kementerian Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14235/Panduan%20Penyusunan%20Regulasi%20Lingkup%20Kementerian%20Pertanian.pdf?sequence=3&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Peternakan Organik",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14234/BUKU%20AJAR_peternakan%20organik_PRINT_cetak.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Kesehatan Ternak",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14233/BA_%20Kesehatan%20Ternak%202018.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Produksi Bibit Unggas",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14232/BA_%20Produksi%20Bibit%20Unggas%202018.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Teknik Pengolahan Tanah",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14231/BA_%20Teknik%20Pengolahan%20Tanah%202018.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Agrohidrologi",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14230/BA_Agrohidrologi%202018.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Produksi Benih Hibrida",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14229/BA_Benih%20Hibdrida%202018.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Formulasi Pakan dan Ransum Ternak Unggas",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14228/BA_Formulasi%20Pakan%202018.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Budidaya Tanaman Kelapa Sawit",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14227/BA_KELAPA%20SAWIT-2018.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Teknis Pengembangan Agroindustri Hortikultura Tahun 2013",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14226/Pedoman%20Teknis%20Pengembangan%20Agroindustri%20Hortikultura%20Tahun%202013.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Teknis Pengembangan Agroindustri Tanaman Pangan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14225/Pedoman%20Teknis%20Pengembangan%20Agroindustri%20Tanaman%20Pangan%202013.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Umum Kegiatan Pembangunan Pengolahan dan Pemasaran Hasil Pertanian Tahun Anggaran 2011",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14224/Pedoman%20Umum%20Kegiatan%20Pembangunan%20Pengolahan%20dan%20Pemasaran%20Hasil%20Pertanian%20Tahun%20Anggaran%202011.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Katalog Pengujian Alat dan Mesin Pertanian Tahun 2013",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14223/Katalog%20Pengujian%20Alat%20dan%20Mesin%20Pertanian%20Tahun%202013.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Teknis Pembangunan & Pengembangan Agroindustri Pedesaan Berbasis Kelompok Komoditi Peternakan T.A. 2014",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14222/Pedoman%20Teknis%20Pembangunan%20%26%20Pengembangan%20Agroindustri%20Pedesaan%20Berbasis%20Kelompok%20Komoditi%20Peternakan%20T.A.%202014.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Teknis Pengolahan Hasil Peternakan T.A. 2014",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14221/Pedoman%20Teknis%20Pengolahan%20Hasil%20Peternakan%20T.A.%202014.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Rencana Strategis Direktorat Jenderal Pengolahan dan Pemasaran Hasil Pertanian Tahun 2005-2009 Edisi Revisi",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14220/Rencana%20Strategis%202005-2009%20Direktorat%20Jenderal%20Pengolahan%20dan%20Pemasaran%20Hasil%20Pertanian.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Lingkungan Ternak",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14219/13.%20BA%20Lingkungan%20Ternak.pdf?sequence=4&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Pemasaran Produk Agribisnis",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14218/BA_pemasaran%20produk%20agro%202018.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Pertanian Perkotaan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14217/BA_Perkotaan%202018.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Persiapan Lahan Perkebunan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14216/BA_Persiapan%20Lahan%202018.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Produksi Tanaman Biofarmaka",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14215/BA_produksi%20tanaman_2018.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Produksi Ternak Potong Besar",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14214/BA_TERNAK%20POTONG%20BESAR_2018.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Anatomi Hewan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14213/BA_%20Anatomi%20Hewan%202018.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Petunjuk Praktikum Pemasaran Produk Agrabisnis",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14212/7.%20BP_PEMASARAN%20PRODUK%20AGRIBISNIS.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Petunjuk Praktikum Lingkungan Ternak",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14211/6.%20BP_lingkungan%20ternak_2018.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Petunjuk Praktikum Produksi Ternak Potong Besar",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14210/5.%20BP_TERNAK%20POTONG%20BESAR_2018.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Petunjuk Praktikum Produksi Tanaman Biofarmaka",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14209/4.%20BP_PRODUKSI%20TANAMAN%20BIOFARMA_2018.pdf?sequence=4&isAllowed=y"
+    },
+    {
+        "title": "Buku Petunjuk Praktikum Pertanian Perkotaan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14208/2.%20BP_perkotaan%202018.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Petunjuk Praktikum Budidaya Tanaman Kelapa Sawit",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14207/1.%20BP_KELAPA%20SAWIT_2018.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Indonesian Livestock Catalogue",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14206/Indonesian%20Livestock%20Catalogue.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Petunjuk Praktikum Agrohidrologi",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14205/15.%20BP_AGROHIDROLOGI.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Peternakan organik",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14204/14.%20BP_peternakan%20organik.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Teknik Budidaya Jarak Pagar (Jatropha curcas L.)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14203/Teknik%20Budidaya%20Jarak%20Pagar%20%28Jatropha%20curcas%20L.%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pengelolaan Tanaman Terpadu (PTT) Padi Sawah Tadah Hujan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14202/Pengelolaan%20Tanaman%20Terpadu%20%28PTT%29%20Padi%20Sawah%20Tadah%20Hujan.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Petunjuk Teknis Remediasi Lahan Sawah dan Hortikultura Dataran Rendah Tercemar Merkuri dan Arsen Melalui Pemanfaatan Bioremediator",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14201/Petunjuk%20Teknis%20Remediasi%20Lahan%20Sawah%20dan%20Hortikultura.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Produksi Benih Hibrida",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14200/13.%20BP_benih%20hibrida.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Posisi Tawar Tarif Produk Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14199/Posisi%20Tawar%20Tarif%20Produk%20Pertanian.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Petunjuk Praktikum Kesehatan Hewan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14198/12.%20BP_kesehatan%20ternak.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Konsep dan Strategi Pembangunan Tanaman Pangan dan Hortikultura",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14197/Konsep%20dan%20Strategi%20Pembangunan%20Tanaman%20Pangan%20dan%20Hortikultura.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Petunjuk Praktikum Teknik Pengolahan Tanah",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14196/11.%20BP_TEHNIK%20PENGOLAH%20TANAH.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Teknis Pengolahan Hasil Hortikultura",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14195/Pedoman%20Teknis%20Pengolahan%20Hasil%20Hortikultura.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Telaahan Peraturan Perundang-Undangan dalam Pengembangan Agribisnis (Aspek Perizinan)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14194/Telaahan%20Peraturan%20Perundang-Undangan%20dalam%20Pengembangan%20Agribisnis%20%28Aspek%20Perizinan%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Prospek dan Arah Pengembangan Agribisnis: Dukungan Aspek Mekanisasi Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14193/Prospek%20dan%20Arah%20Pengembangan%20Agribisnis%20Dukungan%20Aspek%20Mekanisasi%20Pertanian.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Prospek dan Arah Pengembangan Agribisnis: Rangkuman Kebutuhan Investasi",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14192/Prospek%20dan%20Arah%20Pengembangan%20Agribisnis%20Rangkuman%20Kebutuhan%20Investasi.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Formulasi Pakan dan Ransum Ternak Unggas",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14191/10.%20BP_formulasi%20pakan.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Prospek dan Arah Pengembangan Agribisnis: Tinjauan Aspek Teknologi Kesesuaian Lahan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14190/Prospek%20dan%20Arah%20Pengembangan%20Agribisnis%20Tinjauan%20Aspek%20Teknologi%20Kesesuaian%20Lahan.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Petunjuk Praktikum Anatomi Hewan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14189/9.%20BP_anatomi%20hewan_print.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Petunjuk Praktikum Produksi Bibit Unggas",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14188/8.%20BP_pproduksi%20bibit%20ungas.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Prospek dan Arah Pengembangan Agribisnis: Dukungan Aspek Teknologi Pascapanen",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14186/Prospek%20dan%20Arah%20Pengembangan%20Agribisnis%20Dukungan%20Aspek%20Teknologi%20Pascapanen.pdf?sequence=3&isAllowed=y"
+    },
+    {
+        "title": "Buku Petunjuk Praktikum Persiapan Lahan Perkebunan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14182/3.%20BP_persiapan%20lahan_2018.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kajian Value of Agricultural Production Indonesia",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14180/Kajian%20Value%20Of%20Agricultural%20Production%20Indonesia.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kajian Public Stockholding Komoditas Pangan Indonesia",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14178/Kajian%20Public%20Stockholding%20Komoditas%20Pangan%20Indonesia.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Analisis Peluang Pasar Agribisnis",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14177/ANALISIS%20PELUANG%20PASAR%20AGRIBISNIS.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Teknologi Produksi Ternak Potong",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14176/tek%20produksi%20ternak.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Teknologi Produksi Tanaman Pangan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14175/TECHNOLOGI%20TANAMAN%20PANGAN.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Rencana Strategis Direktorat Jenderal Pengolahan dan Pemasaran Hasil Pertanian Tahun 2015-2019",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14174/Rencana%20Strategis%20Direktorat%20Jenderal%20Pengolahan%20dan%20Pemasaran%20Hasil%20Pertanian%20Tahun%202015-2019.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Teknologi Produksi Tanaman Keras",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14173/tanaman%20keras.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Perencanaan Usaha Agribisnis",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14172/PERENCANAAN%20USAHA%20AGRIBISNIS.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Perencanaan Penyuluhan pertanian I",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14171/PERENCANAAN%20PENYULUHAN.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Penumbuhan dan Pengembangan Kelembagaan Petani",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14170/PENUMBUHAN%20%26%20PENGEMBANGAN%20KELEMBAGAAN%20PETANI.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Pemasaran Produk Agribisnis",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14169/pemasaran%20produk%20agri.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Pelaksanaan Penyuluhan Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14168/PELAKSANAAN%20PENYULUHAN.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Metode Penelitian Penyuluhan Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14167/metode%20penelitian%20pnyuluhan%20pertanian.pdf?sequence=3&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Manajemen Agribisnis",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14166/manajemen%20agribisnis.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buku Ajar Evaluasi Penyuluhan Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14165/evaluasi%20penyuluhan.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Geographical Indication (GI) Profile of Indonesia Agricultural Products",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14164/Geographical%20Indication%20%28GI%29%20Profile%20Of%20Indonesia%20Agricultural%20Products.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Perkembangan dan Peluang Kerjasama Bilateral Indonesia-Jepang",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14163/Perkembangan%20dan%20Peluang%20Kerjasama%20Bilateral%20Indonesia-Jepang.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Ketahanan Pangan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14162/BERITA%20KETAHANAN%20PANGAN%20JANUARI%202021.docx.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Warta BKP Edisi November 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14161/Warta%20BKP%20Nov%202021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Analisis Pemasaran Komoditas Pertanian Unggulan Daging Ayam",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14160/Analisis%20Pemasaran%20Komoditas%20Pertanian%20Unggulan%20Daging%20Ayam.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Materi Perundingan Perdagangan Internasional Sektor Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14159/Materi%20Perundingan%20Perdagangan%20Internasional%20Sektor%20Pertanian.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Analisis Pemasaran Komoditas Pertanian Unggulan Cabe Merah",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14158/Analisis%20Pemasaran%20Komoditas%20Pertanian%20Unggulan%20Cabe%20Merah%202013.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Agribisnis Ternak Ruminansia Ternak Ruminansia Perah",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14157/17.%20ternak%20ruminansia%20perah.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Agribisnis ternak Unggas Pembibitan Ternak Unggas",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14156/15.%20ternak%20unggas.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Agribisnis Ternak Unggas Ternak Unggas Pedaging",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14155/14.%20unggas%20pedaging.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Agribisnis Ternak Unggas Ternak Unggas Petelur",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14154/13.%20unggas%20petelur.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Agribisnis Ternak Ruminansia Pembibitan Ternak Ruminansia",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14153/12.%20ruminansia.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Agribisnis Tanaman Pangan dan Hortikultura Produksi Tanaman Hias Budidaya Melati dan Anggrek",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14152/10.%20melati%20anggrek.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Agribisnis Tanaman Perkebunan Budidaya Tanaman Kelapa Sawit",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14151/9.%20klp%20sawit.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kesehatan Hewan Pemeriksaan Laboratorium",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14150/7.%20pemeriksaan%20labolatorium.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Agribisnis Tanaman Perkebunan Semusim Budidaya Tanaman Tebu",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14149/6.%20tanaman%20tebu.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kesehatan Hewan Reproduksi Hewan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14148/5.%20refroduksi%20hewan.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Mekanisasi Pertanian Alat dan Mesin Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14147/4.%20alat%20dan%20mesin%20pertanian.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kesehatan Hewan Kesehatan Masyarakat Veteriner",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14146/3.%20kes%20msy%20veteriner.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kesehatan Hewan Klinik Hewan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14145/2.%20klinik%20hewan.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kultur Jaringan Tanaman",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14144/1.%20KULTUR%20TANAMAN%20JARINGAN.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Agribisnis tanaman pangan dan hortikultura",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14143/11.%20padi%2c%20jagung%20talas_opt.pdf?sequence=2&isAllowed=y"
+    },
+    {
+        "title": "Olahan Pangan Gembili",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14142/Leaflet%20pizza%20gembili.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Nugget Gembili",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14141/Nugget%20gembili.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Olahan Pangan Sagu",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14140/MIE%20SAGU.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Olahan Pangan Sagu",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14139/BISKUIT%20ULAT%20SAGU%2c%20BOLU%20HURUWAKHA%2c%20KRIPIK%20SAGU_black.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Olahan Pangan Ubi Kayu",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14138/Biskuit%20dan%20Brownies%20Cassava.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Budidaya Kangkung",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14137/kangkung%20leaflet.pdf?sequence=2&isAllowed=y"
+    },
+    {
+        "title": "Varietas Ubi Jalar",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14136/ubi%20jalar.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Varietas Ubi Kayu",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14135/ubi%20kayu.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "varietas unggul baru padi fungsional khusus",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14134/Varietas%20padi.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Varietas Unggul Jagung",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14133/Varietas%20jagung.jpeg?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Mengenal Hama dan Penyakit Jagung",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14132/HPT%20Jagung.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Budidaya Jagung",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14131/budidaya%20jagung.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Teknik Produksi Benih Sumber Padi",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14130/Benih%20sumber.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Teknologi Proliga Cabai",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14129/Proliga%20Cabai.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Mengenal VUB Padi Badan Litbang Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14128/VUB%20Padi%20Badan%20Litbang%20Pertanian.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "TURIMAN : TUMPANG SARI PADI GOGO - JAGUNG - KEDELAI",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14127/TURIMAN-AKTUALISASI.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Analisis Pemasaran Komoditas Pertanian Unggulan Telur Ayam Ras",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14126/Analisis%20Pemasaran%20Komoditas%20Pertanian%20Unggulan%20Telur%20Ayam%20Ras.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Petunjuk Teknis Analisis Biaya Usahatani Tanaman Pangan dan Hortikultura",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14125/Petunjuk%20Teknis%20Analisa%20Usahatani%20Tanaman%20Pangan%20dan%20Hortikultura.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kamus Istilah Agribisnis Edisi Pertama",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14124/Kamus%20Istilah%20Agribisnis%20Edisi%20Pertama.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Upaya Perlindungan Pemerintah Terhadap Peningkatan Daya Saing Persusuan Nasional",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14123/Upaya%20Perlindungan%20Pemerintah%20Terhadap%20Peningkatan%20Daya%20Saing%20Persusuan%20Nasional.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Analisis Pemasaran Komoditas Pertanian Unggulan Kakao",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14122/Analisis%20Pemasaran%20Komoditas%20Pertanian%20Unggulan%20Kakao.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Analisis Pemasaran Komoditas Pertanian Unggulan Karet",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14121/Analisis%20Pemasaran%20Komoditas%20Pertanian%20Unggulan%20Karet.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Analisis Pemasaran Komoditas Bawang Merah Tahun 2013",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14120/Analisis%20Pemasaran%20Komoditas%20Bawang%20Merah%20Tahun%202013.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "4 Tahun Go Organic 2010",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14119/4%20Tahun%20Go%20Organic%202010.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kumpulan Peraturan Komisi Informasi",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14118/Kumpulan%20Peraturan%20Komisi%20Informasi.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Sinergi Deptan dengan Komisi IV DPR RI",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14117/Sinergi%20Deptan%20dengan%20Komisi%20IV%20DPR%20RI.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Analisis Pemasaran Komoditas Pertanian Unggulan Daging Ayam",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14116/Analisis%20Pemasaran%20Komoditas%20Pertanian%20Unggulan%20Daging%20Ayam.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Peluang dan Peraturan Ekspor Komoditi Peternakan ke Malaysia",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14115/Peluang%20dan%20Peraturan%20Ekspor%20Komoditi%20Peternakan%20ke%20Malaysia.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Bibliografi Subjek Pertanian Perpustakaan Sekretariat Jenderal Kementerian Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14114/Bibliografi%20Subjek%20Pertanian%20Perpustakaan%20Sekretariat%20Jenderal%20Kementerian%20Pertanian.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Direktori Pengolahan dan Pemasaran Hasil Pertanian 2009",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14113/Direktori%20Pengolahan%20dan%20Pemasaran%20Hasil%20Pertanian%20Tahun%202009.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Analisis Pemasaran Komoditas Unggulan Telur Ayam Ras Petelur",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14112/Analisis%20Pemasaran%20Komoditas%20Unggulan%20Telur%20Ayam%20Ras%20Petelur.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Investasi Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14111/Pedoman%20Investasi%20Pertanian.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Penerapan Cara Penanganan Pasca Panen/Pengolahan Pangan Hasil Pertanian Yang Baik",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14110/Pedoman%20Penerapan%20Cara%20Penanganan%20Pasca%20Panen%20Pengolahan%20Pangan%20Hasil%20Pertanian%20Yang%20Baik.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Petunjuk Teknis Pelayanan Informasi Pasar Supply dan Demand",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14109/Petunjuk%20Teknis%20Pelayanan%20Informasi%20Pasar%20Supply%20dan%20Demand.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Analisis Pemasaran Komoditas Pertanian Unggulan Cabe Merah",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14108/Analisis%20Pemasaran%20Komoditas%20Pertanian%20Unggulan%20Cabe%20Merah.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Registrasi Unit Pengolahan dan Pemasaran Bahan Olahan Karet/Bokar (UPPB)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14107/Pedoman%20Registerasi%20Unit%20Pengolahan%20dan%20Pemasaran%20Bahan%20Olahan%20Karet%20Bokar%20%28UPPB%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Profil Direktorat Mutu dan Standardisasi",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14106/Profil%20Direktorat%20Mutu%20dan%20Standardisasi.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pengendalian Hama Penyakit Padi",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14105/Pengendalian%20Hama%20Penyakit%20Padi.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Hama dan Penyakit Tanaman Padi",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14104/Hama%20dan%20Penyakit%20Tanaman%20Padi.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Paket Teknologi Padi Gogo di Kalimantan Selatan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14103/Paket%20Teknologi%20Padi%20Gogo%20di%20Kalimantan%20Selatan.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 12 Oktober 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14102/12-10-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 11 Oktober 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14101/11-10-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 8 Oktober 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14100/8-10-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 7 Oktober 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14099/7-10-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 6 Oktober 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14098/6-10-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 5 Oktober 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14097/5-10-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 4 Oktober 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14096/4-10-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 1 Oktober 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14095/1-10-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 30 November 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14094/30-11-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 29 November 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14093/29-11-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 26 November 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14092/26-11-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 25 November 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14091/25-11-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 24 November 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14090/24-11-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Mengenal Pemangsa Hama (Predator) Pada Pertanaman Padi",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14089/Mengenal%20Pemangsa%20Hama%20%28Predator%29%20Pada%20Pertanaman%20Padi.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Pengembangan Sapi Brahman Cross untuk Peternak",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14088/Pedoman%20Pengembangan%20Sapi%20Brahman%20Cross%20untuk%20Peternak.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Teknis Pelayanan Informasi Pasar Komoditas Tanaman Pangan dan Hortikultura",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14087/Pedoman%20Teknis%20Pelayanan%20Informasi%20Pasar%20Komoditas%20Tanaman%20Pangan%20dan%20Hortikultura.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Analisis Pemasaran Komoditas Pertanian Unggulan Kopi",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14086/023.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Petunjuk Praktis \"SINGOSARI\" (Sistem Informasi Pengolahan dan Pemasaran Hasil Pertanian)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14085/Petunjuk%20Praktis%20SINGOSARI%20%28Sistem%20Informasi%20Pengolahan%20dan%20Pemasaran%20Hasil%20Pertanian%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Cara Pengolahan yang Baik (Good Manufacturing Practices) Komoditas Hortikultura",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14084/021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Teknik penangkaran benih kentang dataran medium",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14083/2003%20bibit%20%20kentang.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pengenalan gangsing (sesarma reticulatum) sebagai pakan lokal untuk itik",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14082/2003%20Gangsing.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Organisme pengganggu tanaman(OPT) kentang dataran medium",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14081/2003%20Opt%20Kentang.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Teknologi olahan sawut dan tepung ubi kayu",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14080/2003%20Sawut.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pembuatan dan penempatan sarang gurami untuk pemijahan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14079/gurami.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Krisa kripik salak pondoh",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14078/krisa.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Teknologi Produksi salak pondoh sepanjang tahun",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14077/slaak.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Cara pengambilan contoh tanah tingkat petani untuk analisis/uji tanah",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14076/Cara%20Pengambilan%20Contoh%20Tanah.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kalender Tanam Terpadu",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14075/Leaflet_Katam_Terpadu.pdf?sequence=2&isAllowed=y"
+    },
+    {
+        "title": "Gapgelur Bahan pakan untuk sapi potong",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14074/Gapgelur.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Menanam melati di lahan pasir",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14073/Menanam%20Melati.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Mengenal hermada",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14072/hermada.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Mengenal jambu air dalhari",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14070/Mengenal%20Jambu%20Air.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Salak madu",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14069/Salak%20Madu.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Teknik pengelolaan lahan pasir untuk tanaman hortikultura",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14068/Tekni%20pengelolaan%20Lahan%20Pasir.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Beternak Kerbau",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14067/Beternak%20Kerbau.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Teknologi sederhana pembuatan biopestisida",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14066/Teknologi%20Sederhana%20Pembuatan%20Biopestisida.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Dodol salak pondoh",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14065/dodol%20salak.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Jagung lamuru",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14064/Jagung%20Lamuru.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Perbanyakan jambu air dalhari dengan cangkok",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14063/jambu%20dalhari.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pembentukan komisi Daerah Plasma Nutfah DIY",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14062/Komda%20Plasma%20Nutfah.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Meningkatkan produktivtas padi sawah dengan bibit muda dan tidak ombol",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14061/padi.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pembuatan telur asin",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14060/telor%20asin.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Teknologi pembuatan sawut dan tepung sukun",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14059/tepung%20sukun.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Uret dan upaya pengendaliannya",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14058/uret.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Ampas kelapa limbah VCO untuk pakan ternak ruminansia",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14057/Ampas%20kelapa%20limbah.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Beras merah",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14056/berasmerah.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Complete feed pakan alternatif lengkap yang efektif dan efisien pada musim kemarau",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14055/completefeed.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Penyakit layu pada tanaman pisang",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14054/pisang.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pupuk bio mikoriza untuk budidaya semangka dilahan pasir",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14053/Pupuk%20Bio.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Soil test kit",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14052/Soil%20Test.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Potensi dan Peluang Investasi Agribisnis Provinsi Jawa Tengah",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14051/020.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "PANDUAN PELATIHAN TEKNIS BAGI NON APARATUR ANGKATAN XI (PEMUPUKAN BERIMBANG)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14050/Panduan%20Pemupukan%20Berimbang%20Sumteng%20XI%20%281%29.doc?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Teknologi Pengolahan Daging",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14049/Teknologi%20Pengolahan%20Daging.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Umum Standard Operational Procedure (SOP) Budidaya Mentimun",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14048/Standard%20Operational%20Procedure%20%28SOP%29%20Budidaya%20Mentimun.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Petunjuk Teknis Teknologi Pengolahan Ubi Kayu, Ubi Jalar dan Pisang",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14047/Petunjuk%20Teknis%20Teknologi%20Pengolahan%20Ubi%20Kayu%2c%20Ubi%20Jalar%20dan%20Pisang.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Petunjuk Teknis Pengendalian Hama dan Penyakit Utama Tanaman Cabai Merah dan Tomat",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14046/Petunjuk%20Teknis%20Pengendalian%20Hama%20dan%20Penyakit%20Utama%20Tanaman%20Cabai%20Merah%20dan%20Tomat.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Teknologi Pengolahan Cassiavera",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14045/Pedoman%20Teknologi%20Pengolahan%20Cassiavera.pdf?sequence=4&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Pembuatan Serbuk Labu Kuning Instan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14043/Pedoman%20Pembuatan%20Serbuk%20Labu%20Kuning%20Instan.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Monograf Inovasi Teknologi Perbanyakan Bibit dan Budidaya Krisan Varietas Unggul",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14042/Monograf%20Inovasi%20Teknologi%20Perbanyakan%20Bibit%20dan%20Budidaya%20Krisan%20Varietas%20Unggul.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Keragaan Olahan Pangan Lokal Berbasis Umbi dan Serealia : Hari Pangan Sedunia Ke-34 \"Model Pengembangan Sumber Daya Pangan Lokal\"",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14041/Keragaan%20Olahan%20Pangan%20Lokal%20Berbasis%20Umbi%20dan%20Serealia.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "TEKNIK PENANAMAN INDIGOFERA",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14040/Indigofera.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "PEMANFAATAN LAHAN PEKARANGAN",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14039/Lahan%20Pekarangan.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "TEKNIK PENANAMAN RUMPUT ODOT",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14038/Rumput%20ODOT.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "TEKNOLOGI PROBIOTIK HERBAL MENINGKATKAN KEUNTUNGAN PETERNAK AYAM KUB",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14037/Teknologi%20Probiotik.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 23 November 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14036/23-11-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 22 November 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14035/22-11-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 19 November 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14034/19-11-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 18 November 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14033/18-11-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 17 November 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14032/17-11-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 16 November 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14031/16-11-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 15 November 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14030/15-11-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 12 November 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14029/12-11-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 11 November 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14028/11-11-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 10 November 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14027/10-11-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 9 November 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14026/9-11-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 8 November 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14025/8-11-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 5 November 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14024/5-11-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 4 November 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14023/4-11-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 3 November 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14017/3-11-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 2 November 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14016/2-11-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kliping Berita Pertanian 1 November 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14015/1-11-21.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Petunjuk Teknis Aplikasi Pendukung Sistem Informasi Publik (http://ppid.pertanian.go.id)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14014/Juknis%20Aplikasi%20Portal%20PPID%202019..pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kompendium Hukum Bidang Undang-Undang Sektor Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14013/KOMPEDIUM%20HUKUM%20UU%20PERTANIAN.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "TEKNOLOGI PEMBUATAN ASAP CAIR ADRI TANDAN KOSONG KELAPA SAWIT",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14012/Asap%20cair.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "PETUNJUK TEKNIS TEKNOLOGI BUDIDAYA KUBIS DATARAN RENDAH",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14011/JUKNIS%20KUBIS.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "BUKU PETUNJUK TEKNIS BUDIDAYA AYAM KUB",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14010/JUKNIS%20AYAM%20KUB%20CETAK%20AKHIR%2015%20OKT.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "PANDUAN PELATIHAN TEKNIS BAGI NON APARATUR ANGKATAN XLVIII (PENGOLAHAN HASIL PERTANIAN)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14009/Panduan%20Pengolahan%20Hsl%20Pertanian%20SBD%20XLVIII.doc?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "PANDUAN Pelatihan Bimtek Perkebunan Bagi Aparatur (BP3K Tibawa Kab. Gorontalo)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14008/Panduan%20Bimtek%20Perkeb.%20Tibawa.doc?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "PROSES BERPIKIR KREATIF SISWA DALAM MENYELESAIKAN MASALAH MATEMATIS “INFORMASI TERBATAS (ILL STRUCTURED PROBLEMS)” DITINJAU DARI KECERDASAN MAJEMUK (MULTIPLE INTELLIGENCES)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14007/21.%20Karya%20Ilmiah.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Budidaya Dan Produk Olahan Sagu",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14006/A.1.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kaleidoskop Kegiatan Kementerian Pertanian RI dengan DPR/DPD RI Masa Persidangan I Tahun Sidang 2019-2020",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14005/KALEIDOSKOP%20MS%201.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Direktori Asosiasi Organisasi Profesi Bidang Pertanian 2020",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/14004/Direktori%20Asosiasi%20Organisasi%20Profesi%20Bidang%20Pertanian%20Tahun%202020.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pengkajian Perbedaan Waktu Tanam Terhadap Pencapaian Produktivitas 4 Varietas Padi Di Kabupaten Rembang Jawa Tengah"
+    },
+    {
+        "title": "Ameliorasi Dan Decision Support System (DSS) Pemupukan Padi Mampu Meningkatkan Produktivitas Lahan Rawa Pasang Surut Banyuasin Sumatera Selatan"
+    },
+    {
+        "title": "Keragaan Beberapa Varietas Unggul Padi Di Lahan Rawa Lebak Tengahan Kalimantan Selatan"
+    },
+    {
+        "title": "Inovasi Teknologi Mendukung Produktivitas Padi Di Luar Musim Tanam (Off Season) Lahan Rawa Pasang Surut Provinsi Jambi"
+    },
+    {
+        "title": "Petunjuk Teknis Budidaya Kedelai Tahan Naungan di Provinsi Banten",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13999/JUKNIS%20BUDENA%20BANTEN%202021%20ISBN%20_final.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Market Survey of Processed Meat Based Foods Republic of Indonesia",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13992/Market%20Survey%20Of%20Processed%20Meat%20Based%20Foods%20Republic%20of%20Indonesia%20For%20PAP%20Marketing%20SDN%20BHD.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buletin Informasi Pasar Edisi Mei 2009",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13991/Buletin%20Informasi%20Pasar%20Edisi%20Mei%20%202009.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Top Working Meningkatkan Mutu Tanaman Buah"
+    },
+    {
+        "title": "Lahan Rawa Lumbung Pangan Masa Depan"
+    },
+    {
+        "title": "Buletin Pemasaran lnternasional Edisi 1 Februari 2010",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13988/a102.Buletin%20Pemasaran%20lnternasional%20Edisi%201%20Februari%202010.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buletin Informasi Pasar Edisi II, April 2010",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13987/a101.Buletin%20Informasi%20Pasar%20Edisi%20II%2c%20April%202010.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buletin Informasi Pasar Edisi Juli 2008",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13986/a089.Buletin%20Informasi%20Pasar%20Edisi%20Juli%202008.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buletin Pemasaran Internasional Edisi IV Agustus 2007"
+    },
+    {
+        "title": "Buletin Informasi Pasar Edisi Desember 2012",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13984/a038.Buletin%20Informasi%20Pasar%20Edisi%20Desember%202012.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buletin Pemasaran Internasional Edisi IV, Agustus 2010"
+    },
+    {
+        "title": "Buletin Informasi Pasar Edisi Februari 2010",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13982/a021.Buletin%20Informasi%20Pasar%20Edisi%20Februari%202010.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buletin Informasi Pasar Edisi Maret 2010",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13981/a020.Buletin%20Informasi%20Pasar%20Edisi%20Maret%202010.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buletin Informasi Pasar Edisi Juli 2010",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13980/a019.Buletin%20Informasi%20Pasar%20Edisi%20Juli%202010.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buletin Informasi Pasar Edisi September 2008",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13979/a018.Buletin%20Informasi%20Pasar%20Edisi%20September%202008.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buletin Informasi Pasar Edisi Oktober 2008",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13978/a017.Buletin%20Informasi%20Pasar%20Edisi%20Oktober%202008.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buletin Informasi Pasar Edisi April 2010",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13977/a016.Buletin%20Informasi%20Pasar%20Edisi%20April%202010.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Buletin Pemasaran Internasional Edisi III, Juni 2010"
+    },
+    {
+        "title": "Buletin Organisasi dan Kepegawaian Edisi IV Periode Oktober-Desember 2010",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13975/a001.Buletin%20Organisasi%20dan%20Kepegawaian%20Edisi%20IV%20Periode%20Oktober%20-%20Desember%202010.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Peraturan Pemerintah Republik Indonesia Nomor 53 Tahun 2010 Tentang Disiplin Pegawai Negeri Sipil"
+    },
+    {
+        "title": "Pedoman Teknis Pengembangan Agroindustri Tanaman Pangan TA 2012"
+    },
+    {
+        "title": "Teknologi Pengolahan Kakao",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13972/a111.Teknologi%20Pengolahan%20Kakao%20%20-%20Ditjen%20Pengolahan%20dan%20Pemasaran%20Hasil%20Pertanian%20Kementerian%20Pertanian%20TA.%202012.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Effects of Trade Liberalization on Agriculture in Indonesia: Commodity Aspects"
+    },
+    {
+        "title": "Himpunan Sambutan Menteri Pertanian Periode Januari-Maret 2007"
+    },
+    {
+        "title": "Senarai Standar Nasional Indonesia Sektor Pertanian"
+    },
+    {
+        "title": "Training: Marketing Mindset and Strategy"
+    },
+    {
+        "title": "Indonesia Essential Oil Catalogue",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13967/a097.Indonesia%20Essential%20Oil%20Catalogue%20-%20Ministry%20Of%20Agriculture%20Republic%20Of%20Indonesia%202011.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kebijakan dan Strategi Eselon I Lingkup Kementerian Pertanian Tahun 2016",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13966/a094.Kebijakan%20dan%20Strategi%20Eselon%20I%20Lingkup%20Kementerian%20Pertanian%20Tahun%202016%20-%20Sekretariat%20Jenderal%202016.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Palm Oil: Food Safety and Its Effect On Human Health"
+    },
+    {
+        "title": "Kronologis Formasi Tenaga Honorer Tahun 2005 s.d 2008: Suatu Laporan Analisa Catatan Kerja"
+    },
+    {
+        "title": "Analisis Berita dan Pendapat Masyarakat Pemberitaan di Media Cetak dan Media Elektronik Mei 2012"
+    },
+    {
+        "title": "Kompilasi Pernyataan Pimpinan Kementerian Pertanian di Media Cetak Periode Oktober 2011"
+    },
+    {
+        "title": "Evaluasi Berita dan Pendapat Masyarakat Bulan September-Oktober 2011"
+    },
+    {
+        "title": "Kumpulan Makalah dan Sambutan Menteri Muda Pertanian Tentang Agro-Industri dan Agribisnis",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13960/a087.Kumpulan%20Makalah%20dan%20Sambutan%20Menteri%20Muda%20Pertanian%20Tentang%20Agro%20-%20Industri%20dan%20Agribisnis%20-%20Departemen%20Pertanian%20-%201991.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Analisis Pendapat Umum Januari 2018",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13959/a086.Analisis%20Pendapat%20Umum%20Januari%202018%20-%20Biro%20Umum%20dan%20Informasi%20Publik%20Kementerian%20Pertanian%20Republik%20Indonesia%202018.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Competitiveness of Malaysian Halal Meat - Based Industry The Case of Prima Agri Products SDN BHS"
+    },
+    {
+        "title": "Gerakan Kemitraan Petani Kedelai dengan Pengusaha Industri: Upaya Percepatan Peningkatan Produksi Kedelai"
+    },
+    {
+        "title": "Direktori Pejabat Pengelola Informasi dan Dokumentasi Lingkup Kementerian Pertanian"
+    },
+    {
+        "title": "Pedoman Teknis Pengembangan Agrowisata"
+    },
+    {
+        "title": "Petunjuk Teknis (Juknis) Kegiatan Pembangunan Pengolahan Hasil Pertanian T.A. 2009 Hortikultura",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13954/a076.Petunjuk%20Teknis%20%28Juknis%29%20Kegiatan%20Pembangunan%20Pengolahan%20Hasil%20Pertanian%20T.A.%202009%20Hortikultura.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Panduan Verifikasi Otoritas Kompeten Keamanan Pangan Daerah"
+    },
+    {
+        "title": "Pedoman Teknis Akselerasi Peningkatan Ekspor Komoditi Pertanian Pola Insentif"
+    },
+    {
+        "title": "3 Tahun Capaian Kinerja Kementerian Pertanian Republik Indonesia"
+    },
+    {
+        "title": "Sukses Swasembada",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13950/a070.Sukses%20Swasembada%20-%20%20Sekretariat%20Jenderal%20Kementerian%20Pertanian%20Republik%20Indonesia.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Profil Sekretariat Jenderal Kementerian Pertanian Tahun 2016",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13949/a069.Profil%20Sekretariat%20Jenderal%20Kementerian%20Pertanian%20Tahun%202016%20-%20%20Sekretariat%20Jenderal%202016.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Arah Kebijakan dan Strategi Kementerian Pertanian 2015 - 2019",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13948/a068.Arah%20Kebijakan%20dan%20Strategi%20Kementerian%20Pertanian%202015%20-%202019%20-%20Sekretariat%20Jenderal%202016.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Peraturan Menteri Pertanian Republik Indonesia Nomor 12 Tahun 2019 tentang Penilaian Kinerja Pegawai Lingkup Kementerian Pertanian"
+    },
+    {
+        "title": "Telaahan Tren Isu Pertanian Periode Juli 2017",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13946/a066.Telaahan%20Tren%20Isu%20Pertanian%20Periode%20Juli%20%202017%20-%20Biro%20Humas%20dan%20Informasi%20Publik%20Kementerian%20Pertanian.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Telaahan Tren Isu Pertanian Periode Juni 2017",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13945/a065.Telaahan%20Tren%20Isu%20Pertanian%20Periode%20Juni%20%202017%20-%20Biro%20Humas%20dan%20Informasi%20Publik%20Kementerian%20Pertanian.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Telaahan Tren Isu Pertanian Periode Mei 2017",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13944/a064.Telaahan%20Tren%20Isu%20Pertanian%20Periode%20Mei%202017%20-%20Biro%20Humas%20dan%20Informasi%20Publik%20Kementerian%20Pertanian.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Telaahan Tren Isu Pertanian Periode April 2017",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13943/a063.Telaahan%20Tren%20Isu%20Pertanian%20Periode%20April%202017%20-%20Biro%20Humas%20dan%20Informasi%20Publik%20Kementerian%20Pertanian.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Telaahan Tren Isu Pertanian Periode Februari 2017",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13942/a061.Telaahan%20Tren%20Isu%20Pertanian%20Periode%20Februari%202017%20-%20Biro%20Humas%20dan%20Informasi%20Publik%20Kementerian%20Pertanian.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Telaahan Tren Isu Pertanian Periode September 2017",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13941/a058.Telaahan%20Tren%20Isu%20Pertanian%20Periode%20September%202017%20-%20Biro%20Humas%20dan%20Informasi%20Publik%20Kementerian%20Pertanian.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Profil Unit Pengolahan Hasil Tanaman Pangan"
+    },
+    {
+        "title": "Investment Facilities For The Agricultural Sektor In Indonesia"
+    },
+    {
+        "title": "Panduan Operasional Pasar Pangan Murah",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13938/a050.Panduan%20Operasional%20Pasar%20Pangan%20Murah%20-%20Direktorat%20Jenderal%20Hortikultura%20Kementerian%20Pertanian%20-%202016.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Pengelolaan dan Pelayanan Informasi Publik Ditjen Pengolahan dan Pemasaran Hasil Pertanian"
+    },
+    {
+        "title": "Investment Facilities for Agricultural in Indonesia 2011",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13936/a045.Investment%20%20Facilities%20For%20Agricultural%20In%20Indonesia%20-%202011.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Bibliografi Koleksi Perpustakaan Pusat Informasi Agribisnis (PIA)"
+    },
+    {
+        "title": "Budi Daya dan Pascapanen Jambu Mente",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13934/Budi%20Daya%20dan%20Pascapanen%20Jambu%20Mente.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Budi Daya Kapas",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13933/Budi%20Daya%20Kapas.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Usahatani Lada Perdu",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13932/Usahatani%20Lada%20Perdu.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Potensi Tanaman Rempah, Obat dan Atsiri Menghadapi Masa Covid -19",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13931/Edisi-Khusus-2021-1.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Beternak Itik Petelur",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13930/buku%20itik%20ok.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Budidaya Tomat",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13929/BROSUR%20BUDIDAYA%20TOMAT%201-merged.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Laporan Akuntabilitas Kinerja Sekretariat Jenderal Kementerian Pertanian Tahun 2013",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13928/140214%20LAKIP%20Setjen%202013.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Standar Operasional Prosedur (SOP) Penumbuhan dan Pengembangan Korporasi Petani di Kawasan Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13927/SOP-Penumbuhan-dan-Pengembangan-Korporasi-Petani-Kawasan-Pertanian.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Asuransi Pengayom Petani",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13926/seri-09-asuransi-pengayom-petani.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Rencana Strategis Sekretariat Jenderal Kementerian Pertanian 2015-2019",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13925/BUKU%20Renstra%20Setjen%202015-2019.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Rencana Strategis Sekretariat Jenderal Kementerian Pertanian 2010-2014",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13924/renstra-setjen-2010-2014.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Rancangan Umum Pengembangan Kawasan Food Estate Berbasis Korporasi Petani",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13923/Rancangan%20Umum%20Pengembangan%20Kawasan%20Food%20Estate%20Berbasis%20Korporasi%20Petani.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Umum Pengembangan Kawasan Food Estate Berbasis Korporasi Petani di Lahan Rawa Kalimantan Tengah",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13922/Pedoman%20Umum%20Pengembangan-Kawasan-Food-Estate-Berbasis-Korporasi-Petani-Di-Lahan-Rawa-Kalimantan-Tengah.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Petunjuk Teknis Pelaksanaan Jabatan Fungsional Perencana dan Angka Kreditnya di Kementerian Pertanian",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13921/JUKNIS-JF%20Perencana-PDF.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Grand Design Pengembangan Kawasan Food Estate Berbasis Korporasi Petani di Lahan Rawa Kalimantan Tengah",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13920/Grand%20Design%20Pengembangan%20Kawasan%20Food%20Estate%20Berbasis%20Korporasi%20Petani%20di%20Lahan%20Rawa%20Kalimantan%20Tengah.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Rencana Kinerja Tahunan Biro Perencanaan Tahun 2012",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13919/RKT_BIRO_PERENCANAAN_2012.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Rencana Strategis Biro Perencanaan Tahun 2015-2019",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13918/RENSTRA%20BIROREN%202015-2019.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Laporan Kinerja Biro Perencanaan Tahun 2018",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13917/LAKIN%20Biro%20Perencanaan%202018.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Himpunan Peraturan Menteri Pertanian Tahun 2020",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13916/Buku%20Himpunan%20Permentan%202020.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Rencana Strategis Kementerian Pertanian Tahun 2020-2024",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13915/20180914145517Renstra-Kementan-Final-2015-2019-Web.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Rencana Strategis Kementerian Pertanian tahun 2015-2019 Revisi II",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13914/20180914145517Renstra-Kementan-Final-2015-2019-Web.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Rencana Strategis Biro Perencanaan Sekretariat Jenderal 2015-2019",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13913/20180904155423Renstra-Biroren-Final.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Rencana Strategis Sekretariat Jenderal Kementerian Pertanian Tahun 2015-2019 Edisi Revisi",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13912/Buku-Renstra-Setjen-2015-2019%20edisi%20revisi.pdf?sequence=3&isAllowed=y"
+    },
+    {
+        "title": "Menata Anggaran Mempercepat Swasembada Pangan",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13911/20180518153046MENATA-ANGGARAN.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Rencana Strategis Kementerian Pertanian Tahun 2015-2019",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13910/15%20RENSTRA%20PERTANIAN%202015-2019.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Laporan Kinerja Kementerian Pertanian Tahun 2014",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13909/3%20e%20Laporan%20Kinerja%20Kementan%202014.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Rencana Kinerja Tahunan Kementerian Pertanian Tahun 2015",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13908/3%20a%20RKT_KEMENTAN_2015.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Beje",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13907/Beje.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Sehat & Kaya dengan Toga",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13906/Sehat%20%26%20Kaya%20dengan%20Toga.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Bisnis Tanaman Hias Modal 500 Ribu",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13905/Bisnis%20Tanaman%20Hias%20Modal%20500%20Ribu.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Gambut",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13904/Gambut.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Struktur Ongkos Usaha Tani (SOUT) Bawang Merah",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13903/SOUT.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pengaruh Kegiatan Ekstrakulikuler Terhadap Prestasi Belajar Siswa",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13902/Pengaruh%20Kegiatan%20Ekstrakurikuler%20Terhadap%20Prestasi%20Belajar%20Siswa.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Warta BKP Edisi Agustus 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13901/Warta%20BKP%20Agustus%202021.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Warta BKP Edisi Oktober 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13900/Warta%20BKP%20Oktober%202021%20%281%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Warta BKP Edisi September 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13899/Warta%20BKP%20September%202021%20%281%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Warta BKP Edisi Juli 2021",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13898/Warta%20BKP%20Juli%202021%20%281%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Profil Polbangtan Manokwari",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13897/COVER%20PROFIL%20POLBANGTAN%20MANOKWARI.png?sequence=4&isAllowed=y"
+    },
+    {
+        "title": "Mengoperasikan Alsintan Perontok Padi (Power Thresher)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13894/Modul%20Alsintan%20-%20Perontok%20Padi%20%28Power%20Thresher%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pedoman Teknologi Pengolahan Kakao (Theobroma cocoa L.)",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13893/Pedoman%20Teknologi%20Pengolahan%20Kakao%20%28Theobroma%20Cacao%20L%29.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Profil BBPP Batu",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13892/Profil%20BBPP%20Batu%20Tahun%202020.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Budidaya bawang merah asal biji",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13891/bawang%20merah%20asl%20biji.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Cimelati varietas unggul tipe baru padi sawah",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13890/CIMELATI.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Daging ayam sumber protein hewani yang murah dan mudah didapat",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13889/Daging%20ayam.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Kandang sapi perah",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13888/kandang%20sapi%20perah.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Prima tani Yogyakarta",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13887/prima%20tani.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Cara pembuatan susu kedelai",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13886/Susu%20kedelai.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Tanaman hias daun philodendron",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13885/tanaman%20hias%20daun.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pengendalian ulat grayak dan layu fusarium",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13884/ulat%20grayak%20pada%20bawang%20merah.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Bithilo dari ubi jalar ungu",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13883/Bithilo%20dari%20ubi%20jalar%20ungu.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Budidaya jamur kuping",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13882/Budidaya%20jamur%20kuping.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Fermentasi limbah agroindustri untuk pakan itik",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13881/Fermentasi%20limbah%20agroindustri%20untuk%20pakan%20itik.PDF?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Perspektif Komoditi Sagu Dalam Perokonomian Dan Ketahanan Pangan (The Perspective Of Sagu Commuduty In The Econommy and Food Securuty",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13880/REPELITA.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Perspektif Komoditi Sagu Dalam Perokonomian Dan Ketahanan Pangan (The Perspective Of Sagu Commuduty In The Econommy and Food Securuty",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13879/REPELITA.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Teknologi Iseminasi Buatan (IB) Mebdukung Upsus Siwab Untuk Meningkatkan Sapi Potong Di Sulawesi Selatan Artificial Isemination (ib) Technology Supports SIWAB UPSUS To Increase Beef Cattle Populationm In South Sulawesi",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13878/DANEL%20P.pdf?sequence=1&isAllowed=y"
+    },
+    {
+        "title": "Pirit",
+        "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/13877/Pirit.pdf?sequence=1&isAllowed=y"
+    },
+    {
         "title": "Adaptasi dan Mitigasi Dampak Perubahan Iklim Subsektor Hortikultura",
         "link": "http://repository.pertanian.go.id/bitstream/handle/123456789/17456/Adaptasi%20dan%20Mitigasi%20Dampak%20Perubahan%20Iklim%20Subsektor%20Hortikultura.pdf?sequence=1&isAllowed=y"
     },
