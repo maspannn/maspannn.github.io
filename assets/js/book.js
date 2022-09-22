@@ -13760,7 +13760,7 @@ for (var i = 0; i < book.length; i++) {
 	var nama = random.title,
 		link = random.link;
 	
-	books += '<div id="book-card" class="row sort-item container" data-nama="'+ nama +'" data-link="'+ link +'"><div class="row mt-4"><div class="col-2"><img src="assets/img/book.png" style="width:40px;height:40px;margin-top:5px;float:left"></div><div class="col-7"><b style="text-align:left" id="judul-ebook">'+ nama +'</b></div><div class="col-3" style="padding-right:10px"><a href="'+ link +'" onclick="randomAds()"><button type="button" class="btn" style="color:white;margin-top:10px;font-size:10pt;background-color:#2d2c4d;">DOWNLOAD</button></a></div></div></div>';
+	books += '<div id="book-card" class="row sort-item container" data-nama="'+ nama +'" data-link="'+ link +'"><div class="row mt-4"><div class="col-2"><img src="assets/img/book.png" style="width:40px;height:40px;margin-top:5px;float:left"></div><div class="col-7"><b style="text-align:left" id="judul-ebook">'+ nama +'</b></div><div class="col-3" style="padding-right:10px"><a href="'+ link +'" onclick="myDirectAds()"><button type="button" class="btn" style="color:white;margin-top:10px;font-size:10pt;background-color:#2d2c4d;">DOWNLOAD</button></a></div></div></div>';
 }
 
 $("#list-ebook").html(books);

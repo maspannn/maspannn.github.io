@@ -2488,10 +2488,3 @@ $(document).ready(function(){
       }
   });
 });
-
-function randomads() {
-  let random = data[Math.floor(Math.random() * data.length)];
-  iklan.innerHTML = `<a href="${random.link}"><div class="container-fluid full-width-image"><img src="${random.photo}" width="100%" alt="${random.nama}"><div class="modal-footer" style="border-style:none;margin-top:2px"><img class="position-absolute bottom-0 start-50 translate-middle-x" src="assets/img/buy.png" height="60px"></a>`;
-  ads.innerHTML = random.ads;
-}
-randomads();
