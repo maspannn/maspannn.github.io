@@ -93,30 +93,10 @@
     <div class="offcanvas-body">
       <ul class="navbar-nav justify-content-end flex-grow-1">
         <li class="nav-item" style="margin-left:-2px">
-          <a class="nav-link text-white" aria-current="page" href="index.html"><i class="fas fa-home"></i>&nbsp;&nbsp;Home</a>
-        </li>
-        <li class="nav-item mt-1" style="margin-left:3px">
-          <a class="nav-link text-white" href="#" data-bs-toggle="modal" data-bs-target="#data-opete"><button type="button" class="btn btn-primary position-relative" style="background-color:transparent;border:none;margin-left:-16px;box-sizing: border-box;-webkit-box-shadow: none !important;">
-            <i class="fas fa-bug"></i>&nbsp;&nbsp;Cek OPT
-            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-              Baru
-              <span class="visually-hidden">unread messages</span>
-            </span>
-          </button>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#" data-bs-toggle="modal" data-bs-target="#pestisida"><button type="button" class="btn btn-primary position-relative" style="background-color:transparent;border:none;margin-left:-13px;box-sizing: border-box;-webkit-box-shadow: none !important;">
-            <i class="fas fa-paw"></i>&nbsp;&nbsp;Cek Pestisida
-            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-              Baru
-              <span class="visually-hidden">unread messages</span>
-            </span>
-          </button>
-          </a>
+          <a class="nav-link text-white" aria-current="page" href="index.html"><i class="fas fa-home"></i>&nbsp;&nbsp;Beranda</a>
         </li>
         <li class="nav-item mt-1">
-          <a class="nav-link text-white" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom"><i class="fas fa-envelope"></i>&nbsp;&nbsp;Hubungi Saya
+          <a class="nav-link text-white" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom"><i class="fas fa-envelope"></i>&nbsp;&nbsp;Hubungi Admin
           </a>
         </li>
       </ul>
@@ -165,17 +145,12 @@
             </script>
           </div>
         </div>
-        <div class="mt-2 mb-2" id="judul" style="font-size:18pt"><b>Radio Tani</b></div>
-        <embed type="text/html" class="container" src="https://c1.siar.us/public/radiotani/embed" width="100%" height="100%"></embed>
-        <div class="mb-3" id="judul" style="font-size:18pt;margin-top:-25px"><b>Artikel Terbaru</b></div>
+        <div class="mt-2 mb-3" id="judul" style="font-size:18pt;margin-top:-25px"><b>Teknologi Budidaya Tanaman</b></div>
         <div class="mb-3">
           <input type="text" id="cariArtikel" placeholder="Cari artikel" onkeyup="mySearchWord()"/>
         </div>
         <div id="list-artikel" style="text-align:center">
             
-        </div>
-        <div align="center" style="margin-bottom:20px">
-          <button class="tombol-artikel" id="artikel-lainnya">Lebih Banyak</button>
         </div>
       </div>
       <div class="tab-pane fade" id="book" role="tabpanel" aria-labelledby="book-tab" >
@@ -313,7 +288,7 @@
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header" style="background-color:#2d2c4d;color:white;height:60px">
-        <h5 class="modal-title"><b>Artikel Terbaru</b></h5>
+        <h5 class="modal-title"><b>Teknologi Budidaya Tanaman</b></h5>
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close" onclick="randomAdss()"></button>
       </div>
       <div class="modal-body">
@@ -379,6 +354,8 @@
       <div class="nav nav-justified" style="margin-top:3px">
         <a class="nav-link text-white link-secondary active" id="blog-tab" data-bs-toggle="tab" data-bs-target="#blog" href="#"><div class="sub-menu"><img src="assets/img/blog.png" width="25px" alt="Teknologi Budidaya Tanaman"><span class="menu-title">BLOG</span></div></a>
         <a class="nav-link text-white link-secondary" id="shop-tab" data-bs-toggle="tab" data-bs-target="#shop" href="#"><div class="sub-menu"><img src="assets/img/shop.png" width="25px" alt="SmarTani Shop"><span class="menu-title">TOKO</span></div></a>
+        <a class="nav-link text-white link-secondary" href="#" data-bs-toggle="modal" data-bs-target="#data-opete"><div class="sub-menu"><i class="fas fa-bug" style="font-size:24;margin-bottom:-3px"></i><span class="menu-title">OPT</span></div></a>
+        <a class="nav-link text-white link-secondary" href="#" data-bs-toggle="modal" data-bs-target="#pestisida"><div class="sub-menu"><i class="fas fa-paw" style="font-size:24;margin-bottom:-3px"></i><span class="menu-title">PESTISIDA</span></div></a>
         <a class="nav-link text-white link-secondary" id="book-tab" data-bs-toggle="tab" data-bs-target="#book" href="#"><div class="sub-menu"><img src="assets/img/ebook.png" width="25px" alt="SmarTani Repository"><span class="menu-title">EBOOK</span></div></a>
         <a class="nav-link text-white link-secondary" id="kamus-tab" data-bs-toggle="tab" data-bs-target="#kamus" href="#"><div class="sub-menu"><img src="assets/img/kamus.png" width="25px" alt="Kamus Pertanian"><span class="menu-title">KAMUS</span></div></a>
       </div>
