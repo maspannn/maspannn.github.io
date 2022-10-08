@@ -2402,89 +2402,9 @@ var data = [
     }
 ];
 
-var products = "",
-	  kategories = "";
-	  
-for (var i = 0; i < data.length; i++) {
-	let random = data[Math.floor(Math.random() * data.length)];
-	
-	var kategori = random.kategori,
-		nama = random.nama,
-		harga = random.harga,
-		link = random.link,
-		photo = random.photo,
-		whatsapp = random.whatsapp;
-	
-	products += "<div class='product' data-kategori='" + kategori + "' data-nama='" + nama + "' data-link='"+ link +"' data-whatsapp='"+ whatsapp +"'><a href='" + link + "'><div class='product-inner text-left' ><img src='" + photo + "' alt='"+ nama +"' width='100%' style='auto;aspect-ratio:1/1;border-top-left-radius:10px;border-top-right-radius:10px'><br/><h3 class='nama-produk'>" + nama + "</h3><p style='color:red;display:flex;float:left;padding-left:8px;padding-top:5px;font-size:10pt'>Rp</p><div class='harga-produk'>" + harga + "<span style='color:grey;display:flex;float:right;font-size:8pt;margin-top:7px;margin-right:5px'>Shopee</span></div></a></div></div>";
-	
-	if (kategories.indexOf("<option value='" + kategori + "'>" + kategori + "</option>") == -1) {
-		kategories += "<option value='" + kategori + "'>" + kategori + "</option>";
-	}
+function randomads() {
+  let random = data[Math.floor(Math.random() * data.length)];
+  iklan.innerHTML = `<div class="container"><div class="row"><div class="col-2"><img src="${random.photo}" onerror="this.onerror=null;this.src='assets/img/notfound.jpeg';" class="rounded float-start" alt="Rekomendasi Produk Shopee Murah" width="73px" height="73px" style="margin-left:-7px"></div><div class="col-10" style="padding-left:20px"><p class="judul-iklan" style="font-size:11pt;margin-top:-2px">${random.nama}</p><div class="row"><div class="col" style="margin-top:-12px"><p class="rupiah">Rp</p><p class="d-inline-block" style="color:#EE4D2D;font-size:16pt">${random.harga}</p></div><div class="col"><a href="${random.link}" class="position-absolute bottom-0 end-0"><button type="button" class="btn" style="margin-bottom:8px;margin-right:8px;font-size:9pt;background-color:#EE4D2D;color:white">Belanja Sekarang</button></a></div></div></div></div></div>`;
+  ads.innerHTML = random.ads;
 }
-
-$("#products").html(products);
-$(".filter-kategori").append(kategories);
-
-var filtersObject = {};
-
-$(".filter").on("change",function() {
-	var filterName = $(this).data("filter"),
-		filterVal = $(this).val();
-	
-	if (filterVal == "") {
-		delete filtersObject[filterName];
-	} else {
-		filtersObject[filterName] = filterVal;
-	}
-	
-	var filters = "";
-	
-	for (var key in filtersObject) {
-	  	if (filtersObject.hasOwnProperty(key)) {
-			filters += "[data-"+key+"='"+filtersObject[key]+"']";
-	 	}
-	}
-	
-	if (filters == "") {
-		$(".product").show();
-	} else {
-		$(".product").hide();
-		$(".product").hide().filter(filters).show();
-	}
-});
-
-$("#search-form").submit(function(e) {
-	e.preventDefault();
-	var query = $("#search-form input").val().toLowerCase();
-
-	$(".product").hide();
-	window.scrollTo(0, 600);
-	$(".product").each(function() {
-		var kategori = $(this).data("nama").toLowerCase();
-
-		if (kategori.indexOf(query) > -1) {
-			$(this).show();
-		}
-	});
-});
-
-$(document).ready(function(){
-  var list = $("#products .product");
-  var numToShow = 20;
-  var button = $("#produk-lainnya");
-  var numInList = list.length;
-  list.hide();
-  if (numInList > numToShow) {
-    button.show();
-  }
-  list.slice(0, numToShow).show();
-
-  button.click(function(){
-      var showing = list.filter(':visible').length;
-      list.slice(showing - 1, showing + numToShow).fadeIn();
-      var nowShowing = list.filter(':visible').length;
-      if (nowShowing >= numInList) {
-        button.hide();
-      }
-  });
-});
+randomads();
