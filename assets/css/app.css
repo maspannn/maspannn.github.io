@@ -37,6 +37,14 @@ h1 {
   margin-top:-7px;
   margin-bottom:2px;
 }
+h2 {
+  color:#EE4D2D;
+  text-transform: capitalize;
+  font-size:13pt;
+  font-style:bold;
+  margin-top:-7px;
+  margin-bottom:2px;
+}
 .fixed {
   position: fixed;
   background-color: #EE4D2D;
@@ -156,7 +164,7 @@ h1 {
   padding-right:5px;
   padding-bottom:5px;
   color:black;
-  font-size:14pt;
+  font-size:12pt;
   color:red;
 }
 .tombol-produk {
@@ -302,8 +310,8 @@ h1 {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 49% 49%;
-    grid-row-gap: 0px;
-    grid-column-gap: 8px; 
+    grid-row-gap: 8px;
+    grid-column-gap: 10px; 
   }
 }
 @media (max-width: 900px) {
@@ -312,7 +320,7 @@ h1 {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 49% 49%;
-    grid-row-gap: 0px;
+    grid-row-gap: 8px;
     grid-column-gap: 8px; 
   }
 }

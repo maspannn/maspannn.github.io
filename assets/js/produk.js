@@ -238,7 +238,7 @@ for (var i = 0; i < data.length; i++) {
 		harga = data[i].harga,
 		photo = data[i].photo;
 	
-	products += "<div class='product' data-kategori='" + kategori + "' data-nama='" + nama + "'><a class='button-produk' data-bs-toggle='offcanvas' data-bs-target='#offcanvasBottom' aria-controls='offcanvasBottom' data-obj='"+i+"'><div class='product-inner text-left' ><img src='" + photo + "' alt='"+ nama +"' width='100%' style='auto;aspect-ratio:1/1;border-top-left-radius:10px;border-top-right-radius:10px;padding:20px'><br/><h3 class='nama-produk'>" + nama + "</h3><p style='color:red;display:flex;float:left;padding-left:8px;padding-top:5px;font-size:10pt'>Rp</p><div class='harga-produk'>" + harga + "</div></a></div></div>";
+	products += "<div class='product' data-kategori='" + kategori + "' data-nama='" + nama + "'><a class='button-produk' data-bs-toggle='offcanvas' data-bs-target='#offcanvasBottom' aria-controls='offcanvasBottom' data-obj='"+i+"'><div class='product-inner text-left' ><img src='" + photo + "' alt='"+ nama +"' width='100%' style='auto;aspect-ratio:1/1;border-top-left-radius:10px;border-top-right-radius:10px;padding:20px'><br/><h3 class='nama-produk'>" + nama + "</h3><p style='color:red;display:flex;float:left;padding-left:8px;padding-top:5px;font-size:10pt'></p><div class='harga-produk'>" + kategori + "</div></a></div></div>";
 	
 	if (kategories.indexOf("<option value='" + kategori + "'>" + kategori + "</option>") == -1) {
 		kategories += "<option value='" + kategori + "'>" + kategori + "</option>";
@@ -313,7 +313,7 @@ $("#search-form").submit(function(e) {
 
 $(document).ready(function(){
   var list = $("#products .product");
-  var numToShow = 30;
+  var numToShow = 20;
   var button = $("#produk-lainnya");
   var numInList = list.length;
   list.hide();
