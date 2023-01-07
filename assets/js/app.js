@@ -1,10 +1,101 @@
 var data = [
     {
+        "title": "Avatar: The Way of Water (2022)",
+        "poster": "https://telegra.ph/file/9e37fd4122f924a7ed20e.jpg",
+        "download": "https://dood.re/d/kh5pycozkw8n",
+        "streaming": "https://dood.re/e/kh5pycozkw8n",
+        "kategori": "Barat"
+    },
+    {
         "title": "KKN di Desa Penari (2022)",
         "poster": "https://telegra.ph/file/49d9ef525ba24c3fadaa6.jpg",
         "download": "https://dood.re/d/fhbiu2uums4s",
         "streaming": "https://dood.re/e/fhbiu2uums4s",
         "kategori": "Indonesia"
+    },
+    {
+        "title": "Until Tomorrow (2022)",
+        "poster": "https://telegra.ph/file/1700c32f6caa5555bdb23.jpg",
+        "download": "https://dood.re/d/w1un46t9vz2c",
+        "streaming": "https://dood.re/e/w1un46t9vz2c",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "The Wannn Believe (2022)",
+        "poster": "https://telegra.ph/file/bf98d210a65fcef5454a7.jpg",
+        "download": "https://dood.re/d/b0vomtm5cc6n",
+        "streaming": "https://dood.re/e/b0vomtm5cc6n",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Sayap-Sayap Patah (2022)",
+        "poster": "https://telegra.ph/file/7688d13aa516f14834fb9.jpg",
+        "download": "https://dood.re/d/ec3lbaqgj29x",
+        "streaming": "https://dood.re/e/ec3lbaqgj29x",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Lara Ati (2022)",
+        "poster": "https://telegra.ph/file/01b652dbcc18d62296749.jpg",
+        "download": "https://dood.re/d/deh7b89sd0es",
+        "streaming": "https://dood.re/e/deh7b89sd0es",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Cross the Line (2022)",
+        "poster": "https://telegra.ph/file/4e38b3bc62a5fb2cbf9ca.jpg",
+        "download": "https://dood.re/d/wbk3mywhicsj",
+        "streaming": "https://dood.re/e/wbk3mywhicsj",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Ayo Putus (2022)",
+        "poster": "https://telegra.ph/file/295fcca7e8d0d1798d2b2.jpg",
+        "download": "https://dood.re/d/jngba9djupft",
+        "streaming": "https://dood.re/e/jngba9djupft",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Ashiap Man (2022)",
+        "poster": "https://telegra.ph/file/ee7dcbf8d823093d04bbc.jpg",
+        "download": "https://dood.re/d/ujxtoxfg43oa",
+        "streaming": "https://dood.re/e/ujxtoxfg43oa",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Anoksia (2022)",
+        "poster": "https://telegra.ph/file/d738bbfe1da1e42db1bd4.jpg",
+        "download": "https://dood.re/d/5atjinkwvgdv",
+        "streaming": "https://dood.re/e/5atjinkwvgdv",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "The Big 4 (2022)",
+        "poster": "https://telegra.ph/file/44043126bf9295caa7547.jpg",
+        "download": "https://dood.re/d/z668z9azlacg",
+        "streaming": "https://dood.re/e/z668z9azlacg",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Satria Dewa: Gatotkaca (2022)",
+        "poster": "https://telegra.ph/file/48e12ce884275cd309f58.jpg",
+        "download": "https://dood.re/d/v3ve3az9m6or",
+        "streaming": "https://dood.re/e/v3ve3az9m6or",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Preman (2021)",
+        "poster": "https://telegra.ph/file/e4e24445cdac3485b75e1.jpg",
+        "download": "https://dood.re/d/b18xcnc5rdc4",
+        "streaming": "https://dood.re/e/b18xcnc5rdc4",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Nussa (2021)",
+        "poster": "https://telegra.ph/file/6504a999f3cb4331e03b8.jpg",
+        "download": "https://dood.re/d/6y3lzxg7wvce",
+        "streaming": "https://dood.re/e/6y3lzxg7wvce",
+        "kategori": "Animasi"
     },
     {
         "title": "Pengabdi Setan 2: Communion",
