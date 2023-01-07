@@ -14,6 +14,83 @@ var data = [
         "kategori": "Indonesia"
     },
     {
+        "title": "Wave of Cinema: Generasi 90an (2020)",
+        "poster": "https://telegra.ph/file/fc136505dcb322324ee8f.jpg",
+        "download": "https://dood.re/d/2hvyidkocq73",
+        "streaming": "https://dood.re/e/2hvyidkocq73",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Wave of Cinema: Surat Dari Timur (2020)",
+        "poster": "https://telegra.ph/file/39934508086c60b684c3a.jpg",
+        "download": "https://dood.re/d/2ond355d0kr5",
+        "streaming": "https://dood.re/e/2ond355d0kr5",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Wave of Cinema: Nanti Kita Cerita Tentang Hari Ini (2020)",
+        "poster": "https://telegra.ph/file/6d8698571ad481fc4b7aa.jpg",
+        "download": "https://dood.re/d/um5gsr9mwtt0",
+        "streaming": "https://dood.re/e/um5gsr9mwtt0",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Wedding Agreement (2019)",
+        "poster": "https://telegra.ph/file/d8a474cc2471234217a72.jpg",
+        "download": "https://dood.re/d/f9bo00aih225",
+        "streaming": "https://dood.re/e/f9bo00aih225",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Winter in Tokyo (2016)",
+        "poster": "https://telegra.ph/file/886bd6f2c3c217fe4694b.jpg",
+        "download": "https://dood.re/d/di47dyy7t0ej",
+        "streaming": "https://dood.re/e/di47dyy7t0ej",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Wiro Sableng: 212 Warrior (2018)",
+        "poster": "https://telegra.ph/file/bf23ea306e9238a1d9b0f.jpg",
+        "download": "https://dood.re/d/hbnk3sg7iren",
+        "streaming": "https://dood.re/e/hbnk3sg7iren",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Youtubers (2015)",
+        "poster": "https://telegra.ph/file/17c007c744beb5f8ca1d9.jpg",
+        "download": "https://dood.re/d/yilpnllx96xl",
+        "streaming": "https://dood.re/e/yilpnllx96xl",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "XL: Extra Large (2008)",
+        "poster": "https://telegra.ph/file/fc9598131b080c5170ab7.jpg",
+        "download": "https://dood.re/d/q6mskv8tgtbe",
+        "streaming": "https://dood.re/e/q6mskv8tgtbe",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Yang Tidak Dibicarakan Ketika Membicarakan Cinta (2013)",
+        "poster": "https://telegra.ph/file/b15151d42632fe014afe6.jpg",
+        "download": "https://dood.re/d/soy2wfy1wcb9",
+        "streaming": "https://dood.re/e/soy2wfy1wcb9",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Belenggu (2012)",
+        "poster": "https://telegra.ph/file/fbb13451fd23eb30f905b.jpg",
+        "download": "https://dood.re/d/6z6zazilkkqg",
+        "streaming": "https://dood.re/e/6z6zazilkkqg",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Samsara (2011)",
+        "poster": "https://telegra.ph/file/664466417076167caf440.jpg",
+        "download": "https://dood.re/d/nbn350367jni",
+        "streaming": "https://dood.re/e/nbn350367jni",
+        "kategori": "Indonesia"
+    },
+    {
         "title": "Keramat (2009)",
         "poster": "https://telegra.ph/file/62de9c22331e964800671.jpg",
         "download": "https://dood.re/d/75l5et0wvuij",
@@ -943,6 +1020,7 @@ $("#search-form").submit(function(e) {
 	var query = $("#search-form input").val().toLowerCase();
 
 	$(".movie-card").hide();
+	window.scrollTo(0, 100);
 	$(".movie-card").each(function() {
 		var kategori = $(this).data("nama").toLowerCase();
 

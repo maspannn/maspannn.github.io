@@ -84,21 +84,40 @@
   <i class="fa fa-chevron-up my-pesan" style="color:white"></i>
 </a>
 
-<nav class="container navbar navbar-expand-lg fixed-top">
-  <div class="container-fluid" style="color:white">
-    <a class="navbar-brand" href="index.html" onclick='myDirectAdss()'>
-      <img src="assets/img/app.png" alt="Ruang Movie" width="160px" height="33px" id="favicon">
-    </a>
-    <img src="assets/img/favicon.jpg" alt="Ruang Movie" width="30px" height="30px" style="border-radius:50%;margin-top:-5px">
+<nav class="container navbar">
+  <form id="search-form" action="" method="POST" enctype="multipart/form-data">
+		<div class="container form-group">
+			<input class="form-control" type="text" placeholder="Cari movie" id="search-movie"/>
+		</div>
+	</form>
+  <div class="position-absolute top-0 end-0">
+    <a href="index.html"><img src="assets/img/favicon.jpg" width="40px" height="40px" alt="Racun Shopee Logo" style="border-radius:50%;margin-top:10px;margin-right:10px"></a>
   </div>
 </nav>
 
-<div class="container fixed-top cari-movie" style="background-color:#2d2c4d;margin-top:45px;padding:10px">
-  <form id="search-form" action="" method="POST" enctype="multipart/form-data">
-    <div class="form-group">
-			<input class="form-control" type="text" placeholder="Cari" id="search-movie"/>
-		</div>
-  </form>
+<div>
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Ruang Movie"></button>
+      <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="1" aria-label="Ruang Movie"></button>
+      <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="2" aria-label="Ruang Movie"></button>
+      <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="3" aria-label="Ruang Movie"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="assets/img/banner-3.jpg" class="d-block w-100" alt="Ruang Movie">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="assets/img/banner-2.jpg" class="d-block w-100" alt="Ruang Movie">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/banner-1.jpg" class="d-block w-100" alt="Ruang Movie">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/banner-4.jpg" class="d-block w-100" alt="Ruang Movie">
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="container mb-4">
@@ -141,6 +160,12 @@
       </div>
     </div>
   </div>
+</div>
+
+<div class="container">
+  <footer class="py-1 my-2">
+    <p class="text-center" style="font-size:12pt">&copy; 2023 - <a href="https://maspannn.github.io">Mas Pannn</a></p>
+  </footer>
 </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
