@@ -84,6 +84,10 @@
   <i class="fa fa-chevron-up my-pesan" style="color:white"></i>
 </a>
 
+<a href="#" class="pesan" data-bs-toggle="offcanvas" data-bs-target="#request">
+  <i class="fa fa-envelope my-pesan"></i>
+</a>
+
 <nav class="container navbar">
   <form id="search-form" action="" method="POST" enctype="multipart/form-data">
 		<div class="container form-group">
@@ -162,6 +166,42 @@
   </div>
 </div>
 
+<div class="offcanvas offcanvas-bottom" tabindex="-1" id="request" aria-labelledby="requestLabel" style="height:260px">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Request Movie</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body small">
+    <div id="donasi">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="alert alert-success alert-dismissible fade show d-none my-alert mb-2" role="alert">
+              <strong>Terima Kasih!</strong> Pesan anda sudah kami terima.
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <form name="ruang-imajinasi-form">
+              <div class="mb-3">
+                <textarea class="form-control" id="pesan" rows="4" name="pesan" placeholder="Tulis pesan"></textarea>
+              </div>
+              
+              <div align="center">
+                <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+
+                <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+                </button>
+              </div>
+            
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="container">
   <footer class="py-1 my-2">
     <p class="text-center" style="font-size:12pt">&copy; 2023 - <a href="https://maspannn.github.io">Mas Pannn</a></p>
@@ -184,6 +224,29 @@
     btn.on('click', function(e) {
       e.preventDefault();
       $('html, body').animate({scrollTop:0}, '300');
+    });
+  </script>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz6w7533jPj_886a8pPF6wTSHxr4_AoCdLgDTdrz1JZcQhQMtA/exec';
+    const form = document.forms['ruang-imajinasi-form'];
+    const btnKirim = document.querySelector('.btn-kirim');
+    const btnLoading = document.querySelector('.btn-loading');
+    const myAlert = document.querySelector('.my-alert');
+    
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      btnLoading.classList.toggle('d-none');
+      btnKirim.classList.toggle('d-none');
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then((response) => {
+          btnLoading.classList.toggle('d-none');
+          btnKirim.classList.toggle('d-none');
+          myAlert.classList.toggle('d-none');
+          form.reset();
+          console.log('Success!', response);
+        })
+        .catch((error) => console.error('Error!', error.message));
     });
   </script>
   
