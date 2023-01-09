@@ -1,7 +1,7 @@
 var data = [
     {
         "title": "Avatar: The Way of Water (2022)",
-        "poster": "https://telegra.ph/file/9e37fd4122f924a7ed20e.jpg",
+        "poster": "https://telegra.ph/file/b1accf1011cfc2ce89700.jpg",
         "download": "https://dood.re/d/kh5pycozkw8n",
         "streaming": "https://dood.re/e/kh5pycozkw8n",
         "kategori": "Barat"
