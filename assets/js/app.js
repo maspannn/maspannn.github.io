@@ -7,6 +7,48 @@ var data = [
         "kategori": "Barat"
     },
     {
+        "title": "Minions: The Rise of Gru (2022)",
+        "poster": "https://telegra.ph/file/e3431c1e3ac4235f311d1.jpg",
+        "download": "https://dood.re/d/o9e7v33azyuw",
+        "streaming": "https://dood.re/e/o9e7v33azyuw",
+        "kategori": "Barat"
+    },
+    {
+        "title": "Sonic the Hedgehog 2 (2022)",
+        "poster": "https://telegra.ph/file/e4559bc91b01ca306badd.jpg",
+        "download": "https://dood.re/d/gdbcawabwwca",
+        "streaming": "https://dood.re/e/gdbcawabwwca",
+        "kategori": "Barat"
+    },
+    {
+        "title": "Spider-Man: No Way Home (2021)",
+        "poster": "https://telegra.ph/file/10321b91b0519c64b6118.jpg",
+        "download": "https://dood.re/d/kui6lzd3ux3w",
+        "streaming": "https://dood.re/e/kui6lzd3ux3w",
+        "kategori": "Barat"
+    },
+    {
+        "title": "The King’s Man (2021)",
+        "poster": "https://telegra.ph/file/640cf95d9dde3721d3619.jpg",
+        "download": "https://dood.re/d/23o2dcfqijot",
+        "streaming": "https://dood.re/e/23o2dcfqijot",
+        "kategori": "Barat"
+    },
+    {
+        "title": "Resident Evil: Welcome to Raccoon City (2021)",
+        "poster": "https://telegra.ph/file/687da0b1ec69ddd6e6d52.jpg",
+        "download": "https://dood.re/d/7kltv9cbaqgr",
+        "streaming": "https://dood.re/e/7kltv9cbaqgr",
+        "kategori": "Barat"
+    },
+    {
+        "title": "Black Adam (2022)",
+        "poster": "https://telegra.ph/file/e8f62860dcbb081c9b5a2.jpg",
+        "download": "https://dood.re/d/0o4nwapl6faa",
+        "streaming": "https://dood.re/e/0o4nwapl6faa",
+        "kategori": "Barat"
+    },
+    {
         "title": "KKN di Desa Penari (2022)",
         "poster": "https://telegra.ph/file/49d9ef525ba24c3fadaa6.jpg",
         "download": "https://dood.re/d/fhbiu2uums4s",
