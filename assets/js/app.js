@@ -7,6 +7,34 @@ var data = [
         "kategori": "Barat"
     },
     {
+        "title": "KKN di Desa Penari (2022)",
+        "poster": "49d9ef525ba24c3fadaa6",
+        "download": "https://dood.re/d/fhbiu2uums4s",
+        "streaming": "https://dood.re/e/fhbiu2uums4s",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Ranah 3 Warna (2022)",
+        "poster": "8bccf932150e2fb75c19c",
+        "download": "https://dood.re/d/s2unhi2hc77o",
+        "streaming": "https://dood.re/e/s2unhi2hc77o",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Mencuri Raden Saleh (2022)",
+        "poster": "9c1b1b771ea00d40848cb",
+        "download": "https://dood.re/d/ejospy9jh70j",
+        "streaming": "https://dood.re/e/ejospy9jh70j",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Kamu Tidak Sendiri (2022)",
+        "poster": "80f6ba6f3e00009ccc5c7",
+        "download": "https://dood.re/d/ejospy9jh70j",
+        "streaming": "https://dood.re/e/ejospy9jh70j",
+        "kategori": "Indonesia"
+    },
+    {
         "title": "Black Widow (2021)",
         "poster": "cf8f0e25f785e6f9a617c",
         "download": "https://dood.re/d/psf42azb0qvf",
@@ -67,14 +95,14 @@ var data = [
         "poster": "e3431c1e3ac4235f311d1",
         "download": "https://dood.re/d/o9e7v33azyuw",
         "streaming": "https://dood.re/e/o9e7v33azyuw",
-        "kategori": "Barat"
+        "kategori": "Animasi"
     },
     {
         "title": "Sonic the Hedgehog 2 (2022)",
         "poster": "e4559bc91b01ca306badd",
         "download": "https://dood.re/d/gdbcawabwwca",
         "streaming": "https://dood.re/e/gdbcawabwwca",
-        "kategori": "Barat"
+        "kategori": "Animasi"
     },
     {
         "title": "Spider-Man: No Way Home (2021)",
@@ -103,13 +131,6 @@ var data = [
         "download": "https://dood.re/d/0o4nwapl6faa",
         "streaming": "https://dood.re/e/0o4nwapl6faa",
         "kategori": "Barat"
-    },
-    {
-        "title": "KKN di Desa Penari (2022)",
-        "poster": "49d9ef525ba24c3fadaa6",
-        "download": "https://dood.re/d/fhbiu2uums4s",
-        "streaming": "https://dood.re/e/fhbiu2uums4s",
-        "kategori": "Indonesia"
     },
     {
         "title": "Wave of Cinema: Generasi 90an (2020)",
