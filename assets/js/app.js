@@ -7,6 +7,41 @@ var data = [
         "kategori": "Barat"
     },
     {
+        "title": "Mama Boy (2022)",
+        "poster": "3961c9788194622056008",
+        "download": "https://dood.re/d/3xhyc5bg9gmy",
+        "streaming": "https://dood.re/e/3xhyc5bg9gmy",
+        "kategori": "China"
+    },
+    {
+        "title": "There is a Ghost 2: Ada Hantu 2 (2022)",
+        "poster": "0fbbc004bfdd8267703bc",
+        "download": "https://dood.re/d/1na7mnyrnk8p",
+        "streaming": "https://dood.re/e/1na7mnyrnk8p",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "My Best Friend’s Breakfast (2022)",
+        "poster": "7fb47f582b80a0f72933b",
+        "download": "https://dood.re/d/ur68fs4we73i",
+        "streaming": "https://dood.re/e/ur68fs4we73i",
+        "kategori": "China"
+    },
+    {
+        "title": "The ancient City of Loulan (2022)",
+        "poster": "43ddab506332f3f9e0a19",
+        "download": "https://dood.re/d/54glttckuo9y",
+        "streaming": "https://dood.re/e/54glttckuo9y",
+        "kategori": "China"
+    },
+    {
+        "title": "Almost Love (2022)",
+        "poster": "6e435434c27794f227562",
+        "download": "https://dood.re/d/kvibrwavbiu3",
+        "streaming": "https://dood.re/e/kvibrwavbiu3",
+        "kategori": "Korea"
+    },
+    {
         "title": "KKN di Desa Penari (2022)",
         "poster": "49d9ef525ba24c3fadaa6",
         "download": "https://dood.re/d/fhbiu2uums4s",
