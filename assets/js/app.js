@@ -7,6 +7,13 @@ var data = [
         "kategori": "Barat"
     },
     {
+        "title": "Noktah Merah Perkawinan (2022)",
+        "poster": "d61f0aea32b618567088f",
+        "download": "https://dood.re/d/dxnzf58rzp37",
+        "streaming": "https://dood.re/e/dxnzf58rzp37",
+        "kategori": "Indonesia"
+    },
+    {
         "title": "Mama Boy (2022)",
         "poster": "3961c9788194622056008",
         "download": "https://dood.re/d/3xhyc5bg9gmy",
