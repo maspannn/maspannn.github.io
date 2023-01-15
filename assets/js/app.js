@@ -7,6 +7,41 @@ var data = [
         "kategori": "Barat"
     },
     {
+        "title": "Disconnect: The Wedding Planner (2023)",
+        "poster": "b5d30de689ded290e7a97",
+        "download": "https://dood.re/d/7kc0v1exykhm",
+        "streaming": "https://dood.re/e/7kc0v1exykhm",
+        "kategori": "Barat"
+    },
+    {
+        "title": "Dog Gone (2023)",
+        "poster": "dccbd24b7513288edceae",
+        "download": "https://dood.re/d/rdnueqg68ezm",
+        "streaming": "https://dood.re/e/rdnueqg68ezm",
+        "kategori": "Barat"
+    },
+    {
+        "title": "The Hatchet Wielding Hitchhiker (2023)",
+        "poster": "97dbd6c515658885e08ea",
+        "download": "https://dood.re/d/yi94buit2391",
+        "streaming": "https://dood.re/e/yi94buit2391",
+        "kategori": "Barat"
+    },
+    {
+        "title": " Mumbai Mafia: Police vs the Underworld (2023)",
+        "poster": "0747d3576054b77d3f8d4",
+        "download": "https://dood.re/d/oh8zen70qzcl",
+        "streaming": "https://dood.re/e/oh8zen70qzcl",
+        "kategori": "Barat"
+    },
+    {
+        "title": "M3gan (2022)",
+        "poster": "008d4559dd5154c2229c1",
+        "download": "https://dood.re/d/3fy2qhsmzorz",
+        "streaming": "https://dood.re/e/3fy2qhsmzorz",
+        "kategori": "Barat"
+    },
+    {
         "title": "Noktah Merah Perkawinan (2022)",
         "poster": "d61f0aea32b618567088f",
         "download": "https://dood.re/d/dxnzf58rzp37",
