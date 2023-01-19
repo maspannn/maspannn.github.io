@@ -7,6 +7,34 @@ var data = [
         "kategori": "Barat"
     },
     {
+        "title": "Gangnam Zombie (2023)",
+        "poster": "d1c2f3b87e17a7e796011",
+        "download": "https://dood.re/d/wacsgcf8gfda",
+        "streaming": "https://dood.re/e/wacsgcf8gfda",
+        "kategori": "Korea"
+    },
+    {
+        "title": "Snow Falls (2023)",
+        "poster": "69520f0814dab249fa465",
+        "download": "https://dood.re/d/9u9dvslr5u6k",
+        "streaming": "https://dood.re/e/9u9dvslr5u6k",
+        "kategori": "Barat"
+    },
+    {
+        "title": "Dark Heart of the Forest (2023)",
+        "poster": "979af3fc0f60fd6b98e18",
+        "download": "https://dood.re/d/ces41jfhvkbv",
+        "streaming": "https://dood.re/e/ces41jfhvkbv",
+        "kategori": "Barat"
+    },
+    {
+        "title": "The Old Way (2023)",
+        "poster": "1fe3f69be3f3fcc0edc26",
+        "download": "https://dood.re/d/lv1riaotab48",
+        "streaming": "https://dood.re/e/lv1riaotab48",
+        "kategori": "Barat"
+    },
+    {
         "title": "Disconnect: The Wedding Planner (2023)",
         "poster": "b5d30de689ded290e7a97",
         "download": "https://dood.re/d/7kc0v1exykhm",
