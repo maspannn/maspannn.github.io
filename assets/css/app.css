@@ -6,10 +6,6 @@ html, body {
   background-color: transparent;
   height: 60px;
 }
-#carouselExampleSlidesOnly {
-  z-index:-2;
-  margin-top:-60px;
-}
 *, ::after, ::before {
     box-sizing: border-box;
     -webkit-box-shadow: none !important;

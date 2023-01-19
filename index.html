@@ -88,25 +88,8 @@
   <i class="fa fa-envelope my-pesan"></i>
 </a>
 
-<nav class="container navbar">
-  <form id="search-form" action="" method="POST" enctype="multipart/form-data">
-		<div class="container form-group">
-			<input class="form-control" type="text" placeholder="Cari movie" id="search-movie"/>
-		</div>
-	</form>
-  <div class="position-absolute top-0 end-0">
-    <a href="index.html"><img src="assets/img/favicon.jpg" width="40px" height="40px" alt="Racun Shopee Logo" style="border-radius:50%;margin-top:10px;margin-right:10px"></a>
-  </div>
-</nav>
-
 <div>
   <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Ruang Movie"></button>
-      <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="1" aria-label="Ruang Movie"></button>
-      <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="2" aria-label="Ruang Movie"></button>
-      <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="3" aria-label="Ruang Movie"></button>
-    </div>
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="10000">
         <img src="assets/img/banner-3.jpg" class="d-block w-100" alt="Ruang Movie">
@@ -126,14 +109,14 @@
 
 <div class="mb-4" style="padding:5px">
 	<div class="row mb-4">
-    <div class="col-5">
-			<div class="rounded-social-buttons mt-3" style="margin-bottom:-20px;padding-left:3px">
-  			<a class="social-button facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://ruangmovie.github.io" target="_blank" rel="nofollow"><i class="fab fa-facebook"></i></a>
-        <a class="social-button telegram" href="tg://msg_url?url=https://ruangmovie.github.io" target="_blank" rel="nofollow"><i class="fab fa-telegram-plane"></i></a>
-        <a class="social-button whatsapp" href="whatsapp://send?text=https://ruangmovie.github.io" target="_blank" rel="nofollow"><i class="fab fa-whatsapp"></i></a>
-  		</div>
+    <div class="col-8">
+      <form id="search-form" action="" method="POST" enctype="multipart/form-data">
+    		<div class="form-group" style="margin-left:5px;margin-top:12px">
+    			<input class="form-control" type="text" placeholder="Cari movie" id="search-movie"/>
+    		</div>
+    	</form>
 		</div>
-		<div class="col-7" id="filter">
+		<div class="col-4" id="filter">
   		<form>
   			<div class="form-group">
   				<select data-filter="kategori" class="filter-kategori filter form-control form-select" style="border:none;text-align:right;margin-top:15px">
@@ -144,7 +127,7 @@
   		</form>
   	</div>
   </div>
-  <div class="container" style="margin-top:-2px">
+  <div class="container" style="padding-top:7px">
     <div class="row" id="list-movie">
       
     </div>    
