@@ -1295,8 +1295,7 @@ var thisElement = 0;
 function innerContent(content){
   $(".inner-title-movie").html(data[content].title);
   $(".inner-poster-movie").attr("src",data[content].poster);
-  $(".inner-link-download").attr("href",data[content].download);
-  $(".inner-link-streaming").attr("src",data[content].streaming);
+  $(".inner-link-streaming").attr("src",data[content].link);
   $(".inner-kategori-movie").html(data[content].kategori);
 };
 
