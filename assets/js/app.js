@@ -1,5 +1,40 @@
 var data = [
     {
+        "title": "Jung_E (2023)",
+        "poster": "2365b0a787739e150dddc",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/uvy94e13hie3",
+        "kategori": "Korea"
+    },
+    {
+        "title": "Un hiver en ete (2023)",
+        "poster": "4a16c10eb711e79a24d9e",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/cbb43i940man",
+        "kategori": "Barat"
+    },
+    {
+        "title": "Transfusion (2023)",
+        "poster": "503617f903cb664e9a41c",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/q3wuyp8uas23",
+        "kategori": "Barat"
+    },
+    {
+        "title": "Detective Knight: Independence (2023)",
+        "poster": "62de947af0226a6a3e86c",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/b5si4q8zaz42",
+        "kategori": "Barat"
+    },
+    {
+        "title": "Plane (2023)",
+        "poster": "ac722c35307d5a74ebb90",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/tscoxsc78r3n",
+        "kategori": "Barat"
+    },
+    {
         "title": "Alkhallat+ (2023)",
         "poster": "58a2200ee70671a3d07a1",
         "tahun": 2023,
