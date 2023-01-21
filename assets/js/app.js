@@ -1,5 +1,12 @@
 var data = [
     {
+        "title": "The Offering (2023)",
+        "poster": "30d79423ec608ed8f5175",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/0xg6modt2q7r",
+        "kategori": "Barat"
+    },
+    {
         "title": "Jung_E (2023)",
         "poster": "2365b0a787739e150dddc",
         "tahun": 2023,
