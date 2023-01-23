@@ -1,5 +1,12 @@
 var data = [
     {
+        "title": "Sniper: Vengeance (2023)",
+        "poster": "e92391471ef47968ce1e8",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/jw7v50eiqosu",
+        "kategori": "China"
+    },
+    {
         "title": "The Offering (2023)",
         "poster": "30d79423ec608ed8f5175",
         "tahun": 2023,
