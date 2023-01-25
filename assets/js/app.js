@@ -1,5 +1,12 @@
 var data = [
     {
+        "title": "Mission Majnu (2023)",
+        "poster": "a06ac497b79561e4d2f78",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/af3iyyj9ripy",
+        "kategori": "India"
+    },
+    {
         "title": "Sniper: Vengeance (2023)",
         "poster": "e92391471ef47968ce1e8",
         "tahun": 2023,
