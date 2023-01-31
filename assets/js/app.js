@@ -1,5 +1,96 @@
 var data = [
     {
+        "title": "Undeaducated (2023)",
+        "poster": "174167a741878c30ed4a2",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/4ze7tso8nr9n",
+        "kategori": "Barat"
+    },
+    {
+        "title": "Panther SWAT (2023)",
+        "poster": "f99282f66f7f3c2db5be6",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/mlaqdsftvt7y",
+        "kategori": "China"
+    },
+    {
+        "title": "Beneath the Green (2023)",
+        "poster": "5eac55e01295e9ba07492",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/oa3n920zp8v9",
+        "kategori": "Barat"
+    },
+    {
+        "title": "Alone at Night (2023)",
+        "poster": "907da22ccd7d75a43d84a",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/37bugqi1237s",
+        "kategori": "Barat"
+    },
+    {
+        "title": "Legions (2023)",
+        "poster": "eb81879941326f7329a9c",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/8t89485bmwg1",
+        "kategori": "Barat"
+    },
+    {
+        "title": "Devil Beneath (2023)",
+        "poster": "f26e67ed951abf9a2d82e",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/y3kir51xfrbr",
+        "kategori": "Barat"
+    },
+    {
+        "title": "Extras for Chasing The Dragon (2023)",
+        "poster": "4b1303642ce271c0c1f3a",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/st0mdbwlceau",
+        "kategori": "China"
+    },
+    {
+        "title": "You People (2023)",
+        "poster": "27608071894728bd10051",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/el5i9jv0z83j",
+        "kategori": "Barat"
+    },
+    {
+        "title": "Bela Luna (2023)",
+        "poster": "7328313264c83bae1974a",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/uzegvxskpesw",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "KSI: In Real Life (2023)",
+        "poster": "5c913700a1e0512d40add",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/1ieqy9brvwmj",
+        "kategori": "Barat"
+    },
+    {
+        "title": "Night Train (2023)",
+        "poster": "ba8d798e04ce076b33612",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/5a3b6vjeu15u",
+        "kategori": "Barat"
+    },
+    {
+        "title": "Candy Land (2023)",
+        "poster": "18e80e1f22500da0bd044",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/fkmaovwuqvwz",
+        "kategori": "Barat"
+    },
+    {
+        "title": "There’s Something Wrong with the Children (2023)",
+        "poster": "54f204176e24e883b3424",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/qgycgsmrev5q",
+        "kategori": "Barat"
+    },
+    {
         "title": "Mission Majnu (2023)",
         "poster": "a06ac497b79561e4d2f78",
         "tahun": 2023,
