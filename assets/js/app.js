@@ -1,5 +1,68 @@
 var data = [
     {
+        "title": "Boso Dos (2023)",
+        "poster": "960f688cb84d0e8c57fdf",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/uy58k8p1bc7n",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "Nightbird (2023)",
+        "poster": "e8ad4e2a0e13e6813bfe5",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/2ud03d65m4ra",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "Tag-init (2023)",
+        "poster": "21b5721c029e021a85cfa",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/cazxm81lsy7a",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "Panibugho (2023)",
+        "poster": "0f4758641d926906f8041",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/6j8ucnrvure7",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "Sakra (2023)",
+        "poster": "d8dbde8b306eebc5c7afa",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/r35vl6o7cdwm",
+        "kategori": "China"
+    },
+    {
+        "title": "The Nomad (2023)",
+        "poster": "4ac2c930929808f02b99c",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/94mj0ffmwe9x",
+        "kategori": "Barat"
+    },
+    {
+        "title": "Pathaan (2023)",
+        "poster": "b7f0cbb5d692680f6cfae",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/qfsrnf08onzp",
+        "kategori": "India"
+    },
+    {
+        "title": "Pamela: A Love Story (2023)",
+        "poster": "43a7eeafb7fbea0b58259",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/b51yh0smnr7w",
+        "kategori": "Barat"
+    },
+    {
+        "title": "Battlebox (2023)",
+        "poster": "194b5e637b9e2c01a0670",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/pfwmlz358zwn",
+        "kategori": "Hongkong"
+    },
+    {
         "title": "Undeaducated (2023)",
         "poster": "174167a741878c30ed4a2",
         "tahun": 2023,
