@@ -1,5 +1,40 @@
 var data = [
     {
+        "title": "Plane (2023)",
+        "poster": "82458388757a458b1c0d4",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/nujbadgfgfa6",
+        "kategori": "Barat"
+    },
+    {
+        "title": "True Spirit (2023)",
+        "poster": "6a9f836693b73a6fe3d98",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/az9poe0ut88f",
+        "kategori": "Barat"
+    },
+    {
+        "title": "Infiesto (2023)",
+        "poster": "0379d75ff5bed501c5ed3",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/lhqmk6eedp89",
+        "kategori": "Barat"
+    },
+    {
+        "title": "5G: The Reckoning (2023)",
+        "poster": "c97887bd5cb663ab1ba3d",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/9z7kkp9jp4ub",
+        "kategori": "Barat"
+    },
+    {
+        "title": "Mang Kanor (2023)",
+        "poster": "33d4847ffb7383cd124dc",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/k578gshkj135",
+        "kategori": "Filipina"
+    },
+    {
         "title": "Boso Dos (2023)",
         "poster": "960f688cb84d0e8c57fdf",
         "tahun": 2023,
