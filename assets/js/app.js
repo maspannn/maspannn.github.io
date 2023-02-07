@@ -1,5 +1,47 @@
 var data = [
     {
+        "title": "The Locksmith (2023)",
+        "poster": "f5f93bd1d158e2a53e651",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/wmr0elgz2p1w",
+        "kategori": "Barat"
+    },
+    {
+        "title": "Alcarras (2023)",
+        "poster": "a703ced3228a812c68f8c",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/u38rh4qio44o",
+        "kategori": "Barat"
+    },
+    {
+        "title": "Little Dixie (2023)",
+        "poster": "d797a748098d2168d28c8",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/c4lifkawia8j",
+        "kategori": "Barat"
+    },
+    {
+        "title": "Baby Ruby (2023)",
+        "poster": "4d1a06191974bf7a82787",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/lo7ynecawx90",
+        "kategori": "Barat"
+    },
+    {
+        "title": "Blood (2023)",
+        "poster": "4e128eff5c78d65b3a801",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/l0219e8d90yn",
+        "kategori": "Barat"
+    },
+    {
+        "title": "Condor’s Nest (2023)",
+        "poster": "aead7140eb8f142b57af6",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/ca0f6f8x8p9z",
+        "kategori": "Barat"
+    },
+    {
         "title": "Plane (2023)",
         "poster": "82458388757a458b1c0d4",
         "tahun": 2023,
