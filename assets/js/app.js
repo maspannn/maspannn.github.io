@@ -1,5 +1,26 @@
 var data = [
     {
+        "title": " Legion of Super-Heroes (2023)",
+        "poster": "f4ea989cd53433410971b",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/6ar82mllhlzi",
+        "kategori": "Barat"
+    },
+    {
+        "title": "Dr Jason Leong: Ride with Caution (2023)",
+        "poster": "0a70b6d3565a907b2ae1a",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/3ow3encmkh5x",
+        "kategori": "Malaysia"
+    },
+    {
+        "title": "Somebody I Used to Know (2023)",
+        "poster": "3ac035673090e02fee7c3",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/tb1kpnd56uek",
+        "kategori": "Barat"
+    },
+    {
         "title": "Dear David (2023)",
         "poster": "b96aeb63959b20d018fcb",
         "tahun": 2023,
