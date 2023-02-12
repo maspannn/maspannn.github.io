@@ -1,6 +1,13 @@
 var data = [
     {
-        "title": " Legion of Super-Heroes (2023)",
+        "title": "Cherish & Ruelle (2023)",
+        "poster": "fdc301a312198d6a754c0",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/qyoops7y9q15",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Legion of Super-Heroes (2023)",
         "poster": "f4ea989cd53433410971b",
         "tahun": 2023,
         "link": "https://dood.yt/e/6ar82mllhlzi",
