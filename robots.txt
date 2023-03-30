@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://maspannn.github.io/sitemap.xml
